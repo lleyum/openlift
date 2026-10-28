@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "Leg-Over_Floor_Press",
+  "library_id": "lib:Leg-Over_Floor_Press",
+  "name": "Leg-Over Floor Press",
+  "equipment": "kettlebell",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "ARMS_PRESS_LOCKOUT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Arms extended vertically over the chest (top of the press).",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flat Presses",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Leg-Over_Floor_Press/0.jpg ; Leg-Over_Floor_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:floor_press",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "Incline_Bench_Pull",
+  "library_id": "lib:Incline_Bench_Pull",
+  "name": "Incline Bench Pull",
+  "equipment": "barbell",
+  "base_template": "INCLINE_PUSH",
+  "pose_modifiers": [
+    "ARMS_PRESS_LOCKOUT"
+  ],
+  "stance": {
+    "position": "reclined",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on an incline bench at about 30 degrees, feet flat on the floor.",
+    "Arms extended vertically over the chest (top of the press).",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "latissimus_dorsi",
+      "deltoid_posterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 30
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "Barbell Rows",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Incline_Bench_Pull/0.jpg ; Incline_Bench_Pull/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:incline_press",
+    "warnings": [
+      "Type 'Barbell Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

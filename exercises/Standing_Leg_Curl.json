@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "Standing_Leg_Curl",
+  "library_id": "lib:Standing_Leg_Curl",
+  "name": "Standing Leg Curl",
+  "equipment": "machine",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "SINGLE_LEG_RIGHT",
+    "KNEES_FLEXED_90"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Weight on the right leg; left leg lifted.",
+    "Knees bent to 90 degrees.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Leg Curls & Glute-Ham Raises",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Standing_Leg_Curl/0.jpg ; Standing_Leg_Curl/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:leg_curl_standing",
+    "warnings": [
+      "Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

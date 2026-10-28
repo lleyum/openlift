@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "Single-Leg_Leg_Extension",
+  "library_id": "lib:Single-Leg_Leg_Extension",
+  "name": "Single-Leg Leg Extension",
+  "equipment": "machine",
+  "base_template": "SEATED_LEG_MACHINE",
+  "pose_modifiers": [
+    "KNEES_EXTENDED",
+    "SINGLE_LEG_RIGHT"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Seated in a leg machine, back against the pad, hands on side handles.",
+    "Knees fully extended.",
+    "Weight on the right leg; left leg lifted.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "backrest",
+      "attach": "world",
+      "params": {
+        "recline_deg": 10
+      }
+    },
+    {
+      "type": "leg_pad",
+      "attach": "feet",
+      "params": {
+        "role": "extension"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Leg Extensions",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Single-Leg_Leg_Extension/0.jpg ; Single-Leg_Leg_Extension/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:leg_extension",
+    "warnings": [
+      "Type 'Leg Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

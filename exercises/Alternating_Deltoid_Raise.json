@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "Alternating_Deltoid_Raise",
+  "library_id": "lib:Alternating_Deltoid_Raise",
+  "name": "Alternating Deltoid Raise",
+  "equipment": "dumbbell",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "alternating"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: alternating (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Lateral Raises",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Alternating_Deltoid_Raise/0.jpg ; Alternating_Deltoid_Raise/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\blateral",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

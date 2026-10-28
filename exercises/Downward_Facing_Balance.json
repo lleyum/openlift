@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Downward_Facing_Balance",
+  "library_id": "lib:Downward_Facing_Balance",
+  "name": "Downward Facing Balance",
+  "equipment": "stability_ball",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_PUSHDOWN"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Elbows pinned at the sides, forearms pushed down to full extension.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "gluteus_maximus"
+    ],
+    "secondary": [
+      "hamstrings",
+      "gluteus_medius"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "stability_ball",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Glutes",
+    "type": "Kickbacks & Hip Extensions",
+    "equipment": "exercise ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Downward_Facing_Balance/0.jpg ; Downward_Facing_Balance/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bextension|\\bpushdown|\\bskull",
+    "warnings": [
+      "Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

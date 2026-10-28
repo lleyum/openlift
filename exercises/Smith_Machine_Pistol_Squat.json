@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Smith_Machine_Pistol_Squat",
+  "library_id": "lib:Smith_Machine_Pistol_Squat",
+  "name": "Smith Machine Pistol Squat",
+  "equipment": "barbell",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "SINGLE_LEG_RIGHT",
+    "ARMS_FRONT_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Weight on the right leg; left leg lifted.",
+    "Arms raised straight forward to shoulder height.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: shoulder.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "hamstrings",
+      "erector_spinae"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {
+        "style": "smith"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Squats",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Smith_Machine_Pistol_Squat/0.jpg ; Smith_Machine_Pistol_Squat/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:pistol_squat",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

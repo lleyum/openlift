@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "Barbell_Rear_Delt_Row",
+  "library_id": "lib:Barbell_Rear_Delt_Row",
+  "name": "Barbell Rear Delt Row",
+  "equipment": "barbell",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_posterior"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "deltoid_lateral",
+      "triceps",
+      "trapezius_upper",
+      "trapezius_middle"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Rear Delt Raises & Flys",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Barbell_Rear_Delt_Row/0.jpg ; Barbell_Rear_Delt_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:rear_delt_fly",
+    "warnings": [
+      "Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

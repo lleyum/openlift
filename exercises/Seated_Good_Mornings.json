@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "Seated_Good_Mornings",
+  "library_id": "lib:Seated_Good_Mornings",
+  "name": "Seated Good Mornings",
+  "equipment": "barbell",
+  "base_template": "HINGE",
+  "pose_modifiers": [
+    "ARMS_BACK_RACK"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hip hinge: hips pushed back, slight knee bend, flat back, torso about 45 degrees forward.",
+    "Bar resting on the upper back, hands gripping outside the shoulders.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "erector_spinae"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "upper_back",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Lower Back",
+    "type": "Good Mornings",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Seated_Good_Mornings/0.jpg ; Seated_Good_Mornings/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hinge",
+    "warnings": [
+      "Type 'Good Mornings' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "Straight-Arm_Dumbbell_Pullover",
+  "library_id": "lib:Straight-Arm_Dumbbell_Pullover",
+  "name": "Straight-Arm Dumbbell Pullover",
+  "equipment": "dumbbell",
+  "base_template": "HORIZONTAL_PUSH",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on a flat bench, feet flat on the floor, shoulder blades retracted.",
+    "Arms locked out overhead.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Pullovers",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Straight-Arm_Dumbbell_Pullover/0.jpg ; Straight-Arm_Dumbbell_Pullover/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:pullover",
+    "warnings": [
+      "Type 'Pullovers' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

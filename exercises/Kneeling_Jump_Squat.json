@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "Kneeling_Jump_Squat",
+  "library_id": "lib:Kneeling_Jump_Squat",
+  "name": "Kneeling Jump Squat",
+  "equipment": "barbell",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_BACK_RACK"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Bar resting on the upper back, hands gripping outside the shoulders.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "gluteus_maximus"
+    ],
+    "secondary": [
+      "hamstrings",
+      "gluteus_medius"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "upper_back",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Glutes",
+    "type": "Squats & Step-ups",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Kneeling_Jump_Squat/0.jpg ; Kneeling_Jump_Squat/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:squat",
+    "warnings": [
+      "Type 'Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

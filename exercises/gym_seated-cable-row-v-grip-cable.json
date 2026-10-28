@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "gym_seated-cable-row-v-grip-cable",
+  "library_id": "lib:gym:seated-cable-row-v-grip-cable",
+  "name": "Seated Cable Row - V Grip (Cable)",
+  "equipment": "cable",
+  "base_template": "SEATED_ROW",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated with feet braced on a platform, knees slightly bent, torso upright.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "latissimus_dorsi",
+      "deltoid_posterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "hands",
+      "params": {
+        "style": "v_handle"
+      }
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 75
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "Cable Rows",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Seated_Cable_Rows/0.jpg ; Seated_Cable_Rows/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:seated_row",
+    "warnings": [
+      "Type 'Cable Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "Cable_Shoulder_Press",
+  "library_id": "lib:Cable_Shoulder_Press",
+  "name": "Cable Shoulder Press",
+  "equipment": "cable",
+  "base_template": "STANDING_OVERHEAD_PUSH",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, core braced, arms pressed overhead.",
+    "Arms locked out overhead.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Overhead Presses",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Cable_Shoulder_Press/0.jpg ; Cable_Shoulder_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:overhead_press",
+    "warnings": [
+      "Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Rope_Straight-Arm_Pulldown",
+  "library_id": "lib:Rope_Straight-Arm_Pulldown",
+  "name": "Rope Straight-Arm Pulldown",
+  "equipment": "cable",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_FRONT_RAISE",
+    "TORSO_LEAN_FORWARD"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms raised straight forward to shoulder height.",
+    "Torso leaning slightly forward.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "latissimus_dorsi"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "trapezius_middle"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_rope",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Lats",
+    "type": "Straight-Arm Pulldowns & Pullovers",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Rope_Straight-Arm_Pulldown/0.jpg ; Rope_Straight-Arm_Pulldown/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:straight_arm_pulldown",
+    "warnings": [
+      "Type 'Straight-Arm Pulldowns & Pullovers' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

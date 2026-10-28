@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "Suspended_Fallout",
+  "library_id": "lib:Suspended_Fallout",
+  "name": "Suspended Fallout",
+  "equipment": "other",
+  "base_template": "PRONE_PUSH",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "plank",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "open_palm",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Plank position: body straight from head to heels, hands under shoulders.",
+    "Grip: open palm (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Planks & Anti-Rotation",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Suspended_Fallout/0.jpg ; Suspended_Fallout/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bplank",
+    "warnings": [
+      "Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

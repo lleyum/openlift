@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "Heaving_Snatch_Balance",
+  "library_id": "lib:Heaving_Snatch_Balance",
+  "name": "Heaving Snatch Balance",
+  "equipment": "barbell",
+  "base_template": "STANDING_OVERHEAD_PUSH",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, core braced, arms pressed overhead.",
+    "Arms locked out overhead.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Olympic Lifts",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Heaving_Snatch_Balance/0.jpg ; Heaving_Snatch_Balance/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:snatch_jerk",
+    "warnings": [
+      "Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

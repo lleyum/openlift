@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "One-Arm_Kettlebell_Military_Press_To_The_Side",
+  "library_id": "lib:One-Arm_Kettlebell_Military_Press_To_The_Side",
+  "name": "One-Arm Kettlebell Military Press To The Side",
+  "equipment": "kettlebell",
+  "base_template": "STANDING_OVERHEAD_PUSH",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, core braced, arms pressed overhead.",
+    "Arms locked out overhead.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Overhead Presses",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "One-Arm_Kettlebell_Military_Press_To_The_Side/0.jpg ; One-Arm_Kettlebell_Military_Press_To_The_Side/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:overhead_press",
+    "warnings": [
+      "Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

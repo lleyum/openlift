@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "gym_belt-squat",
+  "library_id": "lib:gym:belt-squat",
+  "name": "Belt Squat",
+  "equipment": "machine",
+  "base_template": "SQUAT",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "hamstrings",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "leg_pad",
+      "attach": "upper_back",
+      "params": {
+        "role": "shoulder_pads"
+      }
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Squats",
+    "equipment": "machine",
+    "also_works": "Glutes",
+    "logged_as": "Weight & reps",
+    "current_images": "Weighted_Squat/0.jpg ; Weighted_Squat/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:squat",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

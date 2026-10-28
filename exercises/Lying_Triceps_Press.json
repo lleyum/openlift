@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Lying_Triceps_Press",
+  "library_id": "lib:Lying_Triceps_Press",
+  "name": "Lying Triceps Press",
+  "equipment": "ez_bar",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD_EXTENSION"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Upper arms overhead, elbows bent so the hands are behind the head.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "ez_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Lying Extensions (Skull Crushers)",
+    "equipment": "e-z curl bar",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Lying_Triceps_Press/0.jpg ; Lying_Triceps_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:overhead_extension",
+    "warnings": [
+      "Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

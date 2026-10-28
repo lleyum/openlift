@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Close-Grip_EZ-Bar_Curl_with_Band",
+  "library_id": "lib:Close-Grip_EZ-Bar_Curl_with_Band",
+  "name": "Close-Grip EZ-Bar Curl with Band",
+  "equipment": "ez_bar",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_CURL_MID",
+    "GRIP_NARROW"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "narrow"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Elbows pinned at the sides, forearms curled to about 90 degrees.",
+    "Hands closer than shoulder width.",
+    "Grip: supinated (narrow width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "ez_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Barbell & EZ-Bar Curls",
+    "equipment": "e-z curl bar",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Close-Grip_EZ-Bar_Curl_with_Band/0.jpg ; Close-Grip_EZ-Bar_Curl_with_Band/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:curl",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "Dumbbell_Step_Ups",
+  "library_id": "lib:Dumbbell_Step_Ups",
+  "name": "Dumbbell Step Ups",
+  "equipment": "dumbbell",
+  "base_template": "LUNGE",
+  "pose_modifiers": [
+    "ARMS_HANG"
+  ],
+  "stance": {
+    "position": "split",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Split stance lunge: right foot forward, both knees bent about 90 degrees, torso upright.",
+    "Arms hanging straight down holding the weight.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "gluteus_medius",
+      "hamstrings"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "box",
+      "attach": "right_foot",
+      "params": {
+        "height_m": 0.45
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Lunges, Split Squats & Step-ups",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Dumbbell_Step_Ups/0.jpg ; Dumbbell_Step_Ups/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:split_squat",
+    "warnings": [
+      "Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

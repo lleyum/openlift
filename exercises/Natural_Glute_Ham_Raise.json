@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "Natural_Glute_Ham_Raise",
+  "library_id": "lib:Natural_Glute_Ham_Raise",
+  "name": "Natural Glute Ham Raise",
+  "equipment": "bodyweight",
+  "base_template": "PRONE_FLOOR",
+  "pose_modifiers": [
+    "KNEES_FLEXED_90"
+  ],
+  "stance": {
+    "position": "prone",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying face down.",
+    "Knees bent to 90 degrees."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Leg Curls & Glute-Ham Raises",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Natural_Glute_Ham_Raise/0.jpg ; Natural_Glute_Ham_Raise/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bleg curl",
+    "warnings": [
+      "Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

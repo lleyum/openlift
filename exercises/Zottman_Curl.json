@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "Zottman_Curl",
+  "library_id": "lib:Zottman_Curl",
+  "name": "Zottman Curl",
+  "equipment": "dumbbell",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_CURL_MID"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Elbows pinned at the sides, forearms curled to about 90 degrees.",
+    "Grip: supinated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Reverse Grip Curls",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Zottman_Curl/0.jpg ; Zottman_Curl/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:curl",
+    "warnings": [
+      "Type 'Reverse Grip Curls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

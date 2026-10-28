@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Lying_One-Arm_Lateral_Raise",
+  "library_id": "lib:Lying_One-Arm_Lateral_Raise",
+  "name": "Lying One-Arm Lateral Raise",
+  "equipment": "dumbbell",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "trapezius_upper"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Lateral Raises",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Lying_One-Arm_Lateral_Raise/0.jpg ; Lying_One-Arm_Lateral_Raise/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:lateral_raise",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

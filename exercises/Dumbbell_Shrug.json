@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "Dumbbell_Shrug",
+  "library_id": "lib:Dumbbell_Shrug",
+  "name": "Dumbbell Shrug",
+  "equipment": "dumbbell",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "SHOULDERS_SHRUGGED",
+    "ARMS_HANG"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Shoulders shrugged up toward the ears.",
+    "Arms hanging straight down holding the weight.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_upper"
+    ],
+    "secondary": [
+      "trapezius_middle",
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Traps",
+    "type": "Shrugs",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Dumbbell_Shrug/0.jpg ; Dumbbell_Shrug/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:shrug",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

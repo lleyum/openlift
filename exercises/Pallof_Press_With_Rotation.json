@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "Pallof_Press_With_Rotation",
+  "library_id": "lib:Pallof_Press_With_Rotation",
+  "name": "Pallof Press With Rotation",
+  "equipment": "cable",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_PRESS_FORWARD",
+    "TORSO_TWIST"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms pressed straight forward at chest height.",
+    "Torso rotated to one side.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "obliques"
+    ],
+    "secondary": [
+      "rectus_abdominis"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Planks & Anti-Rotation",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Pallof_Press_With_Rotation/0.jpg ; Pallof_Press_With_Rotation/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:woodchop_pallof",
+    "warnings": [
+      "Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

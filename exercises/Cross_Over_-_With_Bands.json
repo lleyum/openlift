@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Cross_Over_-_With_Bands",
+  "library_id": "lib:Cross_Over_-_With_Bands",
+  "name": "Cross Over - With Bands",
+  "equipment": "band",
+  "base_template": "STANDING_FLY",
+  "pose_modifiers": [
+    "ARMS_FLY_MID"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing in a staggered stance between cable towers, slight forward lean, arms out to the sides.",
+    "Arms wide in a hugging arc, elbows slightly bent (mid-fly).",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "resistance_band",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flys",
+    "equipment": "bands",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Cross_Over_-_With_Bands/0.jpg ; Cross_Over_-_With_Bands/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bfl(y|ys|ye|yes|ies)\\b",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

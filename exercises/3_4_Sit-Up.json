@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "3_4_Sit-Up",
+  "library_id": "lib:3_4_Sit-Up",
+  "name": "3/4 Sit-Up",
+  "equipment": "bodyweight",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "TORSO_CRUNCH",
+    "KNEES_BENT_FEET_FLAT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Upper spine curled forward (crunch).",
+    "Knees bent, feet flat."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Crunches & Sit-ups",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "3_4_Sit-Up/0.jpg ; 3_4_Sit-Up/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:crunch_situp",
+    "warnings": [
+      "Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

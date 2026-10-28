@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "gym_triceps-kickback-cable",
+  "library_id": "lib:gym:triceps-kickback-cable",
+  "name": "Triceps Kickback (Cable)",
+  "equipment": "cable",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_KICKBACK"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Upper arm parallel to the torso, forearm extended back.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Kickbacks",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/0.jpg ; Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:kickback",
+    "warnings": [
+      "Type 'Kickbacks' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

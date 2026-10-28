@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "gym_iso-lateral-high-row",
+  "library_id": "lib:gym:iso-lateral-high-row",
+  "name": "Iso-Lateral High Row",
+  "equipment": "machine",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "latissimus_dorsi"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Lats",
+    "type": "Rows",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Leverage_High_Row/0.jpg ; Leverage_High_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:lateral_raise",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

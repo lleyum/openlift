@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "Single-Arm_Linear_Jammer",
+  "library_id": "lib:Single-Arm_Linear_Jammer",
+  "name": "Single-Arm Linear Jammer",
+  "equipment": "barbell",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_FRONT_RACK",
+    "SQUAT_PARTIAL",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Bar racked on the front of the shoulders, elbows high.",
+    "Partial squat (quarter to half depth).",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: shoulder.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "quadriceps",
+      "gluteus_maximus",
+      "trapezius_upper",
+      "rectus_abdominis",
+      "obliques"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "front_rack",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Olympic, Power & Explosive",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Single-Arm_Linear_Jammer/0.jpg ; Single-Arm_Linear_Jammer/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bolympic|\\bpower|\\bexplosive",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

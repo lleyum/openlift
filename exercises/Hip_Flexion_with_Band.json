@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "Hip_Flexion_with_Band",
+  "library_id": "lib:Hip_Flexion_with_Band",
+  "name": "Hip Flexion with Band",
+  "equipment": "band",
+  "base_template": "SQUAT",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "resistance_band",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Other",
+    "equipment": "bands",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Hip_Flexion_with_Band/0.jpg ; Hip_Flexion_with_Band/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Quadriceps",
+    "warnings": [
+      "Type 'Other' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

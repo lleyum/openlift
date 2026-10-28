@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "Cable_Crunch",
+  "library_id": "lib:Cable_Crunch",
+  "name": "Cable Crunch",
+  "equipment": "cable",
+  "base_template": "KNEELING",
+  "pose_modifiers": [
+    "TORSO_CRUNCH"
+  ],
+  "stance": {
+    "position": "kneeling",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Kneeling on both knees, torso upright.",
+    "Upper spine curled forward (crunch).",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_rope",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Crunches & Sit-ups",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Cable_Crunch/0.jpg ; Cable_Crunch/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:cable_crunch",
+    "warnings": [
+      "Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

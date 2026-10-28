@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "Bench_Press_-_Powerlifting",
+  "library_id": "lib:Bench_Press_-_Powerlifting",
+  "name": "Bench Press - Powerlifting",
+  "equipment": "barbell",
+  "base_template": "HORIZONTAL_PUSH",
+  "pose_modifiers": [
+    "ARMS_PRESS_LOCKOUT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on a flat bench, feet flat on the floor, shoulder blades retracted.",
+    "Arms extended vertically over the chest (top of the press).",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Close-Grip & Lockout Presses",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Bench_Press_-_Powerlifting/0.jpg ; Bench_Press_-_Powerlifting/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:bench_press",
+    "warnings": [
+      "Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

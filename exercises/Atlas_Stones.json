@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "Atlas_Stones",
+  "library_id": "lib:Atlas_Stones",
+  "name": "Atlas Stones",
+  "equipment": "other",
+  "base_template": "HINGE",
+  "pose_modifiers": [
+    "ARMS_HANG"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Hip hinge: hips pushed back, slight knee bend, flat back, torso about 45 degrees forward.",
+    "Arms hanging straight down holding the weight.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "erector_spinae"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Lower Back",
+    "type": "Strongman Lifts",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Atlas_Stones/0.jpg ; Atlas_Stones/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Lower Back",
+    "warnings": [
+      "Type 'Strongman Lifts' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Seated_Close-Grip_Concentration_Barbell_Curl",
+  "library_id": "lib:Seated_Close-Grip_Concentration_Barbell_Curl",
+  "name": "Seated Close-Grip Concentration Barbell Curl",
+  "equipment": "barbell",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_CURL_MID",
+    "GRIP_NARROW",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "narrow"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Elbows pinned at the sides, forearms curled to about 90 degrees.",
+    "Hands closer than shoulder width.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: supinated (narrow width).",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Preacher & Concentration Curls",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Seated_Close-Grip_Concentration_Barbell_Curl/0.jpg ; Seated_Close-Grip_Concentration_Barbell_Curl/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:seated_curl",
+    "warnings": [
+      "Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

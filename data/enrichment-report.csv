@@ -1,0 +1,806 @@
+id,name,base_template,pose_modifiers,confidence,matched_rule,review_status,warnings
+Advanced_Kettlebell_Windmill,Advanced Kettlebell Windmill,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Air_Bike,Air Bike,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Cardio & Other' not in type_secondary; used muscle group default secondaries.
+Alternate_Leg_Diagonal_Bound,Alternate Leg Diagonal Bound,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Atlas_Stone_Trainer,Atlas Stone Trainer,HINGE,ARMS_HANG,low,muscle_group:Lower Back,needs_review,Type 'Strongman Lifts' not in type_secondary; used muscle group default secondaries.
+Atlas_Stones,Atlas Stones,HINGE,ARMS_HANG,low,muscle_group:Lower Back,needs_review,Type 'Strongman Lifts' not in type_secondary; used muscle group default secondaries.
+Backward_Drag,Backward Drag,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Balance_Board,Balance Board,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,low,muscle_group:Calves,needs_review,Type 'Balance' not in type_secondary; used muscle group default secondaries.
+Band_Hip_Adductions,Band Hip Adductions,STANDING_NEUTRAL,STANCE_WIDE,low,muscle_group:Adductors,needs_review,Type 'Hip Adduction' not in type_secondary; used muscle group default secondaries.
+Barbell_Side_Bend,Barbell Side Bend,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Bear_Crawl_Sled_Drags,Bear Crawl Sled Drags,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Bench_Jump,Bench Jump,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Bench_Sprint,Bench Sprint,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Bent-Knee_Hip_Raise,Bent-Knee Hip Raise,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Bent_Press,Bent Press,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Cardio & Other' not in type_secondary; used muscle group default secondaries.
+Bicycling,Bicycling,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Bicycling_Stationary,"Bicycling, Stationary",SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Board_Press,Board Press,STANDING_NEUTRAL,ARMS_PUSHDOWN,low,muscle_group:Triceps,needs_review,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Bottoms_Up,Bottoms Up,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Box_Jump_Multiple_Response,Box Jump (Multiple Response),HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Box_Skip,Box Skip,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Butt-Ups,Butt-Ups,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Cable_Hip_Adduction,Cable Hip Adduction,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Other' not in type_secondary; used muscle group default secondaries.
+Cable_Internal_Rotation,Cable Internal Rotation,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Rotator Cuff (Rotations)' not in type_secondary; used muscle group default secondaries.
+Cable_Judo_Flip,Cable Judo Flip,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Car_Drivers,Car Drivers,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Rotator Cuff (Rotations)' not in type_secondary; used muscle group default secondaries.
+Catch_and_Overhead_Throw,Catch and Overhead Throw,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,low,muscle_group:Lats,needs_review,Type 'Throws & Other' not in type_secondary; used muscle group default secondaries.
+Close-Grip_Dumbbell_Press,Close-Grip Dumbbell Press,STANDING_NEUTRAL,ARMS_PUSHDOWN GRIP_NARROW,low,muscle_group:Triceps,needs_review,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Close-Grip_EZ-Bar_Press,Close-Grip EZ-Bar Press,STANDING_NEUTRAL,ARMS_PUSHDOWN GRIP_NARROW,low,muscle_group:Triceps,needs_review,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Conans_Wheel,Conan's Wheel,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Depth_Jump_Leap,Depth Jump Leap,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Double_Kettlebell_Windmill,Double Kettlebell Windmill,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Double_Leg_Butt_Kick,Double Leg Butt Kick,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Side_Bend,Dumbbell Side Bend,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Elliptical_Trainer,Elliptical Trainer,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Exercise_Ball_Pull-In,Exercise Ball Pull-In,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+External_Rotation,External Rotation,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Rotator Cuff (Rotations)' not in type_secondary; used muscle group default secondaries.
+External_Rotation_with_Band,External Rotation with Band,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Rotator Cuff (Rotations)' not in type_secondary; used muscle group default secondaries.
+External_Rotation_with_Cable,External Rotation with Cable,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Rotator Cuff (Rotations)' not in type_secondary; used muscle group default secondaries.
+Fast_Skipping,Fast Skipping,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Flat_Bench_Leg_Pull-In,Flat Bench Leg Pull-In,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Front_Box_Jump,Front Box Jump,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Front_Cone_Hops_or_hurdle_hops,Front Cone Hops (or hurdle hops),SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Hip_Flexion_with_Band,Hip Flexion with Band,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Other' not in type_secondary; used muscle group default secondaries.
+Hurdle_Hops,Hurdle Hops,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Internal_Rotation_with_Band,Internal Rotation with Band,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Rotator Cuff (Rotations)' not in type_secondary; used muscle group default secondaries.
+Inverted_Row,Inverted Row,SUPINE_FLOOR,ARMS_ROW_PULLED LEGS_EXTENDED,low,name:inverted_row,needs_review,Type 'Bodyweight Rows' not in type_secondary; used muscle group default secondaries.
+Inverted_Row_with_Straps,Inverted Row with Straps,SUPINE_FLOOR,ARMS_ROW_PULLED LEGS_EXTENDED,low,name:inverted_row,needs_review,Type 'Bodyweight Rows' not in type_secondary; used muscle group default secondaries.
+Isometric_Neck_Exercise_-_Front_And_Back,Isometric Neck Exercise - Front And Back,STANDING_NEUTRAL,,low,muscle_group:Neck,needs_review,Type 'Isometric Holds' not in type_secondary; used muscle group default secondaries.
+Isometric_Neck_Exercise_-_Sides,Isometric Neck Exercise - Sides,STANDING_NEUTRAL,,low,muscle_group:Neck,needs_review,Type 'Isometric Holds' not in type_secondary; used muscle group default secondaries.
+Jogging_Treadmill,"Jogging, Treadmill",SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Keg_Load,Keg Load,HINGE,ARMS_HANG,low,muscle_group:Lower Back,needs_review,Type 'Strongman Lifts' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Figure_8,Kettlebell Figure 8,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Kettlebell_Halo,Kettlebell Halo,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Pass_Between_The_Legs,Kettlebell Pass Between The Legs,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Kettlebell_Pirate_Ships,Kettlebell Pirate Ships,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Windmill,Kettlebell Windmill,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Knee_Hip_Raise_On_Parallel_Bars,Knee/Hip Raise On Parallel Bars,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Knee_Tuck_Jump,Knee Tuck Jump,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Landmine_180s,Landmine 180's,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Leg_Pull-In,Leg Pull-In,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Linear_3-Part_Start_Technique,Linear 3-Part Start Technique,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Linear_Acceleration_Wall_Drill,Linear Acceleration Wall Drill,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Linear_Depth_Jump,Linear Depth Jump,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+London_Bridges,London Bridges,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,low,muscle_group:Lats,needs_review,Type 'Throws & Other' not in type_secondary; used muscle group default secondaries.
+Lying_Cable_Curl,Lying Cable Curl,HORIZONTAL_PUSH,ARMS_CURL_MID,low,name:lying_curl,needs_review,
+Lying_Close-Grip_Bar_Curl_On_High_Pulley,Lying Close-Grip Bar Curl On High Pulley,HORIZONTAL_PUSH,ARMS_CURL_MID GRIP_NARROW,low,name:lying_curl,needs_review,
+Lying_High_Bench_Barbell_Curl,Lying High Bench Barbell Curl,HORIZONTAL_PUSH,ARMS_CURL_MID,low,name:lying_curl,needs_review,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Lying_Supine_Dumbbell_Curl,Lying Supine Dumbbell Curl,HORIZONTAL_PUSH,ARMS_CURL_MID,low,name:lying_curl,needs_review,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Medicine_Ball_Full_Twist,Medicine Ball Full Twist,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Moving_Claw_Series,Moving Claw Series,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+One-Arm_High-Pulley_Cable_Side_Bends,One-Arm High-Pulley Cable Side Bends,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT SINGLE_ARM_RIGHT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+One-Arm_Medicine_Ball_Slam,One-Arm Medicine Ball Slam,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT SINGLE_ARM_RIGHT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Overhead_Slam,Overhead Slam,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,low,muscle_group:Lats,needs_review,Type 'Throws & Other' not in type_secondary; used muscle group default secondaries.
+Pin_Presses,Pin Presses,STANDING_NEUTRAL,ARMS_PUSHDOWN,low,muscle_group:Triceps,needs_review,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Plate_Pinch,Plate Pinch,STANDING_NEUTRAL,ARMS_HANG,low,muscle_group:Forearms,needs_review,Type 'Grip' not in type_secondary; used muscle group default secondaries.
+Plate_Twist,Plate Twist,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Power_Stairs,Power Stairs,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Prowler_Sprint,Prowler Sprint,HINGE,ARMS_HANG,low,muscle_group:Hamstrings,needs_review,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Quick_Leap,Quick Leap,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Recumbent_Bike,Recumbent Bike,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Return_Push_from_Stance,Return Push from Stance,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries.
+Rocket_Jump,Rocket Jump,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Rope_Jumping,Rope Jumping,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Running_Treadmill,"Running, Treadmill",SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Sandbag_Load,Sandbag Load,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Side_Hop-Sprint,Side Hop-Sprint,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Side_Standing_Long_Jump,Side Standing Long Jump,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Side_to_Side_Box_Shuffle,Side to Side Box Shuffle,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Single-Cone_Sprint_Drill,Single-Cone Sprint Drill,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Single-Leg_Hop_Progression,Single-Leg Hop Progression,SQUAT,SINGLE_LEG_RIGHT,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Single-Leg_Stride_Jump,Single-Leg Stride Jump,SQUAT,SINGLE_LEG_RIGHT,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Single_Leg_Butt_Kick,Single Leg Butt Kick,SQUAT,SINGLE_LEG_RIGHT,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Single_Leg_Push-off,Single Leg Push-off,SQUAT,SINGLE_LEG_RIGHT,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Skating,Skating,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Sled_Drag_-_Harness,Sled Drag - Harness,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Sled_Overhead_Backward_Walk,Sled Overhead Backward Walk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,low,muscle_group:Shoulders,needs_review,Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries.
+Sled_Push,Sled Push,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Smith_Machine_Hip_Raise,Smith Machine Hip Raise,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Spell_Caster,Spell Caster,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Spider_Crawl,Spider Crawl,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Cardio & Other' not in type_secondary; used muscle group default secondaries.
+Spider_Curl,Spider Curl,HORIZONTAL_PUSH,ARMS_CURL_MID,low,name:lying_curl,needs_review,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Split_Jump,Split Jump,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Stairmaster,Stairmaster,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Standing_Cable_Lift,Standing Cable Lift,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Standing_Long_Jump,Standing Long Jump,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Standing_Olympic_Plate_Hand_Squeeze,Standing Olympic Plate Hand Squeeze,STANDING_NEUTRAL,ARMS_HANG,low,muscle_group:Forearms,needs_review,Type 'Grip' not in type_secondary; used muscle group default secondaries.
+Star_Jump,Star Jump,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Step_Mill,Step Mill,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Stride_Jump_Crossover,Stride Jump Crossover,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Tire_Flip,Tire Flip,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Trail_Running_Walking,Trail Running/Walking,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Walking_Treadmill,"Walking, Treadmill",SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Weighted_Ball_Side_Bend,Weighted Ball Side Bend,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Wind_Sprints,Wind Sprints,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,Type 'Cardio & Other' not in type_secondary; used muscle group default secondaries.
+Wrist_Rotations_with_Straight_Bar,Wrist Rotations with Straight Bar,STANDING_NEUTRAL,ARMS_HANG,low,muscle_group:Forearms,needs_review,Type 'Wrist Rotations & Rollers' not in type_secondary; used muscle group default secondaries.
+Yoke_Walk,Yoke Walk,SQUAT,,low,muscle_group:Quadriceps,needs_review,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+gym_hip-abduction-cable,Hip Abduction (Cable),STANDING_NEUTRAL,,low,muscle_group:Abductors,needs_review,Type 'Hip Abduction' not in type_secondary; used muscle group default secondaries.
+gym_torso-rotation-machine,Torso Rotation (Machine),SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,low,muscle_group:Abdominals,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Alternate_Heel_Touchers,Alternate Heel Touchers,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,medium,type:\bcrunch|\bsit ?ups?,needs_review,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Alternating_Deltoid_Raise,Alternating Deltoid Raise,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,medium,type:\blateral,needs_review,
+Alternating_Hang_Clean,Alternating Hang Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Alternating_Kettlebell_Press,Alternating Kettlebell Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Anti-Gravity_Press,Anti-Gravity Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Around_The_Worlds,Around The Worlds,STANDING_FLY,ARMS_FLY_MID,medium,type:\bfl(y|ys|ye|yes|ies)\b,needs_review,
+Backward_Medicine_Ball_Throw,Backward Medicine Ball Throw,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Band_Pull_Apart,Band Pull Apart,STANDING_FLY,ARMS_FLY_MID,medium,type:\bfl(y|ys|ye|yes|ies)\b,needs_review,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Barbell_Incline_Shoulder_Raise,Barbell Incline Shoulder Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Battling_Ropes,Battling Ropes,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Bench_Dips,Bench Dips,SEATED_UPRIGHT,ARMS_DIP_SUPPORT KNEES_BENT_FEET_FLAT,medium,name:bench_dip,needs_review,
+Body-Up,Body-Up,HANGING,ARMS_DIP_SUPPORT KNEES_FLEXED_90,medium,type:\bdips?\b,needs_review,
+Bottoms-Up_Clean_From_The_Hang_Position,Bottoms-Up Clean From The Hang Position,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Other' not in type_secondary; used muscle group default secondaries.
+Cable_Iron_Cross,Cable Iron Cross,STANDING_FLY,ARMS_FLY_MID,medium,type:\bfl(y|ys|ye|yes|ies)\b,needs_review,
+Cable_Russian_Twists,Cable Russian Twists,SUPINE_FLOOR,TORSO_CRUNCH TORSO_TWIST KNEES_BENT_FEET_FLAT,medium,name:russian_twist,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Carioca_Quick_Step,Carioca Quick Step,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,medium,type:\blateral,needs_review,Type 'Lateral Jumps & Drills' not in type_secondary; used muscle group default secondaries.
+Chain_Handle_Extension,Chain Handle Extension,STANDING_NEUTRAL,ARMS_PUSHDOWN,medium,type:\bextension|\bpushdown|\bskull,needs_review,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Chain_Press,Chain Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,medium,type:\bflat press,needs_review,
+Chest_Push_from_3_point_stance,Chest Push from 3 point stance,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,Type 'Explosive / Throws' not in type_secondary; used muscle group default secondaries.
+Chest_Push_multiple_response,Chest Push (multiple response),SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,Type 'Explosive / Throws' not in type_secondary; used muscle group default secondaries.
+Chest_Push_single_response,Chest Push (single response),SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,Type 'Explosive / Throws' not in type_secondary; used muscle group default secondaries.
+Chest_Push_with_Run_Release,Chest Push with Run Release,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,Type 'Explosive / Throws' not in type_secondary; used muscle group default secondaries.
+Circus_Bell,Circus Bell,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Clean,Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Clean_Pull,Clean Pull,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Clean_Shrug,Clean Shrug,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,
+Clean_and_Jerk,Clean and Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,
+Clean_and_Press,Clean and Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,
+Clean_from_Blocks,Clean from Blocks,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Cocoons,Cocoons,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,medium,type:\bcrunch|\bsit ?ups?,needs_review,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Cross_Over_-_With_Bands,Cross Over - With Bands,STANDING_FLY,ARMS_FLY_MID,medium,type:\bfl(y|ys|ye|yes|ies)\b,needs_review,
+Crucifix,Crucifix,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,medium,type:\blateral,needs_review,
+Cuban_Press,Cuban Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Double_Kettlebell_Alternating_Hang_Clean,Double Kettlebell Alternating Hang Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Double_Kettlebell_Jerk,Double Kettlebell Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,
+Double_Kettlebell_Snatch,Double Kettlebell Snatch,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,
+Downward_Facing_Balance,Downward Facing Balance,STANDING_NEUTRAL,ARMS_PUSHDOWN,medium,type:\bextension|\bpushdown|\bskull,needs_review,Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries.
+Drop_Push,Drop Push,PRONE_PUSH,,medium,type:\bpush ?ups?\b,needs_review,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Clean,Dumbbell Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Incline_Shoulder_Raise,Dumbbell Incline Shoulder Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Dumbbell_Lying_Pronation,Dumbbell Lying Pronation,SUPINE_FLOOR,,medium,name:generic_lying,needs_review,Type 'Wrist Rotations & Rollers' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Lying_Supination,Dumbbell Lying Supination,SUPINE_FLOOR,,medium,name:generic_lying,needs_review,Type 'Wrist Rotations & Rollers' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Raise,Dumbbell Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Dumbbell_Scaption,Dumbbell Scaption,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Dumbbell_Seated_Box_Jump,Dumbbell Seated Box Jump,SEATED_UPRIGHT,,medium,name:generic_seated,needs_review,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Elbow_to_Knee,Elbow to Knee,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,medium,type:\bcrunch|\bsit ?ups?,needs_review,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Floor_Glute-Ham_Raise,Floor Glute-Ham Raise,PRONE_FLOOR,KNEES_FLEXED_90,medium,type:\bleg curl,needs_review,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Forward_Drag_with_Press,Forward Drag with Press,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,Type 'Explosive / Throws' not in type_secondary; used muscle group default secondaries.
+Front_Cable_Raise,Front Cable Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Front_Dumbbell_Raise,Front Dumbbell Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Front_Incline_Dumbbell_Raise,Front Incline Dumbbell Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Front_Two-Dumbbell_Raise,Front Two-Dumbbell Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Gironda_Sternum_Chins,Gironda Sternum Chins,HANGING,,medium,type:\bpull ?ups?\b|\bchin,needs_review,
+Glute_Ham_Raise,Glute Ham Raise,PRONE_FLOOR,KNEES_FLEXED_90,medium,type:\bleg curl,needs_review,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Hang_Clean,Hang Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Hang_Clean_-_Below_the_Knees,Hang Clean - Below the Knees,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Hang_Snatch,Hang Snatch,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Hang_Snatch_-_Below_Knees,Hang Snatch - Below Knees,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Hanging_Bar_Good_Morning,Hanging Bar Good Morning,HANGING,,medium,name:dead_hang,needs_review,Type 'Good Mornings & Hinges' not in type_secondary; used muscle group default secondaries.
+Hanging_Pike,Hanging Pike,HANGING,,medium,name:dead_hang,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Heaving_Snatch_Balance,Heaving Snatch Balance,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Heavy_Bag_Thrust,Heavy Bag Thrust,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,Type 'Explosive / Throws' not in type_secondary; used muscle group default secondaries.
+Hip_Extension_with_Bands,Hip Extension with Bands,STANDING_NEUTRAL,ARMS_PUSHDOWN,medium,type:\bextension|\bpushdown|\bskull,needs_review,Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries.
+Hip_Lift_with_Band,Hip Lift with Band,SUPINE_FLOOR,HIPS_BRIDGED KNEES_BENT_FEET_FLAT,medium,type:\bbridge|\bthrust,needs_review,Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries.
+Hyperextensions_Back_Extensions,Hyperextensions (Back Extensions),PRONE_FLOOR,TORSO_EXTENDED,medium,name:back_extension,needs_review,Type 'Back Extensions' not in type_secondary; used muscle group default secondaries.
+Hyperextensions_With_No_Hyperextension_Bench,Hyperextensions With No Hyperextension Bench,PRONE_FLOOR,TORSO_EXTENDED,medium,name:back_extension,needs_review,Type 'Back Extensions' not in type_secondary; used muscle group default secondaries.
+Iron_Cross,Iron Cross,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,medium,type:\blateral,needs_review,
+Isometric_Chest_Squeezes,Isometric Chest Squeezes,STANDING_FLY,ARMS_FLY_MID,medium,type:\bfl(y|ys|ye|yes|ies)\b,needs_review,
+Isometric_Wipers,Isometric Wipers,STANDING_FLY,ARMS_FLY_MID,medium,type:\bfl(y|ys|ye|yes|ies)\b,needs_review,
+JM_Press,JM Press,STANDING_NEUTRAL,ARMS_PUSHDOWN,medium,type:\bextension|\bpushdown|\bskull,needs_review,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Jerk_Balance,Jerk Balance,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,
+Kettlebell_Dead_Clean,Kettlebell Dead Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Hang_Clean,Kettlebell Hang Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Seesaw_Press,Kettlebell Seesaw Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Sumo_High_Pull,Kettlebell Sumo High Pull,BENT_OVER_ROW,ARMS_ROW_PULLED STANCE_WIDE,medium,type:\brows?\b,needs_review,Type 'Upright Rows & High Pulls' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Thruster,Kettlebell Thruster,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,
+Kettlebell_Turkish_Get-Up_Lunge_style,Kettlebell Turkish Get-Up (Lunge style),LUNGE,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,name:turkish_get_up,needs_review,
+Kettlebell_Turkish_Get-Up_Squat_style,Kettlebell Turkish Get-Up (Squat style),LUNGE,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,name:turkish_get_up,needs_review,
+Kneeling_Arm_Drill,Kneeling Arm Drill,KNEELING,,medium,name:generic_kneeling,needs_review,Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries.
+Kneeling_High_Pulley_Row,Kneeling High Pulley Row,SEATED_ROW,ARMS_ROW_PULLED,medium,name:seated_row_equipment,needs_review,
+Kneeling_Single-Arm_High_Pulley_Row,Kneeling Single-Arm High Pulley Row,SEATED_ROW,ARMS_ROW_PULLED SINGLE_ARM_RIGHT,medium,name:seated_row_equipment,needs_review,
+Landmine_Linear_Jammer,Landmine Linear Jammer,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Leg_Lift,Leg Lift,STANDING_NEUTRAL,ARMS_PUSHDOWN,medium,type:\bextension|\bpushdown|\bskull,needs_review,Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries.
+Leverage_High_Row,Leverage High Row,SEATED_ROW,ARMS_ROW_PULLED,medium,name:seated_row_equipment,needs_review,Type 'Machine Rows' not in type_secondary; used muscle group default secondaries.
+Leverage_Iso_Row,Leverage Iso Row,SEATED_ROW,ARMS_ROW_PULLED,medium,name:seated_row_equipment,needs_review,
+Log_Lift,Log Lift,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Low_Pulley_Row_To_Neck,Low Pulley Row To Neck,SEATED_ROW,ARMS_ROW_PULLED,medium,name:seated_row_equipment,needs_review,Type 'Upright Rows' not in type_secondary; used muscle group default secondaries.
+Lying_Face_Down_Plate_Neck_Resistance,Lying Face Down Plate Neck Resistance,SUPINE_FLOOR,,medium,name:generic_lying,needs_review,Type 'Neck Resistance' not in type_secondary; used muscle group default secondaries.
+Lying_Face_Up_Plate_Neck_Resistance,Lying Face Up Plate Neck Resistance,SUPINE_FLOOR,,medium,name:generic_lying,needs_review,Type 'Neck Resistance' not in type_secondary; used muscle group default secondaries.
+Lying_T-Bar_Row,Lying T-Bar Row,SEATED_ROW,ARMS_ROW_PULLED,medium,name:seated_row_equipment,needs_review,Type 'T-Bar & Landmine Rows' not in type_secondary; used muscle group default secondaries.
+Medicine_Ball_Chest_Pass,Medicine Ball Chest Pass,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,Type 'Explosive / Throws' not in type_secondary; used muscle group default secondaries.
+Medicine_Ball_Scoop_Throw,Medicine Ball Scoop Throw,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Mixed_Grip_Chin,Mixed Grip Chin,HANGING,,medium,type:\bpull ?ups?\b|\bchin,needs_review,
+Monster_Walk,Monster Walk,STANDING_NEUTRAL,ARMS_HANG,medium,type:\bcarr(y|ies)|\bwalk,needs_review,Type 'Band Walks' not in type_secondary; used muscle group default secondaries.
+Muscle_Snatch,Muscle Snatch,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Natural_Glute_Ham_Raise,Natural Glute Ham Raise,PRONE_FLOOR,KNEES_FLEXED_90,medium,type:\bleg curl,needs_review,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Neck_Press,Neck Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,medium,type:\bflat press,needs_review,
+One-Arm_Kettlebell_Clean,One-Arm Kettlebell Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL SINGLE_ARM_RIGHT,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+One-Arm_Kettlebell_Clean_and_Jerk,One-Arm Kettlebell Clean and Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,name:snatch_jerk,needs_review,
+One-Arm_Kettlebell_Jerk,One-Arm Kettlebell Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,name:snatch_jerk,needs_review,
+One-Arm_Kettlebell_Para_Press,One-Arm Kettlebell Para Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+One-Arm_Kettlebell_Snatch,One-Arm Kettlebell Snatch,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,name:snatch_jerk,needs_review,
+One-Arm_Kettlebell_Split_Jerk,One-Arm Kettlebell Split Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,name:snatch_jerk,needs_review,
+One-Arm_Kettlebell_Split_Snatch,One-Arm Kettlebell Split Snatch,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,name:snatch_jerk,needs_review,
+One-Arm_Open_Palm_Kettlebell_Clean,One-Arm Open Palm Kettlebell Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL SINGLE_ARM_RIGHT,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+One-Arm_Side_Laterals,One-Arm Side Laterals,STANDING_NEUTRAL,ARMS_LATERAL_RAISE SINGLE_ARM_RIGHT,medium,type:\blateral,needs_review,
+Open_Palm_Kettlebell_Clean,Open Palm Kettlebell Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Otis-Up,Otis-Up,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,medium,type:\bcrunch|\bsit ?ups?,needs_review,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Platform_Hamstring_Slides,Platform Hamstring Slides,PRONE_FLOOR,KNEES_FLEXED_90,medium,type:\bleg curl,needs_review,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Power_Clean,Power Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Power_Clean_from_Blocks,Power Clean from Blocks,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Power_Jerk,Power Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Power_Partials,Power Partials,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Power_Snatch,Power Snatch,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Power_Snatch_from_Blocks,Power Snatch from Blocks,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Prone_Manual_Hamstring,Prone Manual Hamstring,PRONE_FLOOR,,medium,name:generic_prone,needs_review,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Rack_Delivery,Rack Delivery,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Reverse_Hyperextension,Reverse Hyperextension,PRONE_FLOOR,TORSO_EXTENDED,medium,name:back_extension,needs_review,Type 'Good Mornings & Hinges' not in type_secondary; used muscle group default secondaries.
+Rope_Climb,Rope Climb,HANGING,,medium,type:\bpull ?ups?\b|\bchin,needs_review,
+Russian_Twist,Russian Twist,SUPINE_FLOOR,TORSO_CRUNCH TORSO_TWIST KNEES_BENT_FEET_FLAT,medium,name:russian_twist,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Seated_Barbell_Twist,Seated Barbell Twist,SEATED_UPRIGHT,,medium,name:generic_seated,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Seated_Flat_Bench_Leg_Pull-In,Seated Flat Bench Leg Pull-In,SEATED_UPRIGHT,,medium,name:generic_seated,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Seated_Head_Harness_Neck_Resistance,Seated Head Harness Neck Resistance,SEATED_UPRIGHT,,medium,name:generic_seated,needs_review,Type 'Neck Resistance' not in type_secondary; used muscle group default secondaries.
+Seated_Leg_Tucks,Seated Leg Tucks,SEATED_UPRIGHT,,medium,name:generic_seated,needs_review,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+See-Saw_Press_Alternating_Side_Press,See-Saw Press (Alternating Side Press),STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Shotgun_Row,Shotgun Row,SEATED_ROW,ARMS_ROW_PULLED,medium,name:seated_row_equipment,needs_review,
+Side_To_Side_Chins,Side To Side Chins,HANGING,,medium,type:\bpull ?ups?\b|\bchin,needs_review,
+Single-Arm_Linear_Jammer,Single-Arm Linear Jammer,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL SINGLE_ARM_RIGHT,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Single_Dumbbell_Raise,Single Dumbbell Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Smith_Incline_Shoulder_Raise,Smith Incline Shoulder Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Smith_Machine_Hang_Power_Clean,Smith Machine Hang Power Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Snatch,Snatch,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Snatch_Balance,Snatch Balance,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Snatch_Deadlift,Snatch Deadlift,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Snatch_Pull,Snatch Pull,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Snatch_Shrug,Snatch Shrug,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,
+Snatch_from_Blocks,Snatch from Blocks,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Split_Clean,Split Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Split_Jerk,Split Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Split_Snatch,Split Snatch,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Squat_Jerk,Squat Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Standing_Alternating_Dumbbell_Press,Standing Alternating Dumbbell Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Standing_Barbell_Press_Behind_Neck,Standing Barbell Press Behind Neck,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Standing_Dumbbell_Press,Standing Dumbbell Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Standing_Dumbbell_Straight-Arm_Front_Delt_Raise_Above_Head,Standing Dumbbell Straight-Arm Front Delt Raise Above Head,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Standing_Front_Barbell_Raise_Over_Head,Standing Front Barbell Raise Over Head,STANDING_NEUTRAL,ARMS_FRONT_RAISE,medium,type:\bfront raise,needs_review,
+Standing_Low-Pulley_Deltoid_Raise,Standing Low-Pulley Deltoid Raise,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,medium,type:\blateral,needs_review,
+Standing_Palm-In_One-Arm_Dumbbell_Press,Standing Palm-In One-Arm Dumbbell Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Standing_Palms-In_Dumbbell_Press,Standing Palms-In Dumbbell Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,type:\bshoulder press|\boverhead press|\bmilitary,needs_review,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Standing_Two-Arm_Overhead_Throw,Standing Two-Arm Overhead Throw,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,type:\bolympic|\bpower|\bexplosive,needs_review,
+Supine_Chest_Throw,Supine Chest Throw,SUPINE_FLOOR,,medium,name:generic_lying,needs_review,Type 'Other' not in type_secondary; used muscle group default secondaries.
+Supine_One-Arm_Overhead_Throw,Supine One-Arm Overhead Throw,SUPINE_FLOOR,SINGLE_ARM_RIGHT,medium,name:generic_lying,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Supine_Two-Arm_Overhead_Throw,Supine Two-Arm Overhead Throw,SUPINE_FLOOR,,medium,name:generic_lying,needs_review,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Suspended_Fallout,Suspended Fallout,PRONE_PUSH,,medium,type:\bplank,needs_review,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Svend_Press,Svend Press,STANDING_FLY,ARMS_FLY_MID,medium,type:\bfl(y|ys|ye|yes|ies)\b,needs_review,
+Tate_Press,Tate Press,STANDING_NEUTRAL,ARMS_PUSHDOWN,medium,type:\bextension|\bpushdown|\bskull,needs_review,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Two-Arm_Kettlebell_Clean,Two-Arm Kettlebell Clean,SQUAT,ARMS_FRONT_RACK SQUAT_PARTIAL,medium,name:clean,needs_review,
+Two-Arm_Kettlebell_Jerk,Two-Arm Kettlebell Jerk,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,medium,name:snatch_jerk,needs_review,
+Weighted_Ball_Hyperextension,Weighted Ball Hyperextension,PRONE_FLOOR,TORSO_EXTENDED,medium,name:back_extension,needs_review,Type 'Back Extensions' not in type_secondary; used muscle group default secondaries.
+Weighted_Bench_Dip,Weighted Bench Dip,SEATED_UPRIGHT,ARMS_DIP_SUPPORT KNEES_BENT_FEET_FLAT,medium,name:bench_dip,needs_review,
+gym_lat-pull-around,Lat Pull Around,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,medium,type:\bpull ?down,needs_review,
+gym_mts-row,MTS Row,SEATED_ROW,ARMS_ROW_PULLED,medium,name:seated_row_equipment,needs_review,Type 'Machine Rows' not in type_secondary; used muscle group default secondaries.
+3_4_Sit-Up,3/4 Sit-Up,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Ab_Crunch_Machine,Ab Crunch Machine,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Ab_Roller,Ab Roller,KNEELING,ARMS_FRONT_RAISE TORSO_LEAN_FORWARD,high,name:ab_rollout,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Alternate_Hammer_Curl,Alternate Hammer Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Hammer Curls' not in type_secondary; used muscle group default secondaries.
+Alternate_Incline_Dumbbell_Curl,Alternate Incline Dumbbell Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Alternating_Cable_Shoulder_Press,Alternating Cable Shoulder Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Alternating_Floor_Press,Alternating Floor Press,SUPINE_FLOOR,ARMS_PRESS_LOCKOUT,high,name:floor_press,auto,
+Alternating_Kettlebell_Row,Alternating Kettlebell Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+Alternating_Renegade_Row,Alternating Renegade Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+Arnold_Dumbbell_Press,Arnold Dumbbell Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Axle_Deadlift,Axle Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,
+Back_Flyes_-_With_Bands,Back Flyes - With Bands,STANDING_FLY,ARMS_FLY_MID,high,name:cable_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Ball_Leg_Curl,Ball Leg Curl,PRONE_FLOOR,KNEES_FLEXED_90,high,name:leg_curl_lying,auto,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Band_Assisted_Pull-Up,Band Assisted Pull-Up,HANGING,,high,name:pull_up,auto,
+Band_Good_Morning,Band Good Morning,HINGE,ARMS_HANG,high,name:hinge,auto,Type 'Good Mornings & Hinges' not in type_secondary; used muscle group default secondaries.
+Band_Good_Morning_Pull_Through,Band Good Morning (Pull Through),HINGE,ARMS_HANG,high,name:hinge,auto,Type 'Good Mornings & Hinges' not in type_secondary; used muscle group default secondaries.
+Band_Skull_Crusher,Band Skull Crusher,HORIZONTAL_PUSH,ARMS_SKULLCRUSHER,high,name:skullcrusher,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Barbell_Ab_Rollout,Barbell Ab Rollout,KNEELING,ARMS_FRONT_RAISE TORSO_LEAN_FORWARD,high,name:ab_rollout,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Barbell_Ab_Rollout_-_On_Knees,Barbell Ab Rollout - On Knees,KNEELING,ARMS_FRONT_RAISE TORSO_LEAN_FORWARD,high,name:ab_rollout,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Barbell_Bench_Press_-_Medium_Grip,Barbell Bench Press - Medium Grip,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Barbell_Curl,Barbell Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+Barbell_Curls_Lying_Against_An_Incline,Barbell Curls Lying Against An Incline,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Barbell_Deadlift,Barbell Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,
+Barbell_Full_Squat,Barbell Full Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Barbell_Glute_Bridge,Barbell Glute Bridge,SUPINE_FLOOR,HIPS_BRIDGED KNEES_BENT_FEET_FLAT,high,name:hip_thrust_bridge,auto,Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries.
+Barbell_Guillotine_Bench_Press,Barbell Guillotine Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Barbell_Hack_Squat,Barbell Hack Squat,SQUAT,ARMS_HANG,high,name:hack_squat,auto,
+Barbell_Hip_Thrust,Barbell Hip Thrust,SUPINE_FLOOR,HIPS_BRIDGED KNEES_BENT_FEET_FLAT,high,name:hip_thrust_bridge,auto,Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries.
+Barbell_Incline_Bench_Press_-_Medium_Grip,Barbell Incline Bench Press - Medium Grip,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+Barbell_Lunge,Barbell Lunge,LUNGE,ARMS_BACK_RACK,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Barbell_Rear_Delt_Row,Barbell Rear Delt Row,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Barbell_Rollout_from_Bench,Barbell Rollout from Bench,KNEELING,ARMS_FRONT_RAISE TORSO_LEAN_FORWARD,high,name:ab_rollout,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Barbell_Seated_Calf_Raise,Barbell Seated Calf Raise,SEATED_UPRIGHT,ANKLES_PLANTARFLEXED,high,name:calf_seated,auto,Type 'Seated Calf Raises' not in type_secondary; used muscle group default secondaries.
+Barbell_Shoulder_Press,Barbell Shoulder Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Barbell_Shrug,Barbell Shrug,STANDING_NEUTRAL,SHOULDERS_SHRUGGED ARMS_HANG,high,name:shrug,auto,
+Barbell_Shrug_Behind_The_Back,Barbell Shrug Behind The Back,STANDING_NEUTRAL,SHOULDERS_SHRUGGED ARMS_HANG,high,name:shrug,auto,
+Barbell_Side_Split_Squat,Barbell Side Split Squat,LUNGE,ARMS_BACK_RACK,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Barbell_Squat,Barbell Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Barbell_Squat_To_A_Bench,Barbell Squat To A Bench,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Barbell_Step_Ups,Barbell Step Ups,LUNGE,ARMS_BACK_RACK,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Barbell_Walking_Lunge,Barbell Walking Lunge,LUNGE,ARMS_BACK_RACK,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Bench_Press_-_Powerlifting,Bench Press - Powerlifting,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Bench_Press_-_With_Bands,Bench Press - With Bands,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Bench_Press_with_Chains,Bench Press with Chains,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Bent-Arm_Barbell_Pullover,Bent-Arm Barbell Pullover,HORIZONTAL_PUSH,ARMS_OVERHEAD,high,name:pullover,auto,Type 'Straight-Arm Pulldowns & Pullovers' not in type_secondary; used muscle group default secondaries.
+Bent-Arm_Dumbbell_Pullover,Bent-Arm Dumbbell Pullover,HORIZONTAL_PUSH,ARMS_OVERHEAD,high,name:pullover,auto,Type 'Pullovers' not in type_secondary; used muscle group default secondaries.
+Bent_Over_Barbell_Row,Bent Over Barbell Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Barbell Rows' not in type_secondary; used muscle group default secondaries.
+Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench,Bent Over Dumbbell Rear Delt Raise With Head On Bench,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Bent_Over_Low-Pulley_Side_Lateral,Bent Over Low-Pulley Side Lateral,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,
+Bent_Over_One-Arm_Long_Bar_Row,Bent Over One-Arm Long Bar Row,BENT_OVER_ROW,ARMS_ROW_PULLED SINGLE_ARM_RIGHT,high,name:bent_over_row,auto,Type 'T-Bar & Landmine Rows' not in type_secondary; used muscle group default secondaries.
+Bent_Over_Two-Arm_Long_Bar_Row,Bent Over Two-Arm Long Bar Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'T-Bar & Landmine Rows' not in type_secondary; used muscle group default secondaries.
+Bent_Over_Two-Dumbbell_Row,Bent Over Two-Dumbbell Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+Bent_Over_Two-Dumbbell_Row_With_Palms_In,Bent Over Two-Dumbbell Row With Palms In,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+Body_Tricep_Press,Body Tricep Press,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Bodyweight_Flyes,Bodyweight Flyes,HORIZONTAL_PUSH,ARMS_FLY_MID,high,name:lying_fly,auto,
+Bodyweight_Mid_Row,Bodyweight Mid Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Bodyweight Rows' not in type_secondary; used muscle group default secondaries.
+Bodyweight_Squat,Bodyweight Squat,SQUAT,ARMS_FRONT_RAISE,high,name:squat,auto,
+Bodyweight_Walking_Lunge,Bodyweight Walking Lunge,LUNGE,,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Bosu_Ball_Cable_Crunch_With_Side_Bends,Bosu Ball Cable Crunch With Side Bends,KNEELING,TORSO_CRUNCH,high,name:cable_crunch,auto,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Box_Squat,Box Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Box_Squat_with_Bands,Box Squat with Bands,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Box_Squat_with_Chains,Box Squat with Chains,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Bradford_Rocky_Presses,Bradford/Rocky Presses,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Butt_Lift_Bridge,Butt Lift (Bridge),SUPINE_FLOOR,HIPS_BRIDGED KNEES_BENT_FEET_FLAT,high,name:hip_thrust_bridge,auto,Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries.
+Butterfly,Butterfly,SEATED_UPRIGHT,ARMS_FLY_MID,high,name:machine_fly,auto,
+Cable_Chest_Press,Cable Chest Press,SEATED_UPRIGHT,ARMS_PRESS_FORWARD,high,name:machine_chest_press,auto,
+Cable_Crossover,Cable Crossover,STANDING_FLY,ARMS_FLY_MID,high,name:cable_fly,auto,
+Cable_Crunch,Cable Crunch,KNEELING,TORSO_CRUNCH,high,name:cable_crunch,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Cable_Deadlifts,Cable Deadlifts,HINGE,ARMS_HANG,high,name:hinge,auto,
+Cable_Hammer_Curls_-_Rope_Attachment,Cable Hammer Curls - Rope Attachment,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Hammer Curls' not in type_secondary; used muscle group default secondaries.
+Cable_Incline_Pushdown,Cable Incline Pushdown,STANDING_NEUTRAL,ARMS_PUSHDOWN,high,name:pushdown,auto,Type 'Straight-Arm Pulldowns & Pullovers' not in type_secondary; used muscle group default secondaries.
+Cable_Incline_Triceps_Extension,Cable Incline Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Cable_Lying_Triceps_Extension,Cable Lying Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Cable_One_Arm_Tricep_Extension,Cable One Arm Tricep Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION SINGLE_ARM_RIGHT,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Cable_Preacher_Curl,Cable Preacher Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Cable_Rear_Delt_Fly,Cable Rear Delt Fly,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Cable_Reverse_Crunch,Cable Reverse Crunch,KNEELING,TORSO_CRUNCH,high,name:cable_crunch,auto,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Cable_Rope_Overhead_Triceps_Extension,Cable Rope Overhead Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Cable_Rope_Rear-Delt_Rows,Cable Rope Rear-Delt Rows,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Cable_Seated_Crunch,Cable Seated Crunch,KNEELING,TORSO_CRUNCH,high,name:cable_crunch,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Cable_Seated_Lateral_Raise,Cable Seated Lateral Raise,SEATED_UPRIGHT,ARMS_LATERAL_RAISE,high,name:lateral_raise_seated,auto,
+Cable_Shoulder_Press,Cable Shoulder Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Cable_Shrugs,Cable Shrugs,STANDING_NEUTRAL,SHOULDERS_SHRUGGED ARMS_HANG,high,name:shrug,auto,
+Cable_Wrist_Curl,Cable Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Calf-Machine_Shoulder_Shrug,Calf-Machine Shoulder Shrug,STANDING_NEUTRAL,SHOULDERS_SHRUGGED ARMS_HANG,high,name:shrug,auto,
+Calf_Press,Calf Press,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Calf Presses' not in type_secondary; used muscle group default secondaries.
+Calf_Press_On_The_Leg_Press_Machine,Calf Press On The Leg Press Machine,LEG_PRESS,LEGS_EXTENDED ANKLES_PLANTARFLEXED,high,name:calf_leg_press,auto,Type 'Calf Presses' not in type_secondary; used muscle group default secondaries.
+Calf_Raise_On_A_Dumbbell,Calf Raise On A Dumbbell,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Calf_Raises_-_With_Bands,Calf Raises - With Bands,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Car_Deadlift,Car Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Chair_Squat,Chair Squat,SQUAT,,high,name:squat,auto,
+Chin-Up,Chin-Up,HANGING,,high,name:pull_up,auto,
+Clean_Deadlift,Clean Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Clock_Push-Up,Clock Push-Up,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Close-Grip_Barbell_Bench_Press,Close-Grip Barbell Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT GRIP_NARROW,high,name:bench_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Close-Grip_EZ-Bar_Curl_with_Band,Close-Grip EZ-Bar Curl with Band,STANDING_NEUTRAL,ARMS_CURL_MID GRIP_NARROW,high,name:curl,auto,
+Close-Grip_EZ_Bar_Curl,Close-Grip EZ Bar Curl,STANDING_NEUTRAL,ARMS_CURL_MID GRIP_NARROW,high,name:curl,auto,
+Close-Grip_Front_Lat_Pulldown,Close-Grip Front Lat Pulldown,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM GRIP_NARROW,high,name:pulldown,auto,
+Close-Grip_Push-Up_off_of_a_Dumbbell,Close-Grip Push-Up off of a Dumbbell,PRONE_PUSH,GRIP_NARROW,high,name:push_up,auto,Type 'Close-Grip Push-ups' not in type_secondary; used muscle group default secondaries.
+Close-Grip_Standing_Barbell_Curl,Close-Grip Standing Barbell Curl,STANDING_NEUTRAL,ARMS_CURL_MID GRIP_NARROW,high,name:curl,auto,
+Concentration_Curls,Concentration Curls,SEATED_UPRIGHT,ARMS_CURL_MID SINGLE_ARM_RIGHT,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Cross-Body_Crunch,Cross-Body Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Cross_Body_Hammer_Curl,Cross Body Hammer Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Hammer Curls' not in type_secondary; used muscle group default secondaries.
+Crunch_-_Hands_Overhead,Crunch - Hands Overhead,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Crunch_-_Legs_On_Exercise_Ball,Crunch - Legs On Exercise Ball,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Crunches,Crunches,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Dead_Bug,Dead Bug,SUPINE_FLOOR,HIPS_FLEXED_90,high,name:lying_leg_raise,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Deadlift_with_Bands,Deadlift with Bands,HINGE,ARMS_HANG,high,name:hinge,auto,
+Deadlift_with_Chains,Deadlift with Chains,HINGE,ARMS_HANG,high,name:hinge,auto,
+Decline_Barbell_Bench_Press,Decline Barbell Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Decline_Close-Grip_Bench_To_Skull_Crusher,Decline Close-Grip Bench To Skull Crusher,HORIZONTAL_PUSH,ARMS_SKULLCRUSHER GRIP_NARROW,high,name:skullcrusher,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Decline_Crunch,Decline Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Decline_Dumbbell_Bench_Press,Decline Dumbbell Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Decline_Dumbbell_Flyes,Decline Dumbbell Flyes,HORIZONTAL_PUSH,ARMS_FLY_MID,high,name:lying_fly,auto,
+Decline_Dumbbell_Triceps_Extension,Decline Dumbbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Decline_EZ_Bar_Triceps_Extension,Decline EZ Bar Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Decline_Oblique_Crunch,Decline Oblique Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Decline_Push-Up,Decline Push-Up,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Decline_Reverse_Crunch,Decline Reverse Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Decline_Smith_Press,Decline Smith Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Deficit_Deadlift,Deficit Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,
+Dip_Machine,Dip Machine,HANGING,ARMS_DIP_SUPPORT KNEES_FLEXED_90,high,name:dip,auto,
+Dips_-_Chest_Version,Dips - Chest Version,HANGING,ARMS_DIP_SUPPORT KNEES_FLEXED_90,high,name:dip,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Dips_-_Triceps_Version,Dips - Triceps Version,HANGING,ARMS_DIP_SUPPORT KNEES_FLEXED_90,high,name:dip,auto,
+Donkey_Calf_Raises,Donkey Calf Raises,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Double_Kettlebell_Push_Press,Double Kettlebell Push Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,
+Drag_Curl,Drag Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+Dumbbell_Alternate_Bicep_Curl,Dumbbell Alternate Bicep Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+Dumbbell_Bench_Press,Dumbbell Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Dumbbell_Bench_Press_with_Neutral_Grip,Dumbbell Bench Press with Neutral Grip,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Dumbbell_Bicep_Curl,Dumbbell Bicep Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+Dumbbell_Floor_Press,Dumbbell Floor Press,SUPINE_FLOOR,ARMS_PRESS_LOCKOUT,high,name:floor_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Flyes,Dumbbell Flyes,HORIZONTAL_PUSH,ARMS_FLY_MID,high,name:lying_fly,auto,
+Dumbbell_Incline_Row,Dumbbell Incline Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Lunges,Dumbbell Lunges,LUNGE,ARMS_HANG,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Dumbbell_Lying_One-Arm_Rear_Lateral_Raise,Dumbbell Lying One-Arm Rear Lateral Raise,STANDING_NEUTRAL,ARMS_LATERAL_RAISE SINGLE_ARM_RIGHT,high,name:lateral_raise,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Lying_Rear_Lateral_Raise,Dumbbell Lying Rear Lateral Raise,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Dumbbell_One-Arm_Shoulder_Press,Dumbbell One-Arm Shoulder Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Dumbbell_One-Arm_Triceps_Extension,Dumbbell One-Arm Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION SINGLE_ARM_RIGHT,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Dumbbell_One-Arm_Upright_Row,Dumbbell One-Arm Upright Row,STANDING_NEUTRAL,ARMS_UPRIGHT_ROW SINGLE_ARM_RIGHT,high,name:upright_row,auto,Type 'Upright Rows' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Prone_Incline_Curl,Dumbbell Prone Incline Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Rear_Lunge,Dumbbell Rear Lunge,LUNGE,ARMS_HANG,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Dumbbell_Seated_One-Leg_Calf_Raise,Dumbbell Seated One-Leg Calf Raise,SEATED_UPRIGHT,ANKLES_PLANTARFLEXED SINGLE_LEG_RIGHT,high,name:calf_seated,auto,Type 'Seated Calf Raises' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Shoulder_Press,Dumbbell Shoulder Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Dumbbell_Shrug,Dumbbell Shrug,STANDING_NEUTRAL,SHOULDERS_SHRUGGED ARMS_HANG,high,name:shrug,auto,
+Dumbbell_Squat,Dumbbell Squat,SQUAT,ARMS_HANG,high,name:squat,auto,
+Dumbbell_Squat_To_A_Bench,Dumbbell Squat To A Bench,SQUAT,ARMS_HANG,high,name:squat,auto,
+Dumbbell_Step_Ups,Dumbbell Step Ups,LUNGE,ARMS_HANG,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Dumbbell_Tricep_Extension_-Pronated_Grip,Dumbbell Tricep Extension -Pronated Grip,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+EZ-Bar_Curl,EZ-Bar Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+EZ-Bar_Skullcrusher,EZ-Bar Skullcrusher,HORIZONTAL_PUSH,ARMS_SKULLCRUSHER,high,name:skullcrusher,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Elevated_Back_Lunge,Elevated Back Lunge,LUNGE,ARMS_BACK_RACK,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Elevated_Cable_Rows,Elevated Cable Rows,SEATED_ROW,ARMS_ROW_PULLED,high,name:seated_row,auto,
+Exercise_Ball_Crunch,Exercise Ball Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Extended_Range_One-Arm_Kettlebell_Floor_Press,Extended Range One-Arm Kettlebell Floor Press,SUPINE_FLOOR,ARMS_PRESS_LOCKOUT SINGLE_ARM_RIGHT,high,name:floor_press,auto,
+Face_Pull,Face Pull,STANDING_NEUTRAL,ARMS_FACE_PULL,high,name:face_pull,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Farmers_Walk,Farmer's Walk,STANDING_NEUTRAL,ARMS_HANG,high,name:farmer_carry,auto,Type 'Carries' not in type_secondary; used muscle group default secondaries.
+Finger_Curls,Finger Curls,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Grip' not in type_secondary; used muscle group default secondaries.
+Flat_Bench_Cable_Flyes,Flat Bench Cable Flyes,STANDING_FLY,ARMS_FLY_MID,high,name:cable_fly,auto,
+Flat_Bench_Lying_Leg_Raise,Flat Bench Lying Leg Raise,SUPINE_FLOOR,HIPS_FLEXED_90,high,name:lying_leg_raise,auto,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Flexor_Incline_Dumbbell_Curls,Flexor Incline Dumbbell Curls,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Floor_Press,Floor Press,SUPINE_FLOOR,ARMS_PRESS_LOCKOUT,high,name:floor_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Floor_Press_with_Chains,Floor Press with Chains,SUPINE_FLOOR,ARMS_PRESS_LOCKOUT,high,name:floor_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Flutter_Kicks,Flutter Kicks,SUPINE_FLOOR,HIPS_FLEXED_90,high,name:lying_leg_raise,auto,Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries.
+Frankenstein_Squat,Frankenstein Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Freehand_Jump_Squat,Freehand Jump Squat,SQUAT,ARMS_FRONT_RAISE,high,name:squat,auto,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Frog_Sit-Ups,Frog Sit-Ups,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Front_Barbell_Squat,Front Barbell Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Front_Barbell_Squat_To_A_Bench,Front Barbell Squat To A Bench,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Front_Plate_Raise,Front Plate Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,high,name:front_raise,auto,
+Front_Raise_And_Pullover,Front Raise And Pullover,HORIZONTAL_PUSH,ARMS_OVERHEAD,high,name:pullover,auto,Type 'Pullovers' not in type_secondary; used muscle group default secondaries.
+Front_Squat_Clean_Grip,Front Squat (Clean Grip),SQUAT,ARMS_FRONT_RACK,high,name:squat,auto,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Front_Squats_With_Two_Kettlebells,Front Squats With Two Kettlebells,SQUAT,ARMS_FRONT_RACK,high,name:squat,auto,
+Full_Range-Of-Motion_Lat_Pulldown,Full Range-Of-Motion Lat Pulldown,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,high,name:pulldown,auto,
+Glute_Kickback,Glute Kickback,BENT_OVER_ROW,ARMS_KICKBACK,high,name:kickback,auto,Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries.
+Goblet_Squat,Goblet Squat,SQUAT,ARMS_GOBLET,high,name:squat,auto,
+Good_Morning,Good Morning,HINGE,ARMS_BACK_RACK,high,name:hinge,auto,Type 'Good Mornings & Hinges' not in type_secondary; used muscle group default secondaries.
+Good_Morning_off_Pins,Good Morning off Pins,HINGE,ARMS_BACK_RACK,high,name:hinge,auto,Type 'Good Mornings & Hinges' not in type_secondary; used muscle group default secondaries.
+Gorilla_Chin_Crunch,Gorilla Chin/Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Hack_Squat,Hack Squat,SQUAT,ARMS_HANG,high,name:hack_squat,auto,
+Hammer_Curls,Hammer Curls,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Hammer Curls' not in type_secondary; used muscle group default secondaries.
+Hammer_Grip_Incline_DB_Bench_Press,Hammer Grip Incline DB Bench Press,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+Handstand_Push-Ups,Handstand Push-Ups,PRONE_PUSH,,high,name:push_up,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Hanging_Leg_Raise,Hanging Leg Raise,HANGING,HIPS_FLEXED_90,high,name:hanging_leg_raise,auto,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+High_Cable_Curls,High Cable Curls,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+Incline_Barbell_Triceps_Extension,Incline Barbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Incline_Bench_Pull,Incline Bench Pull,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,Type 'Barbell Rows' not in type_secondary; used muscle group default secondaries.
+Incline_Cable_Chest_Press,Incline Cable Chest Press,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+Incline_Cable_Flye,Incline Cable Flye,INCLINE_PUSH,ARMS_FLY_MID,high,name:incline_fly,auto,
+Incline_Dumbbell_Bench_With_Palms_Facing_In,Incline Dumbbell Bench With Palms Facing In,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+Incline_Dumbbell_Curl,Incline Dumbbell Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Incline_Dumbbell_Flyes,Incline Dumbbell Flyes,INCLINE_PUSH,ARMS_FLY_MID,high,name:incline_fly,auto,
+Incline_Dumbbell_Flyes_-_With_A_Twist,Incline Dumbbell Flyes - With A Twist,INCLINE_PUSH,ARMS_FLY_MID,high,name:incline_fly,auto,
+Incline_Dumbbell_Press,Incline Dumbbell Press,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+Incline_Hammer_Curls,Incline Hammer Curls,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Hammer Curls' not in type_secondary; used muscle group default secondaries.
+Incline_Inner_Biceps_Curl,Incline Inner Biceps Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Incline_Push-Up,Incline Push-Up,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Incline_Push-Up_Close-Grip,Incline Push-Up Close-Grip,PRONE_PUSH,GRIP_NARROW,high,name:push_up,auto,Type 'Close-Grip Push-ups' not in type_secondary; used muscle group default secondaries.
+Incline_Push-Up_Depth_Jump,Incline Push-Up Depth Jump,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Incline_Push-Up_Medium,Incline Push-Up Medium,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Incline_Push-Up_Reverse_Grip,Incline Push-Up Reverse Grip,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Incline_Push-Up_Wide,Incline Push-Up Wide,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Jackknife_Sit-Up,Jackknife Sit-Up,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Janda_Sit-Up,Janda Sit-Up,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Jefferson_Squats,Jefferson Squats,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Jerk_Dip_Squat,Jerk Dip Squat,HANGING,ARMS_DIP_SUPPORT KNEES_FLEXED_90,high,name:dip,auto,Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Arnold_Press,Kettlebell Arnold Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Halo_With_Overhead_Extension,Kettlebell Halo with Overhead Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries.
+Kettlebell_One-Legged_Deadlift,Kettlebell One-Legged Deadlift,HINGE,ARMS_HANG SINGLE_LEG_RIGHT,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Kettlebell_Overhead_Triceps_Extension,Kettlebell Overhead Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Kettlebell_Pistol_Squat,Kettlebell Pistol Squat,SQUAT,SINGLE_LEG_RIGHT ARMS_FRONT_RAISE,high,name:pistol_squat,auto,
+Kettlebell_Seated_Press,Kettlebell Seated Press,SEATED_UPRIGHT,ARMS_OVERHEAD,high,name:seated_overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Kipping_Muscle_Up,Kipping Muscle Up,HANGING,,high,name:pull_up,auto,
+Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists,Kneeling Cable Crunch With Alternating Oblique Twists,KNEELING,TORSO_CRUNCH,high,name:cable_crunch,auto,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Kneeling_Cable_Triceps_Extension,Kneeling Cable Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Kneeling_Jump_Squat,Kneeling Jump Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,Type 'Squats & Step-ups' not in type_secondary; used muscle group default secondaries.
+Kneeling_Squat,Kneeling Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,Type 'Squats & Step-ups' not in type_secondary; used muscle group default secondaries.
+Lateral_Bound,Lateral Bound,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,Type 'Lateral Jumps & Drills' not in type_secondary; used muscle group default secondaries.
+Lateral_Box_Jump,Lateral Box Jump,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,Type 'Lateral Jumps & Drills' not in type_secondary; used muscle group default secondaries.
+Lateral_Cone_Hops,Lateral Cone Hops,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,Type 'Lateral Jumps & Drills' not in type_secondary; used muscle group default secondaries.
+Lateral_Raise_-_With_Bands,Lateral Raise - With Bands,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,
+Leg-Over_Floor_Press,Leg-Over Floor Press,SUPINE_FLOOR,ARMS_PRESS_LOCKOUT,high,name:floor_press,auto,
+Leg_Extensions,Leg Extensions,SEATED_LEG_MACHINE,KNEES_EXTENDED,high,name:leg_extension,auto,Type 'Leg Extensions' not in type_secondary; used muscle group default secondaries.
+Leg_Press,Leg Press,LEG_PRESS,,high,name:leg_press,auto,
+Leverage_Chest_Press,Leverage Chest Press,SEATED_UPRIGHT,ARMS_PRESS_FORWARD,high,name:machine_chest_press,auto,
+Leverage_Deadlift,Leverage Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,
+Leverage_Decline_Chest_Press,Leverage Decline Chest Press,SEATED_UPRIGHT,ARMS_PRESS_FORWARD,high,name:machine_chest_press,auto,
+Leverage_Incline_Chest_Press,Leverage Incline Chest Press,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+Leverage_Shoulder_Press,Leverage Shoulder Press,SEATED_UPRIGHT,ARMS_OVERHEAD,high,name:machine_shoulder_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Leverage_Shrug,Leverage Shrug,STANDING_NEUTRAL,SHOULDERS_SHRUGGED ARMS_HANG,high,name:shrug,auto,
+Low_Cable_Crossover,Low Cable Crossover,STANDING_FLY,ARMS_FLY_MID,high,name:cable_fly,auto,
+Low_Cable_Triceps_Extension,Low Cable Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Lunge_Pass_Through,Lunge Pass Through,LUNGE,ARMS_HANG,high,name:split_squat,auto,"Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+Lunge_Sprint,Lunge Sprint,LUNGE,,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Lying_Cambered_Barbell_Row,Lying Cambered Barbell Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Barbell Rows' not in type_secondary; used muscle group default secondaries.
+Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head,Lying Close-Grip Barbell Triceps Extension Behind The Head,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION GRIP_NARROW,high,name:overhead_extension,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Lying_Close-Grip_Barbell_Triceps_Press_To_Chin,Lying Close-Grip Barbell Triceps Press To Chin,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION GRIP_NARROW,high,name:overhead_extension,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Lying_Dumbbell_Tricep_Extension,Lying Dumbbell Tricep Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Lying_Leg_Curls,Lying Leg Curls,PRONE_FLOOR,KNEES_FLEXED_90,high,name:leg_curl_lying,auto,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Lying_Machine_Squat,Lying Machine Squat,SQUAT,,high,name:squat,auto,
+Lying_One-Arm_Lateral_Raise,Lying One-Arm Lateral Raise,STANDING_NEUTRAL,ARMS_LATERAL_RAISE SINGLE_ARM_RIGHT,high,name:lateral_raise,auto,
+Lying_Rear_Delt_Raise,Lying Rear Delt Raise,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Lying_Triceps_Press,Lying Triceps Press,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries.
+Machine_Bench_Press,Machine Bench Press,SEATED_UPRIGHT,ARMS_PRESS_FORWARD,high,name:machine_chest_press,auto,
+Machine_Bicep_Curl,Machine Bicep Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Machine Curls' not in type_secondary; used muscle group default secondaries.
+Machine_Preacher_Curls,Machine Preacher Curls,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Machine_Shoulder_Military_Press,Machine Shoulder (Military) Press,SEATED_UPRIGHT,ARMS_OVERHEAD,high,name:machine_shoulder_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Machine_Triceps_Extension,Machine Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Middle_Back_Shrug,Middle Back Shrug,STANDING_NEUTRAL,SHOULDERS_SHRUGGED ARMS_HANG,high,name:shrug,auto,Type 'Other' not in type_secondary; used muscle group default secondaries.
+Mountain_Climbers,Mountain Climbers,PRONE_PUSH,,high,name:push_up,auto,Type 'Other' not in type_secondary; used muscle group default secondaries.
+Muscle_Up,Muscle Up,HANGING,,high,name:pull_up,auto,
+Narrow_Stance_Hack_Squats,Narrow Stance Hack Squats,SQUAT,ARMS_HANG GRIP_NARROW STANCE_NARROW,high,name:hack_squat,auto,
+Narrow_Stance_Leg_Press,Narrow Stance Leg Press,LEG_PRESS,,high,name:leg_press,auto,
+Narrow_Stance_Squats,Narrow Stance Squats,SQUAT,ARMS_BACK_RACK GRIP_NARROW STANCE_NARROW,high,name:squat,auto,
+Oblique_Crunches,Oblique Crunches,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Oblique_Crunches_-_On_The_Floor,Oblique Crunches - On The Floor,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Olympic_Squat,Olympic Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+One-Arm_Dumbbell_Row,One-Arm Dumbbell Row,BENT_OVER_ROW,ARMS_ROW_PULLED SINGLE_ARM_RIGHT,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+One-Arm_Flat_Bench_Dumbbell_Flye,One-Arm Flat Bench Dumbbell Flye,HORIZONTAL_PUSH,ARMS_FLY_MID SINGLE_ARM_RIGHT,high,name:lying_fly,auto,
+One-Arm_Incline_Lateral_Raise,One-Arm Incline Lateral Raise,STANDING_NEUTRAL,ARMS_LATERAL_RAISE SINGLE_ARM_RIGHT,high,name:lateral_raise,auto,
+One-Arm_Kettlebell_Floor_Press,One-Arm Kettlebell Floor Press,SUPINE_FLOOR,ARMS_PRESS_LOCKOUT SINGLE_ARM_RIGHT,high,name:floor_press,auto,
+One-Arm_Kettlebell_Military_Press_To_The_Side,One-Arm Kettlebell Military Press To The Side,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+One-Arm_Kettlebell_Push_Press,One-Arm Kettlebell Push Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD SINGLE_ARM_RIGHT,high,name:overhead_press,auto,
+One-Arm_Kettlebell_Row,One-Arm Kettlebell Row,BENT_OVER_ROW,ARMS_ROW_PULLED SINGLE_ARM_RIGHT,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+One-Arm_Kettlebell_Swings,One-Arm Kettlebell Swings,HINGE,ARMS_HANG SINGLE_ARM_RIGHT,high,name:hinge,auto,Type 'Kettlebell Swings' not in type_secondary; used muscle group default secondaries.
+One-Arm_Long_Bar_Row,One-Arm Long Bar Row,BENT_OVER_ROW,ARMS_ROW_PULLED SINGLE_ARM_RIGHT,high,name:bent_over_row,auto,Type 'T-Bar & Landmine Rows' not in type_secondary; used muscle group default secondaries.
+One-Arm_Overhead_Kettlebell_Squats,One-Arm Overhead Kettlebell Squats,SQUAT,ARMS_GOBLET SINGLE_ARM_RIGHT,high,name:squat,auto,
+One-Arm_Side_Deadlift,One-Arm Side Deadlift,HINGE,ARMS_HANG SINGLE_ARM_RIGHT,high,name:hinge,auto,
+One-Legged_Cable_Kickback,One-Legged Cable Kickback,BENT_OVER_ROW,ARMS_KICKBACK SINGLE_LEG_RIGHT,high,name:kickback,auto,Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries.
+One_Arm_Chin-Up,One Arm Chin-Up,HANGING,SINGLE_ARM_RIGHT,high,name:pull_up,auto,
+One_Arm_Dumbbell_Bench_Press,One Arm Dumbbell Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT SINGLE_ARM_RIGHT,high,name:bench_press,auto,
+One_Arm_Dumbbell_Preacher_Curl,One Arm Dumbbell Preacher Curl,SEATED_UPRIGHT,ARMS_CURL_MID SINGLE_ARM_RIGHT,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+One_Arm_Floor_Press,One Arm Floor Press,SUPINE_FLOOR,ARMS_PRESS_LOCKOUT SINGLE_ARM_RIGHT,high,name:floor_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+One_Arm_Lat_Pulldown,One Arm Lat Pulldown,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM SINGLE_ARM_RIGHT,high,name:pulldown,auto,
+One_Arm_Pronated_Dumbbell_Triceps_Extension,One Arm Pronated Dumbbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION SINGLE_ARM_RIGHT,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+One_Arm_Supinated_Dumbbell_Triceps_Extension,One Arm Supinated Dumbbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION SINGLE_ARM_RIGHT,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+One_Leg_Barbell_Squat,One Leg Barbell Squat,SQUAT,ARMS_BACK_RACK SINGLE_LEG_RIGHT,high,name:squat,auto,
+Overhead_Cable_Curl,Overhead Cable Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+Overhead_Squat,Overhead Squat,SQUAT,ARMS_OVERHEAD,high,name:squat,auto,
+Pallof_Press,Pallof Press,STANDING_NEUTRAL,ARMS_PRESS_FORWARD TORSO_TWIST,high,name:woodchop_pallof,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Pallof_Press_With_Rotation,Pallof Press With Rotation,STANDING_NEUTRAL,ARMS_PRESS_FORWARD TORSO_TWIST,high,name:woodchop_pallof,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench,Palms-Down Dumbbell Wrist Curl Over A Bench,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Palms-Down_Wrist_Curl_Over_A_Bench,Palms-Down Wrist Curl Over A Bench,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Palms-Up_Barbell_Wrist_Curl_Over_A_Bench,Palms-Up Barbell Wrist Curl Over A Bench,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench,Palms-Up Dumbbell Wrist Curl Over A Bench,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Parallel_Bar_Dip,Parallel Bar Dip,HANGING,ARMS_DIP_SUPPORT KNEES_FLEXED_90,high,name:dip,auto,
+Physioball_Hip_Bridge,Physioball Hip Bridge,SUPINE_FLOOR,HIPS_BRIDGED KNEES_BENT_FEET_FLAT,high,name:hip_thrust_bridge,auto,Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries.
+Plank,Plank,PRONE_PUSH,,high,name:push_up,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Plie_Dumbbell_Squat,Plie Dumbbell Squat,SQUAT,ARMS_HANG STANCE_WIDE,high,name:squat,auto,
+Plyo_Kettlebell_Pushups,Plyo Kettlebell Pushups,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Plyo_Push-up,Plyo Push-up,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Preacher_Curl,Preacher Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Preacher_Hammer_Dumbbell_Curl,Preacher Hammer Dumbbell Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Hammer Curls' not in type_secondary; used muscle group default secondaries.
+Press_Sit-Up,Press Sit-Up,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Pull_Through,Pull Through,HINGE,ARMS_HANG,high,name:hinge,auto,Type 'Pull-throughs' not in type_secondary; used muscle group default secondaries.
+Pullups,Pullups,HANGING,,high,name:pull_up,auto,
+Push-Up_Wide,Push-Up Wide,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Push-Ups_-_Close_Triceps_Position,Push-Ups - Close Triceps Position,PRONE_PUSH,,high,name:push_up,auto,Type 'Close-Grip Push-ups' not in type_secondary; used muscle group default secondaries.
+Push-Ups_With_Feet_Elevated,Push-Ups With Feet Elevated,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Push-Ups_With_Feet_On_An_Exercise_Ball,Push-Ups With Feet On An Exercise Ball,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Push_Press,Push Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,
+Push_Press_-_Behind_the_Neck,Push Press - Behind the Neck,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,
+Push_Up_to_Side_Plank,Push Up to Side Plank,SIDE_LYING,,high,name:side_plank,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Pushups,Pushups,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Pushups_Close_and_Wide_Hand_Positions,Pushups (Close and Wide Hand Positions),PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Rack_Pull_with_Bands,Rack Pull with Bands,HINGE,ARMS_HANG,high,name:hinge,auto,Type 'Rack Pulls' not in type_secondary; used muscle group default secondaries.
+Rack_Pulls,Rack Pulls,HINGE,ARMS_HANG,high,name:hinge,auto,Type 'Rack Pulls' not in type_secondary; used muscle group default secondaries.
+Reverse_Band_Bench_Press,Reverse Band Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Reverse_Band_Box_Squat,Reverse Band Box Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Reverse_Band_Deadlift,Reverse Band Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,
+Reverse_Band_Power_Squat,Reverse Band Power Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Reverse_Band_Sumo_Deadlift,Reverse Band Sumo Deadlift,HINGE,ARMS_HANG STANCE_WIDE,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Reverse_Barbell_Curl,Reverse Barbell Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Reverse Grip Curls' not in type_secondary; used muscle group default secondaries.
+Reverse_Barbell_Preacher_Curls,Reverse Barbell Preacher Curls,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Reverse_Cable_Curl,Reverse Cable Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Reverse Grip Curls' not in type_secondary; used muscle group default secondaries.
+Reverse_Crunch,Reverse Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Reverse_Flyes,Reverse Flyes,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Reverse_Flyes_With_External_Rotation,Reverse Flyes With External Rotation,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Reverse_Grip_Bent-Over_Rows,Reverse Grip Bent-Over Rows,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+Reverse_Grip_Triceps_Pushdown,Reverse Grip Triceps Pushdown,STANDING_NEUTRAL,ARMS_PUSHDOWN,high,name:pushdown,auto,Type 'Pushdowns' not in type_secondary; used muscle group default secondaries.
+Reverse_Machine_Flyes,Reverse Machine Flyes,SEATED_UPRIGHT,ARMS_FLY_MID,high,name:machine_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Reverse_Plate_Curls,Reverse Plate Curls,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Reverse Grip Curls' not in type_secondary; used muscle group default secondaries.
+Reverse_Triceps_Bench_Press,Reverse Triceps Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Rickshaw_Carry,Rickshaw Carry,STANDING_NEUTRAL,ARMS_HANG,high,name:farmer_carry,auto,Type 'Carries' not in type_secondary; used muscle group default secondaries.
+Rickshaw_Deadlift,Rickshaw Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,Type 'Strongman & Sled' not in type_secondary; used muscle group default secondaries.
+Ring_Dips,Ring Dips,HANGING,ARMS_DIP_SUPPORT KNEES_FLEXED_90,high,name:dip,auto,
+Rocking_Standing_Calf_Raise,Rocking Standing Calf Raise,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Rocky_Pull-Ups_Pulldowns,Rocky Pull-Ups/Pulldowns,HANGING,,high,name:pull_up,auto,
+Romanian_Deadlift,Romanian Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Romanian_Deadlift_from_Deficit,Romanian Deadlift from Deficit,HINGE,ARMS_HANG,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Rope_Crunch,Rope Crunch,KNEELING,TORSO_CRUNCH,high,name:cable_crunch,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Rope_Straight-Arm_Pulldown,Rope Straight-Arm Pulldown,STANDING_NEUTRAL,ARMS_FRONT_RAISE TORSO_LEAN_FORWARD,high,name:straight_arm_pulldown,auto,Type 'Straight-Arm Pulldowns & Pullovers' not in type_secondary; used muscle group default secondaries.
+Rowing_Stationary,"Rowing, Stationary",BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Cardio' not in type_secondary; used muscle group default secondaries.
+Scapular_Pull-Up,Scapular Pull-Up,HANGING,,high,name:pull_up,auto,Type 'Other' not in type_secondary; used muscle group default secondaries.
+Scissors_Jump,Scissors Jump,SUPINE_FLOOR,HIPS_FLEXED_90,high,name:lying_leg_raise,auto,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Seated_Band_Hamstring_Curl,Seated Band Hamstring Curl,SEATED_LEG_MACHINE,KNEES_FLEXED_DEEP,high,name:leg_curl_seated,auto,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Seated_Barbell_Military_Press,Seated Barbell Military Press,SEATED_UPRIGHT,ARMS_OVERHEAD,high,name:seated_overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension,Seated Bent-Over One-Arm Dumbbell Triceps Extension,SEATED_UPRIGHT,ARMS_OVERHEAD_EXTENSION SINGLE_ARM_RIGHT,high,name:overhead_extension_seated,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Seated_Bent-Over_Rear_Delt_Raise,Seated Bent-Over Rear Delt Raise,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension,Seated Bent-Over Two-Arm Dumbbell Triceps Extension,SEATED_UPRIGHT,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension_seated,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Seated_Cable_Rows,Seated Cable Rows,SEATED_ROW,ARMS_ROW_PULLED,high,name:seated_row,auto,Type 'Cable Rows' not in type_secondary; used muscle group default secondaries.
+Seated_Cable_Shoulder_Press,Seated Cable Shoulder Press,SEATED_UPRIGHT,ARMS_OVERHEAD,high,name:seated_overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Seated_Calf_Raise,Seated Calf Raise,SEATED_UPRIGHT,ANKLES_PLANTARFLEXED,high,name:calf_seated,auto,Type 'Seated Calf Raises' not in type_secondary; used muscle group default secondaries.
+Seated_Close-Grip_Concentration_Barbell_Curl,Seated Close-Grip Concentration Barbell Curl,SEATED_UPRIGHT,ARMS_CURL_MID GRIP_NARROW SINGLE_ARM_RIGHT,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Seated_Dumbbell_Curl,Seated Dumbbell Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,
+Seated_Dumbbell_Inner_Biceps_Curl,Seated Dumbbell Inner Biceps Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,
+Seated_Dumbbell_Palms-Down_Wrist_Curl,Seated Dumbbell Palms-Down Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Seated_Dumbbell_Palms-Up_Wrist_Curl,Seated Dumbbell Palms-Up Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Seated_Dumbbell_Press,Seated Dumbbell Press,SEATED_UPRIGHT,ARMS_OVERHEAD,high,name:seated_overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Seated_Good_Mornings,Seated Good Mornings,HINGE,ARMS_BACK_RACK,high,name:hinge,auto,Type 'Good Mornings' not in type_secondary; used muscle group default secondaries.
+Seated_Leg_Curl,Seated Leg Curl,SEATED_LEG_MACHINE,KNEES_FLEXED_DEEP,high,name:leg_curl_seated,auto,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl,Seated One-Arm Dumbbell Palms-Down Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED SINGLE_ARM_RIGHT,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Seated_One-Arm_Dumbbell_Palms-Up_Wrist_Curl,Seated One-Arm Dumbbell Palms-Up Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED SINGLE_ARM_RIGHT,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Seated_One-arm_Cable_Pulley_Rows,Seated One-arm Cable Pulley Rows,SEATED_ROW,ARMS_ROW_PULLED SINGLE_ARM_RIGHT,high,name:seated_row,auto,Type 'Cable Rows' not in type_secondary; used muscle group default secondaries.
+Seated_Palm-Up_Barbell_Wrist_Curl,Seated Palm-Up Barbell Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Seated_Palms-Down_Barbell_Wrist_Curl,Seated Palms-Down Barbell Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Seated_Side_Lateral_Raise,Seated Side Lateral Raise,SEATED_UPRIGHT,ARMS_LATERAL_RAISE,high,name:lateral_raise_seated,auto,
+Seated_Triceps_Press,Seated Triceps Press,SEATED_UPRIGHT,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension_seated,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl,Seated Two-Arm Palms-Up Low-Pulley Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Shoulder_Press_-_With_Bands,Shoulder Press - With Bands,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Side_Bridge,Side Bridge,SIDE_LYING,,high,name:side_plank,auto,Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries.
+Side_Jackknife,Side Jackknife,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Side_Lateral_Raise,Side Lateral Raise,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,
+Side_Laterals_to_Front_Raise,Side Laterals to Front Raise,STANDING_NEUTRAL,ARMS_FRONT_RAISE,high,name:front_raise,auto,
+Single-Arm_Cable_Crossover,Single-Arm Cable Crossover,STANDING_FLY,ARMS_FLY_MID SINGLE_ARM_RIGHT,high,name:cable_fly,auto,
+Single-Arm_Push-Up,Single-Arm Push-Up,PRONE_PUSH,SINGLE_ARM_RIGHT,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Single-Leg_High_Box_Squat,Single-Leg High Box Squat,SQUAT,ARMS_FRONT_RAISE SINGLE_LEG_RIGHT,high,name:squat,auto,
+Single-Leg_Lateral_Hop,Single-Leg Lateral Hop,STANDING_NEUTRAL,ARMS_LATERAL_RAISE SINGLE_LEG_RIGHT,high,name:lateral_raise,auto,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Single-Leg_Leg_Extension,Single-Leg Leg Extension,SEATED_LEG_MACHINE,KNEES_EXTENDED SINGLE_LEG_RIGHT,high,name:leg_extension,auto,Type 'Leg Extensions' not in type_secondary; used muscle group default secondaries.
+Single_Leg_Glute_Bridge,Single Leg Glute Bridge,SUPINE_FLOOR,HIPS_BRIDGED KNEES_BENT_FEET_FLAT SINGLE_LEG_RIGHT,high,name:hip_thrust_bridge,auto,Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries.
+Sit-Up,Sit-Up,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Sled_Overhead_Triceps_Extension,Sled Overhead Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Sled_Reverse_Flye,Sled Reverse Flye,BENT_OVER_ROW,ARMS_LATERAL_RAISE,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+Sled_Row,Sled Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Machine Rows' not in type_secondary; used muscle group default secondaries.
+Sledgehammer_Swings,Sledgehammer Swings,HINGE,ARMS_HANG,high,name:hinge,auto,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Smith_Machine_Behind_the_Back_Shrug,Smith Machine Behind the Back Shrug,STANDING_NEUTRAL,SHOULDERS_SHRUGGED ARMS_HANG,high,name:shrug,auto,
+Smith_Machine_Bench_Press,Smith Machine Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Smith_Machine_Bent_Over_Row,Smith Machine Bent Over Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,
+Smith_Machine_Calf_Raise,Smith Machine Calf Raise,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Smith_Machine_Close-Grip_Bench_Press,Smith Machine Close-Grip Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT GRIP_NARROW,high,name:bench_press,auto,Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries.
+Smith_Machine_Decline_Press,Smith Machine Decline Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+Smith_Machine_Incline_Bench_Press,Smith Machine Incline Bench Press,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+Smith_Machine_Leg_Press,Smith Machine Leg Press,LEG_PRESS,,high,name:leg_press,auto,
+Smith_Machine_One-Arm_Upright_Row,Smith Machine One-Arm Upright Row,STANDING_NEUTRAL,ARMS_UPRIGHT_ROW SINGLE_ARM_RIGHT,high,name:upright_row,auto,Type 'Upright Rows' not in type_secondary; used muscle group default secondaries.
+Smith_Machine_Overhead_Shoulder_Press,Smith Machine Overhead Shoulder Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Smith_Machine_Pistol_Squat,Smith Machine Pistol Squat,SQUAT,SINGLE_LEG_RIGHT ARMS_FRONT_RAISE,high,name:pistol_squat,auto,
+Smith_Machine_Reverse_Calf_Raises,Smith Machine Reverse Calf Raises,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Smith_Machine_Squat,Smith Machine Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Smith_Machine_Stiff-Legged_Deadlift,Smith Machine Stiff-Legged Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Smith_Machine_Upright_Row,Smith Machine Upright Row,STANDING_NEUTRAL,ARMS_UPRIGHT_ROW,high,name:upright_row,auto,Type 'Upright Rows & High Pulls' not in type_secondary; used muscle group default secondaries.
+Smith_Single-Leg_Split_Squat,Smith Single-Leg Split Squat,LUNGE,ARMS_BACK_RACK,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Speed_Band_Overhead_Triceps,Speed Band Overhead Triceps,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Speed_Box_Squat,Speed Box Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Speed_Squats,Speed Squats,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Split_Squat_with_Dumbbells,Split Squat with Dumbbells,LUNGE,ARMS_HANG,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+Squat_with_Bands,Squat with Bands,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Squat_with_Chains,Squat with Chains,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Squat_with_Plate_Movers,Squat with Plate Movers,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Squats_-_With_Bands,Squats - With Bands,SQUAT,,high,name:squat,auto,
+Standing_Barbell_Calf_Raise,Standing Barbell Calf Raise,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension,Standing Bent-Over One-Arm Dumbbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION SINGLE_ARM_RIGHT,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension,Standing Bent-Over Two-Arm Dumbbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Standing_Biceps_Cable_Curl,Standing Biceps Cable Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+Standing_Bradford_Press,Standing Bradford Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Standing_Cable_Chest_Press,Standing Cable Chest Press,SEATED_UPRIGHT,ARMS_PRESS_FORWARD,high,name:machine_chest_press,auto,
+Standing_Cable_Wood_Chop,Standing Cable Wood Chop,STANDING_NEUTRAL,ARMS_PRESS_FORWARD TORSO_TWIST,high,name:woodchop_pallof,auto,"Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+Standing_Calf_Raises,Standing Calf Raises,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Standing_Concentration_Curl,Standing Concentration Curl,SEATED_UPRIGHT,ARMS_CURL_MID SINGLE_ARM_RIGHT,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Standing_Dumbbell_Calf_Raise,Standing Dumbbell Calf Raise,STANDING_NEUTRAL,ANKLES_PLANTARFLEXED,high,name:calf_standing,auto,Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries.
+Standing_Dumbbell_Reverse_Curl,Standing Dumbbell Reverse Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Reverse Grip Curls' not in type_secondary; used muscle group default secondaries.
+Standing_Dumbbell_Triceps_Extension,Standing Dumbbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Standing_Dumbbell_Upright_Row,Standing Dumbbell Upright Row,STANDING_NEUTRAL,ARMS_UPRIGHT_ROW,high,name:upright_row,auto,Type 'Upright Rows & High Pulls' not in type_secondary; used muscle group default secondaries.
+Standing_Inner-Biceps_Curl,Standing Inner-Biceps Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+Standing_Leg_Curl,Standing Leg Curl,STANDING_NEUTRAL,SINGLE_LEG_RIGHT KNEES_FLEXED_90,high,name:leg_curl_standing,auto,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+Standing_Low-Pulley_One-Arm_Triceps_Extension,Standing Low-Pulley One-Arm Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION SINGLE_ARM_RIGHT,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Standing_Military_Press,Standing Military Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Standing_One-Arm_Cable_Curl,Standing One-Arm Cable Curl,STANDING_NEUTRAL,ARMS_CURL_MID SINGLE_ARM_RIGHT,high,name:curl,auto,
+Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench,Standing One-Arm Dumbbell Curl Over Incline Bench,INCLINE_PUSH,ARMS_PRESS_LOCKOUT SINGLE_ARM_RIGHT,high,name:incline_press,auto,Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries.
+Standing_One-Arm_Dumbbell_Triceps_Extension,Standing One-Arm Dumbbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION SINGLE_ARM_RIGHT,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Standing_Overhead_Barbell_Triceps_Extension,Standing Overhead Barbell Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl,Standing Palms-Up Barbell Behind The Back Wrist Curl,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries.
+Standing_Rope_Crunch,Standing Rope Crunch,KNEELING,TORSO_CRUNCH,high,name:cable_crunch,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Standing_Towel_Triceps_Extension,Standing Towel Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Step-up_with_Knee_Raise,Step-up with Knee Raise,LUNGE,,high,name:split_squat,auto,Type 'Squats & Step-ups' not in type_secondary; used muscle group default secondaries.
+Stiff-Legged_Barbell_Deadlift,Stiff-Legged Barbell Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Stiff-Legged_Dumbbell_Deadlift,Stiff-Legged Dumbbell Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Stiff_Leg_Barbell_Good_Morning,Stiff Leg Barbell Good Morning,HINGE,ARMS_BACK_RACK,high,name:hinge,auto,Type 'Good Mornings' not in type_secondary; used muscle group default secondaries.
+Straight-Arm_Dumbbell_Pullover,Straight-Arm Dumbbell Pullover,HORIZONTAL_PUSH,ARMS_OVERHEAD,high,name:pullover,auto,Type 'Pullovers' not in type_secondary; used muscle group default secondaries.
+Straight-Arm_Pulldown,Straight-Arm Pulldown,STANDING_NEUTRAL,ARMS_FRONT_RAISE TORSO_LEAN_FORWARD,high,name:straight_arm_pulldown,auto,Type 'Straight-Arm Pulldowns & Pullovers' not in type_secondary; used muscle group default secondaries.
+Straight_Bar_Bench_Mid_Rows,Straight Bar Bench Mid Rows,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Barbell Rows' not in type_secondary; used muscle group default secondaries.
+Straight_Raises_on_Incline_Bench,Straight Raises on Incline Bench,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+Sumo_Deadlift,Sumo Deadlift,HINGE,ARMS_HANG STANCE_WIDE,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Sumo_Deadlift_with_Bands,Sumo Deadlift with Bands,HINGE,ARMS_HANG STANCE_WIDE,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Sumo_Deadlift_with_Chains,Sumo Deadlift with Chains,HINGE,ARMS_HANG STANCE_WIDE,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Suspended_Push-Up,Suspended Push-Up,PRONE_PUSH,,high,name:push_up,auto,Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries.
+Suspended_Reverse_Crunch,Suspended Reverse Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries.
+Suspended_Row,Suspended Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Bodyweight Rows' not in type_secondary; used muscle group default secondaries.
+Suspended_Split_Squat,Suspended Split Squat,LUNGE,,high,name:split_squat,auto,"Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+T-Bar_Row_with_Handle,T-Bar Row with Handle,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'T-Bar & Landmine Rows' not in type_secondary; used muscle group default secondaries.
+Thigh_Abductor,Thigh Abductor,SEATED_LEG_MACHINE,,high,name:hip_adduction_machine,auto,Type 'Hip Abduction' not in type_secondary; used muscle group default secondaries.
+Thigh_Adductor,Thigh Adductor,SEATED_LEG_MACHINE,,high,name:hip_adduction_machine,auto,Type 'Hip Adduction' not in type_secondary; used muscle group default secondaries.
+Trap_Bar_Deadlift,Trap Bar Deadlift,HINGE,ARMS_HANG,high,name:hinge,auto,
+Tricep_Dumbbell_Kickback,Tricep Dumbbell Kickback,BENT_OVER_ROW,ARMS_KICKBACK,high,name:kickback,auto,Type 'Kickbacks' not in type_secondary; used muscle group default secondaries.
+Triceps_Overhead_Extension_with_Rope,Triceps Overhead Extension with Rope,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+Triceps_Pushdown,Triceps Pushdown,STANDING_NEUTRAL,ARMS_PUSHDOWN,high,name:pushdown,auto,Type 'Pushdowns' not in type_secondary; used muscle group default secondaries.
+Triceps_Pushdown_-_Rope_Attachment,Triceps Pushdown - Rope Attachment,STANDING_NEUTRAL,ARMS_PUSHDOWN,high,name:pushdown,auto,Type 'Pushdowns' not in type_secondary; used muscle group default secondaries.
+Triceps_Pushdown_-_V-Bar_Attachment,Triceps Pushdown - V-Bar Attachment,STANDING_NEUTRAL,ARMS_PUSHDOWN,high,name:pushdown,auto,Type 'Pushdowns' not in type_secondary; used muscle group default secondaries.
+Tuck_Crunch,Tuck Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Two-Arm_Dumbbell_Preacher_Curl,Two-Arm Dumbbell Preacher Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+Two-Arm_Kettlebell_Military_Press,Two-Arm Kettlebell Military Press,STANDING_OVERHEAD_PUSH,ARMS_OVERHEAD,high,name:overhead_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+Two-Arm_Kettlebell_Row,Two-Arm Kettlebell Row,BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries.
+Underhand_Cable_Pulldowns,Underhand Cable Pulldowns,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,high,name:pulldown,auto,
+Upright_Barbell_Row,Upright Barbell Row,STANDING_NEUTRAL,ARMS_UPRIGHT_ROW,high,name:upright_row,auto,Type 'Upright Rows' not in type_secondary; used muscle group default secondaries.
+Upright_Cable_Row,Upright Cable Row,STANDING_NEUTRAL,ARMS_UPRIGHT_ROW,high,name:upright_row,auto,Type 'Upright Rows & High Pulls' not in type_secondary; used muscle group default secondaries.
+Upright_Row_-_With_Bands,Upright Row - With Bands,STANDING_NEUTRAL,ARMS_UPRIGHT_ROW,high,name:upright_row,auto,Type 'Upright Rows & High Pulls' not in type_secondary; used muscle group default secondaries.
+V-Bar_Pulldown,V-Bar Pulldown,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,high,name:pulldown,auto,
+V-Bar_Pullup,V-Bar Pullup,HANGING,,high,name:pull_up,auto,
+Vertical_Swing,Vertical Swing,HINGE,ARMS_HANG,high,name:hinge,auto,Type 'Kettlebell Swings' not in type_secondary; used muscle group default secondaries.
+Weighted_Crunches,Weighted Crunches,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Weighted_Jump_Squat,Weighted Jump Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries.
+Weighted_Pull_Ups,Weighted Pull Ups,HANGING,,high,name:pull_up,auto,
+Weighted_Sissy_Squat,Weighted Sissy Squat,SQUAT,ARMS_BACK_RACK,high,name:squat,auto,
+Weighted_Sit-Ups_-_With_Bands,Weighted Sit-Ups - With Bands,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+Weighted_Squat,Weighted Squat,SQUAT,ARMS_FRONT_RAISE,high,name:squat,auto,
+Wide-Grip_Barbell_Bench_Press,Wide-Grip Barbell Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT GRIP_WIDE,high,name:bench_press,auto,
+Wide-Grip_Decline_Barbell_Bench_Press,Wide-Grip Decline Barbell Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT GRIP_WIDE,high,name:bench_press,auto,
+Wide-Grip_Decline_Barbell_Pullover,Wide-Grip Decline Barbell Pullover,HORIZONTAL_PUSH,ARMS_OVERHEAD GRIP_WIDE,high,name:pullover,auto,Type 'Pullovers' not in type_secondary; used muscle group default secondaries.
+Wide-Grip_Lat_Pulldown,Wide-Grip Lat Pulldown,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM GRIP_WIDE,high,name:pulldown,auto,
+Wide-Grip_Pulldown_Behind_The_Neck,Wide-Grip Pulldown Behind The Neck,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM GRIP_WIDE,high,name:pulldown,auto,
+Wide-Grip_Rear_Pull-Up,Wide-Grip Rear Pull-Up,HANGING,GRIP_WIDE,high,name:pull_up,auto,
+Wide-Grip_Standing_Barbell_Curl,Wide-Grip Standing Barbell Curl,STANDING_NEUTRAL,ARMS_CURL_MID GRIP_WIDE,high,name:curl,auto,
+Wide_Stance_Barbell_Squat,Wide Stance Barbell Squat,SQUAT,ARMS_BACK_RACK STANCE_WIDE,high,name:squat,auto,
+Wide_Stance_Stiff_Legs,Wide Stance Stiff Legs,HINGE,ARMS_HANG STANCE_WIDE,high,name:hinge,auto,"Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+Wrist_Roller,Wrist Roller,SEATED_UPRIGHT,ARMS_FOREARMS_ON_THIGHS WRISTS_FLEXED,high,name:wrist_curl,auto,Type 'Wrist Rotations & Rollers' not in type_secondary; used muscle group default secondaries.
+Zercher_Squats,Zercher Squats,SQUAT,ARMS_FRONT_RACK,high,name:squat,auto,
+Zottman_Curl,Zottman Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Reverse Grip Curls' not in type_secondary; used muscle group default secondaries.
+Zottman_Preacher_Curl,Zottman Preacher Curl,SEATED_UPRIGHT,ARMS_CURL_MID,high,name:seated_curl,auto,Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries.
+gym_assisted-dip-machine,Assisted Dip (Machine),HANGING,ARMS_DIP_SUPPORT KNEES_FLEXED_90,high,name:dip,auto,
+gym_assisted-pull-up-machine,Assisted Pull Up (Machine),HANGING,,high,name:pull_up,auto,
+gym_behind-the-back-curl-cable,Behind the Back Curl (Cable),STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,
+gym_belt-squat,Belt Squat,SQUAT,,high,name:squat,auto,
+gym_decline-chest-press-machine,Decline Chest Press (Machine),SEATED_UPRIGHT,ARMS_PRESS_FORWARD,high,name:machine_chest_press,auto,
+gym_glute-kickback-machine,Glute Kickback (Machine),BENT_OVER_ROW,ARMS_KICKBACK,high,name:kickback,auto,Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries.
+gym_hip-thrust-machine,Hip Thrust (Machine),SUPINE_FLOOR,HIPS_BRIDGED KNEES_BENT_FEET_FLAT,high,name:hip_thrust_bridge,auto,Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries.
+gym_hip-thrust-smith-machine,Hip Thrust (Smith Machine),SUPINE_FLOOR,HIPS_BRIDGED KNEES_BENT_FEET_FLAT,high,name:hip_thrust_bridge,auto,Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries.
+gym_incline-chest-press-machine,Incline Chest Press (Machine),INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+gym_iso-lateral-bench-press,Iso-Lateral Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+gym_iso-lateral-d-y-row,Iso-Lateral D.Y. Row,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,
+gym_iso-lateral-decline-press,Iso-Lateral Decline Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+gym_iso-lateral-front-lat-pulldown,Iso-Lateral Front Lat Pulldown,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,
+gym_iso-lateral-high-row,Iso-Lateral High Row,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,
+gym_iso-lateral-horizontal-bench-press,Iso-Lateral Horizontal Bench Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+gym_iso-lateral-incline-press,Iso-Lateral Incline Press,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+gym_iso-lateral-kneeling-leg-curl,Iso-Lateral Kneeling Leg Curl,PRONE_FLOOR,KNEES_FLEXED_90,high,name:leg_curl_lying,auto,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+gym_iso-lateral-leg-extension,Iso-Lateral Leg Extension,SEATED_LEG_MACHINE,KNEES_EXTENDED,high,name:leg_extension,auto,Type 'Leg Extensions' not in type_secondary; used muscle group default secondaries.
+gym_iso-lateral-leg-press,Iso-Lateral Leg Press,LEG_PRESS,,high,name:leg_press,auto,
+gym_iso-lateral-low-row,Iso-Lateral Low Row,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,Type 'Machine Rows' not in type_secondary; used muscle group default secondaries.
+gym_iso-lateral-row,Iso-Lateral Row,STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,Type 'Machine Rows' not in type_secondary; used muscle group default secondaries.
+gym_iso-lateral-shoulder-press,Iso-Lateral Shoulder Press,SEATED_UPRIGHT,ARMS_OVERHEAD,high,name:machine_shoulder_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+gym_iso-lateral-super-incline-press,Iso-Lateral Super Incline Press,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+gym_iso-lateral-wide-chest,Iso-Lateral Wide Chest,STANDING_NEUTRAL,ARMS_LATERAL_RAISE GRIP_WIDE STANCE_WIDE,high,name:lateral_raise,auto,
+gym_kneeling-single-arm-pulldown,Kneeling Single Arm Pulldown,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM SINGLE_ARM_RIGHT,high,name:pulldown,auto,
+gym_lat-pulldown-machine,Lat Pulldown (Machine),SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,high,name:pulldown,auto,
+gym_lateral-raise-machine,Lateral Raise (Machine),STANDING_NEUTRAL,ARMS_LATERAL_RAISE,high,name:lateral_raise,auto,
+gym_linear-leg-press,Linear Leg Press,LEG_PRESS,,high,name:leg_press,auto,
+gym_meadows-row-barbell,Meadows Row (Barbell),BENT_OVER_ROW,ARMS_ROW_PULLED,high,name:bent_over_row,auto,Type 'T-Bar & Landmine Rows' not in type_secondary; used muscle group default secondaries.
+gym_mts-abdominal-crunch,MTS Abdominal Crunch,SUPINE_FLOOR,TORSO_CRUNCH KNEES_BENT_FEET_FLAT,high,name:crunch_situp,auto,Type 'Crunches & Sit-ups' not in type_secondary; used muscle group default secondaries.
+gym_mts-biceps-curl,MTS Biceps Curl,STANDING_NEUTRAL,ARMS_CURL_MID,high,name:curl,auto,Type 'Machine Curls' not in type_secondary; used muscle group default secondaries.
+gym_mts-chest-press,MTS Chest Press,SEATED_UPRIGHT,ARMS_PRESS_FORWARD,high,name:machine_chest_press,auto,
+gym_mts-decline-press,MTS Decline Press,HORIZONTAL_PUSH,ARMS_PRESS_LOCKOUT,high,name:bench_press,auto,
+gym_mts-front-pulldown,MTS Front Pulldown,SEATED_VERTICAL_PULL,ARMS_PULLDOWN_BOTTOM,high,name:pulldown,auto,
+gym_mts-incline-press,MTS Incline Press,INCLINE_PUSH,ARMS_PRESS_LOCKOUT,high,name:incline_press,auto,
+gym_mts-kneeling-leg-curl,MTS Kneeling Leg Curl,PRONE_FLOOR,KNEES_FLEXED_90,high,name:leg_curl_lying,auto,Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries.
+gym_mts-leg-extension,MTS Leg Extension,SEATED_LEG_MACHINE,KNEES_EXTENDED,high,name:leg_extension,auto,Type 'Leg Extensions' not in type_secondary; used muscle group default secondaries.
+gym_mts-shoulder-press,MTS Shoulder Press,SEATED_UPRIGHT,ARMS_OVERHEAD,high,name:machine_shoulder_press,auto,Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries.
+gym_mts-triceps-extension,MTS Triceps Extension,STANDING_NEUTRAL,ARMS_OVERHEAD_EXTENSION,high,name:overhead_extension,auto,Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries.
+gym_pendulum-squat,Pendulum Squat,SQUAT,,high,name:squat,auto,
+gym_reverse-fly-single-arm-cable,Reverse Fly Single Arm (Cable),BENT_OVER_ROW,ARMS_LATERAL_RAISE SINGLE_ARM_RIGHT,high,name:rear_delt_fly,auto,Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries.
+gym_seated-cable-chest-fly,Seated Cable Chest Fly,STANDING_FLY,ARMS_FLY_MID,high,name:cable_fly,auto,
+gym_seated-cable-row-bar-wide-grip,Seated Cable Row - Bar Wide Grip,SEATED_ROW,ARMS_ROW_PULLED GRIP_WIDE,high,name:seated_row,auto,Type 'Cable Rows' not in type_secondary; used muscle group default secondaries.
+gym_seated-cable-row-v-grip-cable,Seated Cable Row - V Grip (Cable),SEATED_ROW,ARMS_ROW_PULLED,high,name:seated_row,auto,Type 'Cable Rows' not in type_secondary; used muscle group default secondaries.
+gym_seated-row-machine,Seated Row (Machine),SEATED_ROW,ARMS_ROW_PULLED,high,name:seated_row,auto,
+gym_squat-machine,Squat (Machine),SQUAT,,high,name:squat,auto,
+gym_triceps-kickback-cable,Triceps Kickback (Cable),BENT_OVER_ROW,ARMS_KICKBACK,high,name:kickback,auto,Type 'Kickbacks' not in type_secondary; used muscle group default secondaries.
+gym_v-squat,V-Squat,SQUAT,,high,name:squat,auto,

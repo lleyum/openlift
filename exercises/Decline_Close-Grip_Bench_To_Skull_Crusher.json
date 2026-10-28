@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "Decline_Close-Grip_Bench_To_Skull_Crusher",
+  "library_id": "lib:Decline_Close-Grip_Bench_To_Skull_Crusher",
+  "name": "Decline Close-Grip Bench To Skull Crusher",
+  "equipment": "barbell",
+  "base_template": "HORIZONTAL_PUSH",
+  "pose_modifiers": [
+    "ARMS_SKULLCRUSHER",
+    "GRIP_NARROW"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "narrow"
+  },
+  "pose_cues": [
+    "Lying on a flat bench, feet flat on the floor, shoulder blades retracted.",
+    "Upper arms vertical, elbows bent so the hands are near the forehead.",
+    "Hands closer than shoulder width.",
+    "Grip: pronated (narrow width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": -15
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Lying Extensions (Skull Crushers)",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Decline_Close-Grip_Bench_To_Skull_Crusher/0.jpg ; Decline_Close-Grip_Bench_To_Skull_Crusher/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:skullcrusher",
+    "warnings": [
+      "Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

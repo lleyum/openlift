@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "Smith_Machine_Calf_Raise",
+  "library_id": "lib:Smith_Machine_Calf_Raise",
+  "name": "Smith Machine Calf Raise",
+  "equipment": "barbell",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ANKLES_PLANTARFLEXED"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Up on the balls of the feet, heels raised.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {
+        "style": "smith"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Calves",
+    "type": "Standing Calf Raises",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Smith_Machine_Calf_Raise/0.jpg ; Smith_Machine_Calf_Raise/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:calf_standing",
+    "warnings": [
+      "Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "Push-Ups_With_Feet_On_An_Exercise_Ball",
+  "library_id": "lib:Push-Ups_With_Feet_On_An_Exercise_Ball",
+  "name": "Push-Ups With Feet On An Exercise Ball",
+  "equipment": "stability_ball",
+  "base_template": "PRONE_PUSH",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "plank",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "open_palm",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Plank position: body straight from head to heels, hands under shoulders.",
+    "Grip: open palm (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "stability_ball",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Push-ups & Dips",
+    "equipment": "exercise ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Push-Ups_With_Feet_On_An_Exercise_Ball/0.jpg ; Push-Ups_With_Feet_On_An_Exercise_Ball/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:push_up",
+    "warnings": [
+      "Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

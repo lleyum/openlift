@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "gym_lat-pull-around",
+  "library_id": "lib:gym:lat-pull-around",
+  "name": "Lat Pull Around",
+  "equipment": "cable",
+  "base_template": "SEATED_VERTICAL_PULL",
+  "pose_modifiers": [
+    "ARMS_PULLDOWN_BOTTOM"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated with thighs under pads, torso upright with slight lean back, arms reaching overhead.",
+    "Bar pulled down to the upper chest, elbows down and back.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "latissimus_dorsi"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "trapezius_middle"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_bar",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "leg_pad",
+      "attach": "world",
+      "params": {
+        "role": "thigh_hold_down"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Lats",
+    "type": "Pulldowns",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "One_Arm_Lat_Pulldown/0.jpg ; One_Arm_Lat_Pulldown/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bpull ?down",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

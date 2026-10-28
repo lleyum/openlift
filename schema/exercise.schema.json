@@ -1,0 +1,357 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:openlift:schema:exercise:1",
+  "title": "OpenLift Exercise",
+  "description": "One exercise record. Lives at exercises/<id>.json. Consumed by build.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "equipment",
+    "base_template",
+    "pose_modifiers",
+    "stance",
+    "grip",
+    "pose_cues",
+    "joint_deltas",
+    "custom_joint_overrides",
+    "muscles",
+    "props",
+    "source",
+    "enrichment",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "description": "File-safe exercise ID (CSV 'Exercise ID' without the 'lib:' prefix). Also the output file name stem.",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.-]+$",
+      "minLength": 1
+    },
+    "library_id": {
+      "description": "Original CSV 'Exercise ID' value, e.g. 'lib:Barbell_Curl'.",
+      "type": "string"
+    },
+    "name": {
+      "description": "Human-readable exercise name from the CSV 'Exercise' column.",
+      "type": "string",
+      "minLength": 1
+    },
+    "equipment": {
+      "description": "Normalized equipment category.",
+      "enum": [
+        "barbell",
+        "ez_bar",
+        "dumbbell",
+        "kettlebell",
+        "cable",
+        "machine",
+        "bodyweight",
+        "band",
+        "medicine_ball",
+        "stability_ball",
+        "foam_roller",
+        "other",
+        "none"
+      ]
+    },
+    "base_template": {
+      "description": "Foundational whole-body pose. Defined in schema/base_templates.json (Phase 3).",
+      "enum": [
+        "STANDING_NEUTRAL",
+        "STANDING_OVERHEAD_PUSH",
+        "STANDING_FLY",
+        "SQUAT",
+        "LUNGE",
+        "HINGE",
+        "BENT_OVER_ROW",
+        "HORIZONTAL_PUSH",
+        "INCLINE_PUSH",
+        "PRONE_PUSH",
+        "SEATED_UPRIGHT",
+        "SEATED_VERTICAL_PULL",
+        "SEATED_ROW",
+        "LEG_PRESS",
+        "SEATED_LEG_MACHINE",
+        "HANGING",
+        "SUPINE_FLOOR",
+        "PRONE_FLOOR",
+        "KNEELING",
+        "SIDE_LYING"
+      ]
+    },
+    "pose_modifiers": {
+      "description": "Named, reusable joint-delta presets layered on top of base_template, applied in order. Defined in schema/base_templates.json under 'modifiers' (Phase 3).",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z0-9_]+$"
+      },
+      "uniqueItems": true
+    },
+    "stance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["position", "width", "laterality"],
+      "properties": {
+        "position": {
+          "enum": [
+            "standing",
+            "split",
+            "seated",
+            "reclined",
+            "supine",
+            "prone",
+            "plank",
+            "kneeling",
+            "hanging",
+            "side_lying"
+          ]
+        },
+        "width": {
+          "enum": ["narrow", "hip", "shoulder", "wide", "none"]
+        },
+        "laterality": {
+          "description": "unilateral_* and alternating exercises are rendered with the RIGHT side as the working side.",
+          "enum": ["bilateral", "unilateral_right", "unilateral_left", "alternating"]
+        }
+      }
+    },
+    "grip": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "width"],
+      "properties": {
+        "type": {
+          "enum": ["pronated", "supinated", "neutral", "mixed", "open_palm", "none"]
+        },
+        "width": {
+          "enum": ["narrow", "shoulder", "medium", "wide", "none"]
+        }
+      }
+    },
+    "pose_cues": {
+      "description": "Plain-English description of the rendered pose. Documentation for humans and for future AI-assisted pose fixing; not read by Blender.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "joint_deltas": {
+      "description": "Per-exercise rotations ADDED on top of base_template + pose_modifiers.",
+      "$ref": "#/$defs/jointMap"
+    },
+    "custom_joint_overrides": {
+      "description": "Manual fixes. Each entry REPLACES the final rotation of that joint (absolute, relative to rest pose). Applied last. Never overwritten by generate_jsons.py.",
+      "$ref": "#/$defs/jointMap"
+    },
+    "muscles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "secondary", "sides"],
+      "properties": {
+        "primary": {
+          "description": "Vertex group keys from pipeline/muscle_mapping.json (no prefix, no side suffix). Rendered solid red.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/muscleKey" },
+          "uniqueItems": true
+        },
+        "secondary": {
+          "description": "Rendered red at 30% opacity.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/muscleKey" },
+          "uniqueItems": true
+        },
+        "sides": {
+          "description": "Which side(s) of bilateral muscle groups to highlight.",
+          "enum": ["both", "left", "right"]
+        }
+      }
+    },
+    "props": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/prop" }
+    },
+    "source": {
+      "description": "Raw CSV values, kept verbatim for traceability.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["muscle_group", "type", "equipment", "also_works", "logged_as", "current_images"],
+      "properties": {
+        "muscle_group": { "type": "string" },
+        "type": { "type": "string" },
+        "equipment": { "type": "string" },
+        "also_works": { "type": "string" },
+        "logged_as": { "type": "string" },
+        "current_images": { "type": "string" }
+      }
+    },
+    "enrichment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["template_confidence", "matched_rule", "warnings"],
+      "properties": {
+        "template_confidence": { "enum": ["high", "medium", "low"] },
+        "matched_rule": { "type": "string" },
+        "warnings": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "review": {
+      "description": "'approved' locks the file: generate_jsons.py will not modify it unless --force is used.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "notes"],
+      "properties": {
+        "status": { "enum": ["auto", "needs_review", "approved", "rejected"] },
+        "notes": { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "standardBone": {
+      "description": "Standard Anatomical Names. Translated to real rig bones by assets/bone_mapping.json.",
+      "enum": [
+        "Root",
+        "Hips",
+        "Spine01",
+        "Spine02",
+        "Spine03",
+        "Neck",
+        "Head",
+        "LeftShoulder",
+        "LeftUpperArm",
+        "LeftForearm",
+        "LeftHand",
+        "LeftFingers",
+        "LeftThumb",
+        "RightShoulder",
+        "RightUpperArm",
+        "RightForearm",
+        "RightHand",
+        "RightFingers",
+        "RightThumb",
+        "LeftThigh",
+        "LeftShin",
+        "LeftFoot",
+        "LeftToes",
+        "RightThigh",
+        "RightShin",
+        "RightFoot",
+        "RightToes"
+      ]
+    },
+    "jointRotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "rotation_deg": {
+          "description": "Anatomical Euler degrees [X, Y, Z]. X = flexion(+)/extension(-). Y = internal(+)/external(-) rotation (twist). Z = abduction(+)/adduction(-). Same sign means the same anatomical motion on left and right; pose.py handles mirroring and rig axis conversion.",
+          "type": "array",
+          "items": { "type": "number", "minimum": -180, "maximum": 180 },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "location_m": {
+          "description": "Translation in meters [X, Y, Z] (Blender world axes, Z-up, applied before glTF Y-up export). Only honored on Root and Hips.",
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 3,
+          "maxItems": 3
+        }
+      }
+    },
+    "jointMap": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/standardBone" },
+      "additionalProperties": { "$ref": "#/$defs/jointRotation" }
+    },
+    "muscleKey": {
+      "type": "string",
+      "enum": [
+        "pectoralis_upper",
+        "pectoralis_lower",
+        "deltoid_anterior",
+        "deltoid_lateral",
+        "deltoid_posterior",
+        "biceps",
+        "triceps",
+        "forearms",
+        "latissimus_dorsi",
+        "trapezius_upper",
+        "trapezius_middle",
+        "erector_spinae",
+        "obliques",
+        "gluteus_maximus",
+        "gluteus_medius",
+        "quadriceps",
+        "hamstrings",
+        "adductors",
+        "calves",
+        "rectus_abdominis",
+        "neck"
+      ]
+    },
+    "prop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "attach", "params"],
+      "properties": {
+        "type": {
+          "enum": [
+            "barbell",
+            "ez_bar",
+            "dumbbell",
+            "kettlebell",
+            "medicine_ball",
+            "stability_ball",
+            "foam_roller",
+            "resistance_band",
+            "bench",
+            "seat",
+            "backrest",
+            "preacher_pad",
+            "leg_pad",
+            "footplate",
+            "box",
+            "pullup_bar",
+            "parallel_bars",
+            "cable_handle",
+            "cable_rope",
+            "cable_bar",
+            "cable_frame",
+            "machine_frame",
+            "machine_handle"
+          ]
+        },
+        "attach": {
+          "description": "hands = one object held by both hands (centered between them). world = placed in the scene relative to the body, not parented to a bone.",
+          "enum": [
+            "hands",
+            "left_hand",
+            "right_hand",
+            "feet",
+            "left_foot",
+            "right_foot",
+            "upper_back",
+            "front_rack",
+            "pelvis",
+            "world"
+          ]
+        },
+        "params": {
+          "description": "Prop-specific settings, e.g. {\"angle_deg\": 30} for an incline bench.",
+          "type": "object"
+        }
+      }
+    }
+  }
+}

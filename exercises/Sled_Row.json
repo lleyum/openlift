@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "Sled_Row",
+  "library_id": "lib:Sled_Row",
+  "name": "Sled Row",
+  "equipment": "other",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "latissimus_dorsi",
+      "deltoid_posterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "Machine Rows",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Sled_Row/0.jpg ; Sled_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:bent_over_row",
+    "warnings": [
+      "Type 'Machine Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

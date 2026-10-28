@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "Freehand_Jump_Squat",
+  "library_id": "lib:Freehand_Jump_Squat",
+  "name": "Freehand Jump Squat",
+  "equipment": "bodyweight",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_FRONT_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Arms raised straight forward to shoulder height.",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Jumps & Plyometrics",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Freehand_Jump_Squat/0.jpg ; Freehand_Jump_Squat/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:squat",
+    "warnings": [
+      "Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

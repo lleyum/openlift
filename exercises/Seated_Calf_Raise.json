@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Seated_Calf_Raise",
+  "library_id": "lib:Seated_Calf_Raise",
+  "name": "Seated Calf Raise",
+  "equipment": "machine",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ANKLES_PLANTARFLEXED"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Up on the balls of the feet, heels raised.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "leg_pad",
+      "attach": "world",
+      "params": {
+        "role": "knee_pad"
+      }
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 0,
+        "role": "calf_block"
+      }
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "backrest",
+      "attach": "world",
+      "params": {
+        "recline_deg": 10
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Calves",
+    "type": "Seated Calf Raises",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Seated_Calf_Raise/0.jpg ; Seated_Calf_Raise/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:calf_seated",
+    "warnings": [
+      "Type 'Seated Calf Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

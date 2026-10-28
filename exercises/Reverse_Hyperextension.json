@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "Reverse_Hyperextension",
+  "library_id": "lib:Reverse_Hyperextension",
+  "name": "Reverse Hyperextension",
+  "equipment": "machine",
+  "base_template": "PRONE_FLOOR",
+  "pose_modifiers": [
+    "TORSO_EXTENDED"
+  ],
+  "stance": {
+    "position": "prone",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying face down.",
+    "Spine extended, chest lifted."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0,
+        "role": "prone"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Good Mornings & Hinges",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Reverse_Hyperextension/0.jpg ; Reverse_Hyperextension/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:back_extension",
+    "warnings": [
+      "Type 'Good Mornings & Hinges' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

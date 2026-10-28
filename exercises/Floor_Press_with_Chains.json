@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "Floor_Press_with_Chains",
+  "library_id": "lib:Floor_Press_with_Chains",
+  "name": "Floor Press with Chains",
+  "equipment": "barbell",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "ARMS_PRESS_LOCKOUT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Arms extended vertically over the chest (top of the press).",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Close-Grip & Lockout Presses",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Floor_Press_with_Chains/0.jpg ; Floor_Press_with_Chains/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:floor_press",
+    "warnings": [
+      "Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

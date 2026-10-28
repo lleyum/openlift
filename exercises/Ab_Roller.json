@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "Ab_Roller",
+  "library_id": "lib:Ab_Roller",
+  "name": "Ab Roller",
+  "equipment": "other",
+  "base_template": "KNEELING",
+  "pose_modifiers": [
+    "ARMS_FRONT_RAISE",
+    "TORSO_LEAN_FORWARD"
+  ],
+  "stance": {
+    "position": "kneeling",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Kneeling on both knees, torso upright.",
+    "Arms raised straight forward to shoulder height.",
+    "Torso leaning slightly forward.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Planks & Anti-Rotation",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Ab_Roller/0.jpg ; Ab_Roller/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:ab_rollout",
+    "warnings": [
+      "Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

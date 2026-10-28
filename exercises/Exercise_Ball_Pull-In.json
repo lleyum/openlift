@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Exercise_Ball_Pull-In",
+  "library_id": "lib:Exercise_Ball_Pull-In",
+  "name": "Exercise Ball Pull-In",
+  "equipment": "stability_ball",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "TORSO_CRUNCH",
+    "KNEES_BENT_FEET_FLAT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Upper spine curled forward (crunch).",
+    "Knees bent, feet flat."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "stability_ball",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Leg & Hip Raises",
+    "equipment": "exercise ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Exercise_Ball_Pull-In/0.jpg ; Exercise_Ball_Pull-In/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Abdominals",
+    "warnings": [
+      "Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

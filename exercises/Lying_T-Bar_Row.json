@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Lying_T-Bar_Row",
+  "library_id": "lib:Lying_T-Bar_Row",
+  "name": "Lying T-Bar Row",
+  "equipment": "machine",
+  "base_template": "SEATED_ROW",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated with feet braced on a platform, knees slightly bent, torso upright.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "latissimus_dorsi",
+      "deltoid_posterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 75
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "T-Bar & Landmine Rows",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Lying_T-Bar_Row/0.jpg ; Lying_T-Bar_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:seated_row_equipment",
+    "warnings": [
+      "Type 'T-Bar & Landmine Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

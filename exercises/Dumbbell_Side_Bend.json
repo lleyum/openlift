@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "Dumbbell_Side_Bend",
+  "library_id": "lib:Dumbbell_Side_Bend",
+  "name": "Dumbbell Side Bend",
+  "equipment": "dumbbell",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "TORSO_CRUNCH",
+    "KNEES_BENT_FEET_FLAT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Upper spine curled forward (crunch).",
+    "Knees bent, feet flat.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "obliques"
+    ],
+    "secondary": [
+      "rectus_abdominis"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Twists, Side Bends & Rotation",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Dumbbell_Side_Bend/0.jpg ; Dumbbell_Side_Bend/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Abdominals",
+    "warnings": [
+      "Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

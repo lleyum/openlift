@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "gym_mts-decline-press",
+  "library_id": "lib:gym:mts-decline-press",
+  "name": "MTS Decline Press",
+  "equipment": "machine",
+  "base_template": "HORIZONTAL_PUSH",
+  "pose_modifiers": [
+    "ARMS_PRESS_LOCKOUT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on a flat bench, feet flat on the floor, shoulder blades retracted.",
+    "Arms extended vertically over the chest (top of the press).",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower"
+    ],
+    "secondary": [
+      "pectoralis_upper",
+      "triceps",
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": -15
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Decline Presses",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Leverage_Decline_Chest_Press/0.jpg ; Leverage_Decline_Chest_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:bench_press",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

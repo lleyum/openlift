@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "Trail_Running_Walking",
+  "library_id": "lib:Trail_Running_Walking",
+  "name": "Trail Running/Walking",
+  "equipment": "none",
+  "base_template": "SQUAT",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Cardio",
+    "equipment": "",
+    "also_works": "",
+    "logged_as": "Time",
+    "current_images": "Trail_Running_Walking/0.jpg ; Trail_Running_Walking/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Quadriceps",
+    "warnings": [
+      "Type 'Cardio' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

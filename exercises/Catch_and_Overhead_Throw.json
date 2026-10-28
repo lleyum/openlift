@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "Catch_and_Overhead_Throw",
+  "library_id": "lib:Catch_and_Overhead_Throw",
+  "name": "Catch and Overhead Throw",
+  "equipment": "medicine_ball",
+  "base_template": "SEATED_VERTICAL_PULL",
+  "pose_modifiers": [
+    "ARMS_PULLDOWN_BOTTOM"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated with thighs under pads, torso upright with slight lean back, arms reaching overhead.",
+    "Bar pulled down to the upper chest, elbows down and back.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "latissimus_dorsi"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "trapezius_middle"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "medicine_ball",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "leg_pad",
+      "attach": "world",
+      "params": {
+        "role": "thigh_hold_down"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Lats",
+    "type": "Throws & Other",
+    "equipment": "medicine ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Catch_and_Overhead_Throw/0.jpg ; Catch_and_Overhead_Throw/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Lats",
+    "warnings": [
+      "Type 'Throws & Other' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

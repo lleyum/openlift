@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "Band_Assisted_Pull-Up",
+  "library_id": "lib:Band_Assisted_Pull-Up",
+  "name": "Band Assisted Pull-Up",
+  "equipment": "other",
+  "base_template": "HANGING",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "latissimus_dorsi"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "trapezius_middle",
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "pullup_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Lats",
+    "type": "Pull-ups & Chin-ups",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Band_Assisted_Pull-Up/0.jpg ; Band_Assisted_Pull-Up/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:pull_up",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

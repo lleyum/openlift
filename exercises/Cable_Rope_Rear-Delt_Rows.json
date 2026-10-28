@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Cable_Rope_Rear-Delt_Rows",
+  "library_id": "lib:Cable_Rope_Rear-Delt_Rows",
+  "name": "Cable Rope Rear-Delt Rows",
+  "equipment": "cable",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_posterior"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "deltoid_lateral",
+      "triceps",
+      "trapezius_upper",
+      "trapezius_middle"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_rope",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Rear Delt Raises & Flys",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Cable_Rope_Rear-Delt_Rows/0.jpg ; Cable_Rope_Rear-Delt_Rows/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:rear_delt_fly",
+    "warnings": [
+      "Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "Single-Arm_Push-Up",
+  "library_id": "lib:Single-Arm_Push-Up",
+  "name": "Single-Arm Push-Up",
+  "equipment": "bodyweight",
+  "base_template": "PRONE_PUSH",
+  "pose_modifiers": [
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "plank",
+    "width": "none",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "open_palm",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Plank position: body straight from head to heels, hands under shoulders.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: open palm (shoulder width).",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "right"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Push-ups & Dips",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Single-Arm_Push-Up/0.jpg ; Single-Arm_Push-Up/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:push_up",
+    "warnings": [
+      "Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

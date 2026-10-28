@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "Olympic_Squat",
+  "library_id": "lib:Olympic_Squat",
+  "name": "Olympic Squat",
+  "equipment": "barbell",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_BACK_RACK"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Bar resting on the upper back, hands gripping outside the shoulders.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "hamstrings",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "upper_back",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Squats",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Olympic_Squat/0.jpg ; Olympic_Squat/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:squat",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

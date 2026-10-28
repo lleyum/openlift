@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Close-Grip_EZ-Bar_Press",
+  "library_id": "lib:Close-Grip_EZ-Bar_Press",
+  "name": "Close-Grip EZ-Bar Press",
+  "equipment": "ez_bar",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_PUSHDOWN",
+    "GRIP_NARROW"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "narrow"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Elbows pinned at the sides, forearms pushed down to full extension.",
+    "Hands closer than shoulder width.",
+    "Grip: pronated (narrow width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "ez_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Close-Grip & Lockout Presses",
+    "equipment": "e-z curl bar",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Close-Grip_EZ-Bar_Press/0.jpg ; Close-Grip_EZ-Bar_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Triceps",
+    "warnings": [
+      "Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

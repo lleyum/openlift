@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "Chin-Up",
+  "library_id": "lib:Chin-Up",
+  "name": "Chin-Up",
+  "equipment": "bodyweight",
+  "base_template": "HANGING",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Grip: supinated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "latissimus_dorsi"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "trapezius_middle",
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "pullup_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Lats",
+    "type": "Pull-ups & Chin-ups",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Chin-Up/0.jpg ; Chin-Up/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:pull_up",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

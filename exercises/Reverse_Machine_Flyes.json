@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "Reverse_Machine_Flyes",
+  "library_id": "lib:Reverse_Machine_Flyes",
+  "name": "Reverse Machine Flyes",
+  "equipment": "machine",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_FLY_MID"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Arms wide in a hugging arc, elbows slightly bent (mid-fly).",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "backrest",
+      "attach": "world",
+      "params": {
+        "recline_deg": 10
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Rear Delt Raises & Flys",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Reverse_Machine_Flyes/0.jpg ; Reverse_Machine_Flyes/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:machine_fly",
+    "warnings": [
+      "Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

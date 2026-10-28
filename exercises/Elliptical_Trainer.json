@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "Elliptical_Trainer",
+  "library_id": "lib:Elliptical_Trainer",
+  "name": "Elliptical Trainer",
+  "equipment": "machine",
+  "base_template": "SQUAT",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "leg_pad",
+      "attach": "upper_back",
+      "params": {
+        "role": "shoulder_pads"
+      }
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Cardio",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Time",
+    "current_images": "Elliptical_Trainer/0.jpg ; Elliptical_Trainer/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Quadriceps",
+    "warnings": [
+      "Type 'Cardio' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

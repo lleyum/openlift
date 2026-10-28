@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "Two-Arm_Kettlebell_Clean",
+  "library_id": "lib:Two-Arm_Kettlebell_Clean",
+  "name": "Two-Arm Kettlebell Clean",
+  "equipment": "kettlebell",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_FRONT_RACK",
+    "SQUAT_PARTIAL"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Bar racked on the front of the shoulders, elbows high.",
+    "Partial squat (quarter to half depth).",
+    "Grip: neutral (shoulder width).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "quadriceps",
+      "gluteus_maximus",
+      "trapezius_upper",
+      "rectus_abdominis",
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Olympic, Power & Explosive",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Two-Arm_Kettlebell_Clean/0.jpg ; Two-Arm_Kettlebell_Clean/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:clean",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

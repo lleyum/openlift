@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "Cable_Seated_Lateral_Raise",
+  "library_id": "lib:Cable_Seated_Lateral_Raise",
+  "name": "Cable Seated Lateral Raise",
+  "equipment": "cable",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Lateral Raises",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Cable_Seated_Lateral_Raise/0.jpg ; Cable_Seated_Lateral_Raise/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:lateral_raise_seated",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

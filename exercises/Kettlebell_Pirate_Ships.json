@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Kettlebell_Pirate_Ships",
+  "library_id": "lib:Kettlebell_Pirate_Ships",
+  "name": "Kettlebell Pirate Ships",
+  "equipment": "kettlebell",
+  "base_template": "STANDING_OVERHEAD_PUSH",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, core braced, arms pressed overhead.",
+    "Arms locked out overhead.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Other (Mobility & Drills)",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Kettlebell_Pirate_Ships/0.jpg ; Kettlebell_Pirate_Ships/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Shoulders",
+    "warnings": [
+      "Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "Lunge_Pass_Through",
+  "library_id": "lib:Lunge_Pass_Through",
+  "name": "Lunge Pass Through",
+  "equipment": "kettlebell",
+  "base_template": "LUNGE",
+  "pose_modifiers": [
+    "ARMS_HANG"
+  ],
+  "stance": {
+    "position": "split",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Split stance lunge: right foot forward, both knees bent about 90 degrees, torso upright.",
+    "Arms hanging straight down holding the weight.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Jumps, Sprints & Drills",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Lunge_Pass_Through/0.jpg ; Lunge_Pass_Through/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:split_squat",
+    "warnings": [
+      "Type 'Jumps, Sprints & Drills' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

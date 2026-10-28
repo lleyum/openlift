@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Band_Hip_Adductions",
+  "library_id": "lib:Band_Hip_Adductions",
+  "name": "Band Hip Adductions",
+  "equipment": "band",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "STANCE_WIDE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Feet wider than shoulder width, toes turned out.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "adductors"
+    ],
+    "secondary": [
+      "quadriceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "resistance_band",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Adductors",
+    "type": "Hip Adduction",
+    "equipment": "bands",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Band_Hip_Adductions/0.jpg ; Band_Hip_Adductions/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Adductors",
+    "warnings": [
+      "Type 'Hip Adduction' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

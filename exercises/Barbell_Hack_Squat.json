@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "Barbell_Hack_Squat",
+  "library_id": "lib:Barbell_Hack_Squat",
+  "name": "Barbell Hack Squat",
+  "equipment": "barbell",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_HANG"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Arms hanging straight down holding the weight.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "hamstrings",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Squats",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Barbell_Hack_Squat/0.jpg ; Barbell_Hack_Squat/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hack_squat",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

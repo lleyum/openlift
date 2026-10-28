@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "Seated_Barbell_Twist",
+  "library_id": "lib:Seated_Barbell_Twist",
+  "name": "Seated Barbell Twist",
+  "equipment": "barbell",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "obliques"
+    ],
+    "secondary": [
+      "rectus_abdominis"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Twists, Side Bends & Rotation",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Seated_Barbell_Twist/0.jpg ; Seated_Barbell_Twist/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:generic_seated",
+    "warnings": [
+      "Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

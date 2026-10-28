@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "Balance_Board",
+  "library_id": "lib:Balance_Board",
+  "name": "Balance Board",
+  "equipment": "other",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ANKLES_PLANTARFLEXED"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Up on the balls of the feet, heels raised.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Calves",
+    "type": "Balance",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Balance_Board/0.jpg ; Balance_Board/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Calves",
+    "warnings": [
+      "Type 'Balance' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "Kettlebell_One-Legged_Deadlift",
+  "library_id": "lib:Kettlebell_One-Legged_Deadlift",
+  "name": "Kettlebell One-Legged Deadlift",
+  "equipment": "kettlebell",
+  "base_template": "HINGE",
+  "pose_modifiers": [
+    "ARMS_HANG",
+    "SINGLE_LEG_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hip hinge: hips pushed back, slight knee bend, flat back, torso about 45 degrees forward.",
+    "Arms hanging straight down holding the weight.",
+    "Weight on the right leg; left leg lifted.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Deadlifts (Romanian, Stiff-Leg, Sumo)",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Kettlebell_One-Legged_Deadlift/0.jpg ; Kettlebell_One-Legged_Deadlift/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hinge",
+    "warnings": [
+      "Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

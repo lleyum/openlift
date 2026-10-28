@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "Prone_Manual_Hamstring",
+  "library_id": "lib:Prone_Manual_Hamstring",
+  "name": "Prone Manual Hamstring",
+  "equipment": "none",
+  "base_template": "PRONE_FLOOR",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "prone",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying face down."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Leg Curls & Glute-Ham Raises",
+    "equipment": "",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Prone_Manual_Hamstring/0.jpg ; Prone_Manual_Hamstring/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:generic_prone",
+    "warnings": [
+      "Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

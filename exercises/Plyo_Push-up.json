@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "Plyo_Push-up",
+  "library_id": "lib:Plyo_Push-up",
+  "name": "Plyo Push-up",
+  "equipment": "bodyweight",
+  "base_template": "PRONE_PUSH",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "plank",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "open_palm",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Plank position: body straight from head to heels, hands under shoulders.",
+    "Grip: open palm (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Push-ups & Dips",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Plyo_Push-up/0.jpg ; Plyo_Push-up/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:push_up",
+    "warnings": [
+      "Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

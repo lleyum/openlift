@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "Jerk_Dip_Squat",
+  "library_id": "lib:Jerk_Dip_Squat",
+  "name": "Jerk Dip Squat",
+  "equipment": "barbell",
+  "base_template": "HANGING",
+  "pose_modifiers": [
+    "ARMS_DIP_SUPPORT",
+    "KNEES_FLEXED_90"
+  ],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Supporting body weight on straight arms, hands at the hips.",
+    "Knees bent to 90 degrees.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "parallel_bars",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Olympic Lifts",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Jerk_Dip_Squat/0.jpg ; Jerk_Dip_Squat/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:dip",
+    "warnings": [
+      "Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

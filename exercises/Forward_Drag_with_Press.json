@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "Forward_Drag_with_Press",
+  "library_id": "lib:Forward_Drag_with_Press",
+  "name": "Forward Drag with Press",
+  "equipment": "other",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_FRONT_RACK",
+    "SQUAT_PARTIAL"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Bar racked on the front of the shoulders, elbows high.",
+    "Partial squat (quarter to half depth).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Explosive / Throws",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Forward_Drag_with_Press/0.jpg ; Forward_Drag_with_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bolympic|\\bpower|\\bexplosive",
+    "warnings": [
+      "Type 'Explosive / Throws' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

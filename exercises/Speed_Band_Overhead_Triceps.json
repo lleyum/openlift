@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Speed_Band_Overhead_Triceps",
+  "library_id": "lib:Speed_Band_Overhead_Triceps",
+  "name": "Speed Band Overhead Triceps",
+  "equipment": "band",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD_EXTENSION"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Upper arms overhead, elbows bent so the hands are behind the head.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "resistance_band",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Overhead & Standing Extensions",
+    "equipment": "bands",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Speed_Band_Overhead_Triceps/0.jpg ; Speed_Band_Overhead_Triceps/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:overhead_extension",
+    "warnings": [
+      "Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

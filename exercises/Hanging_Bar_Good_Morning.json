@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Hanging_Bar_Good_Morning",
+  "library_id": "lib:Hanging_Bar_Good_Morning",
+  "name": "Hanging Bar Good Morning",
+  "equipment": "barbell",
+  "base_template": "HANGING",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "pullup_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Good Mornings & Hinges",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Hanging_Bar_Good_Morning/0.jpg ; Hanging_Bar_Good_Morning/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:dead_hang",
+    "warnings": [
+      "Type 'Good Mornings & Hinges' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

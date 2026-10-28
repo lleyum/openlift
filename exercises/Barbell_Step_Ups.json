@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "Barbell_Step_Ups",
+  "library_id": "lib:Barbell_Step_Ups",
+  "name": "Barbell Step Ups",
+  "equipment": "barbell",
+  "base_template": "LUNGE",
+  "pose_modifiers": [
+    "ARMS_BACK_RACK"
+  ],
+  "stance": {
+    "position": "split",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Split stance lunge: right foot forward, both knees bent about 90 degrees, torso upright.",
+    "Bar resting on the upper back, hands gripping outside the shoulders.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "gluteus_medius",
+      "hamstrings"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "upper_back",
+      "params": {}
+    },
+    {
+      "type": "box",
+      "attach": "right_foot",
+      "params": {
+        "height_m": 0.45
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Lunges, Split Squats & Step-ups",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Barbell_Step_Ups/0.jpg ; Barbell_Step_Ups/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:split_squat",
+    "warnings": [
+      "Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

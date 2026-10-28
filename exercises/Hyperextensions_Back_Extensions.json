@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Hyperextensions_Back_Extensions",
+  "library_id": "lib:Hyperextensions_Back_Extensions",
+  "name": "Hyperextensions (Back Extensions)",
+  "equipment": "other",
+  "base_template": "PRONE_FLOOR",
+  "pose_modifiers": [
+    "TORSO_EXTENDED"
+  ],
+  "stance": {
+    "position": "prone",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying face down.",
+    "Spine extended, chest lifted."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "erector_spinae"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0,
+        "role": "prone"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Lower Back",
+    "type": "Back Extensions",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Hyperextensions_Back_Extensions/0.jpg ; Hyperextensions_Back_Extensions/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:back_extension",
+    "warnings": [
+      "Type 'Back Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

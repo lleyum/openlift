@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "Wide_Stance_Stiff_Legs",
+  "library_id": "lib:Wide_Stance_Stiff_Legs",
+  "name": "Wide Stance Stiff Legs",
+  "equipment": "barbell",
+  "base_template": "HINGE",
+  "pose_modifiers": [
+    "ARMS_HANG",
+    "STANCE_WIDE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "wide",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hip hinge: hips pushed back, slight knee bend, flat back, torso about 45 degrees forward.",
+    "Arms hanging straight down holding the weight.",
+    "Feet wider than shoulder width, toes turned out.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: wide."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Deadlifts (Romanian, Stiff-Leg, Sumo)",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Wide_Stance_Stiff_Legs/0.jpg ; Wide_Stance_Stiff_Legs/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hinge",
+    "warnings": [
+      "Type 'Deadlifts (Romanian, Stiff-Leg, Sumo)' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

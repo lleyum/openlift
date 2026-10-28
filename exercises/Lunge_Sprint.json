@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Lunge_Sprint",
+  "library_id": "lib:Lunge_Sprint",
+  "name": "Lunge Sprint",
+  "equipment": "machine",
+  "base_template": "LUNGE",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "split",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Split stance lunge: right foot forward, both knees bent about 90 degrees, torso upright.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "gluteus_medius",
+      "hamstrings"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Lunges, Split Squats & Step-ups",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Lunge_Sprint/0.jpg ; Lunge_Sprint/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:split_squat",
+    "warnings": [
+      "Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

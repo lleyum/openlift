@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "Double_Leg_Butt_Kick",
+  "library_id": "lib:Double_Leg_Butt_Kick",
+  "name": "Double Leg Butt Kick",
+  "equipment": "bodyweight",
+  "base_template": "SQUAT",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Jumps & Plyometrics",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Double_Leg_Butt_Kick/0.jpg ; Double_Leg_Butt_Kick/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Quadriceps",
+    "warnings": [
+      "Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

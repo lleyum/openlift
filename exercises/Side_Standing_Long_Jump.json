@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "Side_Standing_Long_Jump",
+  "library_id": "lib:Side_Standing_Long_Jump",
+  "name": "Side Standing Long Jump",
+  "equipment": "none",
+  "base_template": "SQUAT",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Jumps & Plyometrics",
+    "equipment": "",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Side_Standing_Long_Jump/0.jpg ; Side_Standing_Long_Jump/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Quadriceps",
+    "warnings": [
+      "Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

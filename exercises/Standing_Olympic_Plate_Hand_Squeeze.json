@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "Standing_Olympic_Plate_Hand_Squeeze",
+  "library_id": "lib:Standing_Olympic_Plate_Hand_Squeeze",
+  "name": "Standing Olympic Plate Hand Squeeze",
+  "equipment": "other",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_HANG"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms hanging straight down holding the weight.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "forearms"
+    ],
+    "secondary": [],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Forearms",
+    "type": "Grip",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Standing_Olympic_Plate_Hand_Squeeze/0.jpg ; Standing_Olympic_Plate_Hand_Squeeze/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Forearms",
+    "warnings": [
+      "Type 'Grip' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

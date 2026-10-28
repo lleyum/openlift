@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Supine_One-Arm_Overhead_Throw",
+  "library_id": "lib:Supine_One-Arm_Overhead_Throw",
+  "name": "Supine One-Arm Overhead Throw",
+  "equipment": "medicine_ball",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: neutral (shoulder width).",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "medicine_ball",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Twists, Side Bends & Rotation",
+    "equipment": "medicine ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Supine_One-Arm_Overhead_Throw/0.jpg ; Supine_One-Arm_Overhead_Throw/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:generic_lying",
+    "warnings": [
+      "Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Wide-Grip_Standing_Barbell_Curl",
+  "library_id": "lib:Wide-Grip_Standing_Barbell_Curl",
+  "name": "Wide-Grip Standing Barbell Curl",
+  "equipment": "barbell",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_CURL_MID",
+    "GRIP_WIDE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "wide"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Elbows pinned at the sides, forearms curled to about 90 degrees.",
+    "Hands wider than shoulder width.",
+    "Grip: supinated (wide width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Barbell & EZ-Bar Curls",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Wide-Grip_Standing_Barbell_Curl/0.jpg ; Wide-Grip_Standing_Barbell_Curl/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:curl",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

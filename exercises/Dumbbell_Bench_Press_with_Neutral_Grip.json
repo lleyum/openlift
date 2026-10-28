@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Dumbbell_Bench_Press_with_Neutral_Grip",
+  "library_id": "lib:Dumbbell_Bench_Press_with_Neutral_Grip",
+  "name": "Dumbbell Bench Press with Neutral Grip",
+  "equipment": "dumbbell",
+  "base_template": "HORIZONTAL_PUSH",
+  "pose_modifiers": [
+    "ARMS_PRESS_LOCKOUT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on a flat bench, feet flat on the floor, shoulder blades retracted.",
+    "Arms extended vertically over the chest (top of the press).",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flat Presses",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Dumbbell_Bench_Press_with_Neutral_Grip/0.jpg ; Dumbbell_Bench_Press_with_Neutral_Grip/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:bench_press",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

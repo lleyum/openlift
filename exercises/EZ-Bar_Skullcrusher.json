@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "EZ-Bar_Skullcrusher",
+  "library_id": "lib:EZ-Bar_Skullcrusher",
+  "name": "EZ-Bar Skullcrusher",
+  "equipment": "ez_bar",
+  "base_template": "HORIZONTAL_PUSH",
+  "pose_modifiers": [
+    "ARMS_SKULLCRUSHER"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on a flat bench, feet flat on the floor, shoulder blades retracted.",
+    "Upper arms vertical, elbows bent so the hands are near the forehead.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "ez_bar",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Lying Extensions (Skull Crushers)",
+    "equipment": "e-z curl bar",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "EZ-Bar_Skullcrusher/0.jpg ; EZ-Bar_Skullcrusher/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:skullcrusher",
+    "warnings": [
+      "Type 'Lying Extensions (Skull Crushers)' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

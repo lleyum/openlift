@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "Plank",
+  "library_id": "lib:Plank",
+  "name": "Plank",
+  "equipment": "bodyweight",
+  "base_template": "PRONE_PUSH",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "plank",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "open_palm",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Plank position: body straight from head to heels, hands under shoulders.",
+    "Grip: open palm (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Planks & Anti-Rotation",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Time",
+    "current_images": "Plank/0.jpg ; Plank/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:push_up",
+    "warnings": [
+      "Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

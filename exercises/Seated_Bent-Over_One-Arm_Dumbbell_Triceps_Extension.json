@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension",
+  "library_id": "lib:Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension",
+  "name": "Seated Bent-Over One-Arm Dumbbell Triceps Extension",
+  "equipment": "dumbbell",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD_EXTENSION",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Upper arms overhead, elbows bent so the hands are behind the head.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: neutral (shoulder width).",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Overhead & Standing Extensions",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/0.jpg ; Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:overhead_extension_seated",
+    "warnings": [
+      "Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

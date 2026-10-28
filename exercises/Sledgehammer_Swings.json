@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "Sledgehammer_Swings",
+  "library_id": "lib:Sledgehammer_Swings",
+  "name": "Sledgehammer Swings",
+  "equipment": "other",
+  "base_template": "HINGE",
+  "pose_modifiers": [
+    "ARMS_HANG"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Hip hinge: hips pushed back, slight knee bend, flat back, torso about 45 degrees forward.",
+    "Arms hanging straight down holding the weight.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Twists, Side Bends & Rotation",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Sledgehammer_Swings/0.jpg ; Sledgehammer_Swings/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hinge",
+    "warnings": [
+      "Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

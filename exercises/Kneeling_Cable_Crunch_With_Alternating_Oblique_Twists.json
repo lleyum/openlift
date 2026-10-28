@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists",
+  "library_id": "lib:Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists",
+  "name": "Kneeling Cable Crunch With Alternating Oblique Twists",
+  "equipment": "cable",
+  "base_template": "KNEELING",
+  "pose_modifiers": [
+    "TORSO_CRUNCH"
+  ],
+  "stance": {
+    "position": "kneeling",
+    "width": "hip",
+    "laterality": "alternating"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Kneeling on both knees, torso upright.",
+    "Upper spine curled forward (crunch).",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: alternating (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "obliques"
+    ],
+    "secondary": [
+      "rectus_abdominis"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_rope",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Twists, Side Bends & Rotation",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists/0.jpg ; Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:cable_crunch",
+    "warnings": [
+      "Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

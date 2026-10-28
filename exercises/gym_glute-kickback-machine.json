@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "gym_glute-kickback-machine",
+  "library_id": "lib:gym:glute-kickback-machine",
+  "name": "Glute Kickback (Machine)",
+  "equipment": "machine",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_KICKBACK"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Upper arm parallel to the torso, forearm extended back.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "gluteus_maximus"
+    ],
+    "secondary": [
+      "hamstrings",
+      "gluteus_medius"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Glutes",
+    "type": "Kickbacks & Hip Extensions",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Glute_Kickback/0.jpg ; Glute_Kickback/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:kickback",
+    "warnings": [
+      "Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

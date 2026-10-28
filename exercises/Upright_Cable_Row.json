@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "Upright_Cable_Row",
+  "library_id": "lib:Upright_Cable_Row",
+  "name": "Upright Cable Row",
+  "equipment": "cable",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_UPRIGHT_ROW"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Hands pulled up to chest height, elbows high and out.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_upper"
+    ],
+    "secondary": [
+      "trapezius_middle",
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Traps",
+    "type": "Upright Rows & High Pulls",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Upright_Cable_Row/0.jpg ; Upright_Cable_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:upright_row",
+    "warnings": [
+      "Type 'Upright Rows & High Pulls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

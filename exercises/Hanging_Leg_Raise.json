@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "Hanging_Leg_Raise",
+  "library_id": "lib:Hanging_Leg_Raise",
+  "name": "Hanging Leg Raise",
+  "equipment": "bodyweight",
+  "base_template": "HANGING",
+  "pose_modifiers": [
+    "HIPS_FLEXED_90"
+  ],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Hips flexed so the thighs are at 90 degrees to the torso.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "pullup_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Leg & Hip Raises",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Hanging_Leg_Raise/0.jpg ; Hanging_Leg_Raise/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hanging_leg_raise",
+    "warnings": [
+      "Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

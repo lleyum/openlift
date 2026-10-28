@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "Cable_Crossover",
+  "library_id": "lib:Cable_Crossover",
+  "name": "Cable Crossover",
+  "equipment": "cable",
+  "base_template": "STANDING_FLY",
+  "pose_modifiers": [
+    "ARMS_FLY_MID"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing in a staggered stance between cable towers, slight forward lean, arms out to the sides.",
+    "Arms wide in a hugging arc, elbows slightly bent (mid-fly).",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 2
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flys",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Cable_Crossover/0.jpg ; Cable_Crossover/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:cable_fly",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

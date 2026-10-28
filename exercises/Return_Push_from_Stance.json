@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Return_Push_from_Stance",
+  "library_id": "lib:Return_Push_from_Stance",
+  "name": "Return Push from Stance",
+  "equipment": "medicine_ball",
+  "base_template": "STANDING_OVERHEAD_PUSH",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, core braced, arms pressed overhead.",
+    "Arms locked out overhead.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "medicine_ball",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Other (Mobility & Drills)",
+    "equipment": "medicine ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Return_Push_from_Stance/0.jpg ; Return_Push_from_Stance/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Shoulders",
+    "warnings": [
+      "Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

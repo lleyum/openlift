@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "Body_Tricep_Press",
+  "library_id": "lib:Body_Tricep_Press",
+  "name": "Body Tricep Press",
+  "equipment": "bodyweight",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD_EXTENSION"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Upper arms overhead, elbows bent so the hands are behind the head.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Close-Grip & Lockout Presses",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Body_Tricep_Press/0.jpg ; Body_Tricep_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:overhead_extension",
+    "warnings": [
+      "Type 'Close-Grip & Lockout Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

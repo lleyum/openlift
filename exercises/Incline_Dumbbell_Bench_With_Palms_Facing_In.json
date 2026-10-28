@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Incline_Dumbbell_Bench_With_Palms_Facing_In",
+  "library_id": "lib:Incline_Dumbbell_Bench_With_Palms_Facing_In",
+  "name": "Incline Dumbbell Bench With Palms Facing In",
+  "equipment": "dumbbell",
+  "base_template": "INCLINE_PUSH",
+  "pose_modifiers": [
+    "ARMS_PRESS_LOCKOUT"
+  ],
+  "stance": {
+    "position": "reclined",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on an incline bench at about 30 degrees, feet flat on the floor.",
+    "Arms extended vertically over the chest (top of the press).",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "pectoralis_lower",
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 30
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Incline Presses",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Incline_Dumbbell_Bench_With_Palms_Facing_In/0.jpg ; Incline_Dumbbell_Bench_With_Palms_Facing_In/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:incline_press",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

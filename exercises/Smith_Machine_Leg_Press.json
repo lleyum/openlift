@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "Smith_Machine_Leg_Press",
+  "library_id": "lib:Smith_Machine_Leg_Press",
+  "name": "Smith Machine Leg Press",
+  "equipment": "barbell",
+  "base_template": "LEG_PRESS",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "reclined",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Reclined in a leg press seat, feet on the platform, hips and knees flexed.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "hamstrings",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {
+        "style": "smith"
+      }
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {
+        "recline_deg": 45
+      }
+    },
+    {
+      "type": "backrest",
+      "attach": "world",
+      "params": {
+        "recline_deg": 45
+      }
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 45
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Leg Presses",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Smith_Machine_Leg_Press/0.jpg ; Smith_Machine_Leg_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:leg_press",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

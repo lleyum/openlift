@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "Barbell_Curls_Lying_Against_An_Incline",
+  "library_id": "lib:Barbell_Curls_Lying_Against_An_Incline",
+  "name": "Barbell Curls Lying Against An Incline",
+  "equipment": "barbell",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_CURL_MID"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Elbows pinned at the sides, forearms curled to about 90 degrees.",
+    "Grip: supinated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Incline & Lying Curls",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Barbell_Curls_Lying_Against_An_Incline/0.jpg ; Barbell_Curls_Lying_Against_An_Incline/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:seated_curl",
+    "warnings": [
+      "Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

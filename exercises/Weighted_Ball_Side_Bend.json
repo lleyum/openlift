@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Weighted_Ball_Side_Bend",
+  "library_id": "lib:Weighted_Ball_Side_Bend",
+  "name": "Weighted Ball Side Bend",
+  "equipment": "stability_ball",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "TORSO_CRUNCH",
+    "KNEES_BENT_FEET_FLAT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Upper spine curled forward (crunch).",
+    "Knees bent, feet flat."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "obliques"
+    ],
+    "secondary": [
+      "rectus_abdominis"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "stability_ball",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Twists, Side Bends & Rotation",
+    "equipment": "exercise ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Weighted_Ball_Side_Bend/0.jpg ; Weighted_Ball_Side_Bend/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Abdominals",
+    "warnings": [
+      "Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "Calf_Press_On_The_Leg_Press_Machine",
+  "library_id": "lib:Calf_Press_On_The_Leg_Press_Machine",
+  "name": "Calf Press On The Leg Press Machine",
+  "equipment": "machine",
+  "base_template": "LEG_PRESS",
+  "pose_modifiers": [
+    "LEGS_EXTENDED",
+    "ANKLES_PLANTARFLEXED"
+  ],
+  "stance": {
+    "position": "reclined",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Reclined in a leg press seat, feet on the platform, hips and knees flexed.",
+    "Legs nearly straight.",
+    "Up on the balls of the feet, heels raised."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {
+        "recline_deg": 45
+      }
+    },
+    {
+      "type": "backrest",
+      "attach": "world",
+      "params": {
+        "recline_deg": 45
+      }
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 45
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Calves",
+    "type": "Calf Presses",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Calf_Press_On_The_Leg_Press_Machine/0.jpg ; Calf_Press_On_The_Leg_Press_Machine/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:calf_leg_press",
+    "warnings": [
+      "Type 'Calf Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

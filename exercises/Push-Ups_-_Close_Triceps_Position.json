@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "Push-Ups_-_Close_Triceps_Position",
+  "library_id": "lib:Push-Ups_-_Close_Triceps_Position",
+  "name": "Push-Ups - Close Triceps Position",
+  "equipment": "bodyweight",
+  "base_template": "PRONE_PUSH",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "plank",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "open_palm",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Plank position: body straight from head to heels, hands under shoulders.",
+    "Grip: open palm (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Close-Grip Push-ups",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Push-Ups_-_Close_Triceps_Position/0.jpg ; Push-Ups_-_Close_Triceps_Position/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:push_up",
+    "warnings": [
+      "Type 'Close-Grip Push-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

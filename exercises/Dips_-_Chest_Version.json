@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "Dips_-_Chest_Version",
+  "library_id": "lib:Dips_-_Chest_Version",
+  "name": "Dips - Chest Version",
+  "equipment": "other",
+  "base_template": "HANGING",
+  "pose_modifiers": [
+    "ARMS_DIP_SUPPORT",
+    "KNEES_FLEXED_90"
+  ],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Supporting body weight on straight arms, hands at the hips.",
+    "Knees bent to 90 degrees.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower"
+    ],
+    "secondary": [
+      "pectoralis_upper",
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "parallel_bars",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Push-ups & Dips",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Dips_-_Chest_Version/0.jpg ; Dips_-_Chest_Version/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:dip",
+    "warnings": [
+      "Type 'Push-ups & Dips' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

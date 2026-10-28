@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "One-Arm_Side_Deadlift",
+  "library_id": "lib:One-Arm_Side_Deadlift",
+  "name": "One-Arm Side Deadlift",
+  "equipment": "barbell",
+  "base_template": "HINGE",
+  "pose_modifiers": [
+    "ARMS_HANG",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hip hinge: hips pushed back, slight knee bend, flat back, torso about 45 degrees forward.",
+    "Arms hanging straight down holding the weight.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae",
+      "trapezius_upper",
+      "forearms"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Deadlifts",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "One-Arm_Side_Deadlift/0.jpg ; One-Arm_Side_Deadlift/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hinge",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

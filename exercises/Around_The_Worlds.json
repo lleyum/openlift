@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "Around_The_Worlds",
+  "library_id": "lib:Around_The_Worlds",
+  "name": "Around The Worlds",
+  "equipment": "dumbbell",
+  "base_template": "STANDING_FLY",
+  "pose_modifiers": [
+    "ARMS_FLY_MID"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing in a staggered stance between cable towers, slight forward lean, arms out to the sides.",
+    "Arms wide in a hugging arc, elbows slightly bent (mid-fly).",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flys",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Around_The_Worlds/0.jpg ; Around_The_Worlds/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bfl(y|ys|ye|yes|ies)\\b",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

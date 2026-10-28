@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "Bodyweight_Walking_Lunge",
+  "library_id": "lib:Bodyweight_Walking_Lunge",
+  "name": "Bodyweight Walking Lunge",
+  "equipment": "none",
+  "base_template": "LUNGE",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "split",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Split stance lunge: right foot forward, both knees bent about 90 degrees, torso upright.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "gluteus_medius",
+      "hamstrings"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Lunges, Split Squats & Step-ups",
+    "equipment": "",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Bodyweight_Walking_Lunge/0.jpg ; Bodyweight_Walking_Lunge/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:split_squat",
+    "warnings": [
+      "Type 'Lunges, Split Squats & Step-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

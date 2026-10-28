@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "Narrow_Stance_Hack_Squats",
+  "library_id": "lib:Narrow_Stance_Hack_Squats",
+  "name": "Narrow Stance Hack Squats",
+  "equipment": "machine",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_HANG",
+    "GRIP_NARROW",
+    "STANCE_NARROW"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "narrow",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "narrow"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Arms hanging straight down holding the weight.",
+    "Hands closer than shoulder width.",
+    "Feet close together.",
+    "Grip: neutral (narrow width).",
+    "Stance width: narrow."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "hamstrings",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "leg_pad",
+      "attach": "upper_back",
+      "params": {
+        "role": "shoulder_pads"
+      }
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Squats",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Narrow_Stance_Hack_Squats/0.jpg ; Narrow_Stance_Hack_Squats/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hack_squat",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

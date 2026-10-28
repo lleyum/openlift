@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "Glute_Kickback",
+  "library_id": "lib:Glute_Kickback",
+  "name": "Glute Kickback",
+  "equipment": "bodyweight",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_KICKBACK"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Upper arm parallel to the torso, forearm extended back.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "gluteus_maximus"
+    ],
+    "secondary": [
+      "hamstrings",
+      "gluteus_medius"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Glutes",
+    "type": "Kickbacks & Hip Extensions",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Glute_Kickback/0.jpg ; Glute_Kickback/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:kickback",
+    "warnings": [
+      "Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

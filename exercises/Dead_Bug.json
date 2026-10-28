@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "Dead_Bug",
+  "library_id": "lib:Dead_Bug",
+  "name": "Dead Bug",
+  "equipment": "bodyweight",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "HIPS_FLEXED_90"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Hips flexed so the thighs are at 90 degrees to the torso."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Planks & Anti-Rotation",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Dead_Bug/0.jpg ; Dead_Bug/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:lying_leg_raise",
+    "warnings": [
+      "Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

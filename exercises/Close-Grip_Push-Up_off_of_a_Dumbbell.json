@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "Close-Grip_Push-Up_off_of_a_Dumbbell",
+  "library_id": "lib:Close-Grip_Push-Up_off_of_a_Dumbbell",
+  "name": "Close-Grip Push-Up off of a Dumbbell",
+  "equipment": "bodyweight",
+  "base_template": "PRONE_PUSH",
+  "pose_modifiers": [
+    "GRIP_NARROW"
+  ],
+  "stance": {
+    "position": "plank",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "open_palm",
+    "width": "narrow"
+  },
+  "pose_cues": [
+    "Plank position: body straight from head to heels, hands under shoulders.",
+    "Hands closer than shoulder width.",
+    "Grip: open palm (narrow width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Close-Grip Push-ups",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Close-Grip_Push-Up_off_of_a_Dumbbell/0.jpg ; Close-Grip_Push-Up_off_of_a_Dumbbell/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:push_up",
+    "warnings": [
+      "Type 'Close-Grip Push-ups' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

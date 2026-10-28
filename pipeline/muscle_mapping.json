@@ -1,0 +1,215 @@
+{
+  "_comment": "Maps CSV 'Muscle Group' / 'Also Works' values to Blender vertex groups. Vertex group names in Blender are: prefix + key + side suffix (bilateral) or prefix + key (center). Example: MUSCLE_pectoralis_upper.L, MUSCLE_rectus_abdominis.",
+  "version": 1,
+  "vertex_group_naming": {
+    "prefix": "MUSCLE_",
+    "left_suffix": ".L",
+    "right_suffix": ".R"
+  },
+  "vertex_groups": {
+    "pectoralis_upper": { "bilateral": true, "label": "Upper Chest (clavicular pec)" },
+    "pectoralis_lower": { "bilateral": true, "label": "Mid/Lower Chest (sternal pec)" },
+    "deltoid_anterior": { "bilateral": true, "label": "Front Delt" },
+    "deltoid_lateral": { "bilateral": true, "label": "Side Delt" },
+    "deltoid_posterior": { "bilateral": true, "label": "Rear Delt" },
+    "biceps": { "bilateral": true, "label": "Biceps + Brachialis" },
+    "triceps": { "bilateral": true, "label": "Triceps" },
+    "forearms": { "bilateral": true, "label": "Forearm Flexors + Extensors" },
+    "latissimus_dorsi": { "bilateral": true, "label": "Lats + Teres Major" },
+    "trapezius_upper": { "bilateral": true, "label": "Upper Traps" },
+    "trapezius_middle": { "bilateral": true, "label": "Mid/Lower Traps + Rhomboids" },
+    "erector_spinae": { "bilateral": true, "label": "Lower Back (erectors)" },
+    "obliques": { "bilateral": true, "label": "Obliques" },
+    "gluteus_maximus": { "bilateral": true, "label": "Glute Max" },
+    "gluteus_medius": { "bilateral": true, "label": "Glute Med (abductors)" },
+    "quadriceps": { "bilateral": true, "label": "Quadriceps" },
+    "hamstrings": { "bilateral": true, "label": "Hamstrings" },
+    "adductors": { "bilateral": true, "label": "Adductors" },
+    "calves": { "bilateral": true, "label": "Gastrocnemius + Soleus" },
+    "rectus_abdominis": { "bilateral": false, "label": "Abs" },
+    "neck": { "bilateral": false, "label": "Neck (SCM + splenius)" }
+  },
+  "muscle_groups": {
+    "Abdominals": {
+      "aliases": ["abdominals", "abs", "core", "rectus abdominis"],
+      "primary": ["rectus_abdominis"],
+      "secondary": ["obliques"]
+    },
+    "Obliques": {
+      "aliases": ["obliques", "oblique"],
+      "primary": ["obliques"],
+      "secondary": ["rectus_abdominis"]
+    },
+    "Abductors": {
+      "aliases": ["abductors", "hip abductors", "gluteus medius"],
+      "primary": ["gluteus_medius"],
+      "secondary": ["gluteus_maximus"]
+    },
+    "Adductors": {
+      "aliases": ["adductors", "inner thigh", "hip adductors"],
+      "primary": ["adductors"],
+      "secondary": ["quadriceps"]
+    },
+    "Biceps": {
+      "aliases": ["biceps", "bicep", "brachialis"],
+      "primary": ["biceps"],
+      "secondary": ["forearms"]
+    },
+    "Calves": {
+      "aliases": ["calves", "calf", "gastrocnemius", "soleus"],
+      "primary": ["calves"],
+      "secondary": []
+    },
+    "Chest": {
+      "aliases": ["chest", "pecs", "pectorals", "pectoralis"],
+      "primary": ["pectoralis_lower", "pectoralis_upper"],
+      "secondary": ["deltoid_anterior", "triceps"]
+    },
+    "Forearms": {
+      "aliases": ["forearms", "forearm", "grip", "wrists"],
+      "primary": ["forearms"],
+      "secondary": []
+    },
+    "Glutes": {
+      "aliases": ["glutes", "glute", "gluteus maximus", "buttocks"],
+      "primary": ["gluteus_maximus"],
+      "secondary": ["hamstrings", "gluteus_medius"]
+    },
+    "Hamstrings": {
+      "aliases": ["hamstrings", "hamstring", "hams"],
+      "primary": ["hamstrings"],
+      "secondary": ["gluteus_maximus", "erector_spinae"]
+    },
+    "Lats": {
+      "aliases": ["lats", "lat", "latissimus dorsi", "latissimus"],
+      "primary": ["latissimus_dorsi"],
+      "secondary": ["biceps", "deltoid_posterior", "trapezius_middle"]
+    },
+    "Lower Back": {
+      "aliases": ["lower back", "erectors", "erector spinae", "spinal erectors"],
+      "primary": ["erector_spinae"],
+      "secondary": ["gluteus_maximus", "hamstrings"]
+    },
+    "Middle Back": {
+      "aliases": ["middle back", "mid back", "upper back", "back", "rhomboids"],
+      "primary": ["trapezius_middle"],
+      "secondary": ["latissimus_dorsi", "deltoid_posterior", "biceps"]
+    },
+    "Neck": {
+      "aliases": ["neck"],
+      "primary": ["neck"],
+      "secondary": ["trapezius_upper"]
+    },
+    "Quadriceps": {
+      "aliases": ["quadriceps", "quads", "quad", "thighs"],
+      "primary": ["quadriceps"],
+      "secondary": ["gluteus_maximus", "adductors"]
+    },
+    "Shoulders": {
+      "aliases": ["shoulders", "shoulder", "delts", "deltoids", "deltoid"],
+      "primary": ["deltoid_anterior", "deltoid_lateral"],
+      "secondary": ["triceps", "trapezius_upper"]
+    },
+    "Traps": {
+      "aliases": ["traps", "trapezius", "trap"],
+      "primary": ["trapezius_upper"],
+      "secondary": ["trapezius_middle", "forearms"]
+    },
+    "Triceps": {
+      "aliases": ["triceps", "tricep"],
+      "primary": ["triceps"],
+      "secondary": ["deltoid_anterior"]
+    },
+    "Full Body": {
+      "aliases": ["full body", "total body", "whole body", "cardio"],
+      "primary": ["quadriceps", "gluteus_maximus", "hamstrings", "erector_spinae", "trapezius_upper", "deltoid_anterior"],
+      "secondary": ["rectus_abdominis", "obliques", "calves", "forearms"]
+    }
+  },
+  "type_secondary": {
+    "_comment": "Keys are CSV 'Type' values (case-insensitive). If a Type is listed here, its list REPLACES the muscle group's default secondary list. Unlisted Types fall back to the muscle group default. enrich_csv.py reports every unlisted Type so you can add it.",
+    "flat presses": ["deltoid_anterior", "triceps"],
+    "incline presses": ["deltoid_anterior", "triceps", "pectoralis_lower"],
+    "decline presses": ["triceps", "deltoid_anterior"],
+    "flys": ["deltoid_anterior", "biceps"],
+    "push-ups": ["deltoid_anterior", "triceps", "rectus_abdominis"],
+    "dips": ["triceps", "deltoid_anterior"],
+    "leg presses": ["gluteus_maximus", "hamstrings", "adductors"],
+    "squats": ["gluteus_maximus", "adductors", "hamstrings", "erector_spinae"],
+    "lunges": ["gluteus_maximus", "gluteus_medius", "hamstrings", "adductors"],
+    "deadlifts": ["gluteus_maximus", "erector_spinae", "trapezius_upper", "forearms"],
+    "pull-ups & chin-ups": ["biceps", "deltoid_posterior", "trapezius_middle", "forearms"],
+    "pulldowns": ["biceps", "deltoid_posterior", "trapezius_middle"],
+    "rows": ["latissimus_dorsi", "biceps", "deltoid_posterior", "forearms"],
+    "shoulder presses": ["triceps", "trapezius_upper", "pectoralis_upper"],
+    "lateral raises": ["trapezius_upper"],
+    "front raises": ["pectoralis_upper"],
+    "shrugs": ["trapezius_middle", "forearms"],
+    "olympic, power & explosive": ["quadriceps", "gluteus_maximus", "trapezius_upper", "rectus_abdominis", "obliques"],
+    "barbell & ez-bar curls": ["forearms"],
+    "dumbbell curls": ["forearms"],
+    "cable curls": ["forearms"],
+    "calf raises": [],
+    "crunches": ["obliques"],
+    "planks": ["obliques", "deltoid_anterior"]
+  },
+  "name_keyword_rules": [
+    {
+      "_comment": "Applied in order. If muscle_group matches (case-insensitive, '*' = any) and the regex matches the normalized exercise name (lowercase, punctuation -> spaces): 'primary' replaces the primary list, 'secondary_add' is appended to secondary.",
+      "muscle_group": "Chest",
+      "pattern": "\\bincline\\b|\\bupper chest\\b|\\blow to high\\b",
+      "primary": ["pectoralis_upper"],
+      "secondary_add": ["pectoralis_lower"]
+    },
+    {
+      "muscle_group": "Chest",
+      "pattern": "\\bdecline\\b|\\bdips?\\b|\\bhigh to low\\b",
+      "primary": ["pectoralis_lower"],
+      "secondary_add": []
+    },
+    {
+      "muscle_group": "Shoulders",
+      "pattern": "\\brear\\b|\\breverse fly|\\bface pull|\\bbent over (lateral|raise|rear)|\\bposterior\\b",
+      "primary": ["deltoid_posterior"],
+      "secondary_add": ["trapezius_middle"]
+    },
+    {
+      "muscle_group": "Shoulders",
+      "pattern": "\\blateral\\b|\\bside raise|\\bupright row",
+      "primary": ["deltoid_lateral"],
+      "secondary_add": ["trapezius_upper"]
+    },
+    {
+      "muscle_group": "Shoulders",
+      "pattern": "\\bfront raise",
+      "primary": ["deltoid_anterior"],
+      "secondary_add": ["pectoralis_upper"]
+    },
+    {
+      "muscle_group": "Abdominals",
+      "pattern": "\\boblique|\\btwist|\\bside bend|\\bside plank|\\bwood ?chop|\\brussian\\b|\\bwindmill|\\bpallof",
+      "primary": ["obliques"],
+      "secondary_add": ["rectus_abdominis"]
+    },
+    {
+      "muscle_group": "Quadriceps",
+      "pattern": "\\bsumo\\b|\\bwide stance\\b|\\bplie\\b",
+      "secondary_add": ["adductors"]
+    },
+    {
+      "muscle_group": "Quadriceps",
+      "pattern": "\\blunge|\\bsplit squat|\\bstep ups?\\b|\\bbulgarian",
+      "secondary_add": ["gluteus_medius", "hamstrings"]
+    },
+    {
+      "muscle_group": "Biceps",
+      "pattern": "\\bhammer\\b|\\breverse\\b",
+      "secondary_add": ["forearms"]
+    },
+    {
+      "muscle_group": "*",
+      "pattern": "\\bturkish get ?up",
+      "secondary_add": ["triceps", "obliques", "gluteus_maximus", "quadriceps"]
+    }
+  ]
+}

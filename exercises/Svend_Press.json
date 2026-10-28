@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "Svend_Press",
+  "library_id": "lib:Svend_Press",
+  "name": "Svend Press",
+  "equipment": "other",
+  "base_template": "STANDING_FLY",
+  "pose_modifiers": [
+    "ARMS_FLY_MID"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Standing in a staggered stance between cable towers, slight forward lean, arms out to the sides.",
+    "Arms wide in a hugging arc, elbows slightly bent (mid-fly).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flys",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Svend_Press/0.jpg ; Svend_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bfl(y|ys|ye|yes|ies)\\b",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

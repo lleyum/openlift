@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "Lying_Face_Down_Plate_Neck_Resistance",
+  "library_id": "lib:Lying_Face_Down_Plate_Neck_Resistance",
+  "name": "Lying Face Down Plate Neck Resistance",
+  "equipment": "other",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "neck"
+    ],
+    "secondary": [
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Neck",
+    "type": "Neck Resistance",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Lying_Face_Down_Plate_Neck_Resistance/0.jpg ; Lying_Face_Down_Plate_Neck_Resistance/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:generic_lying",
+    "warnings": [
+      "Type 'Neck Resistance' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

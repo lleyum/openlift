@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "Smith_Machine_Bent_Over_Row",
+  "library_id": "lib:Smith_Machine_Bent_Over_Row",
+  "name": "Smith Machine Bent Over Row",
+  "equipment": "barbell",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {
+        "style": "smith"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "Pull-ups & Chin-ups",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Smith_Machine_Bent_Over_Row/0.jpg ; Smith_Machine_Bent_Over_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:bent_over_row",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

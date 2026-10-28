@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "Machine_Preacher_Curls",
+  "library_id": "lib:Machine_Preacher_Curls",
+  "name": "Machine Preacher Curls",
+  "equipment": "machine",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_CURL_MID"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Elbows pinned at the sides, forearms curled to about 90 degrees.",
+    "Grip: supinated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "preacher_pad",
+      "attach": "world",
+      "params": {
+        "angle_deg": 45
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Preacher & Concentration Curls",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Machine_Preacher_Curls/0.jpg ; Machine_Preacher_Curls/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:seated_curl",
+    "warnings": [
+      "Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

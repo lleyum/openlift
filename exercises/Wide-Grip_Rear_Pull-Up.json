@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "Wide-Grip_Rear_Pull-Up",
+  "library_id": "lib:Wide-Grip_Rear_Pull-Up",
+  "name": "Wide-Grip Rear Pull-Up",
+  "equipment": "bodyweight",
+  "base_template": "HANGING",
+  "pose_modifiers": [
+    "GRIP_WIDE"
+  ],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "wide"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Hands wider than shoulder width.",
+    "Grip: pronated (wide width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "latissimus_dorsi"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "trapezius_middle",
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "pullup_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Lats",
+    "type": "Pull-ups & Chin-ups",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Wide-Grip_Rear_Pull-Up/0.jpg ; Wide-Grip_Rear_Pull-Up/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:pull_up",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

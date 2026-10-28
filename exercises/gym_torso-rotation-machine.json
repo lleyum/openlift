@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "gym_torso-rotation-machine",
+  "library_id": "lib:gym:torso-rotation-machine",
+  "name": "Torso Rotation (Machine)",
+  "equipment": "machine",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "TORSO_CRUNCH",
+    "KNEES_BENT_FEET_FLAT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Upper spine curled forward (crunch).",
+    "Knees bent, feet flat.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Twists, Side Bends & Rotation",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Standing_Cable_Wood_Chop/0.jpg ; Standing_Cable_Wood_Chop/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Abdominals",
+    "warnings": [
+      "Type 'Twists, Side Bends & Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

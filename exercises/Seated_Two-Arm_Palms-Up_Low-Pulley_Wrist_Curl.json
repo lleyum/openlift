@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl",
+  "library_id": "lib:Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl",
+  "name": "Seated Two-Arm Palms-Up Low-Pulley Wrist Curl",
+  "equipment": "cable",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_FOREARMS_ON_THIGHS",
+    "WRISTS_FLEXED"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Forearms resting on the thighs, wrists past the knees.",
+    "Wrists curled up.",
+    "Grip: pronated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "forearms"
+    ],
+    "secondary": [],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_bar",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Forearms",
+    "type": "Wrist Curls",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl/0.jpg ; Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:wrist_curl",
+    "warnings": [
+      "Type 'Wrist Curls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

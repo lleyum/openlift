@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "One-Legged_Cable_Kickback",
+  "library_id": "lib:One-Legged_Cable_Kickback",
+  "name": "One-Legged Cable Kickback",
+  "equipment": "cable",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_KICKBACK",
+    "SINGLE_LEG_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Upper arm parallel to the torso, forearm extended back.",
+    "Weight on the right leg; left leg lifted.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "gluteus_maximus"
+    ],
+    "secondary": [
+      "hamstrings",
+      "gluteus_medius"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Glutes",
+    "type": "Kickbacks & Hip Extensions",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "One-Legged_Cable_Kickback/0.jpg ; One-Legged_Cable_Kickback/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:kickback",
+    "warnings": [
+      "Type 'Kickbacks & Hip Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

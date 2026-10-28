@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "One-Arm_Open_Palm_Kettlebell_Clean",
+  "library_id": "lib:One-Arm_Open_Palm_Kettlebell_Clean",
+  "name": "One-Arm Open Palm Kettlebell Clean",
+  "equipment": "kettlebell",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_FRONT_RACK",
+    "SQUAT_PARTIAL",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Bar racked on the front of the shoulders, elbows high.",
+    "Partial squat (quarter to half depth).",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: shoulder.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Olympic Lifts",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "One-Arm_Open_Palm_Kettlebell_Clean/0.jpg ; One-Arm_Open_Palm_Kettlebell_Clean/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:clean",
+    "warnings": [
+      "Type 'Olympic Lifts' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

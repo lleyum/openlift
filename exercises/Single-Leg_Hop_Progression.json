@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "Single-Leg_Hop_Progression",
+  "library_id": "lib:Single-Leg_Hop_Progression",
+  "name": "Single-Leg Hop Progression",
+  "equipment": "other",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "SINGLE_LEG_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Weight on the right leg; left leg lifted.",
+    "Stance width: shoulder.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "right"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Jumps & Plyometrics",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Single-Leg_Hop_Progression/0.jpg ; Single-Leg_Hop_Progression/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Quadriceps",
+    "warnings": [
+      "Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

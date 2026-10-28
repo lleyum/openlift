@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "Low_Pulley_Row_To_Neck",
+  "library_id": "lib:Low_Pulley_Row_To_Neck",
+  "name": "Low Pulley Row To Neck",
+  "equipment": "cable",
+  "base_template": "SEATED_ROW",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated with feet braced on a platform, knees slightly bent, torso upright.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "hands",
+      "params": {
+        "style": "v_handle"
+      }
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 75
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Upright Rows",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Low_Pulley_Row_To_Neck/0.jpg ; Low_Pulley_Row_To_Neck/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:seated_row_equipment",
+    "warnings": [
+      "Type 'Upright Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

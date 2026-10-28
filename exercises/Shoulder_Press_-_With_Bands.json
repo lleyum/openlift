@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Shoulder_Press_-_With_Bands",
+  "library_id": "lib:Shoulder_Press_-_With_Bands",
+  "name": "Shoulder Press - With Bands",
+  "equipment": "band",
+  "base_template": "STANDING_OVERHEAD_PUSH",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, core braced, arms pressed overhead.",
+    "Arms locked out overhead.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "resistance_band",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Overhead Presses",
+    "equipment": "bands",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Shoulder_Press_-_With_Bands/0.jpg ; Shoulder_Press_-_With_Bands/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:overhead_press",
+    "warnings": [
+      "Type 'Overhead Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

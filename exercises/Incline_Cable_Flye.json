@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "Incline_Cable_Flye",
+  "library_id": "lib:Incline_Cable_Flye",
+  "name": "Incline Cable Flye",
+  "equipment": "cable",
+  "base_template": "INCLINE_PUSH",
+  "pose_modifiers": [
+    "ARMS_FLY_MID"
+  ],
+  "stance": {
+    "position": "reclined",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on an incline bench at about 30 degrees, feet flat on the floor.",
+    "Arms wide in a hugging arc, elbows slightly bent (mid-fly).",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "pectoralis_lower",
+      "deltoid_anterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 30
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flys",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Incline_Cable_Flye/0.jpg ; Incline_Cable_Flye/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:incline_fly",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

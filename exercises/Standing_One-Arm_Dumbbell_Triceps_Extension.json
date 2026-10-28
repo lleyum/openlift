@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "Standing_One-Arm_Dumbbell_Triceps_Extension",
+  "library_id": "lib:Standing_One-Arm_Dumbbell_Triceps_Extension",
+  "name": "Standing One-Arm Dumbbell Triceps Extension",
+  "equipment": "dumbbell",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_OVERHEAD_EXTENSION",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Upper arms overhead, elbows bent so the hands are behind the head.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Overhead & Standing Extensions",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Standing_One-Arm_Dumbbell_Triceps_Extension/0.jpg ; Standing_One-Arm_Dumbbell_Triceps_Extension/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:overhead_extension",
+    "warnings": [
+      "Type 'Overhead & Standing Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

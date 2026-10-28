@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "Seated_Leg_Tucks",
+  "library_id": "lib:Seated_Leg_Tucks",
+  "name": "Seated Leg Tucks",
+  "equipment": "bodyweight",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Leg & Hip Raises",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Seated_Leg_Tucks/0.jpg ; Seated_Leg_Tucks/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:generic_seated",
+    "warnings": [
+      "Type 'Leg & Hip Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

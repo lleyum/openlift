@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "Cable_Preacher_Curl",
+  "library_id": "lib:Cable_Preacher_Curl",
+  "name": "Cable Preacher Curl",
+  "equipment": "cable",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_CURL_MID"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Elbows pinned at the sides, forearms curled to about 90 degrees.",
+    "Grip: supinated (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_bar",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "preacher_pad",
+      "attach": "world",
+      "params": {
+        "angle_deg": 45
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Preacher & Concentration Curls",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Cable_Preacher_Curl/0.jpg ; Cable_Preacher_Curl/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:seated_curl",
+    "warnings": [
+      "Type 'Preacher & Concentration Curls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

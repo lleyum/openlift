@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "Sled_Reverse_Flye",
+  "library_id": "lib:Sled_Reverse_Flye",
+  "name": "Sled Reverse Flye",
+  "equipment": "other",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_posterior"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "deltoid_lateral",
+      "triceps",
+      "trapezius_upper",
+      "trapezius_middle"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Rear Delt Raises & Flys",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Sled_Reverse_Flye/0.jpg ; Sled_Reverse_Flye/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:rear_delt_fly",
+    "warnings": [
+      "Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

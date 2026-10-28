@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "gym_iso-lateral-wide-chest",
+  "library_id": "lib:gym:iso-lateral-wide-chest",
+  "name": "Iso-Lateral Wide Chest",
+  "equipment": "machine",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE",
+    "GRIP_WIDE",
+    "STANCE_WIDE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "wide",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "wide"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Hands wider than shoulder width.",
+    "Feet wider than shoulder width, toes turned out.",
+    "Grip: neutral (wide width).",
+    "Stance width: wide."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "machine_handle",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flat Presses",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Leverage_Chest_Press/0.jpg ; Leverage_Chest_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:lateral_raise",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

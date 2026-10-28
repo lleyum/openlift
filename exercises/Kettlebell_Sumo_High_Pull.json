@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "Kettlebell_Sumo_High_Pull",
+  "library_id": "lib:Kettlebell_Sumo_High_Pull",
+  "name": "Kettlebell Sumo High Pull",
+  "equipment": "kettlebell",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED",
+    "STANCE_WIDE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "wide",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Feet wider than shoulder width, toes turned out.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: wide."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_upper"
+    ],
+    "secondary": [
+      "trapezius_middle",
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Traps",
+    "type": "Upright Rows & High Pulls",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Kettlebell_Sumo_High_Pull/0.jpg ; Kettlebell_Sumo_High_Pull/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\brows?\\b",
+    "warnings": [
+      "Type 'Upright Rows & High Pulls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

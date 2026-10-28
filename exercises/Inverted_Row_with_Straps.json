@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "Inverted_Row_with_Straps",
+  "library_id": "lib:Inverted_Row_with_Straps",
+  "name": "Inverted Row with Straps",
+  "equipment": "other",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED",
+    "LEGS_EXTENDED"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Legs nearly straight."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "latissimus_dorsi",
+      "deltoid_posterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "pullup_bar",
+      "attach": "hands",
+      "params": {
+        "height": "low"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "Bodyweight Rows",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Inverted_Row_with_Straps/0.jpg ; Inverted_Row_with_Straps/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "name:inverted_row",
+    "warnings": [
+      "Type 'Bodyweight Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

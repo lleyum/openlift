@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "Calf_Press",
+  "library_id": "lib:Calf_Press",
+  "name": "Calf Press",
+  "equipment": "machine",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ANKLES_PLANTARFLEXED"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Up on the balls of the feet, heels raised.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "leg_pad",
+      "attach": "upper_back",
+      "params": {
+        "role": "shoulder_pads"
+      }
+    },
+    {
+      "type": "footplate",
+      "attach": "feet",
+      "params": {
+        "angle_deg": 0,
+        "role": "calf_block"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Calves",
+    "type": "Calf Presses",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Calf_Press/0.jpg ; Calf_Press/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:calf_standing",
+    "warnings": [
+      "Type 'Calf Presses' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "Body-Up",
+  "library_id": "lib:Body-Up",
+  "name": "Body-Up",
+  "equipment": "bodyweight",
+  "base_template": "HANGING",
+  "pose_modifiers": [
+    "ARMS_DIP_SUPPORT",
+    "KNEES_FLEXED_90"
+  ],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Supporting body weight on straight arms, hands at the hips.",
+    "Knees bent to 90 degrees.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "parallel_bars",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Dips",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Body-Up/0.jpg ; Body-Up/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bdips?\\b",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "Incline_Dumbbell_Flyes",
+  "library_id": "lib:Incline_Dumbbell_Flyes",
+  "name": "Incline Dumbbell Flyes",
+  "equipment": "dumbbell",
+  "base_template": "INCLINE_PUSH",
+  "pose_modifiers": [
+    "ARMS_FLY_MID"
+  ],
+  "stance": {
+    "position": "reclined",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on an incline bench at about 30 degrees, feet flat on the floor.",
+    "Arms wide in a hugging arc, elbows slightly bent (mid-fly).",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "pectoralis_lower",
+      "deltoid_anterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 30
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flys",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Incline_Dumbbell_Flyes/0.jpg ; Incline_Dumbbell_Flyes/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:incline_fly",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

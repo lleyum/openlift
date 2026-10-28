@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Weighted_Bench_Dip",
+  "library_id": "lib:Weighted_Bench_Dip",
+  "name": "Weighted Bench Dip",
+  "equipment": "other",
+  "base_template": "SEATED_UPRIGHT",
+  "pose_modifiers": [
+    "ARMS_DIP_SUPPORT",
+    "KNEES_BENT_FEET_FLAT"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "open_palm",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Seated upright, back supported, knees at 90 degrees, feet flat.",
+    "Supporting body weight on straight arms, hands at the hips.",
+    "Knees bent, feet flat.",
+    "Grip: open palm (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0,
+        "role": "hands_behind"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Dips",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Weighted_Bench_Dip/0.jpg ; Weighted_Bench_Dip/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:bench_dip",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

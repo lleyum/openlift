@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "Barbell_Ab_Rollout_-_On_Knees",
+  "library_id": "lib:Barbell_Ab_Rollout_-_On_Knees",
+  "name": "Barbell Ab Rollout - On Knees",
+  "equipment": "barbell",
+  "base_template": "KNEELING",
+  "pose_modifiers": [
+    "ARMS_FRONT_RAISE",
+    "TORSO_LEAN_FORWARD"
+  ],
+  "stance": {
+    "position": "kneeling",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Kneeling on both knees, torso upright.",
+    "Arms raised straight forward to shoulder height.",
+    "Torso leaning slightly forward.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "rectus_abdominis"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Abdominals",
+    "type": "Planks & Anti-Rotation",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Barbell_Ab_Rollout_-_On_Knees/0.jpg ; Barbell_Ab_Rollout_-_On_Knees/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:ab_rollout",
+    "warnings": [
+      "Type 'Planks & Anti-Rotation' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

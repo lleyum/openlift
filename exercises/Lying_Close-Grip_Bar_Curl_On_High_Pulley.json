@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "Lying_Close-Grip_Bar_Curl_On_High_Pulley",
+  "library_id": "lib:Lying_Close-Grip_Bar_Curl_On_High_Pulley",
+  "name": "Lying Close-Grip Bar Curl On High Pulley",
+  "equipment": "cable",
+  "base_template": "HORIZONTAL_PUSH",
+  "pose_modifiers": [
+    "ARMS_CURL_MID",
+    "GRIP_NARROW"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "narrow"
+  },
+  "pose_cues": [
+    "Lying on a flat bench, feet flat on the floor, shoulder blades retracted.",
+    "Elbows pinned at the sides, forearms curled to about 90 degrees.",
+    "Hands closer than shoulder width.",
+    "Grip: supinated (narrow width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "cable_bar",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Cable Curls",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Lying_Close-Grip_Bar_Curl_On_High_Pulley/0.jpg ; Lying_Close-Grip_Bar_Curl_On_High_Pulley/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "name:lying_curl",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "Thigh_Abductor",
+  "library_id": "lib:Thigh_Abductor",
+  "name": "Thigh Abductor",
+  "equipment": "machine",
+  "base_template": "SEATED_LEG_MACHINE",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Seated in a leg machine, back against the pad, hands on side handles."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "gluteus_medius"
+    ],
+    "secondary": [
+      "gluteus_maximus"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "backrest",
+      "attach": "world",
+      "params": {
+        "recline_deg": 10
+      }
+    },
+    {
+      "type": "leg_pad",
+      "attach": "feet",
+      "params": {
+        "role": "curl"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Abductors",
+    "type": "Hip Abduction",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Thigh_Abductor/0.jpg ; Thigh_Abductor/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hip_adduction_machine",
+    "warnings": [
+      "Type 'Hip Abduction' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

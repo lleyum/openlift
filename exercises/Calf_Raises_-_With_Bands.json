@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "Calf_Raises_-_With_Bands",
+  "library_id": "lib:Calf_Raises_-_With_Bands",
+  "name": "Calf Raises - With Bands",
+  "equipment": "band",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ANKLES_PLANTARFLEXED"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Up on the balls of the feet, heels raised.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "resistance_band",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Calves",
+    "type": "Standing Calf Raises",
+    "equipment": "bands",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Calf_Raises_-_With_Bands/0.jpg ; Calf_Raises_-_With_Bands/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:calf_standing",
+    "warnings": [
+      "Type 'Standing Calf Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

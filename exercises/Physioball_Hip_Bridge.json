@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "Physioball_Hip_Bridge",
+  "library_id": "lib:Physioball_Hip_Bridge",
+  "name": "Physioball Hip Bridge",
+  "equipment": "stability_ball",
+  "base_template": "SUPINE_FLOOR",
+  "pose_modifiers": [
+    "HIPS_BRIDGED",
+    "KNEES_BENT_FEET_FLAT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying on the back on the floor.",
+    "Hips driven up so knees, hips and shoulders form a line.",
+    "Knees bent, feet flat."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "gluteus_maximus"
+    ],
+    "secondary": [
+      "hamstrings",
+      "gluteus_medius"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "stability_ball",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Glutes",
+    "type": "Hip Thrusts & Bridges",
+    "equipment": "exercise ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Physioball_Hip_Bridge/0.jpg ; Physioball_Hip_Bridge/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:hip_thrust_bridge",
+    "warnings": [
+      "Type 'Hip Thrusts & Bridges' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

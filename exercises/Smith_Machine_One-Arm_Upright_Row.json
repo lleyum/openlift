@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "Smith_Machine_One-Arm_Upright_Row",
+  "library_id": "lib:Smith_Machine_One-Arm_Upright_Row",
+  "name": "Smith Machine One-Arm Upright Row",
+  "equipment": "barbell",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_UPRIGHT_ROW",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Hands pulled up to chest height, elbows high and out.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    },
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {
+        "style": "smith"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Upright Rows",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Smith_Machine_One-Arm_Upright_Row/0.jpg ; Smith_Machine_One-Arm_Upright_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:upright_row",
+    "warnings": [
+      "Type 'Upright Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

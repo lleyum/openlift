@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Reverse_Flyes",
+  "library_id": "lib:Reverse_Flyes",
+  "name": "Reverse Flyes",
+  "equipment": "dumbbell",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_posterior"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "deltoid_lateral",
+      "triceps",
+      "trapezius_upper",
+      "trapezius_middle"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "left_hand",
+      "params": {}
+    },
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Rear Delt Raises & Flys",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Reverse_Flyes/0.jpg ; Reverse_Flyes/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:rear_delt_fly",
+    "warnings": [
+      "Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

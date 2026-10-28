@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "Dips_-_Triceps_Version",
+  "library_id": "lib:Dips_-_Triceps_Version",
+  "name": "Dips - Triceps Version",
+  "equipment": "bodyweight",
+  "base_template": "HANGING",
+  "pose_modifiers": [
+    "ARMS_DIP_SUPPORT",
+    "KNEES_FLEXED_90"
+  ],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Supporting body weight on straight arms, hands at the hips.",
+    "Knees bent to 90 degrees.",
+    "Grip: neutral (shoulder width)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "deltoid_anterior"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "parallel_bars",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Triceps",
+    "type": "Dips",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Dips_-_Triceps_Version/0.jpg ; Dips_-_Triceps_Version/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:dip",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

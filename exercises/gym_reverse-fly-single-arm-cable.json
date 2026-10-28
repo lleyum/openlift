@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "gym_reverse-fly-single-arm-cable",
+  "library_id": "lib:gym:reverse-fly-single-arm-cable",
+  "name": "Reverse Fly Single Arm (Cable)",
+  "equipment": "cable",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_posterior"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "deltoid_lateral",
+      "triceps",
+      "trapezius_upper",
+      "trapezius_middle"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "cable_handle",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "cable_frame",
+      "attach": "world",
+      "params": {
+        "towers": 1
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Rear Delt Raises & Flys",
+    "equipment": "cable",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Cable_Rear_Delt_Fly/0.jpg ; Cable_Rear_Delt_Fly/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:rear_delt_fly",
+    "warnings": [
+      "Type 'Rear Delt Raises & Flys' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

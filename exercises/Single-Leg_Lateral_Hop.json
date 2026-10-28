@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "Single-Leg_Lateral_Hop",
+  "library_id": "lib:Single-Leg_Lateral_Hop",
+  "name": "Single-Leg Lateral Hop",
+  "equipment": "other",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE",
+    "SINGLE_LEG_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Weight on the right leg; left leg lifted.",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "right"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Jumps & Plyometrics",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Single-Leg_Lateral_Hop/0.jpg ; Single-Leg_Lateral_Hop/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:lateral_raise",
+    "warnings": [
+      "Type 'Jumps & Plyometrics' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "Single-Leg_High_Box_Squat",
+  "library_id": "lib:Single-Leg_High_Box_Squat",
+  "name": "Single-Leg High Box Squat",
+  "equipment": "other",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_FRONT_RAISE",
+    "SINGLE_LEG_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Arms raised straight forward to shoulder height.",
+    "Weight on the right leg; left leg lifted.",
+    "Stance width: shoulder.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors",
+      "hamstrings",
+      "erector_spinae"
+    ],
+    "sides": "right"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Squats",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Single-Leg_High_Box_Squat/0.jpg ; Single-Leg_High_Box_Squat/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:squat",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "Isometric_Neck_Exercise_-_Sides",
+  "library_id": "lib:Isometric_Neck_Exercise_-_Sides",
+  "name": "Isometric Neck Exercise - Sides",
+  "equipment": "bodyweight",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "neck"
+    ],
+    "secondary": [
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Neck",
+    "type": "Isometric Holds",
+    "equipment": "body only",
+    "also_works": "",
+    "logged_as": "Reps",
+    "current_images": "Isometric_Neck_Exercise_-_Sides/0.jpg ; Isometric_Neck_Exercise_-_Sides/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "low",
+    "matched_rule": "muscle_group:Neck",
+    "warnings": [
+      "Type 'Isometric Holds' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

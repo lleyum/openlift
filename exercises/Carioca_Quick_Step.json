@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "Carioca_Quick_Step",
+  "library_id": "lib:Carioca_Quick_Step",
+  "name": "Carioca Quick Step",
+  "equipment": "none",
+  "base_template": "STANDING_NEUTRAL",
+  "pose_modifiers": [
+    "ARMS_LATERAL_RAISE"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Standing upright, feet hip-width, torso vertical, arms at the sides.",
+    "Arms raised out to the sides to shoulder height, elbows soft.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "adductors"
+    ],
+    "secondary": [
+      "quadriceps"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Adductors",
+    "type": "Lateral Jumps & Drills",
+    "equipment": "",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Carioca_Quick_Step/0.jpg ; Carioca_Quick_Step/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\blateral",
+    "warnings": [
+      "Type 'Lateral Jumps & Drills' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

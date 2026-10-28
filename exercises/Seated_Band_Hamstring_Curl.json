@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "Seated_Band_Hamstring_Curl",
+  "library_id": "lib:Seated_Band_Hamstring_Curl",
+  "name": "Seated Band Hamstring Curl",
+  "equipment": "other",
+  "base_template": "SEATED_LEG_MACHINE",
+  "pose_modifiers": [
+    "KNEES_FLEXED_DEEP"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Seated in a leg machine, back against the pad, hands on side handles.",
+    "Knees deeply flexed, heels toward the glutes."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "backrest",
+      "attach": "world",
+      "params": {
+        "recline_deg": 10
+      }
+    },
+    {
+      "type": "leg_pad",
+      "attach": "feet",
+      "params": {
+        "role": "curl"
+      }
+    },
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Leg Curls & Glute-Ham Raises",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Seated_Band_Hamstring_Curl/0.jpg ; Seated_Band_Hamstring_Curl/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:leg_curl_seated",
+    "warnings": [
+      "Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

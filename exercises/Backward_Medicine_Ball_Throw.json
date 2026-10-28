@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "Backward_Medicine_Ball_Throw",
+  "library_id": "lib:Backward_Medicine_Ball_Throw",
+  "name": "Backward Medicine Ball Throw",
+  "equipment": "medicine_ball",
+  "base_template": "SQUAT",
+  "pose_modifiers": [
+    "ARMS_FRONT_RACK",
+    "SQUAT_PARTIAL"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "shoulder",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Squat position: hips back and down, thighs near parallel, knees tracking over toes, chest up.",
+    "Bar racked on the front of the shoulders, elbows high.",
+    "Partial squat (quarter to half depth).",
+    "Grip: neutral (shoulder width).",
+    "Stance width: shoulder."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "quadriceps",
+      "gluteus_maximus",
+      "trapezius_upper",
+      "rectus_abdominis",
+      "obliques"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "medicine_ball",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Olympic, Power & Explosive",
+    "equipment": "medicine ball",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Backward_Medicine_Ball_Throw/0.jpg ; Backward_Medicine_Ball_Throw/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "type:\\bolympic|\\bpower|\\bexplosive",
+    "warnings": []
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

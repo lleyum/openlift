@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "One-Arm_Long_Bar_Row",
+  "library_id": "lib:One-Arm_Long_Bar_Row",
+  "name": "One-Arm Long Bar Row",
+  "equipment": "barbell",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: pronated (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "latissimus_dorsi",
+      "deltoid_posterior",
+      "biceps"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "T-Bar & Landmine Rows",
+    "equipment": "barbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "One-Arm_Long_Bar_Row/0.jpg ; One-Arm_Long_Bar_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:bent_over_row",
+    "warnings": [
+      "Type 'T-Bar & Landmine Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

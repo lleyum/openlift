@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "Kneeling_Arm_Drill",
+  "library_id": "lib:Kneeling_Arm_Drill",
+  "name": "Kneeling Arm Drill",
+  "equipment": "none",
+  "base_template": "KNEELING",
+  "pose_modifiers": [],
+  "stance": {
+    "position": "kneeling",
+    "width": "hip",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Kneeling on both knees, torso upright.",
+    "Stance width: hip."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "deltoid_anterior",
+      "deltoid_lateral"
+    ],
+    "secondary": [
+      "triceps",
+      "trapezius_upper"
+    ],
+    "sides": "both"
+  },
+  "props": [],
+  "source": {
+    "muscle_group": "Shoulders",
+    "type": "Other (Mobility & Drills)",
+    "equipment": "",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Kneeling_Arm_Drill/0.jpg ; Kneeling_Arm_Drill/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "medium",
+    "matched_rule": "name:generic_kneeling",
+    "warnings": [
+      "Type 'Other (Mobility & Drills)' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "needs_review",
+    "notes": ""
+  }
+}

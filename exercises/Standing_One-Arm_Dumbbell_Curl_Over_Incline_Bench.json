@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench",
+  "library_id": "lib:Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench",
+  "name": "Standing One-Arm Dumbbell Curl Over Incline Bench",
+  "equipment": "dumbbell",
+  "base_template": "INCLINE_PUSH",
+  "pose_modifiers": [
+    "ARMS_PRESS_LOCKOUT",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "reclined",
+    "width": "none",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "pronated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on an incline bench at about 30 degrees, feet flat on the floor.",
+    "Arms extended vertically over the chest (top of the press).",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: pronated (shoulder width).",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 30
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Biceps",
+    "type": "Incline & Lying Curls",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench/0.jpg ; Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:incline_press",
+    "warnings": [
+      "Type 'Incline & Lying Curls' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "gym_mts-leg-extension",
+  "library_id": "lib:gym:mts-leg-extension",
+  "name": "MTS Leg Extension",
+  "equipment": "machine",
+  "base_template": "SEATED_LEG_MACHINE",
+  "pose_modifiers": [
+    "KNEES_EXTENDED"
+  ],
+  "stance": {
+    "position": "seated",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Seated in a leg machine, back against the pad, hands on side handles.",
+    "Knees fully extended."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "quadriceps"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "adductors"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "seat",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "backrest",
+      "attach": "world",
+      "params": {
+        "recline_deg": 10
+      }
+    },
+    {
+      "type": "leg_pad",
+      "attach": "feet",
+      "params": {
+        "role": "extension"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Quadriceps",
+    "type": "Leg Extensions",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Leg_Extensions/0.jpg ; Leg_Extensions/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:leg_extension",
+    "warnings": [
+      "Type 'Leg Extensions' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

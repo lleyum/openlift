@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "One-Arm_Flat_Bench_Dumbbell_Flye",
+  "library_id": "lib:One-Arm_Flat_Bench_Dumbbell_Flye",
+  "name": "One-Arm Flat Bench Dumbbell Flye",
+  "equipment": "dumbbell",
+  "base_template": "HORIZONTAL_PUSH",
+  "pose_modifiers": [
+    "ARMS_FLY_MID",
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "supine",
+    "width": "none",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Lying on a flat bench, feet flat on the floor, shoulder blades retracted.",
+    "Arms wide in a hugging arc, elbows slightly bent (mid-fly).",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: neutral (shoulder width).",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "pectoralis_lower",
+      "pectoralis_upper"
+    ],
+    "secondary": [
+      "deltoid_anterior",
+      "biceps"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "attach": "right_hand",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Chest",
+    "type": "Flys",
+    "equipment": "dumbbell",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "One-Arm_Flat_Bench_Dumbbell_Flye/0.jpg ; One-Arm_Flat_Bench_Dumbbell_Flye/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:lying_fly",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

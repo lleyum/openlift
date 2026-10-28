@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "Alternating_Kettlebell_Row",
+  "library_id": "lib:Alternating_Kettlebell_Row",
+  "name": "Alternating Kettlebell Row",
+  "equipment": "kettlebell",
+  "base_template": "BENT_OVER_ROW",
+  "pose_modifiers": [
+    "ARMS_ROW_PULLED"
+  ],
+  "stance": {
+    "position": "standing",
+    "width": "hip",
+    "laterality": "alternating"
+  },
+  "grip": {
+    "type": "neutral",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Bent over: hips hinged, torso near 45 degrees, flat back, knees soft.",
+    "Elbows pulled back past the torso, hands near the lower ribs.",
+    "Grip: neutral (shoulder width).",
+    "Stance width: hip.",
+    "Laterality: alternating (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "latissimus_dorsi",
+      "deltoid_posterior",
+      "biceps"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "Dumbbell & Kettlebell Rows",
+    "equipment": "kettlebells",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Alternating_Kettlebell_Row/0.jpg ; Alternating_Kettlebell_Row/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:bent_over_row",
+    "warnings": [
+      "Type 'Dumbbell & Kettlebell Rows' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

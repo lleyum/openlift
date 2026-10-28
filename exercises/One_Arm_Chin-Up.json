@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "One_Arm_Chin-Up",
+  "library_id": "lib:One_Arm_Chin-Up",
+  "name": "One Arm Chin-Up",
+  "equipment": "other",
+  "base_template": "HANGING",
+  "pose_modifiers": [
+    "SINGLE_ARM_RIGHT"
+  ],
+  "stance": {
+    "position": "hanging",
+    "width": "none",
+    "laterality": "unilateral_right"
+  },
+  "grip": {
+    "type": "supinated",
+    "width": "shoulder"
+  },
+  "pose_cues": [
+    "Hanging from an overhead bar, body vertical, legs straight or slightly bent.",
+    "Right arm is the working arm; left arm relaxed or bracing.",
+    "Grip: supinated (shoulder width).",
+    "Laterality: unilateral right (right side shown as working side)."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "trapezius_middle"
+    ],
+    "secondary": [
+      "biceps",
+      "deltoid_posterior",
+      "forearms"
+    ],
+    "sides": "right"
+  },
+  "props": [
+    {
+      "type": "pullup_bar",
+      "attach": "hands",
+      "params": {}
+    }
+  ],
+  "source": {
+    "muscle_group": "Middle Back",
+    "type": "Pull-ups & Chin-ups",
+    "equipment": "other",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "One_Arm_Chin-Up/0.jpg ; One_Arm_Chin-Up/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:pull_up",
+    "warnings": []
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}

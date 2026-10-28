@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "gym_iso-lateral-kneeling-leg-curl",
+  "library_id": "lib:gym:iso-lateral-kneeling-leg-curl",
+  "name": "Iso-Lateral Kneeling Leg Curl",
+  "equipment": "machine",
+  "base_template": "PRONE_FLOOR",
+  "pose_modifiers": [
+    "KNEES_FLEXED_90"
+  ],
+  "stance": {
+    "position": "prone",
+    "width": "none",
+    "laterality": "bilateral"
+  },
+  "grip": {
+    "type": "none",
+    "width": "none"
+  },
+  "pose_cues": [
+    "Lying face down.",
+    "Knees bent to 90 degrees."
+  ],
+  "joint_deltas": {},
+  "custom_joint_overrides": {},
+  "muscles": {
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "gluteus_maximus",
+      "erector_spinae"
+    ],
+    "sides": "both"
+  },
+  "props": [
+    {
+      "type": "machine_frame",
+      "attach": "world",
+      "params": {}
+    },
+    {
+      "type": "bench",
+      "attach": "world",
+      "params": {
+        "angle_deg": 0,
+        "role": "prone"
+      }
+    },
+    {
+      "type": "leg_pad",
+      "attach": "feet",
+      "params": {
+        "role": "curl"
+      }
+    }
+  ],
+  "source": {
+    "muscle_group": "Hamstrings",
+    "type": "Leg Curls & Glute-Ham Raises",
+    "equipment": "machine",
+    "also_works": "",
+    "logged_as": "Weight & reps",
+    "current_images": "Standing_Leg_Curl/0.jpg ; Standing_Leg_Curl/1.jpg"
+  },
+  "enrichment": {
+    "template_confidence": "high",
+    "matched_rule": "name:leg_curl_lying",
+    "warnings": [
+      "Type 'Leg Curls & Glute-Ham Raises' not in type_secondary; used muscle group default secondaries."
+    ]
+  },
+  "review": {
+    "status": "auto",
+    "notes": ""
+  }
+}
