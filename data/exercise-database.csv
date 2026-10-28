@@ -1,0 +1,806 @@
+Muscle Group,Type,Exercise,Equipment,Also Works,Logged As,Exercise ID,Current Images
+Chest,Flys,Around The Worlds,dumbbell,,Weight & reps,lib:Around_The_Worlds,Around_The_Worlds/0.jpg ; Around_The_Worlds/1.jpg
+Chest,Flys,Bodyweight Flyes,e-z curl bar,,Weight & reps,lib:Bodyweight_Flyes,Bodyweight_Flyes/0.jpg ; Bodyweight_Flyes/1.jpg
+Chest,Flys,Butterfly,machine,,Weight & reps,lib:Butterfly,Butterfly/0.jpg ; Butterfly/1.jpg
+Chest,Flys,Cable Crossover,cable,,Weight & reps,lib:Cable_Crossover,Cable_Crossover/0.jpg ; Cable_Crossover/1.jpg
+Chest,Flys,Cable Iron Cross,cable,,Weight & reps,lib:Cable_Iron_Cross,Cable_Iron_Cross/0.jpg ; Cable_Iron_Cross/1.jpg
+Chest,Flys,Cross Over - With Bands,bands,,Weight & reps,lib:Cross_Over_-_With_Bands,Cross_Over_-_With_Bands/0.jpg ; Cross_Over_-_With_Bands/1.jpg
+Chest,Flys,Decline Dumbbell Flyes,dumbbell,,Weight & reps,lib:Decline_Dumbbell_Flyes,Decline_Dumbbell_Flyes/0.jpg ; Decline_Dumbbell_Flyes/1.jpg
+Chest,Flys,Dumbbell Flyes,dumbbell,,Weight & reps,lib:Dumbbell_Flyes,Dumbbell_Flyes/0.jpg ; Dumbbell_Flyes/1.jpg
+Chest,Flys,Flat Bench Cable Flyes,cable,,Weight & reps,lib:Flat_Bench_Cable_Flyes,Flat_Bench_Cable_Flyes/0.jpg ; Flat_Bench_Cable_Flyes/1.jpg
+Chest,Flys,Incline Cable Flye,cable,,Weight & reps,lib:Incline_Cable_Flye,Incline_Cable_Flye/0.jpg ; Incline_Cable_Flye/1.jpg
+Chest,Flys,Incline Dumbbell Flyes,dumbbell,,Weight & reps,lib:Incline_Dumbbell_Flyes,Incline_Dumbbell_Flyes/0.jpg ; Incline_Dumbbell_Flyes/1.jpg
+Chest,Flys,Incline Dumbbell Flyes - With A Twist,dumbbell,,Weight & reps,lib:Incline_Dumbbell_Flyes_-_With_A_Twist,Incline_Dumbbell_Flyes_-_With_A_Twist/0.jpg ; Incline_Dumbbell_Flyes_-_With_A_Twist/1.jpg
+Chest,Flys,Isometric Chest Squeezes,body only,,Reps,lib:Isometric_Chest_Squeezes,Isometric_Chest_Squeezes/0.jpg ; Isometric_Chest_Squeezes/1.jpg
+Chest,Flys,Isometric Wipers,body only,,Reps,lib:Isometric_Wipers,Isometric_Wipers/0.jpg ; Isometric_Wipers/1.jpg
+Chest,Flys,Low Cable Crossover,cable,,Weight & reps,lib:Low_Cable_Crossover,Low_Cable_Crossover/0.jpg ; Low_Cable_Crossover/1.jpg
+Chest,Flys,One-Arm Flat Bench Dumbbell Flye,dumbbell,,Weight & reps,lib:One-Arm_Flat_Bench_Dumbbell_Flye,One-Arm_Flat_Bench_Dumbbell_Flye/0.jpg ; One-Arm_Flat_Bench_Dumbbell_Flye/1.jpg
+Chest,Flys,Seated Cable Chest Fly,cable,,Weight & reps,lib:gym:seated-cable-chest-fly,Cable_Crossover/0.jpg ; Cable_Crossover/1.jpg
+Chest,Flys,Single-Arm Cable Crossover,cable,,Weight & reps,lib:Single-Arm_Cable_Crossover,Single-Arm_Cable_Crossover/0.jpg ; Single-Arm_Cable_Crossover/1.jpg
+Chest,Flys,Svend Press,other,,Weight & reps,lib:Svend_Press,Svend_Press/0.jpg ; Svend_Press/1.jpg
+Chest,Pullovers,Bent-Arm Dumbbell Pullover,dumbbell,,Weight & reps,lib:Bent-Arm_Dumbbell_Pullover,Bent-Arm_Dumbbell_Pullover/0.jpg ; Bent-Arm_Dumbbell_Pullover/1.jpg
+Chest,Pullovers,Front Raise And Pullover,barbell,,Weight & reps,lib:Front_Raise_And_Pullover,Front_Raise_And_Pullover/0.jpg ; Front_Raise_And_Pullover/1.jpg
+Chest,Pullovers,Straight-Arm Dumbbell Pullover,dumbbell,,Weight & reps,lib:Straight-Arm_Dumbbell_Pullover,Straight-Arm_Dumbbell_Pullover/0.jpg ; Straight-Arm_Dumbbell_Pullover/1.jpg
+Chest,Pullovers,Wide-Grip Decline Barbell Pullover,barbell,,Weight & reps,lib:Wide-Grip_Decline_Barbell_Pullover,Wide-Grip_Decline_Barbell_Pullover/0.jpg ; Wide-Grip_Decline_Barbell_Pullover/1.jpg
+Chest,Push-ups & Dips,Clock Push-Up,body only,,Reps,lib:Clock_Push-Up,Clock_Push-Up/0.jpg ; Clock_Push-Up/1.jpg
+Chest,Push-ups & Dips,Decline Push-Up,,,Weight & reps,lib:Decline_Push-Up,Decline_Push-Up/0.jpg ; Decline_Push-Up/1.jpg
+Chest,Push-ups & Dips,Dips - Chest Version,other,,Weight & reps,lib:Dips_-_Chest_Version,Dips_-_Chest_Version/0.jpg ; Dips_-_Chest_Version/1.jpg
+Chest,Push-ups & Dips,Drop Push,other,,Weight & reps,lib:Drop_Push,Drop_Push/0.jpg ; Drop_Push/1.jpg
+Chest,Push-ups & Dips,Incline Push-Up,body only,,Reps,lib:Incline_Push-Up,Incline_Push-Up/0.jpg ; Incline_Push-Up/1.jpg
+Chest,Push-ups & Dips,Incline Push-Up Depth Jump,other,,Weight & reps,lib:Incline_Push-Up_Depth_Jump,Incline_Push-Up_Depth_Jump/0.jpg ; Incline_Push-Up_Depth_Jump/1.jpg
+Chest,Push-ups & Dips,Incline Push-Up Medium,body only,,Reps,lib:Incline_Push-Up_Medium,Incline_Push-Up_Medium/0.jpg ; Incline_Push-Up_Medium/1.jpg
+Chest,Push-ups & Dips,Incline Push-Up Reverse Grip,body only,,Reps,lib:Incline_Push-Up_Reverse_Grip,Incline_Push-Up_Reverse_Grip/0.jpg ; Incline_Push-Up_Reverse_Grip/1.jpg
+Chest,Push-ups & Dips,Incline Push-Up Wide,body only,,Reps,lib:Incline_Push-Up_Wide,Incline_Push-Up_Wide/0.jpg ; Incline_Push-Up_Wide/1.jpg
+Chest,Push-ups & Dips,Plyo Kettlebell Pushups,kettlebells,,Weight & reps,lib:Plyo_Kettlebell_Pushups,Plyo_Kettlebell_Pushups/0.jpg ; Plyo_Kettlebell_Pushups/1.jpg
+Chest,Push-ups & Dips,Plyo Push-up,body only,,Reps,lib:Plyo_Push-up,Plyo_Push-up/0.jpg ; Plyo_Push-up/1.jpg
+Chest,Push-ups & Dips,Push Up to Side Plank,body only,,Time,lib:Push_Up_to_Side_Plank,Push_Up_to_Side_Plank/0.jpg ; Push_Up_to_Side_Plank/1.jpg
+Chest,Push-ups & Dips,Push-Up Wide,body only,,Reps,lib:Push-Up_Wide,Push-Up_Wide/0.jpg ; Push-Up_Wide/1.jpg
+Chest,Push-ups & Dips,Push-Ups With Feet Elevated,body only,,Reps,lib:Push-Ups_With_Feet_Elevated,Push-Ups_With_Feet_Elevated/0.jpg ; Push-Ups_With_Feet_Elevated/1.jpg
+Chest,Push-ups & Dips,Push-Ups With Feet On An Exercise Ball,exercise ball,,Weight & reps,lib:Push-Ups_With_Feet_On_An_Exercise_Ball,Push-Ups_With_Feet_On_An_Exercise_Ball/0.jpg ; Push-Ups_With_Feet_On_An_Exercise_Ball/1.jpg
+Chest,Push-ups & Dips,Pushups,body only,,Reps,lib:Pushups,Pushups/0.jpg ; Pushups/1.jpg
+Chest,Push-ups & Dips,Pushups (Close and Wide Hand Positions),body only,,Reps,lib:Pushups_Close_and_Wide_Hand_Positions,Pushups_Close_and_Wide_Hand_Positions/0.jpg ; Pushups_Close_and_Wide_Hand_Positions/1.jpg
+Chest,Push-ups & Dips,Single-Arm Push-Up,body only,,Reps,lib:Single-Arm_Push-Up,Single-Arm_Push-Up/0.jpg ; Single-Arm_Push-Up/1.jpg
+Chest,Push-ups & Dips,Suspended Push-Up,other,,Weight & reps,lib:Suspended_Push-Up,Suspended_Push-Up/0.jpg ; Suspended_Push-Up/1.jpg
+Chest,Explosive / Throws,Chest Push (multiple response),medicine ball,,Weight & reps,lib:Chest_Push_multiple_response,Chest_Push_multiple_response/0.jpg ; Chest_Push_multiple_response/1.jpg
+Chest,Explosive / Throws,Chest Push (single response),medicine ball,,Weight & reps,lib:Chest_Push_single_response,Chest_Push_single_response/0.jpg ; Chest_Push_single_response/1.jpg
+Chest,Explosive / Throws,Chest Push from 3 point stance,medicine ball,,Weight & reps,lib:Chest_Push_from_3_point_stance,Chest_Push_from_3_point_stance/0.jpg ; Chest_Push_from_3_point_stance/1.jpg
+Chest,Explosive / Throws,Chest Push with Run Release,medicine ball,,Weight & reps,lib:Chest_Push_with_Run_Release,Chest_Push_with_Run_Release/0.jpg ; Chest_Push_with_Run_Release/1.jpg
+Chest,Explosive / Throws,Forward Drag with Press,other,,Weight & reps,lib:Forward_Drag_with_Press,Forward_Drag_with_Press/0.jpg ; Forward_Drag_with_Press/1.jpg
+Chest,Explosive / Throws,Heavy Bag Thrust,other,,Weight & reps,lib:Heavy_Bag_Thrust,Heavy_Bag_Thrust/0.jpg ; Heavy_Bag_Thrust/1.jpg
+Chest,Explosive / Throws,Medicine Ball Chest Pass,medicine ball,,Weight & reps,lib:Medicine_Ball_Chest_Pass,Medicine_Ball_Chest_Pass/0.jpg ; Medicine_Ball_Chest_Pass/1.jpg
+Chest,Incline Presses,Barbell Incline Bench Press - Medium Grip,barbell,,Weight & reps,lib:Barbell_Incline_Bench_Press_-_Medium_Grip,Barbell_Incline_Bench_Press_-_Medium_Grip/0.jpg ; Barbell_Incline_Bench_Press_-_Medium_Grip/1.jpg
+Chest,Incline Presses,Hammer Grip Incline DB Bench Press,dumbbell,,Weight & reps,lib:Hammer_Grip_Incline_DB_Bench_Press,Hammer_Grip_Incline_DB_Bench_Press/0.jpg ; Hammer_Grip_Incline_DB_Bench_Press/1.jpg
+Chest,Incline Presses,Incline Cable Chest Press,cable,,Weight & reps,lib:Incline_Cable_Chest_Press,Incline_Cable_Chest_Press/0.jpg ; Incline_Cable_Chest_Press/1.jpg
+Chest,Incline Presses,Incline Chest Press (Machine),machine,,Weight & reps,lib:gym:incline-chest-press-machine,Leverage_Incline_Chest_Press/0.jpg ; Leverage_Incline_Chest_Press/1.jpg
+Chest,Incline Presses,Incline Dumbbell Bench With Palms Facing In,dumbbell,,Weight & reps,lib:Incline_Dumbbell_Bench_With_Palms_Facing_In,Incline_Dumbbell_Bench_With_Palms_Facing_In/0.jpg ; Incline_Dumbbell_Bench_With_Palms_Facing_In/1.jpg
+Chest,Incline Presses,Incline Dumbbell Press,dumbbell,,Weight & reps,lib:Incline_Dumbbell_Press,Incline_Dumbbell_Press/0.jpg ; Incline_Dumbbell_Press/1.jpg
+Chest,Incline Presses,Iso-Lateral Incline Press,machine,,Weight & reps,lib:gym:iso-lateral-incline-press,Leverage_Incline_Chest_Press/0.jpg ; Leverage_Incline_Chest_Press/1.jpg
+Chest,Incline Presses,Iso-Lateral Super Incline Press,machine,Shoulders,Weight & reps,lib:gym:iso-lateral-super-incline-press,Leverage_Incline_Chest_Press/0.jpg ; Leverage_Incline_Chest_Press/1.jpg
+Chest,Incline Presses,Leverage Incline Chest Press,machine,,Weight & reps,lib:Leverage_Incline_Chest_Press,Leverage_Incline_Chest_Press/0.jpg ; Leverage_Incline_Chest_Press/1.jpg
+Chest,Incline Presses,MTS Incline Press,machine,,Weight & reps,lib:gym:mts-incline-press,Leverage_Incline_Chest_Press/0.jpg ; Leverage_Incline_Chest_Press/1.jpg
+Chest,Incline Presses,Smith Machine Incline Bench Press,machine,,Weight & reps,lib:Smith_Machine_Incline_Bench_Press,Smith_Machine_Incline_Bench_Press/0.jpg ; Smith_Machine_Incline_Bench_Press/1.jpg
+Chest,Decline Presses,Decline Barbell Bench Press,barbell,,Weight & reps,lib:Decline_Barbell_Bench_Press,Decline_Barbell_Bench_Press/0.jpg ; Decline_Barbell_Bench_Press/1.jpg
+Chest,Decline Presses,Decline Chest Press (Machine),machine,,Weight & reps,lib:gym:decline-chest-press-machine,Leverage_Decline_Chest_Press/0.jpg ; Leverage_Decline_Chest_Press/1.jpg
+Chest,Decline Presses,Decline Dumbbell Bench Press,dumbbell,,Weight & reps,lib:Decline_Dumbbell_Bench_Press,Decline_Dumbbell_Bench_Press/0.jpg ; Decline_Dumbbell_Bench_Press/1.jpg
+Chest,Decline Presses,Decline Smith Press,machine,,Weight & reps,lib:Decline_Smith_Press,Decline_Smith_Press/0.jpg ; Decline_Smith_Press/1.jpg
+Chest,Decline Presses,Iso-Lateral Decline Press,machine,,Weight & reps,lib:gym:iso-lateral-decline-press,Leverage_Decline_Chest_Press/0.jpg ; Leverage_Decline_Chest_Press/1.jpg
+Chest,Decline Presses,Leverage Decline Chest Press,machine,,Weight & reps,lib:Leverage_Decline_Chest_Press,Leverage_Decline_Chest_Press/0.jpg ; Leverage_Decline_Chest_Press/1.jpg
+Chest,Decline Presses,MTS Decline Press,machine,,Weight & reps,lib:gym:mts-decline-press,Leverage_Decline_Chest_Press/0.jpg ; Leverage_Decline_Chest_Press/1.jpg
+Chest,Decline Presses,Smith Machine Decline Press,machine,,Weight & reps,lib:Smith_Machine_Decline_Press,Smith_Machine_Decline_Press/0.jpg ; Smith_Machine_Decline_Press/1.jpg
+Chest,Decline Presses,Wide-Grip Decline Barbell Bench Press,barbell,,Weight & reps,lib:Wide-Grip_Decline_Barbell_Bench_Press,Wide-Grip_Decline_Barbell_Bench_Press/0.jpg ; Wide-Grip_Decline_Barbell_Bench_Press/1.jpg
+Chest,Flat Presses,Alternating Floor Press,kettlebells,,Weight & reps,lib:Alternating_Floor_Press,Alternating_Floor_Press/0.jpg ; Alternating_Floor_Press/1.jpg
+Chest,Flat Presses,Barbell Bench Press - Medium Grip,barbell,,Weight & reps,lib:Barbell_Bench_Press_-_Medium_Grip,Barbell_Bench_Press_-_Medium_Grip/0.jpg ; Barbell_Bench_Press_-_Medium_Grip/1.jpg
+Chest,Flat Presses,Barbell Guillotine Bench Press,barbell,,Weight & reps,lib:Barbell_Guillotine_Bench_Press,Barbell_Guillotine_Bench_Press/0.jpg ; Barbell_Guillotine_Bench_Press/1.jpg
+Chest,Flat Presses,Bench Press - With Bands,bands,,Weight & reps,lib:Bench_Press_-_With_Bands,Bench_Press_-_With_Bands/0.jpg ; Bench_Press_-_With_Bands/1.jpg
+Chest,Flat Presses,Cable Chest Press,cable,,Weight & reps,lib:Cable_Chest_Press,Cable_Chest_Press/0.jpg ; Cable_Chest_Press/1.jpg
+Chest,Flat Presses,Chain Press,other,,Weight & reps,lib:Chain_Press,Chain_Press/0.jpg ; Chain_Press/1.jpg
+Chest,Flat Presses,Dumbbell Bench Press,dumbbell,,Weight & reps,lib:Dumbbell_Bench_Press,Dumbbell_Bench_Press/0.jpg ; Dumbbell_Bench_Press/1.jpg
+Chest,Flat Presses,Dumbbell Bench Press with Neutral Grip,dumbbell,,Weight & reps,lib:Dumbbell_Bench_Press_with_Neutral_Grip,Dumbbell_Bench_Press_with_Neutral_Grip/0.jpg ; Dumbbell_Bench_Press_with_Neutral_Grip/1.jpg
+Chest,Flat Presses,Extended Range One-Arm Kettlebell Floor Press,kettlebells,,Weight & reps,lib:Extended_Range_One-Arm_Kettlebell_Floor_Press,Extended_Range_One-Arm_Kettlebell_Floor_Press/0.jpg ; Extended_Range_One-Arm_Kettlebell_Floor_Press/1.jpg
+Chest,Flat Presses,Iso-Lateral Bench Press,machine,,Weight & reps,lib:gym:iso-lateral-bench-press,Leverage_Chest_Press/0.jpg ; Leverage_Chest_Press/1.jpg
+Chest,Flat Presses,Iso-Lateral Horizontal Bench Press,machine,,Weight & reps,lib:gym:iso-lateral-horizontal-bench-press,Leverage_Chest_Press/0.jpg ; Leverage_Chest_Press/1.jpg
+Chest,Flat Presses,Iso-Lateral Wide Chest,machine,,Weight & reps,lib:gym:iso-lateral-wide-chest,Leverage_Chest_Press/0.jpg ; Leverage_Chest_Press/1.jpg
+Chest,Flat Presses,Leg-Over Floor Press,kettlebells,,Weight & reps,lib:Leg-Over_Floor_Press,Leg-Over_Floor_Press/0.jpg ; Leg-Over_Floor_Press/1.jpg
+Chest,Flat Presses,Leverage Chest Press,machine,,Weight & reps,lib:Leverage_Chest_Press,Leverage_Chest_Press/0.jpg ; Leverage_Chest_Press/1.jpg
+Chest,Flat Presses,Machine Bench Press,machine,,Weight & reps,lib:Machine_Bench_Press,Machine_Bench_Press/0.jpg ; Machine_Bench_Press/1.jpg
+Chest,Flat Presses,MTS Chest Press,machine,,Weight & reps,lib:gym:mts-chest-press,Machine_Bench_Press/0.jpg ; Machine_Bench_Press/1.jpg
+Chest,Flat Presses,Neck Press,barbell,,Weight & reps,lib:Neck_Press,Neck_Press/0.jpg ; Neck_Press/1.jpg
+Chest,Flat Presses,One Arm Dumbbell Bench Press,dumbbell,,Weight & reps,lib:One_Arm_Dumbbell_Bench_Press,One_Arm_Dumbbell_Bench_Press/0.jpg ; One_Arm_Dumbbell_Bench_Press/1.jpg
+Chest,Flat Presses,One-Arm Kettlebell Floor Press,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Floor_Press,One-Arm_Kettlebell_Floor_Press/0.jpg ; One-Arm_Kettlebell_Floor_Press/1.jpg
+Chest,Flat Presses,Smith Machine Bench Press,machine,,Weight & reps,lib:Smith_Machine_Bench_Press,Smith_Machine_Bench_Press/0.jpg ; Smith_Machine_Bench_Press/1.jpg
+Chest,Flat Presses,Standing Cable Chest Press,cable,,Weight & reps,lib:Standing_Cable_Chest_Press,Standing_Cable_Chest_Press/0.jpg ; Standing_Cable_Chest_Press/1.jpg
+Chest,Flat Presses,Wide-Grip Barbell Bench Press,barbell,,Weight & reps,lib:Wide-Grip_Barbell_Bench_Press,Wide-Grip_Barbell_Bench_Press/0.jpg ; Wide-Grip_Barbell_Bench_Press/1.jpg
+Shoulders,Rear Delt Raises & Flys,Back Flyes - With Bands,bands,,Weight & reps,lib:Back_Flyes_-_With_Bands,Back_Flyes_-_With_Bands/0.jpg ; Back_Flyes_-_With_Bands/1.jpg
+Shoulders,Rear Delt Raises & Flys,Band Pull Apart,bands,,Weight & reps,lib:Band_Pull_Apart,Band_Pull_Apart/0.jpg ; Band_Pull_Apart/1.jpg
+Shoulders,Rear Delt Raises & Flys,Barbell Rear Delt Row,barbell,,Weight & reps,lib:Barbell_Rear_Delt_Row,Barbell_Rear_Delt_Row/0.jpg ; Barbell_Rear_Delt_Row/1.jpg
+Shoulders,Rear Delt Raises & Flys,Bent Over Dumbbell Rear Delt Raise With Head On Bench,dumbbell,,Weight & reps,lib:Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench,Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench/0.jpg ; Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench/1.jpg
+Shoulders,Rear Delt Raises & Flys,Cable Rear Delt Fly,cable,,Weight & reps,lib:Cable_Rear_Delt_Fly,Cable_Rear_Delt_Fly/0.jpg ; Cable_Rear_Delt_Fly/1.jpg
+Shoulders,Rear Delt Raises & Flys,Cable Rope Rear-Delt Rows,cable,,Weight & reps,lib:Cable_Rope_Rear-Delt_Rows,Cable_Rope_Rear-Delt_Rows/0.jpg ; Cable_Rope_Rear-Delt_Rows/1.jpg
+Shoulders,Rear Delt Raises & Flys,Dumbbell Lying One-Arm Rear Lateral Raise,dumbbell,,Weight & reps,lib:Dumbbell_Lying_One-Arm_Rear_Lateral_Raise,Dumbbell_Lying_One-Arm_Rear_Lateral_Raise/0.jpg ; Dumbbell_Lying_One-Arm_Rear_Lateral_Raise/1.jpg
+Shoulders,Rear Delt Raises & Flys,Dumbbell Lying Rear Lateral Raise,dumbbell,,Weight & reps,lib:Dumbbell_Lying_Rear_Lateral_Raise,Dumbbell_Lying_Rear_Lateral_Raise/0.jpg ; Dumbbell_Lying_Rear_Lateral_Raise/1.jpg
+Shoulders,Rear Delt Raises & Flys,Face Pull,cable,,Weight & reps,lib:Face_Pull,Face_Pull/0.jpg ; Face_Pull/1.jpg
+Shoulders,Rear Delt Raises & Flys,Lying Rear Delt Raise,dumbbell,,Weight & reps,lib:Lying_Rear_Delt_Raise,Lying_Rear_Delt_Raise/0.jpg ; Lying_Rear_Delt_Raise/1.jpg
+Shoulders,Rear Delt Raises & Flys,Reverse Fly Single Arm (Cable),cable,,Weight & reps,lib:gym:reverse-fly-single-arm-cable,Cable_Rear_Delt_Fly/0.jpg ; Cable_Rear_Delt_Fly/1.jpg
+Shoulders,Rear Delt Raises & Flys,Reverse Flyes,dumbbell,,Weight & reps,lib:Reverse_Flyes,Reverse_Flyes/0.jpg ; Reverse_Flyes/1.jpg
+Shoulders,Rear Delt Raises & Flys,Reverse Flyes With External Rotation,dumbbell,,Weight & reps,lib:Reverse_Flyes_With_External_Rotation,Reverse_Flyes_With_External_Rotation/0.jpg ; Reverse_Flyes_With_External_Rotation/1.jpg
+Shoulders,Rear Delt Raises & Flys,Reverse Machine Flyes,machine,,Weight & reps,lib:Reverse_Machine_Flyes,Reverse_Machine_Flyes/0.jpg ; Reverse_Machine_Flyes/1.jpg
+Shoulders,Rear Delt Raises & Flys,Seated Bent-Over Rear Delt Raise,dumbbell,,Weight & reps,lib:Seated_Bent-Over_Rear_Delt_Raise,Seated_Bent-Over_Rear_Delt_Raise/0.jpg ; Seated_Bent-Over_Rear_Delt_Raise/1.jpg
+Shoulders,Rear Delt Raises & Flys,Sled Reverse Flye,other,,Weight & reps,lib:Sled_Reverse_Flye,Sled_Reverse_Flye/0.jpg ; Sled_Reverse_Flye/1.jpg
+Shoulders,Rotator Cuff (Rotations),Cable Internal Rotation,cable,,Weight & reps,lib:Cable_Internal_Rotation,Cable_Internal_Rotation/0.jpg ; Cable_Internal_Rotation/1.jpg
+Shoulders,Rotator Cuff (Rotations),Car Drivers,barbell,,Weight & reps,lib:Car_Drivers,Car_Drivers/0.jpg ; Car_Drivers/1.jpg
+Shoulders,Rotator Cuff (Rotations),External Rotation,dumbbell,,Weight & reps,lib:External_Rotation,External_Rotation/0.jpg ; External_Rotation/1.jpg
+Shoulders,Rotator Cuff (Rotations),External Rotation with Band,bands,,Weight & reps,lib:External_Rotation_with_Band,External_Rotation_with_Band/0.jpg ; External_Rotation_with_Band/1.jpg
+Shoulders,Rotator Cuff (Rotations),External Rotation with Cable,cable,,Weight & reps,lib:External_Rotation_with_Cable,External_Rotation_with_Cable/0.jpg ; External_Rotation_with_Cable/1.jpg
+Shoulders,Rotator Cuff (Rotations),Internal Rotation with Band,bands,,Weight & reps,lib:Internal_Rotation_with_Band,Internal_Rotation_with_Band/0.jpg ; Internal_Rotation_with_Band/1.jpg
+Shoulders,Upright Rows,Dumbbell One-Arm Upright Row,dumbbell,,Weight & reps,lib:Dumbbell_One-Arm_Upright_Row,Dumbbell_One-Arm_Upright_Row/0.jpg ; Dumbbell_One-Arm_Upright_Row/1.jpg
+Shoulders,Upright Rows,Low Pulley Row To Neck,cable,,Weight & reps,lib:Low_Pulley_Row_To_Neck,Low_Pulley_Row_To_Neck/0.jpg ; Low_Pulley_Row_To_Neck/1.jpg
+Shoulders,Upright Rows,Smith Machine One-Arm Upright Row,machine,,Weight & reps,lib:Smith_Machine_One-Arm_Upright_Row,Smith_Machine_One-Arm_Upright_Row/0.jpg ; Smith_Machine_One-Arm_Upright_Row/1.jpg
+Shoulders,Upright Rows,Upright Barbell Row,barbell,,Weight & reps,lib:Upright_Barbell_Row,Upright_Barbell_Row/0.jpg ; Upright_Barbell_Row/1.jpg
+Shoulders,"Olympic, Power & Explosive",Backward Medicine Ball Throw,medicine ball,,Weight & reps,lib:Backward_Medicine_Ball_Throw,Backward_Medicine_Ball_Throw/0.jpg ; Backward_Medicine_Ball_Throw/1.jpg
+Shoulders,"Olympic, Power & Explosive",Battling Ropes,other,,Weight & reps,lib:Battling_Ropes,Battling_Ropes/0.jpg ; Battling_Ropes/1.jpg
+Shoulders,"Olympic, Power & Explosive",Circus Bell,other,,Weight & reps,lib:Circus_Bell,Circus_Bell/0.jpg ; Circus_Bell/1.jpg
+Shoulders,"Olympic, Power & Explosive",Clean and Jerk,barbell,,Weight & reps,lib:Clean_and_Jerk,Clean_and_Jerk/0.jpg ; Clean_and_Jerk/1.jpg
+Shoulders,"Olympic, Power & Explosive",Clean and Press,barbell,,Weight & reps,lib:Clean_and_Press,Clean_and_Press/0.jpg ; Clean_and_Press/1.jpg
+Shoulders,"Olympic, Power & Explosive",Double Kettlebell Jerk,kettlebells,,Weight & reps,lib:Double_Kettlebell_Jerk,Double_Kettlebell_Jerk/0.jpg ; Double_Kettlebell_Jerk/1.jpg
+Shoulders,"Olympic, Power & Explosive",Double Kettlebell Push Press,kettlebells,,Weight & reps,lib:Double_Kettlebell_Push_Press,Double_Kettlebell_Push_Press/0.jpg ; Double_Kettlebell_Push_Press/1.jpg
+Shoulders,"Olympic, Power & Explosive",Double Kettlebell Snatch,kettlebells,,Weight & reps,lib:Double_Kettlebell_Snatch,Double_Kettlebell_Snatch/0.jpg ; Double_Kettlebell_Snatch/1.jpg
+Shoulders,"Olympic, Power & Explosive",Jerk Balance,barbell,,Weight & reps,lib:Jerk_Balance,Jerk_Balance/0.jpg ; Jerk_Balance/1.jpg
+Shoulders,"Olympic, Power & Explosive",Kettlebell Thruster,kettlebells,,Weight & reps,lib:Kettlebell_Thruster,Kettlebell_Thruster/0.jpg ; Kettlebell_Thruster/1.jpg
+Shoulders,"Olympic, Power & Explosive",Kettlebell Turkish Get-Up (Lunge style),kettlebells,,Weight & reps,lib:Kettlebell_Turkish_Get-Up_Lunge_style,Kettlebell_Turkish_Get-Up_Lunge_style/0.jpg ; Kettlebell_Turkish_Get-Up_Lunge_style/1.jpg
+Shoulders,"Olympic, Power & Explosive",Kettlebell Turkish Get-Up (Squat style),kettlebells,,Weight & reps,lib:Kettlebell_Turkish_Get-Up_Squat_style,Kettlebell_Turkish_Get-Up_Squat_style/0.jpg ; Kettlebell_Turkish_Get-Up_Squat_style/1.jpg
+Shoulders,"Olympic, Power & Explosive",Landmine Linear Jammer,barbell,,Weight & reps,lib:Landmine_Linear_Jammer,Landmine_Linear_Jammer/0.jpg ; Landmine_Linear_Jammer/1.jpg
+Shoulders,"Olympic, Power & Explosive",Log Lift,other,,Weight & reps,lib:Log_Lift,Log_Lift/0.jpg ; Log_Lift/1.jpg
+Shoulders,"Olympic, Power & Explosive",Medicine Ball Scoop Throw,medicine ball,,Weight & reps,lib:Medicine_Ball_Scoop_Throw,Medicine_Ball_Scoop_Throw/0.jpg ; Medicine_Ball_Scoop_Throw/1.jpg
+Shoulders,"Olympic, Power & Explosive",One-Arm Kettlebell Clean and Jerk,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Clean_and_Jerk,One-Arm_Kettlebell_Clean_and_Jerk/0.jpg ; One-Arm_Kettlebell_Clean_and_Jerk/1.jpg
+Shoulders,"Olympic, Power & Explosive",One-Arm Kettlebell Jerk,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Jerk,One-Arm_Kettlebell_Jerk/0.jpg ; One-Arm_Kettlebell_Jerk/1.jpg
+Shoulders,"Olympic, Power & Explosive",One-Arm Kettlebell Push Press,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Push_Press,One-Arm_Kettlebell_Push_Press/0.jpg ; One-Arm_Kettlebell_Push_Press/1.jpg
+Shoulders,"Olympic, Power & Explosive",One-Arm Kettlebell Snatch,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Snatch,One-Arm_Kettlebell_Snatch/0.jpg ; One-Arm_Kettlebell_Snatch/1.jpg
+Shoulders,"Olympic, Power & Explosive",One-Arm Kettlebell Split Jerk,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Split_Jerk,One-Arm_Kettlebell_Split_Jerk/0.jpg ; One-Arm_Kettlebell_Split_Jerk/1.jpg
+Shoulders,"Olympic, Power & Explosive",One-Arm Kettlebell Split Snatch,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Split_Snatch,One-Arm_Kettlebell_Split_Snatch/0.jpg ; One-Arm_Kettlebell_Split_Snatch/1.jpg
+Shoulders,"Olympic, Power & Explosive",Push Press,barbell,,Weight & reps,lib:Push_Press,Push_Press/0.jpg ; Push_Press/1.jpg
+Shoulders,"Olympic, Power & Explosive",Push Press - Behind the Neck,barbell,,Weight & reps,lib:Push_Press_-_Behind_the_Neck,Push_Press_-_Behind_the_Neck/0.jpg ; Push_Press_-_Behind_the_Neck/1.jpg
+Shoulders,"Olympic, Power & Explosive",Rack Delivery,barbell,,Weight & reps,lib:Rack_Delivery,Rack_Delivery/0.jpg ; Rack_Delivery/1.jpg
+Shoulders,"Olympic, Power & Explosive",Single-Arm Linear Jammer,barbell,,Weight & reps,lib:Single-Arm_Linear_Jammer,Single-Arm_Linear_Jammer/0.jpg ; Single-Arm_Linear_Jammer/1.jpg
+Shoulders,"Olympic, Power & Explosive",Standing Two-Arm Overhead Throw,medicine ball,,Weight & reps,lib:Standing_Two-Arm_Overhead_Throw,Standing_Two-Arm_Overhead_Throw/0.jpg ; Standing_Two-Arm_Overhead_Throw/1.jpg
+Shoulders,"Olympic, Power & Explosive",Two-Arm Kettlebell Clean,kettlebells,,Weight & reps,lib:Two-Arm_Kettlebell_Clean,Two-Arm_Kettlebell_Clean/0.jpg ; Two-Arm_Kettlebell_Clean/1.jpg
+Shoulders,"Olympic, Power & Explosive",Two-Arm Kettlebell Jerk,kettlebells,,Weight & reps,lib:Two-Arm_Kettlebell_Jerk,Two-Arm_Kettlebell_Jerk/0.jpg ; Two-Arm_Kettlebell_Jerk/1.jpg
+Shoulders,Overhead Presses,Alternating Cable Shoulder Press,cable,,Weight & reps,lib:Alternating_Cable_Shoulder_Press,Alternating_Cable_Shoulder_Press/0.jpg ; Alternating_Cable_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Alternating Kettlebell Press,kettlebells,,Weight & reps,lib:Alternating_Kettlebell_Press,Alternating_Kettlebell_Press/0.jpg ; Alternating_Kettlebell_Press/1.jpg
+Shoulders,Overhead Presses,Anti-Gravity Press,barbell,,Weight & reps,lib:Anti-Gravity_Press,Anti-Gravity_Press/0.jpg ; Anti-Gravity_Press/1.jpg
+Shoulders,Overhead Presses,Arnold Dumbbell Press,dumbbell,,Weight & reps,lib:Arnold_Dumbbell_Press,Arnold_Dumbbell_Press/0.jpg ; Arnold_Dumbbell_Press/1.jpg
+Shoulders,Overhead Presses,Barbell Shoulder Press,barbell,,Weight & reps,lib:Barbell_Shoulder_Press,Barbell_Shoulder_Press/0.jpg ; Barbell_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Bradford/Rocky Presses,barbell,,Weight & reps,lib:Bradford_Rocky_Presses,Bradford_Rocky_Presses/0.jpg ; Bradford_Rocky_Presses/1.jpg
+Shoulders,Overhead Presses,Cable Shoulder Press,cable,,Weight & reps,lib:Cable_Shoulder_Press,Cable_Shoulder_Press/0.jpg ; Cable_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Cuban Press,dumbbell,,Weight & reps,lib:Cuban_Press,Cuban_Press/0.jpg ; Cuban_Press/1.jpg
+Shoulders,Overhead Presses,Dumbbell One-Arm Shoulder Press,dumbbell,,Weight & reps,lib:Dumbbell_One-Arm_Shoulder_Press,Dumbbell_One-Arm_Shoulder_Press/0.jpg ; Dumbbell_One-Arm_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Dumbbell Shoulder Press,dumbbell,,Weight & reps,lib:Dumbbell_Shoulder_Press,Dumbbell_Shoulder_Press/0.jpg ; Dumbbell_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Handstand Push-Ups,body only,,Reps,lib:Handstand_Push-Ups,Handstand_Push-Ups/0.jpg ; Handstand_Push-Ups/1.jpg
+Shoulders,Overhead Presses,Iso-Lateral Shoulder Press,machine,,Weight & reps,lib:gym:iso-lateral-shoulder-press,Leverage_Shoulder_Press/0.jpg ; Leverage_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Kettlebell Arnold Press,kettlebells,,Weight & reps,lib:Kettlebell_Arnold_Press,Kettlebell_Arnold_Press/0.jpg ; Kettlebell_Arnold_Press/1.jpg
+Shoulders,Overhead Presses,Kettlebell Seated Press,kettlebells,,Weight & reps,lib:Kettlebell_Seated_Press,Kettlebell_Seated_Press/0.jpg ; Kettlebell_Seated_Press/1.jpg
+Shoulders,Overhead Presses,Kettlebell Seesaw Press,kettlebells,,Weight & reps,lib:Kettlebell_Seesaw_Press,Kettlebell_Seesaw_Press/0.jpg ; Kettlebell_Seesaw_Press/1.jpg
+Shoulders,Overhead Presses,Leverage Shoulder Press,machine,,Weight & reps,lib:Leverage_Shoulder_Press,Leverage_Shoulder_Press/0.jpg ; Leverage_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Machine Shoulder (Military) Press,machine,,Weight & reps,lib:Machine_Shoulder_Military_Press,Machine_Shoulder_Military_Press/0.jpg ; Machine_Shoulder_Military_Press/1.jpg
+Shoulders,Overhead Presses,MTS Shoulder Press,machine,,Weight & reps,lib:gym:mts-shoulder-press,Machine_Shoulder_Military_Press/0.jpg ; Machine_Shoulder_Military_Press/1.jpg
+Shoulders,Overhead Presses,One-Arm Kettlebell Military Press To The Side,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Military_Press_To_The_Side,One-Arm_Kettlebell_Military_Press_To_The_Side/0.jpg ; One-Arm_Kettlebell_Military_Press_To_The_Side/1.jpg
+Shoulders,Overhead Presses,One-Arm Kettlebell Para Press,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Para_Press,One-Arm_Kettlebell_Para_Press/0.jpg ; One-Arm_Kettlebell_Para_Press/1.jpg
+Shoulders,Overhead Presses,Power Partials,dumbbell,,Weight & reps,lib:Power_Partials,Power_Partials/0.jpg ; Power_Partials/1.jpg
+Shoulders,Overhead Presses,Seated Barbell Military Press,barbell,,Weight & reps,lib:Seated_Barbell_Military_Press,Seated_Barbell_Military_Press/0.jpg ; Seated_Barbell_Military_Press/1.jpg
+Shoulders,Overhead Presses,Seated Cable Shoulder Press,cable,,Weight & reps,lib:Seated_Cable_Shoulder_Press,Seated_Cable_Shoulder_Press/0.jpg ; Seated_Cable_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Seated Dumbbell Press,dumbbell,,Weight & reps,lib:Seated_Dumbbell_Press,Seated_Dumbbell_Press/0.jpg ; Seated_Dumbbell_Press/1.jpg
+Shoulders,Overhead Presses,See-Saw Press (Alternating Side Press),dumbbell,,Weight & reps,lib:See-Saw_Press_Alternating_Side_Press,See-Saw_Press_Alternating_Side_Press/0.jpg ; See-Saw_Press_Alternating_Side_Press/1.jpg
+Shoulders,Overhead Presses,Shoulder Press - With Bands,bands,,Weight & reps,lib:Shoulder_Press_-_With_Bands,Shoulder_Press_-_With_Bands/0.jpg ; Shoulder_Press_-_With_Bands/1.jpg
+Shoulders,Overhead Presses,Smith Machine Overhead Shoulder Press,machine,,Weight & reps,lib:Smith_Machine_Overhead_Shoulder_Press,Smith_Machine_Overhead_Shoulder_Press/0.jpg ; Smith_Machine_Overhead_Shoulder_Press/1.jpg
+Shoulders,Overhead Presses,Standing Alternating Dumbbell Press,dumbbell,,Weight & reps,lib:Standing_Alternating_Dumbbell_Press,Standing_Alternating_Dumbbell_Press/0.jpg ; Standing_Alternating_Dumbbell_Press/1.jpg
+Shoulders,Overhead Presses,Standing Barbell Press Behind Neck,barbell,,Weight & reps,lib:Standing_Barbell_Press_Behind_Neck,Standing_Barbell_Press_Behind_Neck/0.jpg ; Standing_Barbell_Press_Behind_Neck/1.jpg
+Shoulders,Overhead Presses,Standing Bradford Press,barbell,,Weight & reps,lib:Standing_Bradford_Press,Standing_Bradford_Press/0.jpg ; Standing_Bradford_Press/1.jpg
+Shoulders,Overhead Presses,Standing Dumbbell Press,dumbbell,,Weight & reps,lib:Standing_Dumbbell_Press,Standing_Dumbbell_Press/0.jpg ; Standing_Dumbbell_Press/1.jpg
+Shoulders,Overhead Presses,Standing Military Press,barbell,,Weight & reps,lib:Standing_Military_Press,Standing_Military_Press/0.jpg ; Standing_Military_Press/1.jpg
+Shoulders,Overhead Presses,Standing Palm-In One-Arm Dumbbell Press,dumbbell,,Weight & reps,lib:Standing_Palm-In_One-Arm_Dumbbell_Press,Standing_Palm-In_One-Arm_Dumbbell_Press/0.jpg ; Standing_Palm-In_One-Arm_Dumbbell_Press/1.jpg
+Shoulders,Overhead Presses,Standing Palms-In Dumbbell Press,dumbbell,,Weight & reps,lib:Standing_Palms-In_Dumbbell_Press,Standing_Palms-In_Dumbbell_Press/0.jpg ; Standing_Palms-In_Dumbbell_Press/1.jpg
+Shoulders,Overhead Presses,Two-Arm Kettlebell Military Press,kettlebells,,Weight & reps,lib:Two-Arm_Kettlebell_Military_Press,Two-Arm_Kettlebell_Military_Press/0.jpg ; Two-Arm_Kettlebell_Military_Press/1.jpg
+Shoulders,Lateral Raises,Alternating Deltoid Raise,dumbbell,,Weight & reps,lib:Alternating_Deltoid_Raise,Alternating_Deltoid_Raise/0.jpg ; Alternating_Deltoid_Raise/1.jpg
+Shoulders,Lateral Raises,Bent Over Low-Pulley Side Lateral,cable,,Weight & reps,lib:Bent_Over_Low-Pulley_Side_Lateral,Bent_Over_Low-Pulley_Side_Lateral/0.jpg ; Bent_Over_Low-Pulley_Side_Lateral/1.jpg
+Shoulders,Lateral Raises,Cable Seated Lateral Raise,cable,,Weight & reps,lib:Cable_Seated_Lateral_Raise,Cable_Seated_Lateral_Raise/0.jpg ; Cable_Seated_Lateral_Raise/1.jpg
+Shoulders,Lateral Raises,Crucifix,other,,Weight & reps,lib:Crucifix,Crucifix/0.jpg ; Crucifix/1.jpg
+Shoulders,Lateral Raises,Iron Cross,dumbbell,,Weight & reps,lib:Iron_Cross,Iron_Cross/0.jpg ; Iron_Cross/1.jpg
+Shoulders,Lateral Raises,Lateral Raise (Machine),machine,,Weight & reps,lib:gym:lateral-raise-machine,Side_Lateral_Raise/0.jpg ; Side_Lateral_Raise/1.jpg
+Shoulders,Lateral Raises,Lateral Raise - With Bands,bands,,Weight & reps,lib:Lateral_Raise_-_With_Bands,Lateral_Raise_-_With_Bands/0.jpg ; Lateral_Raise_-_With_Bands/1.jpg
+Shoulders,Lateral Raises,Lying One-Arm Lateral Raise,dumbbell,,Weight & reps,lib:Lying_One-Arm_Lateral_Raise,Lying_One-Arm_Lateral_Raise/0.jpg ; Lying_One-Arm_Lateral_Raise/1.jpg
+Shoulders,Lateral Raises,One-Arm Incline Lateral Raise,dumbbell,,Weight & reps,lib:One-Arm_Incline_Lateral_Raise,One-Arm_Incline_Lateral_Raise/0.jpg ; One-Arm_Incline_Lateral_Raise/1.jpg
+Shoulders,Lateral Raises,One-Arm Side Laterals,dumbbell,,Weight & reps,lib:One-Arm_Side_Laterals,One-Arm_Side_Laterals/0.jpg ; One-Arm_Side_Laterals/1.jpg
+Shoulders,Lateral Raises,Seated Side Lateral Raise,dumbbell,,Weight & reps,lib:Seated_Side_Lateral_Raise,Seated_Side_Lateral_Raise/0.jpg ; Seated_Side_Lateral_Raise/1.jpg
+Shoulders,Lateral Raises,Side Lateral Raise,dumbbell,,Weight & reps,lib:Side_Lateral_Raise,Side_Lateral_Raise/0.jpg ; Side_Lateral_Raise/1.jpg
+Shoulders,Lateral Raises,Side Laterals to Front Raise,dumbbell,,Weight & reps,lib:Side_Laterals_to_Front_Raise,Side_Laterals_to_Front_Raise/0.jpg ; Side_Laterals_to_Front_Raise/1.jpg
+Shoulders,Lateral Raises,Standing Low-Pulley Deltoid Raise,cable,,Weight & reps,lib:Standing_Low-Pulley_Deltoid_Raise,Standing_Low-Pulley_Deltoid_Raise/0.jpg ; Standing_Low-Pulley_Deltoid_Raise/1.jpg
+Shoulders,Front Raises,Barbell Incline Shoulder Raise,barbell,,Weight & reps,lib:Barbell_Incline_Shoulder_Raise,Barbell_Incline_Shoulder_Raise/0.jpg ; Barbell_Incline_Shoulder_Raise/1.jpg
+Shoulders,Front Raises,Dumbbell Incline Shoulder Raise,dumbbell,,Weight & reps,lib:Dumbbell_Incline_Shoulder_Raise,Dumbbell_Incline_Shoulder_Raise/0.jpg ; Dumbbell_Incline_Shoulder_Raise/1.jpg
+Shoulders,Front Raises,Dumbbell Raise,dumbbell,,Weight & reps,lib:Dumbbell_Raise,Dumbbell_Raise/0.jpg ; Dumbbell_Raise/1.jpg
+Shoulders,Front Raises,Dumbbell Scaption,dumbbell,,Weight & reps,lib:Dumbbell_Scaption,Dumbbell_Scaption/0.jpg ; Dumbbell_Scaption/1.jpg
+Shoulders,Front Raises,Front Cable Raise,cable,,Weight & reps,lib:Front_Cable_Raise,Front_Cable_Raise/0.jpg ; Front_Cable_Raise/1.jpg
+Shoulders,Front Raises,Front Dumbbell Raise,dumbbell,,Weight & reps,lib:Front_Dumbbell_Raise,Front_Dumbbell_Raise/0.jpg ; Front_Dumbbell_Raise/1.jpg
+Shoulders,Front Raises,Front Incline Dumbbell Raise,dumbbell,,Weight & reps,lib:Front_Incline_Dumbbell_Raise,Front_Incline_Dumbbell_Raise/0.jpg ; Front_Incline_Dumbbell_Raise/1.jpg
+Shoulders,Front Raises,Front Plate Raise,other,,Weight & reps,lib:Front_Plate_Raise,Front_Plate_Raise/0.jpg ; Front_Plate_Raise/1.jpg
+Shoulders,Front Raises,Front Two-Dumbbell Raise,dumbbell,,Weight & reps,lib:Front_Two-Dumbbell_Raise,Front_Two-Dumbbell_Raise/0.jpg ; Front_Two-Dumbbell_Raise/1.jpg
+Shoulders,Front Raises,Single Dumbbell Raise,dumbbell,,Weight & reps,lib:Single_Dumbbell_Raise,Single_Dumbbell_Raise/0.jpg ; Single_Dumbbell_Raise/1.jpg
+Shoulders,Front Raises,Smith Incline Shoulder Raise,barbell,,Weight & reps,lib:Smith_Incline_Shoulder_Raise,Smith_Incline_Shoulder_Raise/0.jpg ; Smith_Incline_Shoulder_Raise/1.jpg
+Shoulders,Front Raises,Standing Dumbbell Straight-Arm Front Delt Raise Above Head,dumbbell,,Weight & reps,lib:Standing_Dumbbell_Straight-Arm_Front_Delt_Raise_Above_Head,Standing_Dumbbell_Straight-Arm_Front_Delt_Raise_Above_Head/0.jpg ; Standing_Dumbbell_Straight-Arm_Front_Delt_Raise_Above_Head/1.jpg
+Shoulders,Front Raises,Standing Front Barbell Raise Over Head,barbell,,Weight & reps,lib:Standing_Front_Barbell_Raise_Over_Head,Standing_Front_Barbell_Raise_Over_Head/0.jpg ; Standing_Front_Barbell_Raise_Over_Head/1.jpg
+Shoulders,Front Raises,Straight Raises on Incline Bench,barbell,,Weight & reps,lib:Straight_Raises_on_Incline_Bench,Straight_Raises_on_Incline_Bench/0.jpg ; Straight_Raises_on_Incline_Bench/1.jpg
+Shoulders,Other (Mobility & Drills),Kettlebell Halo,kettlebells,,Weight & reps,lib:Kettlebell_Halo,
+Shoulders,Other (Mobility & Drills),Kettlebell Halo with Overhead Extension,kettlebells,Triceps,Weight & reps,lib:Kettlebell_Halo_With_Overhead_Extension,
+Shoulders,Other (Mobility & Drills),Kettlebell Pirate Ships,kettlebells,,Weight & reps,lib:Kettlebell_Pirate_Ships,Kettlebell_Pirate_Ships/0.jpg ; Kettlebell_Pirate_Ships/1.jpg
+Shoulders,Other (Mobility & Drills),Kneeling Arm Drill,,,Weight & reps,lib:Kneeling_Arm_Drill,Kneeling_Arm_Drill/0.jpg ; Kneeling_Arm_Drill/1.jpg
+Shoulders,Other (Mobility & Drills),Return Push from Stance,medicine ball,,Weight & reps,lib:Return_Push_from_Stance,Return_Push_from_Stance/0.jpg ; Return_Push_from_Stance/1.jpg
+Shoulders,Other (Mobility & Drills),Sled Overhead Backward Walk,other,,Weight & reps,lib:Sled_Overhead_Backward_Walk,Sled_Overhead_Backward_Walk/0.jpg ; Sled_Overhead_Backward_Walk/1.jpg
+Triceps,Dips,Assisted Dip (Machine),machine,,Weight & reps,lib:gym:assisted-dip-machine,Dip_Machine/0.jpg ; Dip_Machine/1.jpg
+Triceps,Dips,Bench Dips,body only,,Reps,lib:Bench_Dips,Bench_Dips/0.jpg ; Bench_Dips/1.jpg
+Triceps,Dips,Body-Up,body only,,Reps,lib:Body-Up,Body-Up/0.jpg ; Body-Up/1.jpg
+Triceps,Dips,Dip Machine,machine,,Weight & reps,lib:Dip_Machine,Dip_Machine/0.jpg ; Dip_Machine/1.jpg
+Triceps,Dips,Dips - Triceps Version,body only,,Reps,lib:Dips_-_Triceps_Version,Dips_-_Triceps_Version/0.jpg ; Dips_-_Triceps_Version/1.jpg
+Triceps,Dips,Parallel Bar Dip,other,,Weight & reps,lib:Parallel_Bar_Dip,Parallel_Bar_Dip/0.jpg ; Parallel_Bar_Dip/1.jpg
+Triceps,Dips,Ring Dips,other,,Weight & reps,lib:Ring_Dips,Ring_Dips/0.jpg ; Ring_Dips/1.jpg
+Triceps,Dips,Weighted Bench Dip,other,,Weight & reps,lib:Weighted_Bench_Dip,Weighted_Bench_Dip/0.jpg ; Weighted_Bench_Dip/1.jpg
+Triceps,Pushdowns,Reverse Grip Triceps Pushdown,cable,,Weight & reps,lib:Reverse_Grip_Triceps_Pushdown,Reverse_Grip_Triceps_Pushdown/0.jpg ; Reverse_Grip_Triceps_Pushdown/1.jpg
+Triceps,Pushdowns,Triceps Pushdown,cable,,Weight & reps,lib:Triceps_Pushdown,Triceps_Pushdown/0.jpg ; Triceps_Pushdown/1.jpg
+Triceps,Pushdowns,Triceps Pushdown - Rope Attachment,cable,,Weight & reps,lib:Triceps_Pushdown_-_Rope_Attachment,Triceps_Pushdown_-_Rope_Attachment/0.jpg ; Triceps_Pushdown_-_Rope_Attachment/1.jpg
+Triceps,Pushdowns,Triceps Pushdown - V-Bar Attachment,cable,,Weight & reps,lib:Triceps_Pushdown_-_V-Bar_Attachment,Triceps_Pushdown_-_V-Bar_Attachment/0.jpg ; Triceps_Pushdown_-_V-Bar_Attachment/1.jpg
+Triceps,Kickbacks,Tricep Dumbbell Kickback,dumbbell,,Weight & reps,lib:Tricep_Dumbbell_Kickback,Tricep_Dumbbell_Kickback/0.jpg ; Tricep_Dumbbell_Kickback/1.jpg
+Triceps,Kickbacks,Triceps Kickback (Cable),cable,,Weight & reps,lib:gym:triceps-kickback-cable,Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/0.jpg ; Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Close-Grip Push-ups,Close-Grip Push-Up off of a Dumbbell,body only,,Reps,lib:Close-Grip_Push-Up_off_of_a_Dumbbell,Close-Grip_Push-Up_off_of_a_Dumbbell/0.jpg ; Close-Grip_Push-Up_off_of_a_Dumbbell/1.jpg
+Triceps,Close-Grip Push-ups,Incline Push-Up Close-Grip,body only,,Reps,lib:Incline_Push-Up_Close-Grip,Incline_Push-Up_Close-Grip/0.jpg ; Incline_Push-Up_Close-Grip/1.jpg
+Triceps,Close-Grip Push-ups,Push-Ups - Close Triceps Position,body only,,Reps,lib:Push-Ups_-_Close_Triceps_Position,Push-Ups_-_Close_Triceps_Position/0.jpg ; Push-Ups_-_Close_Triceps_Position/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Band Skull Crusher,bands,,Weight & reps,lib:Band_Skull_Crusher,Band_Skull_Crusher/0.jpg ; Band_Skull_Crusher/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Cable Lying Triceps Extension,cable,,Weight & reps,lib:Cable_Lying_Triceps_Extension,Cable_Lying_Triceps_Extension/0.jpg ; Cable_Lying_Triceps_Extension/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Decline Close-Grip Bench To Skull Crusher,barbell,,Weight & reps,lib:Decline_Close-Grip_Bench_To_Skull_Crusher,Decline_Close-Grip_Bench_To_Skull_Crusher/0.jpg ; Decline_Close-Grip_Bench_To_Skull_Crusher/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Decline Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:Decline_Dumbbell_Triceps_Extension,Decline_Dumbbell_Triceps_Extension/0.jpg ; Decline_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Decline EZ Bar Triceps Extension,barbell,,Weight & reps,lib:Decline_EZ_Bar_Triceps_Extension,Decline_EZ_Bar_Triceps_Extension/0.jpg ; Decline_EZ_Bar_Triceps_Extension/1.jpg
+Triceps,Lying Extensions (Skull Crushers),EZ-Bar Skullcrusher,e-z curl bar,,Weight & reps,lib:EZ-Bar_Skullcrusher,EZ-Bar_Skullcrusher/0.jpg ; EZ-Bar_Skullcrusher/1.jpg
+Triceps,Lying Extensions (Skull Crushers),JM Press,barbell,,Weight & reps,lib:JM_Press,JM_Press/0.jpg ; JM_Press/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Lying Close-Grip Barbell Triceps Extension Behind The Head,barbell,,Weight & reps,lib:Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head,Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head/0.jpg ; Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Lying Close-Grip Barbell Triceps Press To Chin,e-z curl bar,,Weight & reps,lib:Lying_Close-Grip_Barbell_Triceps_Press_To_Chin,Lying_Close-Grip_Barbell_Triceps_Press_To_Chin/0.jpg ; Lying_Close-Grip_Barbell_Triceps_Press_To_Chin/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Lying Dumbbell Tricep Extension,dumbbell,,Weight & reps,lib:Lying_Dumbbell_Tricep_Extension,Lying_Dumbbell_Tricep_Extension/0.jpg ; Lying_Dumbbell_Tricep_Extension/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Lying Triceps Press,e-z curl bar,,Weight & reps,lib:Lying_Triceps_Press,Lying_Triceps_Press/0.jpg ; Lying_Triceps_Press/1.jpg
+Triceps,Lying Extensions (Skull Crushers),Tate Press,dumbbell,,Weight & reps,lib:Tate_Press,Tate_Press/0.jpg ; Tate_Press/1.jpg
+Triceps,Overhead & Standing Extensions,Cable Incline Triceps Extension,cable,,Weight & reps,lib:Cable_Incline_Triceps_Extension,Cable_Incline_Triceps_Extension/0.jpg ; Cable_Incline_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Cable One Arm Tricep Extension,cable,,Weight & reps,lib:Cable_One_Arm_Tricep_Extension,Cable_One_Arm_Tricep_Extension/0.jpg ; Cable_One_Arm_Tricep_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Cable Rope Overhead Triceps Extension,cable,,Weight & reps,lib:Cable_Rope_Overhead_Triceps_Extension,Cable_Rope_Overhead_Triceps_Extension/0.jpg ; Cable_Rope_Overhead_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Chain Handle Extension,other,,Weight & reps,lib:Chain_Handle_Extension,Chain_Handle_Extension/0.jpg ; Chain_Handle_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Dumbbell One-Arm Triceps Extension,dumbbell,,Weight & reps,lib:Dumbbell_One-Arm_Triceps_Extension,Dumbbell_One-Arm_Triceps_Extension/0.jpg ; Dumbbell_One-Arm_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Dumbbell Tricep Extension -Pronated Grip,dumbbell,,Weight & reps,lib:Dumbbell_Tricep_Extension_-Pronated_Grip,Dumbbell_Tricep_Extension_-Pronated_Grip/0.jpg ; Dumbbell_Tricep_Extension_-Pronated_Grip/1.jpg
+Triceps,Overhead & Standing Extensions,Incline Barbell Triceps Extension,barbell,,Weight & reps,lib:Incline_Barbell_Triceps_Extension,Incline_Barbell_Triceps_Extension/0.jpg ; Incline_Barbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Kettlebell Overhead Triceps Extension,kettlebells,,Weight & reps,lib:Kettlebell_Overhead_Triceps_Extension,
+Triceps,Overhead & Standing Extensions,Kneeling Cable Triceps Extension,cable,,Weight & reps,lib:Kneeling_Cable_Triceps_Extension,Kneeling_Cable_Triceps_Extension/0.jpg ; Kneeling_Cable_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Low Cable Triceps Extension,cable,,Weight & reps,lib:Low_Cable_Triceps_Extension,Low_Cable_Triceps_Extension/0.jpg ; Low_Cable_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Machine Triceps Extension,machine,,Weight & reps,lib:Machine_Triceps_Extension,Machine_Triceps_Extension/0.jpg ; Machine_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,MTS Triceps Extension,machine,,Weight & reps,lib:gym:mts-triceps-extension,Machine_Triceps_Extension/0.jpg ; Machine_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,One Arm Pronated Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:One_Arm_Pronated_Dumbbell_Triceps_Extension,One_Arm_Pronated_Dumbbell_Triceps_Extension/0.jpg ; One_Arm_Pronated_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,One Arm Supinated Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:One_Arm_Supinated_Dumbbell_Triceps_Extension,One_Arm_Supinated_Dumbbell_Triceps_Extension/0.jpg ; One_Arm_Supinated_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Seated Bent-Over One-Arm Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension,Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/0.jpg ; Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Seated Bent-Over Two-Arm Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension,Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension/0.jpg ; Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Seated Triceps Press,dumbbell,,Weight & reps,lib:Seated_Triceps_Press,Seated_Triceps_Press/0.jpg ; Seated_Triceps_Press/1.jpg
+Triceps,Overhead & Standing Extensions,Sled Overhead Triceps Extension,other,,Weight & reps,lib:Sled_Overhead_Triceps_Extension,Sled_Overhead_Triceps_Extension/0.jpg ; Sled_Overhead_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Speed Band Overhead Triceps,bands,,Weight & reps,lib:Speed_Band_Overhead_Triceps,Speed_Band_Overhead_Triceps/0.jpg ; Speed_Band_Overhead_Triceps/1.jpg
+Triceps,Overhead & Standing Extensions,Standing Bent-Over One-Arm Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension,Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/0.jpg ; Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Standing Bent-Over Two-Arm Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension,Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension/0.jpg ; Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Standing Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:Standing_Dumbbell_Triceps_Extension,Standing_Dumbbell_Triceps_Extension/0.jpg ; Standing_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Standing Low-Pulley One-Arm Triceps Extension,cable,,Weight & reps,lib:Standing_Low-Pulley_One-Arm_Triceps_Extension,Standing_Low-Pulley_One-Arm_Triceps_Extension/0.jpg ; Standing_Low-Pulley_One-Arm_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Standing One-Arm Dumbbell Triceps Extension,dumbbell,,Weight & reps,lib:Standing_One-Arm_Dumbbell_Triceps_Extension,Standing_One-Arm_Dumbbell_Triceps_Extension/0.jpg ; Standing_One-Arm_Dumbbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Standing Overhead Barbell Triceps Extension,barbell,,Weight & reps,lib:Standing_Overhead_Barbell_Triceps_Extension,Standing_Overhead_Barbell_Triceps_Extension/0.jpg ; Standing_Overhead_Barbell_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Standing Towel Triceps Extension,body only,,Reps,lib:Standing_Towel_Triceps_Extension,Standing_Towel_Triceps_Extension/0.jpg ; Standing_Towel_Triceps_Extension/1.jpg
+Triceps,Overhead & Standing Extensions,Triceps Overhead Extension with Rope,cable,,Weight & reps,lib:Triceps_Overhead_Extension_with_Rope,Triceps_Overhead_Extension_with_Rope/0.jpg ; Triceps_Overhead_Extension_with_Rope/1.jpg
+Triceps,Close-Grip & Lockout Presses,Bench Press - Powerlifting,barbell,,Weight & reps,lib:Bench_Press_-_Powerlifting,Bench_Press_-_Powerlifting/0.jpg ; Bench_Press_-_Powerlifting/1.jpg
+Triceps,Close-Grip & Lockout Presses,Bench Press with Chains,barbell,,Weight & reps,lib:Bench_Press_with_Chains,Bench_Press_with_Chains/0.jpg ; Bench_Press_with_Chains/1.jpg
+Triceps,Close-Grip & Lockout Presses,Board Press,barbell,,Weight & reps,lib:Board_Press,Board_Press/0.jpg ; Board_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Body Tricep Press,body only,,Reps,lib:Body_Tricep_Press,Body_Tricep_Press/0.jpg ; Body_Tricep_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Close-Grip Barbell Bench Press,barbell,,Weight & reps,lib:Close-Grip_Barbell_Bench_Press,Close-Grip_Barbell_Bench_Press/0.jpg ; Close-Grip_Barbell_Bench_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Close-Grip Dumbbell Press,dumbbell,,Weight & reps,lib:Close-Grip_Dumbbell_Press,Close-Grip_Dumbbell_Press/0.jpg ; Close-Grip_Dumbbell_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Close-Grip EZ-Bar Press,e-z curl bar,,Weight & reps,lib:Close-Grip_EZ-Bar_Press,Close-Grip_EZ-Bar_Press/0.jpg ; Close-Grip_EZ-Bar_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Dumbbell Floor Press,dumbbell,,Weight & reps,lib:Dumbbell_Floor_Press,Dumbbell_Floor_Press/0.jpg ; Dumbbell_Floor_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Floor Press,barbell,,Weight & reps,lib:Floor_Press,Floor_Press/0.jpg ; Floor_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Floor Press with Chains,barbell,,Weight & reps,lib:Floor_Press_with_Chains,Floor_Press_with_Chains/0.jpg ; Floor_Press_with_Chains/1.jpg
+Triceps,Close-Grip & Lockout Presses,One Arm Floor Press,barbell,,Weight & reps,lib:One_Arm_Floor_Press,One_Arm_Floor_Press/0.jpg ; One_Arm_Floor_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Pin Presses,barbell,,Weight & reps,lib:Pin_Presses,Pin_Presses/0.jpg ; Pin_Presses/1.jpg
+Triceps,Close-Grip & Lockout Presses,Reverse Band Bench Press,barbell,,Weight & reps,lib:Reverse_Band_Bench_Press,Reverse_Band_Bench_Press/0.jpg ; Reverse_Band_Bench_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Reverse Triceps Bench Press,barbell,,Weight & reps,lib:Reverse_Triceps_Bench_Press,Reverse_Triceps_Bench_Press/0.jpg ; Reverse_Triceps_Bench_Press/1.jpg
+Triceps,Close-Grip & Lockout Presses,Smith Machine Close-Grip Bench Press,machine,,Weight & reps,lib:Smith_Machine_Close-Grip_Bench_Press,Smith_Machine_Close-Grip_Bench_Press/0.jpg ; Smith_Machine_Close-Grip_Bench_Press/1.jpg
+Triceps,Other,Supine Chest Throw,medicine ball,,Weight & reps,lib:Supine_Chest_Throw,Supine_Chest_Throw/0.jpg ; Supine_Chest_Throw/1.jpg
+Biceps,Hammer Curls,Alternate Hammer Curl,dumbbell,,Weight & reps,lib:Alternate_Hammer_Curl,Alternate_Hammer_Curl/0.jpg ; Alternate_Hammer_Curl/1.jpg
+Biceps,Hammer Curls,Cable Hammer Curls - Rope Attachment,cable,,Weight & reps,lib:Cable_Hammer_Curls_-_Rope_Attachment,Cable_Hammer_Curls_-_Rope_Attachment/0.jpg ; Cable_Hammer_Curls_-_Rope_Attachment/1.jpg
+Biceps,Hammer Curls,Cross Body Hammer Curl,dumbbell,,Weight & reps,lib:Cross_Body_Hammer_Curl,Cross_Body_Hammer_Curl/0.jpg ; Cross_Body_Hammer_Curl/1.jpg
+Biceps,Hammer Curls,Hammer Curls,dumbbell,,Weight & reps,lib:Hammer_Curls,Hammer_Curls/0.jpg ; Hammer_Curls/1.jpg
+Biceps,Hammer Curls,Incline Hammer Curls,dumbbell,,Weight & reps,lib:Incline_Hammer_Curls,Incline_Hammer_Curls/0.jpg ; Incline_Hammer_Curls/1.jpg
+Biceps,Hammer Curls,Preacher Hammer Dumbbell Curl,dumbbell,,Weight & reps,lib:Preacher_Hammer_Dumbbell_Curl,Preacher_Hammer_Dumbbell_Curl/0.jpg ; Preacher_Hammer_Dumbbell_Curl/1.jpg
+Biceps,Preacher & Concentration Curls,Cable Preacher Curl,cable,,Weight & reps,lib:Cable_Preacher_Curl,Cable_Preacher_Curl/0.jpg ; Cable_Preacher_Curl/1.jpg
+Biceps,Preacher & Concentration Curls,Concentration Curls,dumbbell,,Weight & reps,lib:Concentration_Curls,Concentration_Curls/0.jpg ; Concentration_Curls/1.jpg
+Biceps,Preacher & Concentration Curls,Machine Preacher Curls,machine,,Weight & reps,lib:Machine_Preacher_Curls,Machine_Preacher_Curls/0.jpg ; Machine_Preacher_Curls/1.jpg
+Biceps,Preacher & Concentration Curls,One Arm Dumbbell Preacher Curl,dumbbell,,Weight & reps,lib:One_Arm_Dumbbell_Preacher_Curl,One_Arm_Dumbbell_Preacher_Curl/0.jpg ; One_Arm_Dumbbell_Preacher_Curl/1.jpg
+Biceps,Preacher & Concentration Curls,Preacher Curl,barbell,,Weight & reps,lib:Preacher_Curl,Preacher_Curl/0.jpg ; Preacher_Curl/1.jpg
+Biceps,Preacher & Concentration Curls,Reverse Barbell Preacher Curls,e-z curl bar,,Weight & reps,lib:Reverse_Barbell_Preacher_Curls,Reverse_Barbell_Preacher_Curls/0.jpg ; Reverse_Barbell_Preacher_Curls/1.jpg
+Biceps,Preacher & Concentration Curls,Seated Close-Grip Concentration Barbell Curl,barbell,,Weight & reps,lib:Seated_Close-Grip_Concentration_Barbell_Curl,Seated_Close-Grip_Concentration_Barbell_Curl/0.jpg ; Seated_Close-Grip_Concentration_Barbell_Curl/1.jpg
+Biceps,Preacher & Concentration Curls,Spider Curl,e-z curl bar,,Weight & reps,lib:Spider_Curl,Spider_Curl/0.jpg ; Spider_Curl/1.jpg
+Biceps,Preacher & Concentration Curls,Standing Concentration Curl,dumbbell,,Weight & reps,lib:Standing_Concentration_Curl,Standing_Concentration_Curl/0.jpg ; Standing_Concentration_Curl/1.jpg
+Biceps,Preacher & Concentration Curls,Two-Arm Dumbbell Preacher Curl,dumbbell,,Weight & reps,lib:Two-Arm_Dumbbell_Preacher_Curl,Two-Arm_Dumbbell_Preacher_Curl/0.jpg ; Two-Arm_Dumbbell_Preacher_Curl/1.jpg
+Biceps,Preacher & Concentration Curls,Zottman Preacher Curl,dumbbell,,Weight & reps,lib:Zottman_Preacher_Curl,Zottman_Preacher_Curl/0.jpg ; Zottman_Preacher_Curl/1.jpg
+Biceps,Reverse Grip Curls,Reverse Barbell Curl,barbell,,Weight & reps,lib:Reverse_Barbell_Curl,Reverse_Barbell_Curl/0.jpg ; Reverse_Barbell_Curl/1.jpg
+Biceps,Reverse Grip Curls,Reverse Cable Curl,cable,,Weight & reps,lib:Reverse_Cable_Curl,Reverse_Cable_Curl/0.jpg ; Reverse_Cable_Curl/1.jpg
+Biceps,Reverse Grip Curls,Reverse Plate Curls,other,,Weight & reps,lib:Reverse_Plate_Curls,Reverse_Plate_Curls/0.jpg ; Reverse_Plate_Curls/1.jpg
+Biceps,Reverse Grip Curls,Standing Dumbbell Reverse Curl,dumbbell,,Weight & reps,lib:Standing_Dumbbell_Reverse_Curl,Standing_Dumbbell_Reverse_Curl/0.jpg ; Standing_Dumbbell_Reverse_Curl/1.jpg
+Biceps,Reverse Grip Curls,Zottman Curl,dumbbell,,Weight & reps,lib:Zottman_Curl,Zottman_Curl/0.jpg ; Zottman_Curl/1.jpg
+Biceps,Cable Curls,Behind the Back Curl (Cable),cable,,Weight & reps,lib:gym:behind-the-back-curl-cable,Standing_One-Arm_Cable_Curl/0.jpg ; Standing_One-Arm_Cable_Curl/1.jpg
+Biceps,Cable Curls,High Cable Curls,cable,,Weight & reps,lib:High_Cable_Curls,High_Cable_Curls/0.jpg ; High_Cable_Curls/1.jpg
+Biceps,Cable Curls,Lying Cable Curl,cable,,Weight & reps,lib:Lying_Cable_Curl,Lying_Cable_Curl/0.jpg ; Lying_Cable_Curl/1.jpg
+Biceps,Cable Curls,Lying Close-Grip Bar Curl On High Pulley,cable,,Weight & reps,lib:Lying_Close-Grip_Bar_Curl_On_High_Pulley,Lying_Close-Grip_Bar_Curl_On_High_Pulley/0.jpg ; Lying_Close-Grip_Bar_Curl_On_High_Pulley/1.jpg
+Biceps,Cable Curls,Overhead Cable Curl,cable,,Weight & reps,lib:Overhead_Cable_Curl,Overhead_Cable_Curl/0.jpg ; Overhead_Cable_Curl/1.jpg
+Biceps,Cable Curls,Standing Biceps Cable Curl,cable,,Weight & reps,lib:Standing_Biceps_Cable_Curl,Standing_Biceps_Cable_Curl/0.jpg ; Standing_Biceps_Cable_Curl/1.jpg
+Biceps,Cable Curls,Standing One-Arm Cable Curl,cable,,Weight & reps,lib:Standing_One-Arm_Cable_Curl,Standing_One-Arm_Cable_Curl/0.jpg ; Standing_One-Arm_Cable_Curl/1.jpg
+Biceps,Incline & Lying Curls,Alternate Incline Dumbbell Curl,dumbbell,,Weight & reps,lib:Alternate_Incline_Dumbbell_Curl,Alternate_Incline_Dumbbell_Curl/0.jpg ; Alternate_Incline_Dumbbell_Curl/1.jpg
+Biceps,Incline & Lying Curls,Barbell Curls Lying Against An Incline,barbell,,Weight & reps,lib:Barbell_Curls_Lying_Against_An_Incline,Barbell_Curls_Lying_Against_An_Incline/0.jpg ; Barbell_Curls_Lying_Against_An_Incline/1.jpg
+Biceps,Incline & Lying Curls,Dumbbell Prone Incline Curl,dumbbell,,Weight & reps,lib:Dumbbell_Prone_Incline_Curl,Dumbbell_Prone_Incline_Curl/0.jpg ; Dumbbell_Prone_Incline_Curl/1.jpg
+Biceps,Incline & Lying Curls,Flexor Incline Dumbbell Curls,dumbbell,,Weight & reps,lib:Flexor_Incline_Dumbbell_Curls,Flexor_Incline_Dumbbell_Curls/0.jpg ; Flexor_Incline_Dumbbell_Curls/1.jpg
+Biceps,Incline & Lying Curls,Incline Dumbbell Curl,dumbbell,,Weight & reps,lib:Incline_Dumbbell_Curl,Incline_Dumbbell_Curl/0.jpg ; Incline_Dumbbell_Curl/1.jpg
+Biceps,Incline & Lying Curls,Incline Inner Biceps Curl,dumbbell,,Weight & reps,lib:Incline_Inner_Biceps_Curl,Incline_Inner_Biceps_Curl/0.jpg ; Incline_Inner_Biceps_Curl/1.jpg
+Biceps,Incline & Lying Curls,Lying High Bench Barbell Curl,barbell,,Weight & reps,lib:Lying_High_Bench_Barbell_Curl,Lying_High_Bench_Barbell_Curl/0.jpg ; Lying_High_Bench_Barbell_Curl/1.jpg
+Biceps,Incline & Lying Curls,Lying Supine Dumbbell Curl,dumbbell,,Weight & reps,lib:Lying_Supine_Dumbbell_Curl,Lying_Supine_Dumbbell_Curl/0.jpg ; Lying_Supine_Dumbbell_Curl/1.jpg
+Biceps,Incline & Lying Curls,Standing One-Arm Dumbbell Curl Over Incline Bench,dumbbell,,Weight & reps,lib:Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench,Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench/0.jpg ; Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench/1.jpg
+Biceps,Machine Curls,Machine Bicep Curl,machine,,Weight & reps,lib:Machine_Bicep_Curl,Machine_Bicep_Curl/0.jpg ; Machine_Bicep_Curl/1.jpg
+Biceps,Machine Curls,MTS Biceps Curl,machine,,Weight & reps,lib:gym:mts-biceps-curl,Machine_Bicep_Curl/0.jpg ; Machine_Bicep_Curl/1.jpg
+Biceps,Barbell & EZ-Bar Curls,Barbell Curl,barbell,,Weight & reps,lib:Barbell_Curl,Barbell_Curl/0.jpg ; Barbell_Curl/1.jpg
+Biceps,Barbell & EZ-Bar Curls,Close-Grip EZ Bar Curl,barbell,,Weight & reps,lib:Close-Grip_EZ_Bar_Curl,Close-Grip_EZ_Bar_Curl/0.jpg ; Close-Grip_EZ_Bar_Curl/1.jpg
+Biceps,Barbell & EZ-Bar Curls,Close-Grip EZ-Bar Curl with Band,e-z curl bar,,Weight & reps,lib:Close-Grip_EZ-Bar_Curl_with_Band,Close-Grip_EZ-Bar_Curl_with_Band/0.jpg ; Close-Grip_EZ-Bar_Curl_with_Band/1.jpg
+Biceps,Barbell & EZ-Bar Curls,Close-Grip Standing Barbell Curl,barbell,,Weight & reps,lib:Close-Grip_Standing_Barbell_Curl,Close-Grip_Standing_Barbell_Curl/0.jpg ; Close-Grip_Standing_Barbell_Curl/1.jpg
+Biceps,Barbell & EZ-Bar Curls,Drag Curl,barbell,,Weight & reps,lib:Drag_Curl,Drag_Curl/0.jpg ; Drag_Curl/1.jpg
+Biceps,Barbell & EZ-Bar Curls,EZ-Bar Curl,e-z curl bar,,Weight & reps,lib:EZ-Bar_Curl,EZ-Bar_Curl/0.jpg ; EZ-Bar_Curl/1.jpg
+Biceps,Barbell & EZ-Bar Curls,Wide-Grip Standing Barbell Curl,barbell,,Weight & reps,lib:Wide-Grip_Standing_Barbell_Curl,Wide-Grip_Standing_Barbell_Curl/0.jpg ; Wide-Grip_Standing_Barbell_Curl/1.jpg
+Biceps,Dumbbell Curls,Dumbbell Alternate Bicep Curl,dumbbell,,Weight & reps,lib:Dumbbell_Alternate_Bicep_Curl,Dumbbell_Alternate_Bicep_Curl/0.jpg ; Dumbbell_Alternate_Bicep_Curl/1.jpg
+Biceps,Dumbbell Curls,Dumbbell Bicep Curl,dumbbell,,Weight & reps,lib:Dumbbell_Bicep_Curl,Dumbbell_Bicep_Curl/0.jpg ; Dumbbell_Bicep_Curl/1.jpg
+Biceps,Dumbbell Curls,Seated Dumbbell Curl,dumbbell,,Weight & reps,lib:Seated_Dumbbell_Curl,Seated_Dumbbell_Curl/0.jpg ; Seated_Dumbbell_Curl/1.jpg
+Biceps,Dumbbell Curls,Seated Dumbbell Inner Biceps Curl,dumbbell,,Weight & reps,lib:Seated_Dumbbell_Inner_Biceps_Curl,Seated_Dumbbell_Inner_Biceps_Curl/0.jpg ; Seated_Dumbbell_Inner_Biceps_Curl/1.jpg
+Biceps,Dumbbell Curls,Standing Inner-Biceps Curl,dumbbell,,Weight & reps,lib:Standing_Inner-Biceps_Curl,Standing_Inner-Biceps_Curl/0.jpg ; Standing_Inner-Biceps_Curl/1.jpg
+Forearms,Wrist Curls,Cable Wrist Curl,cable,,Weight & reps,lib:Cable_Wrist_Curl,Cable_Wrist_Curl/0.jpg ; Cable_Wrist_Curl/1.jpg
+Forearms,Wrist Curls,Palms-Down Dumbbell Wrist Curl Over A Bench,dumbbell,,Weight & reps,lib:Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench,Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench/0.jpg ; Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench/1.jpg
+Forearms,Wrist Curls,Palms-Down Wrist Curl Over A Bench,barbell,,Weight & reps,lib:Palms-Down_Wrist_Curl_Over_A_Bench,Palms-Down_Wrist_Curl_Over_A_Bench/0.jpg ; Palms-Down_Wrist_Curl_Over_A_Bench/1.jpg
+Forearms,Wrist Curls,Palms-Up Barbell Wrist Curl Over A Bench,barbell,,Weight & reps,lib:Palms-Up_Barbell_Wrist_Curl_Over_A_Bench,Palms-Up_Barbell_Wrist_Curl_Over_A_Bench/0.jpg ; Palms-Up_Barbell_Wrist_Curl_Over_A_Bench/1.jpg
+Forearms,Wrist Curls,Palms-Up Dumbbell Wrist Curl Over A Bench,dumbbell,,Weight & reps,lib:Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench,Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench/0.jpg ; Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench/1.jpg
+Forearms,Wrist Curls,Seated Dumbbell Palms-Down Wrist Curl,dumbbell,,Weight & reps,lib:Seated_Dumbbell_Palms-Down_Wrist_Curl,Seated_Dumbbell_Palms-Down_Wrist_Curl/0.jpg ; Seated_Dumbbell_Palms-Down_Wrist_Curl/1.jpg
+Forearms,Wrist Curls,Seated Dumbbell Palms-Up Wrist Curl,dumbbell,,Weight & reps,lib:Seated_Dumbbell_Palms-Up_Wrist_Curl,Seated_Dumbbell_Palms-Up_Wrist_Curl/0.jpg ; Seated_Dumbbell_Palms-Up_Wrist_Curl/1.jpg
+Forearms,Wrist Curls,Seated One-Arm Dumbbell Palms-Down Wrist Curl,dumbbell,,Weight & reps,lib:Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl,Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl/0.jpg ; Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl/1.jpg
+Forearms,Wrist Curls,Seated One-Arm Dumbbell Palms-Up Wrist Curl,dumbbell,,Weight & reps,lib:Seated_One-Arm_Dumbbell_Palms-Up_Wrist_Curl,Seated_One-Arm_Dumbbell_Palms-Up_Wrist_Curl/0.jpg ; Seated_One-Arm_Dumbbell_Palms-Up_Wrist_Curl/1.jpg
+Forearms,Wrist Curls,Seated Palm-Up Barbell Wrist Curl,barbell,,Weight & reps,lib:Seated_Palm-Up_Barbell_Wrist_Curl,Seated_Palm-Up_Barbell_Wrist_Curl/0.jpg ; Seated_Palm-Up_Barbell_Wrist_Curl/1.jpg
+Forearms,Wrist Curls,Seated Palms-Down Barbell Wrist Curl,barbell,,Weight & reps,lib:Seated_Palms-Down_Barbell_Wrist_Curl,Seated_Palms-Down_Barbell_Wrist_Curl/0.jpg ; Seated_Palms-Down_Barbell_Wrist_Curl/1.jpg
+Forearms,Wrist Curls,Seated Two-Arm Palms-Up Low-Pulley Wrist Curl,cable,,Weight & reps,lib:Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl,Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl/0.jpg ; Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl/1.jpg
+Forearms,Wrist Curls,Standing Palms-Up Barbell Behind The Back Wrist Curl,barbell,,Weight & reps,lib:Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl,Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl/0.jpg ; Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl/1.jpg
+Forearms,Wrist Rotations & Rollers,Dumbbell Lying Pronation,dumbbell,,Weight & reps,lib:Dumbbell_Lying_Pronation,Dumbbell_Lying_Pronation/0.jpg ; Dumbbell_Lying_Pronation/1.jpg
+Forearms,Wrist Rotations & Rollers,Dumbbell Lying Supination,dumbbell,,Weight & reps,lib:Dumbbell_Lying_Supination,Dumbbell_Lying_Supination/0.jpg ; Dumbbell_Lying_Supination/1.jpg
+Forearms,Wrist Rotations & Rollers,Wrist Roller,other,,Weight & reps,lib:Wrist_Roller,Wrist_Roller/0.jpg ; Wrist_Roller/1.jpg
+Forearms,Wrist Rotations & Rollers,Wrist Rotations with Straight Bar,barbell,,Weight & reps,lib:Wrist_Rotations_with_Straight_Bar,Wrist_Rotations_with_Straight_Bar/0.jpg ; Wrist_Rotations_with_Straight_Bar/1.jpg
+Forearms,Carries,Farmer's Walk,other,,Weight & reps,lib:Farmers_Walk,Farmers_Walk/0.jpg ; Farmers_Walk/1.jpg
+Forearms,Carries,Rickshaw Carry,other,,Weight & reps,lib:Rickshaw_Carry,Rickshaw_Carry/0.jpg ; Rickshaw_Carry/1.jpg
+Forearms,Grip,Finger Curls,barbell,,Weight & reps,lib:Finger_Curls,Finger_Curls/0.jpg ; Finger_Curls/1.jpg
+Forearms,Grip,Plate Pinch,other,,Weight & reps,lib:Plate_Pinch,Plate_Pinch/0.jpg ; Plate_Pinch/1.jpg
+Forearms,Grip,Standing Olympic Plate Hand Squeeze,other,,Weight & reps,lib:Standing_Olympic_Plate_Hand_Squeeze,Standing_Olympic_Plate_Hand_Squeeze/0.jpg ; Standing_Olympic_Plate_Hand_Squeeze/1.jpg
+Forearms,Other,Bottoms-Up Clean From The Hang Position,kettlebells,,Weight & reps,lib:Bottoms-Up_Clean_From_The_Hang_Position,Bottoms-Up_Clean_From_The_Hang_Position/0.jpg ; Bottoms-Up_Clean_From_The_Hang_Position/1.jpg
+Lats,Straight-Arm Pulldowns & Pullovers,Bent-Arm Barbell Pullover,barbell,,Weight & reps,lib:Bent-Arm_Barbell_Pullover,Bent-Arm_Barbell_Pullover/0.jpg ; Bent-Arm_Barbell_Pullover/1.jpg
+Lats,Straight-Arm Pulldowns & Pullovers,Cable Incline Pushdown,cable,,Weight & reps,lib:Cable_Incline_Pushdown,Cable_Incline_Pushdown/0.jpg ; Cable_Incline_Pushdown/1.jpg
+Lats,Straight-Arm Pulldowns & Pullovers,Rope Straight-Arm Pulldown,cable,,Weight & reps,lib:Rope_Straight-Arm_Pulldown,Rope_Straight-Arm_Pulldown/0.jpg ; Rope_Straight-Arm_Pulldown/1.jpg
+Lats,Straight-Arm Pulldowns & Pullovers,Straight-Arm Pulldown,cable,,Weight & reps,lib:Straight-Arm_Pulldown,Straight-Arm_Pulldown/0.jpg ; Straight-Arm_Pulldown/1.jpg
+Lats,Pulldowns,Close-Grip Front Lat Pulldown,cable,,Weight & reps,lib:Close-Grip_Front_Lat_Pulldown,Close-Grip_Front_Lat_Pulldown/0.jpg ; Close-Grip_Front_Lat_Pulldown/1.jpg
+Lats,Pulldowns,Full Range-Of-Motion Lat Pulldown,cable,,Weight & reps,lib:Full_Range-Of-Motion_Lat_Pulldown,Full_Range-Of-Motion_Lat_Pulldown/0.jpg ; Full_Range-Of-Motion_Lat_Pulldown/1.jpg
+Lats,Pulldowns,Iso-Lateral Front Lat Pulldown,machine,,Weight & reps,lib:gym:iso-lateral-front-lat-pulldown,Wide-Grip_Lat_Pulldown/0.jpg ; Wide-Grip_Lat_Pulldown/1.jpg
+Lats,Pulldowns,Kneeling Single Arm Pulldown,cable,,Weight & reps,lib:gym:kneeling-single-arm-pulldown,Kneeling_Single-Arm_High_Pulley_Row/0.jpg ; Kneeling_Single-Arm_High_Pulley_Row/1.jpg
+Lats,Pulldowns,Lat Pull Around,cable,,Weight & reps,lib:gym:lat-pull-around,One_Arm_Lat_Pulldown/0.jpg ; One_Arm_Lat_Pulldown/1.jpg
+Lats,Pulldowns,Lat Pulldown (Machine),machine,,Weight & reps,lib:gym:lat-pulldown-machine,Wide-Grip_Lat_Pulldown/0.jpg ; Wide-Grip_Lat_Pulldown/1.jpg
+Lats,Pulldowns,MTS Front Pulldown,machine,,Weight & reps,lib:gym:mts-front-pulldown,Wide-Grip_Lat_Pulldown/0.jpg ; Wide-Grip_Lat_Pulldown/1.jpg
+Lats,Pulldowns,One Arm Lat Pulldown,cable,,Weight & reps,lib:One_Arm_Lat_Pulldown,One_Arm_Lat_Pulldown/0.jpg ; One_Arm_Lat_Pulldown/1.jpg
+Lats,Pulldowns,Rocky Pull-Ups/Pulldowns,other,,Weight & reps,lib:Rocky_Pull-Ups_Pulldowns,Rocky_Pull-Ups_Pulldowns/0.jpg ; Rocky_Pull-Ups_Pulldowns/1.jpg
+Lats,Pulldowns,Underhand Cable Pulldowns,cable,,Weight & reps,lib:Underhand_Cable_Pulldowns,Underhand_Cable_Pulldowns/0.jpg ; Underhand_Cable_Pulldowns/1.jpg
+Lats,Pulldowns,V-Bar Pulldown,cable,,Weight & reps,lib:V-Bar_Pulldown,V-Bar_Pulldown/0.jpg ; V-Bar_Pulldown/1.jpg
+Lats,Pulldowns,Wide-Grip Lat Pulldown,cable,,Weight & reps,lib:Wide-Grip_Lat_Pulldown,Wide-Grip_Lat_Pulldown/0.jpg ; Wide-Grip_Lat_Pulldown/1.jpg
+Lats,Pulldowns,Wide-Grip Pulldown Behind The Neck,cable,,Weight & reps,lib:Wide-Grip_Pulldown_Behind_The_Neck,Wide-Grip_Pulldown_Behind_The_Neck/0.jpg ; Wide-Grip_Pulldown_Behind_The_Neck/1.jpg
+Lats,Pull-ups & Chin-ups,Assisted Pull Up (Machine),machine,,Weight & reps,lib:gym:assisted-pull-up-machine,Band_Assisted_Pull-Up/0.jpg ; Band_Assisted_Pull-Up/1.jpg
+Lats,Pull-ups & Chin-ups,Band Assisted Pull-Up,other,,Weight & reps,lib:Band_Assisted_Pull-Up,Band_Assisted_Pull-Up/0.jpg ; Band_Assisted_Pull-Up/1.jpg
+Lats,Pull-ups & Chin-ups,Chin-Up,body only,,Reps,lib:Chin-Up,Chin-Up/0.jpg ; Chin-Up/1.jpg
+Lats,Pull-ups & Chin-ups,Gironda Sternum Chins,other,,Weight & reps,lib:Gironda_Sternum_Chins,Gironda_Sternum_Chins/0.jpg ; Gironda_Sternum_Chins/1.jpg
+Lats,Pull-ups & Chin-ups,Kipping Muscle Up,other,,Weight & reps,lib:Kipping_Muscle_Up,Kipping_Muscle_Up/0.jpg ; Kipping_Muscle_Up/1.jpg
+Lats,Pull-ups & Chin-ups,Muscle Up,other,,Weight & reps,lib:Muscle_Up,Muscle_Up/0.jpg ; Muscle_Up/1.jpg
+Lats,Pull-ups & Chin-ups,Pullups,body only,,Reps,lib:Pullups,Pullups/0.jpg ; Pullups/1.jpg
+Lats,Pull-ups & Chin-ups,Rope Climb,other,,Weight & reps,lib:Rope_Climb,Rope_Climb/0.jpg ; Rope_Climb/1.jpg
+Lats,Pull-ups & Chin-ups,Side To Side Chins,other,,Weight & reps,lib:Side_To_Side_Chins,Side_To_Side_Chins/0.jpg ; Side_To_Side_Chins/1.jpg
+Lats,Pull-ups & Chin-ups,V-Bar Pullup,body only,,Reps,lib:V-Bar_Pullup,V-Bar_Pullup/0.jpg ; V-Bar_Pullup/1.jpg
+Lats,Pull-ups & Chin-ups,Weighted Pull Ups,other,,Weight & reps,lib:Weighted_Pull_Ups,Weighted_Pull_Ups/0.jpg ; Weighted_Pull_Ups/1.jpg
+Lats,Pull-ups & Chin-ups,Wide-Grip Rear Pull-Up,body only,,Reps,lib:Wide-Grip_Rear_Pull-Up,Wide-Grip_Rear_Pull-Up/0.jpg ; Wide-Grip_Rear_Pull-Up/1.jpg
+Lats,Throws & Other,Catch and Overhead Throw,medicine ball,,Weight & reps,lib:Catch_and_Overhead_Throw,Catch_and_Overhead_Throw/0.jpg ; Catch_and_Overhead_Throw/1.jpg
+Lats,Throws & Other,London Bridges,other,,Weight & reps,lib:London_Bridges,London_Bridges/0.jpg ; London_Bridges/1.jpg
+Lats,Throws & Other,Overhead Slam,medicine ball,,Weight & reps,lib:Overhead_Slam,Overhead_Slam/0.jpg ; Overhead_Slam/1.jpg
+Lats,Rows,Elevated Cable Rows,cable,,Weight & reps,lib:Elevated_Cable_Rows,Elevated_Cable_Rows/0.jpg ; Elevated_Cable_Rows/1.jpg
+Lats,Rows,Iso-Lateral D.Y. Row,machine,,Weight & reps,lib:gym:iso-lateral-d-y-row,One-Arm_Dumbbell_Row/0.jpg ; One-Arm_Dumbbell_Row/1.jpg
+Lats,Rows,Iso-Lateral High Row,machine,,Weight & reps,lib:gym:iso-lateral-high-row,Leverage_High_Row/0.jpg ; Leverage_High_Row/1.jpg
+Lats,Rows,Kneeling High Pulley Row,cable,,Weight & reps,lib:Kneeling_High_Pulley_Row,Kneeling_High_Pulley_Row/0.jpg ; Kneeling_High_Pulley_Row/1.jpg
+Lats,Rows,Kneeling Single-Arm High Pulley Row,cable,,Weight & reps,lib:Kneeling_Single-Arm_High_Pulley_Row,Kneeling_Single-Arm_High_Pulley_Row/0.jpg ; Kneeling_Single-Arm_High_Pulley_Row/1.jpg
+Lats,Rows,Leverage Iso Row,machine,,Weight & reps,lib:Leverage_Iso_Row,Leverage_Iso_Row/0.jpg ; Leverage_Iso_Row/1.jpg
+Lats,Rows,Shotgun Row,cable,,Weight & reps,lib:Shotgun_Row,Shotgun_Row/0.jpg ; Shotgun_Row/1.jpg
+Middle Back,Pull-ups & Chin-ups,Mixed Grip Chin,other,,Weight & reps,lib:Mixed_Grip_Chin,Mixed_Grip_Chin/0.jpg ; Mixed_Grip_Chin/1.jpg
+Middle Back,Pull-ups & Chin-ups,One Arm Chin-Up,other,,Weight & reps,lib:One_Arm_Chin-Up,One_Arm_Chin-Up/0.jpg ; One_Arm_Chin-Up/1.jpg
+Middle Back,Pull-ups & Chin-ups,Seated Row (Machine),machine,,Weight & reps,lib:gym:seated-row-machine,Leverage_Iso_Row/0.jpg ; Leverage_Iso_Row/1.jpg
+Middle Back,Pull-ups & Chin-ups,Smith Machine Bent Over Row,machine,,Weight & reps,lib:Smith_Machine_Bent_Over_Row,Smith_Machine_Bent_Over_Row/0.jpg ; Smith_Machine_Bent_Over_Row/1.jpg
+Middle Back,Bodyweight Rows,Bodyweight Mid Row,other,,Weight & reps,lib:Bodyweight_Mid_Row,Bodyweight_Mid_Row/0.jpg ; Bodyweight_Mid_Row/1.jpg
+Middle Back,Bodyweight Rows,Inverted Row,,,Weight & reps,lib:Inverted_Row,Inverted_Row/0.jpg ; Inverted_Row/1.jpg
+Middle Back,Bodyweight Rows,Inverted Row with Straps,other,,Weight & reps,lib:Inverted_Row_with_Straps,Inverted_Row_with_Straps/0.jpg ; Inverted_Row_with_Straps/1.jpg
+Middle Back,Bodyweight Rows,Suspended Row,other,,Weight & reps,lib:Suspended_Row,Suspended_Row/0.jpg ; Suspended_Row/1.jpg
+Middle Back,Cable Rows,Seated Cable Row - Bar Wide Grip,cable,,Weight & reps,lib:gym:seated-cable-row-bar-wide-grip,Seated_Cable_Rows/0.jpg ; Seated_Cable_Rows/1.jpg
+Middle Back,Cable Rows,Seated Cable Row - V Grip (Cable),cable,,Weight & reps,lib:gym:seated-cable-row-v-grip-cable,Seated_Cable_Rows/0.jpg ; Seated_Cable_Rows/1.jpg
+Middle Back,Cable Rows,Seated Cable Rows,cable,,Weight & reps,lib:Seated_Cable_Rows,Seated_Cable_Rows/0.jpg ; Seated_Cable_Rows/1.jpg
+Middle Back,Cable Rows,Seated One-arm Cable Pulley Rows,cable,,Weight & reps,lib:Seated_One-arm_Cable_Pulley_Rows,Seated_One-arm_Cable_Pulley_Rows/0.jpg ; Seated_One-arm_Cable_Pulley_Rows/1.jpg
+Middle Back,Machine Rows,Iso-Lateral Low Row,machine,,Weight & reps,lib:gym:iso-lateral-low-row,Leverage_Iso_Row/0.jpg ; Leverage_Iso_Row/1.jpg
+Middle Back,Machine Rows,Iso-Lateral Row,machine,Lats,Weight & reps,lib:gym:iso-lateral-row,Leverage_Iso_Row/0.jpg ; Leverage_Iso_Row/1.jpg
+Middle Back,Machine Rows,Leverage High Row,machine,,Weight & reps,lib:Leverage_High_Row,Leverage_High_Row/0.jpg ; Leverage_High_Row/1.jpg
+Middle Back,Machine Rows,MTS Row,machine,Lats,Weight & reps,lib:gym:mts-row,Leverage_Iso_Row/0.jpg ; Leverage_Iso_Row/1.jpg
+Middle Back,Machine Rows,Sled Row,other,,Weight & reps,lib:Sled_Row,Sled_Row/0.jpg ; Sled_Row/1.jpg
+Middle Back,T-Bar & Landmine Rows,Bent Over One-Arm Long Bar Row,barbell,,Weight & reps,lib:Bent_Over_One-Arm_Long_Bar_Row,Bent_Over_One-Arm_Long_Bar_Row/0.jpg ; Bent_Over_One-Arm_Long_Bar_Row/1.jpg
+Middle Back,T-Bar & Landmine Rows,Bent Over Two-Arm Long Bar Row,barbell,,Weight & reps,lib:Bent_Over_Two-Arm_Long_Bar_Row,Bent_Over_Two-Arm_Long_Bar_Row/0.jpg ; Bent_Over_Two-Arm_Long_Bar_Row/1.jpg
+Middle Back,T-Bar & Landmine Rows,Lying T-Bar Row,machine,,Weight & reps,lib:Lying_T-Bar_Row,Lying_T-Bar_Row/0.jpg ; Lying_T-Bar_Row/1.jpg
+Middle Back,T-Bar & Landmine Rows,Meadows Row (Barbell),barbell,Lats,Weight & reps,lib:gym:meadows-row-barbell,Bent_Over_One-Arm_Long_Bar_Row/0.jpg ; Bent_Over_One-Arm_Long_Bar_Row/1.jpg
+Middle Back,T-Bar & Landmine Rows,One-Arm Long Bar Row,barbell,,Weight & reps,lib:One-Arm_Long_Bar_Row,One-Arm_Long_Bar_Row/0.jpg ; One-Arm_Long_Bar_Row/1.jpg
+Middle Back,T-Bar & Landmine Rows,T-Bar Row with Handle,barbell,,Weight & reps,lib:T-Bar_Row_with_Handle,T-Bar_Row_with_Handle/0.jpg ; T-Bar_Row_with_Handle/1.jpg
+Middle Back,Barbell Rows,Bent Over Barbell Row,barbell,,Weight & reps,lib:Bent_Over_Barbell_Row,Bent_Over_Barbell_Row/0.jpg ; Bent_Over_Barbell_Row/1.jpg
+Middle Back,Barbell Rows,Incline Bench Pull,barbell,,Weight & reps,lib:Incline_Bench_Pull,Incline_Bench_Pull/0.jpg ; Incline_Bench_Pull/1.jpg
+Middle Back,Barbell Rows,Lying Cambered Barbell Row,barbell,,Weight & reps,lib:Lying_Cambered_Barbell_Row,Lying_Cambered_Barbell_Row/0.jpg ; Lying_Cambered_Barbell_Row/1.jpg
+Middle Back,Barbell Rows,Straight Bar Bench Mid Rows,barbell,,Weight & reps,lib:Straight_Bar_Bench_Mid_Rows,Straight_Bar_Bench_Mid_Rows/0.jpg ; Straight_Bar_Bench_Mid_Rows/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,Alternating Kettlebell Row,kettlebells,,Weight & reps,lib:Alternating_Kettlebell_Row,Alternating_Kettlebell_Row/0.jpg ; Alternating_Kettlebell_Row/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,Alternating Renegade Row,kettlebells,,Weight & reps,lib:Alternating_Renegade_Row,Alternating_Renegade_Row/0.jpg ; Alternating_Renegade_Row/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,Bent Over Two-Dumbbell Row,dumbbell,,Weight & reps,lib:Bent_Over_Two-Dumbbell_Row,Bent_Over_Two-Dumbbell_Row/0.jpg ; Bent_Over_Two-Dumbbell_Row/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,Bent Over Two-Dumbbell Row With Palms In,dumbbell,,Weight & reps,lib:Bent_Over_Two-Dumbbell_Row_With_Palms_In,Bent_Over_Two-Dumbbell_Row_With_Palms_In/0.jpg ; Bent_Over_Two-Dumbbell_Row_With_Palms_In/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,Dumbbell Incline Row,dumbbell,,Weight & reps,lib:Dumbbell_Incline_Row,Dumbbell_Incline_Row/0.jpg ; Dumbbell_Incline_Row/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,One-Arm Dumbbell Row,dumbbell,,Weight & reps,lib:One-Arm_Dumbbell_Row,One-Arm_Dumbbell_Row/0.jpg ; One-Arm_Dumbbell_Row/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,One-Arm Kettlebell Row,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Row,One-Arm_Kettlebell_Row/0.jpg ; One-Arm_Kettlebell_Row/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,Reverse Grip Bent-Over Rows,barbell,,Weight & reps,lib:Reverse_Grip_Bent-Over_Rows,Reverse_Grip_Bent-Over_Rows/0.jpg ; Reverse_Grip_Bent-Over_Rows/1.jpg
+Middle Back,Dumbbell & Kettlebell Rows,Two-Arm Kettlebell Row,kettlebells,,Weight & reps,lib:Two-Arm_Kettlebell_Row,Two-Arm_Kettlebell_Row/0.jpg ; Two-Arm_Kettlebell_Row/1.jpg
+Middle Back,Other,Middle Back Shrug,dumbbell,,Weight & reps,lib:Middle_Back_Shrug,Middle_Back_Shrug/0.jpg ; Middle_Back_Shrug/1.jpg
+Traps,Upright Rows & High Pulls,Kettlebell Sumo High Pull,kettlebells,,Weight & reps,lib:Kettlebell_Sumo_High_Pull,Kettlebell_Sumo_High_Pull/0.jpg ; Kettlebell_Sumo_High_Pull/1.jpg
+Traps,Upright Rows & High Pulls,Smith Machine Upright Row,machine,,Weight & reps,lib:Smith_Machine_Upright_Row,Smith_Machine_Upright_Row/0.jpg ; Smith_Machine_Upright_Row/1.jpg
+Traps,Upright Rows & High Pulls,Standing Dumbbell Upright Row,dumbbell,,Weight & reps,lib:Standing_Dumbbell_Upright_Row,Standing_Dumbbell_Upright_Row/0.jpg ; Standing_Dumbbell_Upright_Row/1.jpg
+Traps,Upright Rows & High Pulls,Upright Cable Row,cable,,Weight & reps,lib:Upright_Cable_Row,Upright_Cable_Row/0.jpg ; Upright_Cable_Row/1.jpg
+Traps,Upright Rows & High Pulls,Upright Row - With Bands,bands,,Weight & reps,lib:Upright_Row_-_With_Bands,Upright_Row_-_With_Bands/0.jpg ; Upright_Row_-_With_Bands/1.jpg
+Traps,Shrugs,Barbell Shrug,barbell,,Weight & reps,lib:Barbell_Shrug,Barbell_Shrug/0.jpg ; Barbell_Shrug/1.jpg
+Traps,Shrugs,Barbell Shrug Behind The Back,barbell,,Weight & reps,lib:Barbell_Shrug_Behind_The_Back,Barbell_Shrug_Behind_The_Back/0.jpg ; Barbell_Shrug_Behind_The_Back/1.jpg
+Traps,Shrugs,Cable Shrugs,cable,,Weight & reps,lib:Cable_Shrugs,Cable_Shrugs/0.jpg ; Cable_Shrugs/1.jpg
+Traps,Shrugs,Calf-Machine Shoulder Shrug,machine,,Weight & reps,lib:Calf-Machine_Shoulder_Shrug,Calf-Machine_Shoulder_Shrug/0.jpg ; Calf-Machine_Shoulder_Shrug/1.jpg
+Traps,Shrugs,Clean Shrug,barbell,,Weight & reps,lib:Clean_Shrug,Clean_Shrug/0.jpg ; Clean_Shrug/1.jpg
+Traps,Shrugs,Dumbbell Shrug,dumbbell,,Weight & reps,lib:Dumbbell_Shrug,Dumbbell_Shrug/0.jpg ; Dumbbell_Shrug/1.jpg
+Traps,Shrugs,Leverage Shrug,machine,,Weight & reps,lib:Leverage_Shrug,Leverage_Shrug/0.jpg ; Leverage_Shrug/1.jpg
+Traps,Shrugs,Smith Machine Behind the Back Shrug,machine,,Weight & reps,lib:Smith_Machine_Behind_the_Back_Shrug,Smith_Machine_Behind_the_Back_Shrug/0.jpg ; Smith_Machine_Behind_the_Back_Shrug/1.jpg
+Traps,Shrugs,Snatch Shrug,barbell,,Weight & reps,lib:Snatch_Shrug,Snatch_Shrug/0.jpg ; Snatch_Shrug/1.jpg
+Traps,Other,Scapular Pull-Up,,,Weight & reps,lib:Scapular_Pull-Up,Scapular_Pull-Up/0.jpg ; Scapular_Pull-Up/1.jpg
+Lower Back,Back Extensions,Hyperextensions (Back Extensions),other,,Weight & reps,lib:Hyperextensions_Back_Extensions,Hyperextensions_Back_Extensions/0.jpg ; Hyperextensions_Back_Extensions/1.jpg
+Lower Back,Back Extensions,Hyperextensions With No Hyperextension Bench,body only,,Reps,lib:Hyperextensions_With_No_Hyperextension_Bench,Hyperextensions_With_No_Hyperextension_Bench/0.jpg ; Hyperextensions_With_No_Hyperextension_Bench/1.jpg
+Lower Back,Back Extensions,Weighted Ball Hyperextension,exercise ball,,Weight & reps,lib:Weighted_Ball_Hyperextension,Weighted_Ball_Hyperextension/0.jpg ; Weighted_Ball_Hyperextension/1.jpg
+Lower Back,Good Mornings,Seated Good Mornings,barbell,,Weight & reps,lib:Seated_Good_Mornings,Seated_Good_Mornings/0.jpg ; Seated_Good_Mornings/1.jpg
+Lower Back,Good Mornings,Stiff Leg Barbell Good Morning,barbell,,Weight & reps,lib:Stiff_Leg_Barbell_Good_Morning,Stiff_Leg_Barbell_Good_Morning/0.jpg ; Stiff_Leg_Barbell_Good_Morning/1.jpg
+Lower Back,Strongman Lifts,Atlas Stone Trainer,other,,Weight & reps,lib:Atlas_Stone_Trainer,Atlas_Stone_Trainer/0.jpg ; Atlas_Stone_Trainer/1.jpg
+Lower Back,Strongman Lifts,Atlas Stones,other,,Weight & reps,lib:Atlas_Stones,Atlas_Stones/0.jpg ; Atlas_Stones/1.jpg
+Lower Back,Strongman Lifts,Keg Load,other,,Weight & reps,lib:Keg_Load,Keg_Load/0.jpg ; Keg_Load/1.jpg
+Lower Back,Rack Pulls,Rack Pull with Bands,barbell,,Weight & reps,lib:Rack_Pull_with_Bands,Rack_Pull_with_Bands/0.jpg ; Rack_Pull_with_Bands/1.jpg
+Lower Back,Rack Pulls,Rack Pulls,barbell,,Weight & reps,lib:Rack_Pulls,Rack_Pulls/0.jpg ; Rack_Pulls/1.jpg
+Lower Back,Deadlifts,Axle Deadlift,other,,Weight & reps,lib:Axle_Deadlift,Axle_Deadlift/0.jpg ; Axle_Deadlift/1.jpg
+Lower Back,Deadlifts,Barbell Deadlift,barbell,,Weight & reps,lib:Barbell_Deadlift,Barbell_Deadlift/0.jpg ; Barbell_Deadlift/1.jpg
+Lower Back,Deadlifts,Deadlift with Bands,barbell,,Weight & reps,lib:Deadlift_with_Bands,Deadlift_with_Bands/0.jpg ; Deadlift_with_Bands/1.jpg
+Lower Back,Deadlifts,Deadlift with Chains,barbell,,Weight & reps,lib:Deadlift_with_Chains,Deadlift_with_Chains/0.jpg ; Deadlift_with_Chains/1.jpg
+Lower Back,Deadlifts,Deficit Deadlift,barbell,,Weight & reps,lib:Deficit_Deadlift,Deficit_Deadlift/0.jpg ; Deficit_Deadlift/1.jpg
+Lower Back,Deadlifts,Reverse Band Deadlift,barbell,,Weight & reps,lib:Reverse_Band_Deadlift,Reverse_Band_Deadlift/0.jpg ; Reverse_Band_Deadlift/1.jpg
+Abdominals,Planks & Anti-Rotation,Ab Roller,other,,Weight & reps,lib:Ab_Roller,Ab_Roller/0.jpg ; Ab_Roller/1.jpg
+Abdominals,Planks & Anti-Rotation,Barbell Ab Rollout,barbell,,Weight & reps,lib:Barbell_Ab_Rollout,Barbell_Ab_Rollout/0.jpg ; Barbell_Ab_Rollout/1.jpg
+Abdominals,Planks & Anti-Rotation,Barbell Ab Rollout - On Knees,barbell,,Weight & reps,lib:Barbell_Ab_Rollout_-_On_Knees,Barbell_Ab_Rollout_-_On_Knees/0.jpg ; Barbell_Ab_Rollout_-_On_Knees/1.jpg
+Abdominals,Planks & Anti-Rotation,Barbell Rollout from Bench,barbell,,Weight & reps,lib:Barbell_Rollout_from_Bench,Barbell_Rollout_from_Bench/0.jpg ; Barbell_Rollout_from_Bench/1.jpg
+Abdominals,Planks & Anti-Rotation,Dead Bug,body only,,Reps,lib:Dead_Bug,Dead_Bug/0.jpg ; Dead_Bug/1.jpg
+Abdominals,Planks & Anti-Rotation,Pallof Press,cable,,Weight & reps,lib:Pallof_Press,Pallof_Press/0.jpg ; Pallof_Press/1.jpg
+Abdominals,Planks & Anti-Rotation,Pallof Press With Rotation,cable,,Weight & reps,lib:Pallof_Press_With_Rotation,Pallof_Press_With_Rotation/0.jpg ; Pallof_Press_With_Rotation/1.jpg
+Abdominals,Planks & Anti-Rotation,Plank,body only,,Time,lib:Plank,Plank/0.jpg ; Plank/1.jpg
+Abdominals,Planks & Anti-Rotation,Side Bridge,body only,,Reps,lib:Side_Bridge,Side_Bridge/0.jpg ; Side_Bridge/1.jpg
+Abdominals,Planks & Anti-Rotation,Suspended Fallout,other,,Weight & reps,lib:Suspended_Fallout,Suspended_Fallout/0.jpg ; Suspended_Fallout/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Advanced Kettlebell Windmill,kettlebells,,Weight & reps,lib:Advanced_Kettlebell_Windmill,Advanced_Kettlebell_Windmill/0.jpg ; Advanced_Kettlebell_Windmill/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Barbell Side Bend,barbell,,Weight & reps,lib:Barbell_Side_Bend,Barbell_Side_Bend/0.jpg ; Barbell_Side_Bend/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Bosu Ball Cable Crunch With Side Bends,cable,,Weight & reps,lib:Bosu_Ball_Cable_Crunch_With_Side_Bends,Bosu_Ball_Cable_Crunch_With_Side_Bends/0.jpg ; Bosu_Ball_Cable_Crunch_With_Side_Bends/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Cable Judo Flip,cable,,Weight & reps,lib:Cable_Judo_Flip,Cable_Judo_Flip/0.jpg ; Cable_Judo_Flip/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Cable Russian Twists,cable,,Weight & reps,lib:Cable_Russian_Twists,Cable_Russian_Twists/0.jpg ; Cable_Russian_Twists/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Double Kettlebell Windmill,kettlebells,,Weight & reps,lib:Double_Kettlebell_Windmill,Double_Kettlebell_Windmill/0.jpg ; Double_Kettlebell_Windmill/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Dumbbell Side Bend,dumbbell,,Weight & reps,lib:Dumbbell_Side_Bend,Dumbbell_Side_Bend/0.jpg ; Dumbbell_Side_Bend/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Kettlebell Figure 8,kettlebells,,Weight & reps,lib:Kettlebell_Figure_8,Kettlebell_Figure_8/0.jpg ; Kettlebell_Figure_8/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Kettlebell Pass Between The Legs,kettlebells,,Weight & reps,lib:Kettlebell_Pass_Between_The_Legs,Kettlebell_Pass_Between_The_Legs/0.jpg ; Kettlebell_Pass_Between_The_Legs/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Kettlebell Windmill,kettlebells,,Weight & reps,lib:Kettlebell_Windmill,Kettlebell_Windmill/0.jpg ; Kettlebell_Windmill/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Kneeling Cable Crunch With Alternating Oblique Twists,cable,,Weight & reps,lib:Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists,Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists/0.jpg ; Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Landmine 180's,barbell,,Weight & reps,lib:Landmine_180s,Landmine_180s/0.jpg ; Landmine_180s/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Medicine Ball Full Twist,medicine ball,,Weight & reps,lib:Medicine_Ball_Full_Twist,Medicine_Ball_Full_Twist/0.jpg ; Medicine_Ball_Full_Twist/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",One-Arm High-Pulley Cable Side Bends,cable,,Weight & reps,lib:One-Arm_High-Pulley_Cable_Side_Bends,One-Arm_High-Pulley_Cable_Side_Bends/0.jpg ; One-Arm_High-Pulley_Cable_Side_Bends/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",One-Arm Medicine Ball Slam,medicine ball,,Weight & reps,lib:One-Arm_Medicine_Ball_Slam,One-Arm_Medicine_Ball_Slam/0.jpg ; One-Arm_Medicine_Ball_Slam/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Plate Twist,other,,Weight & reps,lib:Plate_Twist,Plate_Twist/0.jpg ; Plate_Twist/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Russian Twist,body only,,Reps,lib:Russian_Twist,Russian_Twist/0.jpg ; Russian_Twist/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Seated Barbell Twist,barbell,,Weight & reps,lib:Seated_Barbell_Twist,Seated_Barbell_Twist/0.jpg ; Seated_Barbell_Twist/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Sledgehammer Swings,other,,Weight & reps,lib:Sledgehammer_Swings,Sledgehammer_Swings/0.jpg ; Sledgehammer_Swings/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Spell Caster,dumbbell,,Weight & reps,lib:Spell_Caster,Spell_Caster/0.jpg ; Spell_Caster/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Standing Cable Lift,cable,,Weight & reps,lib:Standing_Cable_Lift,Standing_Cable_Lift/0.jpg ; Standing_Cable_Lift/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Standing Cable Wood Chop,cable,,Weight & reps,lib:Standing_Cable_Wood_Chop,Standing_Cable_Wood_Chop/0.jpg ; Standing_Cable_Wood_Chop/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Supine One-Arm Overhead Throw,medicine ball,,Weight & reps,lib:Supine_One-Arm_Overhead_Throw,Supine_One-Arm_Overhead_Throw/0.jpg ; Supine_One-Arm_Overhead_Throw/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Supine Two-Arm Overhead Throw,medicine ball,,Weight & reps,lib:Supine_Two-Arm_Overhead_Throw,Supine_Two-Arm_Overhead_Throw/0.jpg ; Supine_Two-Arm_Overhead_Throw/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Torso Rotation (Machine),machine,,Weight & reps,lib:gym:torso-rotation-machine,Standing_Cable_Wood_Chop/0.jpg ; Standing_Cable_Wood_Chop/1.jpg
+Abdominals,"Twists, Side Bends & Rotation",Weighted Ball Side Bend,exercise ball,,Weight & reps,lib:Weighted_Ball_Side_Bend,Weighted_Ball_Side_Bend/0.jpg ; Weighted_Ball_Side_Bend/1.jpg
+Abdominals,Leg & Hip Raises,Bent-Knee Hip Raise,body only,,Reps,lib:Bent-Knee_Hip_Raise,Bent-Knee_Hip_Raise/0.jpg ; Bent-Knee_Hip_Raise/1.jpg
+Abdominals,Leg & Hip Raises,Bottoms Up,body only,,Reps,lib:Bottoms_Up,Bottoms_Up/0.jpg ; Bottoms_Up/1.jpg
+Abdominals,Leg & Hip Raises,Butt-Ups,body only,,Reps,lib:Butt-Ups,Butt-Ups/0.jpg ; Butt-Ups/1.jpg
+Abdominals,Leg & Hip Raises,Cable Reverse Crunch,cable,,Weight & reps,lib:Cable_Reverse_Crunch,Cable_Reverse_Crunch/0.jpg ; Cable_Reverse_Crunch/1.jpg
+Abdominals,Leg & Hip Raises,Decline Reverse Crunch,body only,,Reps,lib:Decline_Reverse_Crunch,Decline_Reverse_Crunch/0.jpg ; Decline_Reverse_Crunch/1.jpg
+Abdominals,Leg & Hip Raises,Exercise Ball Pull-In,exercise ball,,Weight & reps,lib:Exercise_Ball_Pull-In,Exercise_Ball_Pull-In/0.jpg ; Exercise_Ball_Pull-In/1.jpg
+Abdominals,Leg & Hip Raises,Flat Bench Leg Pull-In,body only,,Reps,lib:Flat_Bench_Leg_Pull-In,Flat_Bench_Leg_Pull-In/0.jpg ; Flat_Bench_Leg_Pull-In/1.jpg
+Abdominals,Leg & Hip Raises,Flat Bench Lying Leg Raise,body only,,Reps,lib:Flat_Bench_Lying_Leg_Raise,Flat_Bench_Lying_Leg_Raise/0.jpg ; Flat_Bench_Lying_Leg_Raise/1.jpg
+Abdominals,Leg & Hip Raises,Hanging Leg Raise,body only,,Reps,lib:Hanging_Leg_Raise,Hanging_Leg_Raise/0.jpg ; Hanging_Leg_Raise/1.jpg
+Abdominals,Leg & Hip Raises,Hanging Pike,body only,,Reps,lib:Hanging_Pike,Hanging_Pike/0.jpg ; Hanging_Pike/1.jpg
+Abdominals,Leg & Hip Raises,Jackknife Sit-Up,body only,,Reps,lib:Jackknife_Sit-Up,Jackknife_Sit-Up/0.jpg ; Jackknife_Sit-Up/1.jpg
+Abdominals,Leg & Hip Raises,Knee/Hip Raise On Parallel Bars,other,,Weight & reps,lib:Knee_Hip_Raise_On_Parallel_Bars,Knee_Hip_Raise_On_Parallel_Bars/0.jpg ; Knee_Hip_Raise_On_Parallel_Bars/1.jpg
+Abdominals,Leg & Hip Raises,Leg Pull-In,body only,,Reps,lib:Leg_Pull-In,Leg_Pull-In/0.jpg ; Leg_Pull-In/1.jpg
+Abdominals,Leg & Hip Raises,Reverse Crunch,body only,,Reps,lib:Reverse_Crunch,Reverse_Crunch/0.jpg ; Reverse_Crunch/1.jpg
+Abdominals,Leg & Hip Raises,Seated Flat Bench Leg Pull-In,body only,,Reps,lib:Seated_Flat_Bench_Leg_Pull-In,Seated_Flat_Bench_Leg_Pull-In/0.jpg ; Seated_Flat_Bench_Leg_Pull-In/1.jpg
+Abdominals,Leg & Hip Raises,Seated Leg Tucks,body only,,Reps,lib:Seated_Leg_Tucks,Seated_Leg_Tucks/0.jpg ; Seated_Leg_Tucks/1.jpg
+Abdominals,Leg & Hip Raises,Side Jackknife,body only,,Reps,lib:Side_Jackknife,Side_Jackknife/0.jpg ; Side_Jackknife/1.jpg
+Abdominals,Leg & Hip Raises,Smith Machine Hip Raise,machine,,Weight & reps,lib:Smith_Machine_Hip_Raise,Smith_Machine_Hip_Raise/0.jpg ; Smith_Machine_Hip_Raise/1.jpg
+Abdominals,Leg & Hip Raises,Suspended Reverse Crunch,other,,Weight & reps,lib:Suspended_Reverse_Crunch,Suspended_Reverse_Crunch/0.jpg ; Suspended_Reverse_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,3/4 Sit-Up,body only,,Reps,lib:3_4_Sit-Up,3_4_Sit-Up/0.jpg ; 3_4_Sit-Up/1.jpg
+Abdominals,Crunches & Sit-ups,Ab Crunch Machine,machine,,Weight & reps,lib:Ab_Crunch_Machine,Ab_Crunch_Machine/0.jpg ; Ab_Crunch_Machine/1.jpg
+Abdominals,Crunches & Sit-ups,Alternate Heel Touchers,body only,,Reps,lib:Alternate_Heel_Touchers,Alternate_Heel_Touchers/0.jpg ; Alternate_Heel_Touchers/1.jpg
+Abdominals,Crunches & Sit-ups,Cable Crunch,cable,,Weight & reps,lib:Cable_Crunch,Cable_Crunch/0.jpg ; Cable_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Cable Seated Crunch,cable,,Weight & reps,lib:Cable_Seated_Crunch,Cable_Seated_Crunch/0.jpg ; Cable_Seated_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Cocoons,body only,,Reps,lib:Cocoons,Cocoons/0.jpg ; Cocoons/1.jpg
+Abdominals,Crunches & Sit-ups,Cross-Body Crunch,body only,,Reps,lib:Cross-Body_Crunch,Cross-Body_Crunch/0.jpg ; Cross-Body_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Crunch - Hands Overhead,body only,,Reps,lib:Crunch_-_Hands_Overhead,Crunch_-_Hands_Overhead/0.jpg ; Crunch_-_Hands_Overhead/1.jpg
+Abdominals,Crunches & Sit-ups,Crunch - Legs On Exercise Ball,body only,,Reps,lib:Crunch_-_Legs_On_Exercise_Ball,Crunch_-_Legs_On_Exercise_Ball/0.jpg ; Crunch_-_Legs_On_Exercise_Ball/1.jpg
+Abdominals,Crunches & Sit-ups,Crunches,body only,,Reps,lib:Crunches,Crunches/0.jpg ; Crunches/1.jpg
+Abdominals,Crunches & Sit-ups,Decline Crunch,body only,,Reps,lib:Decline_Crunch,Decline_Crunch/0.jpg ; Decline_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Decline Oblique Crunch,body only,,Reps,lib:Decline_Oblique_Crunch,Decline_Oblique_Crunch/0.jpg ; Decline_Oblique_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Elbow to Knee,body only,,Reps,lib:Elbow_to_Knee,Elbow_to_Knee/0.jpg ; Elbow_to_Knee/1.jpg
+Abdominals,Crunches & Sit-ups,Exercise Ball Crunch,exercise ball,,Weight & reps,lib:Exercise_Ball_Crunch,Exercise_Ball_Crunch/0.jpg ; Exercise_Ball_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Frog Sit-Ups,body only,,Reps,lib:Frog_Sit-Ups,Frog_Sit-Ups/0.jpg ; Frog_Sit-Ups/1.jpg
+Abdominals,Crunches & Sit-ups,Gorilla Chin/Crunch,body only,,Reps,lib:Gorilla_Chin_Crunch,Gorilla_Chin_Crunch/0.jpg ; Gorilla_Chin_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Janda Sit-Up,body only,,Reps,lib:Janda_Sit-Up,Janda_Sit-Up/0.jpg ; Janda_Sit-Up/1.jpg
+Abdominals,Crunches & Sit-ups,MTS Abdominal Crunch,machine,,Weight & reps,lib:gym:mts-abdominal-crunch,Ab_Crunch_Machine/0.jpg ; Ab_Crunch_Machine/1.jpg
+Abdominals,Crunches & Sit-ups,Oblique Crunches,body only,,Reps,lib:Oblique_Crunches,Oblique_Crunches/0.jpg ; Oblique_Crunches/1.jpg
+Abdominals,Crunches & Sit-ups,Oblique Crunches - On The Floor,body only,,Reps,lib:Oblique_Crunches_-_On_The_Floor,Oblique_Crunches_-_On_The_Floor/0.jpg ; Oblique_Crunches_-_On_The_Floor/1.jpg
+Abdominals,Crunches & Sit-ups,Otis-Up,other,,Weight & reps,lib:Otis-Up,Otis-Up/0.jpg ; Otis-Up/1.jpg
+Abdominals,Crunches & Sit-ups,Press Sit-Up,barbell,,Weight & reps,lib:Press_Sit-Up,Press_Sit-Up/0.jpg ; Press_Sit-Up/1.jpg
+Abdominals,Crunches & Sit-ups,Rope Crunch,cable,,Weight & reps,lib:Rope_Crunch,Rope_Crunch/0.jpg ; Rope_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Sit-Up,body only,,Reps,lib:Sit-Up,Sit-Up/0.jpg ; Sit-Up/1.jpg
+Abdominals,Crunches & Sit-ups,Standing Rope Crunch,cable,,Weight & reps,lib:Standing_Rope_Crunch,Standing_Rope_Crunch/0.jpg ; Standing_Rope_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Tuck Crunch,body only,,Reps,lib:Tuck_Crunch,Tuck_Crunch/0.jpg ; Tuck_Crunch/1.jpg
+Abdominals,Crunches & Sit-ups,Weighted Crunches,medicine ball,,Weight & reps,lib:Weighted_Crunches,Weighted_Crunches/0.jpg ; Weighted_Crunches/1.jpg
+Abdominals,Crunches & Sit-ups,Weighted Sit-Ups - With Bands,other,,Weight & reps,lib:Weighted_Sit-Ups_-_With_Bands,Weighted_Sit-Ups_-_With_Bands/0.jpg ; Weighted_Sit-Ups_-_With_Bands/1.jpg
+Abdominals,Cardio & Other,Air Bike,body only,,Reps,lib:Air_Bike,Air_Bike/0.jpg ; Air_Bike/1.jpg
+Abdominals,Cardio & Other,Bent Press,kettlebells,,Weight & reps,lib:Bent_Press,Bent_Press/0.jpg ; Bent_Press/1.jpg
+Abdominals,Cardio & Other,Spider Crawl,body only,,Reps,lib:Spider_Crawl,Spider_Crawl/0.jpg ; Spider_Crawl/1.jpg
+Abdominals,Cardio & Other,Wind Sprints,body only,,Reps,lib:Wind_Sprints,Wind_Sprints/0.jpg ; Wind_Sprints/1.jpg
+Quadriceps,Cardio,Bicycling,other,,Time,lib:Bicycling,Bicycling/0.jpg ; Bicycling/1.jpg
+Quadriceps,Cardio,"Bicycling, Stationary",machine,,Time,lib:Bicycling_Stationary,Bicycling_Stationary/0.jpg ; Bicycling_Stationary/1.jpg
+Quadriceps,Cardio,Elliptical Trainer,machine,,Time,lib:Elliptical_Trainer,Elliptical_Trainer/0.jpg ; Elliptical_Trainer/1.jpg
+Quadriceps,Cardio,"Jogging, Treadmill",machine,,Time,lib:Jogging_Treadmill,Jogging_Treadmill/0.jpg ; Jogging_Treadmill/1.jpg
+Quadriceps,Cardio,Recumbent Bike,machine,,Time,lib:Recumbent_Bike,Recumbent_Bike/0.jpg ; Recumbent_Bike/1.jpg
+Quadriceps,Cardio,Rope Jumping,other,,Time,lib:Rope_Jumping,Rope_Jumping/0.jpg ; Rope_Jumping/1.jpg
+Quadriceps,Cardio,"Rowing, Stationary",machine,,Time,lib:Rowing_Stationary,Rowing_Stationary/0.jpg ; Rowing_Stationary/1.jpg
+Quadriceps,Cardio,"Running, Treadmill",machine,,Time,lib:Running_Treadmill,Running_Treadmill/0.jpg ; Running_Treadmill/1.jpg
+Quadriceps,Cardio,Skating,other,,Time,lib:Skating,Skating/0.jpg ; Skating/1.jpg
+Quadriceps,Cardio,Stairmaster,machine,,Time,lib:Stairmaster,Stairmaster/0.jpg ; Stairmaster/1.jpg
+Quadriceps,Cardio,Step Mill,machine,,Time,lib:Step_Mill,Step_Mill/0.jpg ; Step_Mill/1.jpg
+Quadriceps,Cardio,Trail Running/Walking,,,Time,lib:Trail_Running_Walking,Trail_Running_Walking/0.jpg ; Trail_Running_Walking/1.jpg
+Quadriceps,Cardio,"Walking, Treadmill",machine,,Time,lib:Walking_Treadmill,Walking_Treadmill/0.jpg ; Walking_Treadmill/1.jpg
+Quadriceps,Leg Presses,Iso-Lateral Leg Press,machine,,Weight & reps,lib:gym:iso-lateral-leg-press,Leg_Press/0.jpg ; Leg_Press/1.jpg
+Quadriceps,Leg Presses,Leg Press,machine,,Weight & reps,lib:Leg_Press,Leg_Press/0.jpg ; Leg_Press/1.jpg
+Quadriceps,Leg Presses,Linear Leg Press,machine,,Weight & reps,lib:gym:linear-leg-press,Leg_Press/0.jpg ; Leg_Press/1.jpg
+Quadriceps,Leg Presses,Narrow Stance Leg Press,machine,,Weight & reps,lib:Narrow_Stance_Leg_Press,Narrow_Stance_Leg_Press/0.jpg ; Narrow_Stance_Leg_Press/1.jpg
+Quadriceps,Leg Presses,Smith Machine Leg Press,machine,,Weight & reps,lib:Smith_Machine_Leg_Press,Smith_Machine_Leg_Press/0.jpg ; Smith_Machine_Leg_Press/1.jpg
+Quadriceps,Leg Extensions,Iso-Lateral Leg Extension,machine,,Weight & reps,lib:gym:iso-lateral-leg-extension,Single-Leg_Leg_Extension/0.jpg ; Single-Leg_Leg_Extension/1.jpg
+Quadriceps,Leg Extensions,Leg Extensions,machine,,Weight & reps,lib:Leg_Extensions,Leg_Extensions/0.jpg ; Leg_Extensions/1.jpg
+Quadriceps,Leg Extensions,MTS Leg Extension,machine,,Weight & reps,lib:gym:mts-leg-extension,Leg_Extensions/0.jpg ; Leg_Extensions/1.jpg
+Quadriceps,Leg Extensions,Single-Leg Leg Extension,machine,,Weight & reps,lib:Single-Leg_Leg_Extension,Single-Leg_Leg_Extension/0.jpg ; Single-Leg_Leg_Extension/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Barbell Lunge,barbell,,Weight & reps,lib:Barbell_Lunge,Barbell_Lunge/0.jpg ; Barbell_Lunge/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Barbell Side Split Squat,barbell,,Weight & reps,lib:Barbell_Side_Split_Squat,Barbell_Side_Split_Squat/0.jpg ; Barbell_Side_Split_Squat/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Barbell Step Ups,barbell,,Weight & reps,lib:Barbell_Step_Ups,Barbell_Step_Ups/0.jpg ; Barbell_Step_Ups/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Barbell Walking Lunge,barbell,,Weight & reps,lib:Barbell_Walking_Lunge,Barbell_Walking_Lunge/0.jpg ; Barbell_Walking_Lunge/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Bodyweight Walking Lunge,,,Weight & reps,lib:Bodyweight_Walking_Lunge,Bodyweight_Walking_Lunge/0.jpg ; Bodyweight_Walking_Lunge/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Dumbbell Lunges,dumbbell,,Weight & reps,lib:Dumbbell_Lunges,Dumbbell_Lunges/0.jpg ; Dumbbell_Lunges/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Dumbbell Rear Lunge,dumbbell,,Weight & reps,lib:Dumbbell_Rear_Lunge,Dumbbell_Rear_Lunge/0.jpg ; Dumbbell_Rear_Lunge/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Dumbbell Step Ups,dumbbell,,Weight & reps,lib:Dumbbell_Step_Ups,Dumbbell_Step_Ups/0.jpg ; Dumbbell_Step_Ups/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Elevated Back Lunge,barbell,,Weight & reps,lib:Elevated_Back_Lunge,Elevated_Back_Lunge/0.jpg ; Elevated_Back_Lunge/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Lunge Sprint,machine,,Weight & reps,lib:Lunge_Sprint,Lunge_Sprint/0.jpg ; Lunge_Sprint/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Smith Single-Leg Split Squat,machine,,Weight & reps,lib:Smith_Single-Leg_Split_Squat,Smith_Single-Leg_Split_Squat/0.jpg ; Smith_Single-Leg_Split_Squat/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Split Squat with Dumbbells,dumbbell,,Weight & reps,lib:Split_Squat_with_Dumbbells,Split_Squat_with_Dumbbells/0.jpg ; Split_Squat_with_Dumbbells/1.jpg
+Quadriceps,"Lunges, Split Squats & Step-ups",Suspended Split Squat,other,,Weight & reps,lib:Suspended_Split_Squat,Suspended_Split_Squat/0.jpg ; Suspended_Split_Squat/1.jpg
+Quadriceps,Olympic Lifts,Clean from Blocks,barbell,,Weight & reps,lib:Clean_from_Blocks,Clean_from_Blocks/0.jpg ; Clean_from_Blocks/1.jpg
+Quadriceps,Olympic Lifts,Clean Pull,barbell,,Weight & reps,lib:Clean_Pull,Clean_Pull/0.jpg ; Clean_Pull/1.jpg
+Quadriceps,Olympic Lifts,Front Squat (Clean Grip),barbell,,Weight & reps,lib:Front_Squat_Clean_Grip,Front_Squat_Clean_Grip/0.jpg ; Front_Squat_Clean_Grip/1.jpg
+Quadriceps,Olympic Lifts,Hang Clean,barbell,,Weight & reps,lib:Hang_Clean,Hang_Clean/0.jpg ; Hang_Clean/1.jpg
+Quadriceps,Olympic Lifts,Hang Clean - Below the Knees,barbell,,Weight & reps,lib:Hang_Clean_-_Below_the_Knees,Hang_Clean_-_Below_the_Knees/0.jpg ; Hang_Clean_-_Below_the_Knees/1.jpg
+Quadriceps,Olympic Lifts,Heaving Snatch Balance,barbell,,Weight & reps,lib:Heaving_Snatch_Balance,Heaving_Snatch_Balance/0.jpg ; Heaving_Snatch_Balance/1.jpg
+Quadriceps,Olympic Lifts,Jerk Dip Squat,barbell,,Weight & reps,lib:Jerk_Dip_Squat,Jerk_Dip_Squat/0.jpg ; Jerk_Dip_Squat/1.jpg
+Quadriceps,Olympic Lifts,Power Jerk,barbell,,Weight & reps,lib:Power_Jerk,Power_Jerk/0.jpg ; Power_Jerk/1.jpg
+Quadriceps,Olympic Lifts,Power Snatch from Blocks,barbell,,Weight & reps,lib:Power_Snatch_from_Blocks,Power_Snatch_from_Blocks/0.jpg ; Power_Snatch_from_Blocks/1.jpg
+Quadriceps,Olympic Lifts,Snatch,barbell,,Weight & reps,lib:Snatch,Snatch/0.jpg ; Snatch/1.jpg
+Quadriceps,Olympic Lifts,Snatch Balance,barbell,,Weight & reps,lib:Snatch_Balance,Snatch_Balance/0.jpg ; Snatch_Balance/1.jpg
+Quadriceps,Olympic Lifts,Snatch from Blocks,barbell,,Weight & reps,lib:Snatch_from_Blocks,Snatch_from_Blocks/0.jpg ; Snatch_from_Blocks/1.jpg
+Quadriceps,Olympic Lifts,Split Clean,barbell,,Weight & reps,lib:Split_Clean,Split_Clean/0.jpg ; Split_Clean/1.jpg
+Quadriceps,Olympic Lifts,Split Jerk,barbell,,Weight & reps,lib:Split_Jerk,Split_Jerk/0.jpg ; Split_Jerk/1.jpg
+Quadriceps,Olympic Lifts,Squat Jerk,barbell,,Weight & reps,lib:Squat_Jerk,Squat_Jerk/0.jpg ; Squat_Jerk/1.jpg
+Quadriceps,Jumps & Plyometrics,Alternate Leg Diagonal Bound,,,Weight & reps,lib:Alternate_Leg_Diagonal_Bound,Alternate_Leg_Diagonal_Bound/0.jpg ; Alternate_Leg_Diagonal_Bound/1.jpg
+Quadriceps,Jumps & Plyometrics,Bench Jump,body only,,Reps,lib:Bench_Jump,Bench_Jump/0.jpg ; Bench_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Bench Sprint,other,,Weight & reps,lib:Bench_Sprint,Bench_Sprint/0.jpg ; Bench_Sprint/1.jpg
+Quadriceps,Jumps & Plyometrics,Depth Jump Leap,other,,Weight & reps,lib:Depth_Jump_Leap,Depth_Jump_Leap/0.jpg ; Depth_Jump_Leap/1.jpg
+Quadriceps,Jumps & Plyometrics,Double Leg Butt Kick,body only,,Reps,lib:Double_Leg_Butt_Kick,Double_Leg_Butt_Kick/0.jpg ; Double_Leg_Butt_Kick/1.jpg
+Quadriceps,Jumps & Plyometrics,Dumbbell Seated Box Jump,dumbbell,,Weight & reps,lib:Dumbbell_Seated_Box_Jump,Dumbbell_Seated_Box_Jump/0.jpg ; Dumbbell_Seated_Box_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Fast Skipping,body only,,Reps,lib:Fast_Skipping,Fast_Skipping/0.jpg ; Fast_Skipping/1.jpg
+Quadriceps,Jumps & Plyometrics,Freehand Jump Squat,body only,,Reps,lib:Freehand_Jump_Squat,Freehand_Jump_Squat/0.jpg ; Freehand_Jump_Squat/1.jpg
+Quadriceps,Jumps & Plyometrics,Front Cone Hops (or hurdle hops),other,,Weight & reps,lib:Front_Cone_Hops_or_hurdle_hops,Front_Cone_Hops_or_hurdle_hops/0.jpg ; Front_Cone_Hops_or_hurdle_hops/1.jpg
+Quadriceps,Jumps & Plyometrics,Linear Depth Jump,other,,Weight & reps,lib:Linear_Depth_Jump,Linear_Depth_Jump/0.jpg ; Linear_Depth_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Quick Leap,other,,Weight & reps,lib:Quick_Leap,Quick_Leap/0.jpg ; Quick_Leap/1.jpg
+Quadriceps,Jumps & Plyometrics,Rocket Jump,body only,,Reps,lib:Rocket_Jump,Rocket_Jump/0.jpg ; Rocket_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Scissors Jump,body only,,Reps,lib:Scissors_Jump,Scissors_Jump/0.jpg ; Scissors_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Side Hop-Sprint,other,,Weight & reps,lib:Side_Hop-Sprint,Side_Hop-Sprint/0.jpg ; Side_Hop-Sprint/1.jpg
+Quadriceps,Jumps & Plyometrics,Side Standing Long Jump,,,Weight & reps,lib:Side_Standing_Long_Jump,Side_Standing_Long_Jump/0.jpg ; Side_Standing_Long_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Side to Side Box Shuffle,other,,Weight & reps,lib:Side_to_Side_Box_Shuffle,Side_to_Side_Box_Shuffle/0.jpg ; Side_to_Side_Box_Shuffle/1.jpg
+Quadriceps,Jumps & Plyometrics,Single Leg Butt Kick,body only,,Reps,lib:Single_Leg_Butt_Kick,Single_Leg_Butt_Kick/0.jpg ; Single_Leg_Butt_Kick/1.jpg
+Quadriceps,Jumps & Plyometrics,Single Leg Push-off,other,,Weight & reps,lib:Single_Leg_Push-off,Single_Leg_Push-off/0.jpg ; Single_Leg_Push-off/1.jpg
+Quadriceps,Jumps & Plyometrics,Single-Cone Sprint Drill,other,,Weight & reps,lib:Single-Cone_Sprint_Drill,Single-Cone_Sprint_Drill/0.jpg ; Single-Cone_Sprint_Drill/1.jpg
+Quadriceps,Jumps & Plyometrics,Single-Leg Hop Progression,other,,Weight & reps,lib:Single-Leg_Hop_Progression,Single-Leg_Hop_Progression/0.jpg ; Single-Leg_Hop_Progression/1.jpg
+Quadriceps,Jumps & Plyometrics,Single-Leg Lateral Hop,other,,Weight & reps,lib:Single-Leg_Lateral_Hop,Single-Leg_Lateral_Hop/0.jpg ; Single-Leg_Lateral_Hop/1.jpg
+Quadriceps,Jumps & Plyometrics,Single-Leg Stride Jump,other,,Weight & reps,lib:Single-Leg_Stride_Jump,Single-Leg_Stride_Jump/0.jpg ; Single-Leg_Stride_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Split Jump,body only,,Reps,lib:Split_Jump,Split_Jump/0.jpg ; Split_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Standing Long Jump,body only,,Reps,lib:Standing_Long_Jump,Standing_Long_Jump/0.jpg ; Standing_Long_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Star Jump,body only,,Reps,lib:Star_Jump,Star_Jump/0.jpg ; Star_Jump/1.jpg
+Quadriceps,Jumps & Plyometrics,Stride Jump Crossover,other,,Weight & reps,lib:Stride_Jump_Crossover,Stride_Jump_Crossover/0.jpg ; Stride_Jump_Crossover/1.jpg
+Quadriceps,Jumps & Plyometrics,Weighted Jump Squat,barbell,,Weight & reps,lib:Weighted_Jump_Squat,Weighted_Jump_Squat/0.jpg ; Weighted_Jump_Squat/1.jpg
+Quadriceps,Strongman & Sled,Backward Drag,other,,Weight & reps,lib:Backward_Drag,Backward_Drag/0.jpg ; Backward_Drag/1.jpg
+Quadriceps,Strongman & Sled,Bear Crawl Sled Drags,other,,Weight & reps,lib:Bear_Crawl_Sled_Drags,Bear_Crawl_Sled_Drags/0.jpg ; Bear_Crawl_Sled_Drags/1.jpg
+Quadriceps,Strongman & Sled,Car Deadlift,other,,Weight & reps,lib:Car_Deadlift,Car_Deadlift/0.jpg ; Car_Deadlift/1.jpg
+Quadriceps,Strongman & Sled,Conan's Wheel,other,,Weight & reps,lib:Conans_Wheel,Conans_Wheel/0.jpg ; Conans_Wheel/1.jpg
+Quadriceps,Strongman & Sled,Rickshaw Deadlift,other,,Weight & reps,lib:Rickshaw_Deadlift,Rickshaw_Deadlift/0.jpg ; Rickshaw_Deadlift/1.jpg
+Quadriceps,Strongman & Sled,Sandbag Load,other,,Weight & reps,lib:Sandbag_Load,Sandbag_Load/0.jpg ; Sandbag_Load/1.jpg
+Quadriceps,Strongman & Sled,Sled Drag - Harness,other,,Weight & reps,lib:Sled_Drag_-_Harness,Sled_Drag_-_Harness/0.jpg ; Sled_Drag_-_Harness/1.jpg
+Quadriceps,Strongman & Sled,Sled Push,other,,Weight & reps,lib:Sled_Push,Sled_Push/0.jpg ; Sled_Push/1.jpg
+Quadriceps,Strongman & Sled,Tire Flip,other,,Weight & reps,lib:Tire_Flip,Tire_Flip/0.jpg ; Tire_Flip/1.jpg
+Quadriceps,Strongman & Sled,Yoke Walk,other,,Weight & reps,lib:Yoke_Walk,Yoke_Walk/0.jpg ; Yoke_Walk/1.jpg
+Quadriceps,Deadlifts,Cable Deadlifts,cable,,Weight & reps,lib:Cable_Deadlifts,Cable_Deadlifts/0.jpg ; Cable_Deadlifts/1.jpg
+Quadriceps,Deadlifts,Leverage Deadlift,machine,,Weight & reps,lib:Leverage_Deadlift,Leverage_Deadlift/0.jpg ; Leverage_Deadlift/1.jpg
+Quadriceps,Deadlifts,One-Arm Side Deadlift,barbell,,Weight & reps,lib:One-Arm_Side_Deadlift,One-Arm_Side_Deadlift/0.jpg ; One-Arm_Side_Deadlift/1.jpg
+Quadriceps,Deadlifts,Trap Bar Deadlift,other,,Weight & reps,lib:Trap_Bar_Deadlift,Trap_Bar_Deadlift/0.jpg ; Trap_Bar_Deadlift/1.jpg
+Quadriceps,Squats,Barbell Full Squat,barbell,,Weight & reps,lib:Barbell_Full_Squat,Barbell_Full_Squat/0.jpg ; Barbell_Full_Squat/1.jpg
+Quadriceps,Squats,Barbell Hack Squat,barbell,,Weight & reps,lib:Barbell_Hack_Squat,Barbell_Hack_Squat/0.jpg ; Barbell_Hack_Squat/1.jpg
+Quadriceps,Squats,Barbell Squat,barbell,,Weight & reps,lib:Barbell_Squat,Barbell_Squat/0.jpg ; Barbell_Squat/1.jpg
+Quadriceps,Squats,Barbell Squat To A Bench,barbell,,Weight & reps,lib:Barbell_Squat_To_A_Bench,Barbell_Squat_To_A_Bench/0.jpg ; Barbell_Squat_To_A_Bench/1.jpg
+Quadriceps,Squats,Belt Squat,machine,Glutes,Weight & reps,lib:gym:belt-squat,Weighted_Squat/0.jpg ; Weighted_Squat/1.jpg
+Quadriceps,Squats,Bodyweight Squat,body only,,Reps,lib:Bodyweight_Squat,Bodyweight_Squat/0.jpg ; Bodyweight_Squat/1.jpg
+Quadriceps,Squats,Box Squat,barbell,,Weight & reps,lib:Box_Squat,Box_Squat/0.jpg ; Box_Squat/1.jpg
+Quadriceps,Squats,Box Squat with Bands,barbell,,Weight & reps,lib:Box_Squat_with_Bands,Box_Squat_with_Bands/0.jpg ; Box_Squat_with_Bands/1.jpg
+Quadriceps,Squats,Box Squat with Chains,barbell,,Weight & reps,lib:Box_Squat_with_Chains,Box_Squat_with_Chains/0.jpg ; Box_Squat_with_Chains/1.jpg
+Quadriceps,Squats,Chair Squat,machine,,Weight & reps,lib:Chair_Squat,Chair_Squat/0.jpg ; Chair_Squat/1.jpg
+Quadriceps,Squats,Dumbbell Squat,dumbbell,,Weight & reps,lib:Dumbbell_Squat,Dumbbell_Squat/0.jpg ; Dumbbell_Squat/1.jpg
+Quadriceps,Squats,Dumbbell Squat To A Bench,dumbbell,,Weight & reps,lib:Dumbbell_Squat_To_A_Bench,Dumbbell_Squat_To_A_Bench/0.jpg ; Dumbbell_Squat_To_A_Bench/1.jpg
+Quadriceps,Squats,Frankenstein Squat,barbell,,Weight & reps,lib:Frankenstein_Squat,Frankenstein_Squat/0.jpg ; Frankenstein_Squat/1.jpg
+Quadriceps,Squats,Front Barbell Squat,barbell,,Weight & reps,lib:Front_Barbell_Squat,Front_Barbell_Squat/0.jpg ; Front_Barbell_Squat/1.jpg
+Quadriceps,Squats,Front Barbell Squat To A Bench,barbell,,Weight & reps,lib:Front_Barbell_Squat_To_A_Bench,Front_Barbell_Squat_To_A_Bench/0.jpg ; Front_Barbell_Squat_To_A_Bench/1.jpg
+Quadriceps,Squats,Front Squats With Two Kettlebells,kettlebells,,Weight & reps,lib:Front_Squats_With_Two_Kettlebells,Front_Squats_With_Two_Kettlebells/0.jpg ; Front_Squats_With_Two_Kettlebells/1.jpg
+Quadriceps,Squats,Goblet Squat,kettlebells,,Weight & reps,lib:Goblet_Squat,Goblet_Squat/0.jpg ; Goblet_Squat/1.jpg
+Quadriceps,Squats,Hack Squat,machine,,Weight & reps,lib:Hack_Squat,Hack_Squat/0.jpg ; Hack_Squat/1.jpg
+Quadriceps,Squats,Jefferson Squats,barbell,,Weight & reps,lib:Jefferson_Squats,Jefferson_Squats/0.jpg ; Jefferson_Squats/1.jpg
+Quadriceps,Squats,Kettlebell Pistol Squat,kettlebells,,Weight & reps,lib:Kettlebell_Pistol_Squat,Kettlebell_Pistol_Squat/0.jpg ; Kettlebell_Pistol_Squat/1.jpg
+Quadriceps,Squats,Lying Machine Squat,machine,,Weight & reps,lib:Lying_Machine_Squat,Lying_Machine_Squat/0.jpg ; Lying_Machine_Squat/1.jpg
+Quadriceps,Squats,Narrow Stance Hack Squats,machine,,Weight & reps,lib:Narrow_Stance_Hack_Squats,Narrow_Stance_Hack_Squats/0.jpg ; Narrow_Stance_Hack_Squats/1.jpg
+Quadriceps,Squats,Narrow Stance Squats,barbell,,Weight & reps,lib:Narrow_Stance_Squats,Narrow_Stance_Squats/0.jpg ; Narrow_Stance_Squats/1.jpg
+Quadriceps,Squats,Olympic Squat,barbell,,Weight & reps,lib:Olympic_Squat,Olympic_Squat/0.jpg ; Olympic_Squat/1.jpg
+Quadriceps,Squats,One Leg Barbell Squat,barbell,,Weight & reps,lib:One_Leg_Barbell_Squat,One_Leg_Barbell_Squat/0.jpg ; One_Leg_Barbell_Squat/1.jpg
+Quadriceps,Squats,One-Arm Overhead Kettlebell Squats,kettlebells,,Weight & reps,lib:One-Arm_Overhead_Kettlebell_Squats,One-Arm_Overhead_Kettlebell_Squats/0.jpg ; One-Arm_Overhead_Kettlebell_Squats/1.jpg
+Quadriceps,Squats,Overhead Squat,barbell,,Weight & reps,lib:Overhead_Squat,Overhead_Squat/0.jpg ; Overhead_Squat/1.jpg
+Quadriceps,Squats,Pendulum Squat,machine,,Weight & reps,lib:gym:pendulum-squat,Lying_Machine_Squat/0.jpg ; Lying_Machine_Squat/1.jpg
+Quadriceps,Squats,Plie Dumbbell Squat,dumbbell,,Weight & reps,lib:Plie_Dumbbell_Squat,Plie_Dumbbell_Squat/0.jpg ; Plie_Dumbbell_Squat/1.jpg
+Quadriceps,Squats,Reverse Band Box Squat,barbell,,Weight & reps,lib:Reverse_Band_Box_Squat,Reverse_Band_Box_Squat/0.jpg ; Reverse_Band_Box_Squat/1.jpg
+Quadriceps,Squats,Reverse Band Power Squat,barbell,,Weight & reps,lib:Reverse_Band_Power_Squat,Reverse_Band_Power_Squat/0.jpg ; Reverse_Band_Power_Squat/1.jpg
+Quadriceps,Squats,Single-Leg High Box Squat,other,,Weight & reps,lib:Single-Leg_High_Box_Squat,Single-Leg_High_Box_Squat/0.jpg ; Single-Leg_High_Box_Squat/1.jpg
+Quadriceps,Squats,Smith Machine Pistol Squat,machine,,Weight & reps,lib:Smith_Machine_Pistol_Squat,Smith_Machine_Pistol_Squat/0.jpg ; Smith_Machine_Pistol_Squat/1.jpg
+Quadriceps,Squats,Smith Machine Squat,machine,,Weight & reps,lib:Smith_Machine_Squat,Smith_Machine_Squat/0.jpg ; Smith_Machine_Squat/1.jpg
+Quadriceps,Squats,Speed Box Squat,barbell,,Weight & reps,lib:Speed_Box_Squat,Speed_Box_Squat/0.jpg ; Speed_Box_Squat/1.jpg
+Quadriceps,Squats,Speed Squats,barbell,,Weight & reps,lib:Speed_Squats,Speed_Squats/0.jpg ; Speed_Squats/1.jpg
+Quadriceps,Squats,Squat (Machine),machine,,Weight & reps,lib:gym:squat-machine,Lying_Machine_Squat/0.jpg ; Lying_Machine_Squat/1.jpg
+Quadriceps,Squats,Squat with Bands,barbell,,Weight & reps,lib:Squat_with_Bands,Squat_with_Bands/0.jpg ; Squat_with_Bands/1.jpg
+Quadriceps,Squats,Squat with Chains,barbell,,Weight & reps,lib:Squat_with_Chains,Squat_with_Chains/0.jpg ; Squat_with_Chains/1.jpg
+Quadriceps,Squats,Squat with Plate Movers,barbell,,Weight & reps,lib:Squat_with_Plate_Movers,Squat_with_Plate_Movers/0.jpg ; Squat_with_Plate_Movers/1.jpg
+Quadriceps,Squats,Squats - With Bands,bands,,Weight & reps,lib:Squats_-_With_Bands,Squats_-_With_Bands/0.jpg ; Squats_-_With_Bands/1.jpg
+Quadriceps,Squats,V-Squat,machine,,Weight & reps,lib:gym:v-squat,Hack_Squat/0.jpg ; Hack_Squat/1.jpg
+Quadriceps,Squats,Weighted Sissy Squat,barbell,,Weight & reps,lib:Weighted_Sissy_Squat,Weighted_Sissy_Squat/0.jpg ; Weighted_Sissy_Squat/1.jpg
+Quadriceps,Squats,Weighted Squat,other,,Weight & reps,lib:Weighted_Squat,Weighted_Squat/0.jpg ; Weighted_Squat/1.jpg
+Quadriceps,Squats,Wide Stance Barbell Squat,barbell,,Weight & reps,lib:Wide_Stance_Barbell_Squat,Wide_Stance_Barbell_Squat/0.jpg ; Wide_Stance_Barbell_Squat/1.jpg
+Quadriceps,Squats,Zercher Squats,barbell,,Weight & reps,lib:Zercher_Squats,Zercher_Squats/0.jpg ; Zercher_Squats/1.jpg
+Quadriceps,Other,Cable Hip Adduction,cable,,Weight & reps,lib:Cable_Hip_Adduction,Cable_Hip_Adduction/0.jpg ; Cable_Hip_Adduction/1.jpg
+Quadriceps,Other,Hip Flexion with Band,bands,,Weight & reps,lib:Hip_Flexion_with_Band,Hip_Flexion_with_Band/0.jpg ; Hip_Flexion_with_Band/1.jpg
+Quadriceps,Other,Mountain Climbers,,,Weight & reps,lib:Mountain_Climbers,Mountain_Climbers/0.jpg ; Mountain_Climbers/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Ball Leg Curl,exercise ball,,Weight & reps,lib:Ball_Leg_Curl,Ball_Leg_Curl/0.jpg ; Ball_Leg_Curl/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Floor Glute-Ham Raise,,,Weight & reps,lib:Floor_Glute-Ham_Raise,Floor_Glute-Ham_Raise/0.jpg ; Floor_Glute-Ham_Raise/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Glute Ham Raise,machine,,Weight & reps,lib:Glute_Ham_Raise,Glute_Ham_Raise/0.jpg ; Glute_Ham_Raise/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Iso-Lateral Kneeling Leg Curl,machine,,Weight & reps,lib:gym:iso-lateral-kneeling-leg-curl,Standing_Leg_Curl/0.jpg ; Standing_Leg_Curl/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Lying Leg Curls,machine,,Weight & reps,lib:Lying_Leg_Curls,Lying_Leg_Curls/0.jpg ; Lying_Leg_Curls/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,MTS Kneeling Leg Curl,machine,,Weight & reps,lib:gym:mts-kneeling-leg-curl,Standing_Leg_Curl/0.jpg ; Standing_Leg_Curl/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Natural Glute Ham Raise,body only,,Reps,lib:Natural_Glute_Ham_Raise,Natural_Glute_Ham_Raise/0.jpg ; Natural_Glute_Ham_Raise/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Platform Hamstring Slides,other,,Weight & reps,lib:Platform_Hamstring_Slides,Platform_Hamstring_Slides/0.jpg ; Platform_Hamstring_Slides/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Prone Manual Hamstring,,,Weight & reps,lib:Prone_Manual_Hamstring,Prone_Manual_Hamstring/0.jpg ; Prone_Manual_Hamstring/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Seated Band Hamstring Curl,other,,Weight & reps,lib:Seated_Band_Hamstring_Curl,Seated_Band_Hamstring_Curl/0.jpg ; Seated_Band_Hamstring_Curl/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Seated Leg Curl,machine,,Weight & reps,lib:Seated_Leg_Curl,Seated_Leg_Curl/0.jpg ; Seated_Leg_Curl/1.jpg
+Hamstrings,Leg Curls & Glute-Ham Raises,Standing Leg Curl,machine,,Weight & reps,lib:Standing_Leg_Curl,Standing_Leg_Curl/0.jpg ; Standing_Leg_Curl/1.jpg
+Hamstrings,Good Mornings & Hinges,Band Good Morning,bands,,Weight & reps,lib:Band_Good_Morning,Band_Good_Morning/0.jpg ; Band_Good_Morning/1.jpg
+Hamstrings,Good Mornings & Hinges,Band Good Morning (Pull Through),bands,,Weight & reps,lib:Band_Good_Morning_Pull_Through,Band_Good_Morning_Pull_Through/0.jpg ; Band_Good_Morning_Pull_Through/1.jpg
+Hamstrings,Good Mornings & Hinges,Good Morning,barbell,,Weight & reps,lib:Good_Morning,Good_Morning/0.jpg ; Good_Morning/1.jpg
+Hamstrings,Good Mornings & Hinges,Good Morning off Pins,barbell,,Weight & reps,lib:Good_Morning_off_Pins,Good_Morning_off_Pins/0.jpg ; Good_Morning_off_Pins/1.jpg
+Hamstrings,Good Mornings & Hinges,Hanging Bar Good Morning,barbell,,Weight & reps,lib:Hanging_Bar_Good_Morning,Hanging_Bar_Good_Morning/0.jpg ; Hanging_Bar_Good_Morning/1.jpg
+Hamstrings,Good Mornings & Hinges,Reverse Hyperextension,machine,,Weight & reps,lib:Reverse_Hyperextension,Reverse_Hyperextension/0.jpg ; Reverse_Hyperextension/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Clean Deadlift,barbell,,Weight & reps,lib:Clean_Deadlift,Clean_Deadlift/0.jpg ; Clean_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Kettlebell One-Legged Deadlift,kettlebells,,Weight & reps,lib:Kettlebell_One-Legged_Deadlift,Kettlebell_One-Legged_Deadlift/0.jpg ; Kettlebell_One-Legged_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Reverse Band Sumo Deadlift,barbell,,Weight & reps,lib:Reverse_Band_Sumo_Deadlift,Reverse_Band_Sumo_Deadlift/0.jpg ; Reverse_Band_Sumo_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Romanian Deadlift,barbell,,Weight & reps,lib:Romanian_Deadlift,Romanian_Deadlift/0.jpg ; Romanian_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Romanian Deadlift from Deficit,barbell,,Weight & reps,lib:Romanian_Deadlift_from_Deficit,Romanian_Deadlift_from_Deficit/0.jpg ; Romanian_Deadlift_from_Deficit/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Smith Machine Stiff-Legged Deadlift,machine,,Weight & reps,lib:Smith_Machine_Stiff-Legged_Deadlift,Smith_Machine_Stiff-Legged_Deadlift/0.jpg ; Smith_Machine_Stiff-Legged_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Snatch Deadlift,barbell,,Weight & reps,lib:Snatch_Deadlift,Snatch_Deadlift/0.jpg ; Snatch_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Stiff-Legged Barbell Deadlift,barbell,,Weight & reps,lib:Stiff-Legged_Barbell_Deadlift,Stiff-Legged_Barbell_Deadlift/0.jpg ; Stiff-Legged_Barbell_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Stiff-Legged Dumbbell Deadlift,dumbbell,,Weight & reps,lib:Stiff-Legged_Dumbbell_Deadlift,Stiff-Legged_Dumbbell_Deadlift/0.jpg ; Stiff-Legged_Dumbbell_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Sumo Deadlift,barbell,,Weight & reps,lib:Sumo_Deadlift,Sumo_Deadlift/0.jpg ; Sumo_Deadlift/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Sumo Deadlift with Bands,barbell,,Weight & reps,lib:Sumo_Deadlift_with_Bands,Sumo_Deadlift_with_Bands/0.jpg ; Sumo_Deadlift_with_Bands/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Sumo Deadlift with Chains,barbell,,Weight & reps,lib:Sumo_Deadlift_with_Chains,Sumo_Deadlift_with_Chains/0.jpg ; Sumo_Deadlift_with_Chains/1.jpg
+Hamstrings,"Deadlifts (Romanian, Stiff-Leg, Sumo)",Wide Stance Stiff Legs,barbell,,Weight & reps,lib:Wide_Stance_Stiff_Legs,Wide_Stance_Stiff_Legs/0.jpg ; Wide_Stance_Stiff_Legs/1.jpg
+Hamstrings,Olympic Lifts,Alternating Hang Clean,kettlebells,,Weight & reps,lib:Alternating_Hang_Clean,Alternating_Hang_Clean/0.jpg ; Alternating_Hang_Clean/1.jpg
+Hamstrings,Olympic Lifts,Clean,barbell,,Weight & reps,lib:Clean,Clean/0.jpg ; Clean/1.jpg
+Hamstrings,Olympic Lifts,Double Kettlebell Alternating Hang Clean,kettlebells,,Weight & reps,lib:Double_Kettlebell_Alternating_Hang_Clean,Double_Kettlebell_Alternating_Hang_Clean/0.jpg ; Double_Kettlebell_Alternating_Hang_Clean/1.jpg
+Hamstrings,Olympic Lifts,Dumbbell Clean,dumbbell,,Weight & reps,lib:Dumbbell_Clean,Dumbbell_Clean/0.jpg ; Dumbbell_Clean/1.jpg
+Hamstrings,Olympic Lifts,Hang Snatch,barbell,,Weight & reps,lib:Hang_Snatch,Hang_Snatch/0.jpg ; Hang_Snatch/1.jpg
+Hamstrings,Olympic Lifts,Hang Snatch - Below Knees,barbell,,Weight & reps,lib:Hang_Snatch_-_Below_Knees,Hang_Snatch_-_Below_Knees/0.jpg ; Hang_Snatch_-_Below_Knees/1.jpg
+Hamstrings,Olympic Lifts,Kettlebell Dead Clean,kettlebells,,Weight & reps,lib:Kettlebell_Dead_Clean,Kettlebell_Dead_Clean/0.jpg ; Kettlebell_Dead_Clean/1.jpg
+Hamstrings,Olympic Lifts,Kettlebell Hang Clean,kettlebells,,Weight & reps,lib:Kettlebell_Hang_Clean,Kettlebell_Hang_Clean/0.jpg ; Kettlebell_Hang_Clean/1.jpg
+Hamstrings,Olympic Lifts,Muscle Snatch,barbell,,Weight & reps,lib:Muscle_Snatch,Muscle_Snatch/0.jpg ; Muscle_Snatch/1.jpg
+Hamstrings,Olympic Lifts,One-Arm Kettlebell Clean,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Clean,One-Arm_Kettlebell_Clean/0.jpg ; One-Arm_Kettlebell_Clean/1.jpg
+Hamstrings,Olympic Lifts,One-Arm Open Palm Kettlebell Clean,kettlebells,,Weight & reps,lib:One-Arm_Open_Palm_Kettlebell_Clean,One-Arm_Open_Palm_Kettlebell_Clean/0.jpg ; One-Arm_Open_Palm_Kettlebell_Clean/1.jpg
+Hamstrings,Olympic Lifts,Open Palm Kettlebell Clean,kettlebells,,Weight & reps,lib:Open_Palm_Kettlebell_Clean,Open_Palm_Kettlebell_Clean/0.jpg ; Open_Palm_Kettlebell_Clean/1.jpg
+Hamstrings,Olympic Lifts,Power Clean,barbell,,Weight & reps,lib:Power_Clean,Power_Clean/0.jpg ; Power_Clean/1.jpg
+Hamstrings,Olympic Lifts,Power Clean from Blocks,barbell,,Weight & reps,lib:Power_Clean_from_Blocks,Power_Clean_from_Blocks/0.jpg ; Power_Clean_from_Blocks/1.jpg
+Hamstrings,Olympic Lifts,Power Snatch,barbell,,Weight & reps,lib:Power_Snatch,Power_Snatch/0.jpg ; Power_Snatch/1.jpg
+Hamstrings,Olympic Lifts,Smith Machine Hang Power Clean,machine,,Weight & reps,lib:Smith_Machine_Hang_Power_Clean,Smith_Machine_Hang_Power_Clean/0.jpg ; Smith_Machine_Hang_Power_Clean/1.jpg
+Hamstrings,Olympic Lifts,Snatch Pull,barbell,,Weight & reps,lib:Snatch_Pull,Snatch_Pull/0.jpg ; Snatch_Pull/1.jpg
+Hamstrings,Olympic Lifts,Split Snatch,barbell,,Weight & reps,lib:Split_Snatch,Split_Snatch/0.jpg ; Split_Snatch/1.jpg
+Hamstrings,Kettlebell Swings,One-Arm Kettlebell Swings,kettlebells,,Weight & reps,lib:One-Arm_Kettlebell_Swings,One-Arm_Kettlebell_Swings/0.jpg ; One-Arm_Kettlebell_Swings/1.jpg
+Hamstrings,Kettlebell Swings,Vertical Swing,dumbbell,,Weight & reps,lib:Vertical_Swing,Vertical_Swing/0.jpg ; Vertical_Swing/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Box Jump (Multiple Response),other,,Weight & reps,lib:Box_Jump_Multiple_Response,Box_Jump_Multiple_Response/0.jpg ; Box_Jump_Multiple_Response/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Box Skip,other,,Weight & reps,lib:Box_Skip,Box_Skip/0.jpg ; Box_Skip/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Front Box Jump,other,,Weight & reps,lib:Front_Box_Jump,Front_Box_Jump/0.jpg ; Front_Box_Jump/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Hurdle Hops,other,,Weight & reps,lib:Hurdle_Hops,Hurdle_Hops/0.jpg ; Hurdle_Hops/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Knee Tuck Jump,body only,,Reps,lib:Knee_Tuck_Jump,Knee_Tuck_Jump/0.jpg ; Knee_Tuck_Jump/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Linear 3-Part Start Technique,,,Weight & reps,lib:Linear_3-Part_Start_Technique,Linear_3-Part_Start_Technique/0.jpg ; Linear_3-Part_Start_Technique/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Linear Acceleration Wall Drill,,,Weight & reps,lib:Linear_Acceleration_Wall_Drill,Linear_Acceleration_Wall_Drill/0.jpg ; Linear_Acceleration_Wall_Drill/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Lunge Pass Through,kettlebells,,Weight & reps,lib:Lunge_Pass_Through,Lunge_Pass_Through/0.jpg ; Lunge_Pass_Through/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Moving Claw Series,,,Weight & reps,lib:Moving_Claw_Series,Moving_Claw_Series/0.jpg ; Moving_Claw_Series/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Power Stairs,other,,Weight & reps,lib:Power_Stairs,Power_Stairs/0.jpg ; Power_Stairs/1.jpg
+Hamstrings,"Jumps, Sprints & Drills",Prowler Sprint,other,,Time,lib:Prowler_Sprint,Prowler_Sprint/0.jpg ; Prowler_Sprint/1.jpg
+Glutes,Hip Thrusts & Bridges,Barbell Glute Bridge,barbell,,Weight & reps,lib:Barbell_Glute_Bridge,Barbell_Glute_Bridge/0.jpg ; Barbell_Glute_Bridge/1.jpg
+Glutes,Hip Thrusts & Bridges,Barbell Hip Thrust,barbell,,Weight & reps,lib:Barbell_Hip_Thrust,Barbell_Hip_Thrust/0.jpg ; Barbell_Hip_Thrust/1.jpg
+Glutes,Hip Thrusts & Bridges,Butt Lift (Bridge),body only,,Reps,lib:Butt_Lift_Bridge,Butt_Lift_Bridge/0.jpg ; Butt_Lift_Bridge/1.jpg
+Glutes,Hip Thrusts & Bridges,Hip Lift with Band,bands,,Weight & reps,lib:Hip_Lift_with_Band,Hip_Lift_with_Band/0.jpg ; Hip_Lift_with_Band/1.jpg
+Glutes,Hip Thrusts & Bridges,Hip Thrust (Machine),machine,,Weight & reps,lib:gym:hip-thrust-machine,Barbell_Hip_Thrust/0.jpg ; Barbell_Hip_Thrust/1.jpg
+Glutes,Hip Thrusts & Bridges,Hip Thrust (Smith Machine),machine,,Weight & reps,lib:gym:hip-thrust-smith-machine,Barbell_Hip_Thrust/0.jpg ; Barbell_Hip_Thrust/1.jpg
+Glutes,Hip Thrusts & Bridges,Physioball Hip Bridge,exercise ball,,Weight & reps,lib:Physioball_Hip_Bridge,Physioball_Hip_Bridge/0.jpg ; Physioball_Hip_Bridge/1.jpg
+Glutes,Hip Thrusts & Bridges,Single Leg Glute Bridge,body only,,Reps,lib:Single_Leg_Glute_Bridge,Single_Leg_Glute_Bridge/0.jpg ; Single_Leg_Glute_Bridge/1.jpg
+Glutes,Kickbacks & Hip Extensions,Downward Facing Balance,exercise ball,,Weight & reps,lib:Downward_Facing_Balance,Downward_Facing_Balance/0.jpg ; Downward_Facing_Balance/1.jpg
+Glutes,Kickbacks & Hip Extensions,Flutter Kicks,body only,,Reps,lib:Flutter_Kicks,Flutter_Kicks/0.jpg ; Flutter_Kicks/1.jpg
+Glutes,Kickbacks & Hip Extensions,Glute Kickback,body only,,Reps,lib:Glute_Kickback,Glute_Kickback/0.jpg ; Glute_Kickback/1.jpg
+Glutes,Kickbacks & Hip Extensions,Glute Kickback (Machine),machine,,Weight & reps,lib:gym:glute-kickback-machine,Glute_Kickback/0.jpg ; Glute_Kickback/1.jpg
+Glutes,Kickbacks & Hip Extensions,Hip Extension with Bands,bands,,Weight & reps,lib:Hip_Extension_with_Bands,Hip_Extension_with_Bands/0.jpg ; Hip_Extension_with_Bands/1.jpg
+Glutes,Kickbacks & Hip Extensions,Leg Lift,body only,,Reps,lib:Leg_Lift,Leg_Lift/0.jpg ; Leg_Lift/1.jpg
+Glutes,Kickbacks & Hip Extensions,One-Legged Cable Kickback,cable,,Weight & reps,lib:One-Legged_Cable_Kickback,One-Legged_Cable_Kickback/0.jpg ; One-Legged_Cable_Kickback/1.jpg
+Glutes,Pull-throughs,Pull Through,cable,,Weight & reps,lib:Pull_Through,Pull_Through/0.jpg ; Pull_Through/1.jpg
+Glutes,Squats & Step-ups,Kneeling Jump Squat,barbell,,Weight & reps,lib:Kneeling_Jump_Squat,Kneeling_Jump_Squat/0.jpg ; Kneeling_Jump_Squat/1.jpg
+Glutes,Squats & Step-ups,Kneeling Squat,barbell,,Weight & reps,lib:Kneeling_Squat,Kneeling_Squat/0.jpg ; Kneeling_Squat/1.jpg
+Glutes,Squats & Step-ups,Step-up with Knee Raise,body only,,Reps,lib:Step-up_with_Knee_Raise,Step-up_with_Knee_Raise/0.jpg ; Step-up_with_Knee_Raise/1.jpg
+Calves,Seated Calf Raises,Barbell Seated Calf Raise,barbell,,Weight & reps,lib:Barbell_Seated_Calf_Raise,Barbell_Seated_Calf_Raise/0.jpg ; Barbell_Seated_Calf_Raise/1.jpg
+Calves,Seated Calf Raises,Dumbbell Seated One-Leg Calf Raise,dumbbell,,Weight & reps,lib:Dumbbell_Seated_One-Leg_Calf_Raise,Dumbbell_Seated_One-Leg_Calf_Raise/0.jpg ; Dumbbell_Seated_One-Leg_Calf_Raise/1.jpg
+Calves,Seated Calf Raises,Seated Calf Raise,machine,,Weight & reps,lib:Seated_Calf_Raise,Seated_Calf_Raise/0.jpg ; Seated_Calf_Raise/1.jpg
+Calves,Calf Presses,Calf Press,machine,,Weight & reps,lib:Calf_Press,Calf_Press/0.jpg ; Calf_Press/1.jpg
+Calves,Calf Presses,Calf Press On The Leg Press Machine,machine,,Weight & reps,lib:Calf_Press_On_The_Leg_Press_Machine,Calf_Press_On_The_Leg_Press_Machine/0.jpg ; Calf_Press_On_The_Leg_Press_Machine/1.jpg
+Calves,Balance,Balance Board,other,,Weight & reps,lib:Balance_Board,Balance_Board/0.jpg ; Balance_Board/1.jpg
+Calves,Standing Calf Raises,Calf Raise On A Dumbbell,dumbbell,,Weight & reps,lib:Calf_Raise_On_A_Dumbbell,Calf_Raise_On_A_Dumbbell/0.jpg ; Calf_Raise_On_A_Dumbbell/1.jpg
+Calves,Standing Calf Raises,Calf Raises - With Bands,bands,,Weight & reps,lib:Calf_Raises_-_With_Bands,Calf_Raises_-_With_Bands/0.jpg ; Calf_Raises_-_With_Bands/1.jpg
+Calves,Standing Calf Raises,Donkey Calf Raises,other,,Weight & reps,lib:Donkey_Calf_Raises,Donkey_Calf_Raises/0.jpg ; Donkey_Calf_Raises/1.jpg
+Calves,Standing Calf Raises,Rocking Standing Calf Raise,barbell,,Weight & reps,lib:Rocking_Standing_Calf_Raise,Rocking_Standing_Calf_Raise/0.jpg ; Rocking_Standing_Calf_Raise/1.jpg
+Calves,Standing Calf Raises,Smith Machine Calf Raise,machine,,Weight & reps,lib:Smith_Machine_Calf_Raise,Smith_Machine_Calf_Raise/0.jpg ; Smith_Machine_Calf_Raise/1.jpg
+Calves,Standing Calf Raises,Smith Machine Reverse Calf Raises,machine,,Weight & reps,lib:Smith_Machine_Reverse_Calf_Raises,Smith_Machine_Reverse_Calf_Raises/0.jpg ; Smith_Machine_Reverse_Calf_Raises/1.jpg
+Calves,Standing Calf Raises,Standing Barbell Calf Raise,barbell,,Weight & reps,lib:Standing_Barbell_Calf_Raise,Standing_Barbell_Calf_Raise/0.jpg ; Standing_Barbell_Calf_Raise/1.jpg
+Calves,Standing Calf Raises,Standing Calf Raises,machine,,Weight & reps,lib:Standing_Calf_Raises,Standing_Calf_Raises/0.jpg ; Standing_Calf_Raises/1.jpg
+Calves,Standing Calf Raises,Standing Dumbbell Calf Raise,dumbbell,,Weight & reps,lib:Standing_Dumbbell_Calf_Raise,Standing_Dumbbell_Calf_Raise/0.jpg ; Standing_Dumbbell_Calf_Raise/1.jpg
+Adductors,Hip Adduction,Band Hip Adductions,bands,,Weight & reps,lib:Band_Hip_Adductions,Band_Hip_Adductions/0.jpg ; Band_Hip_Adductions/1.jpg
+Adductors,Hip Adduction,Thigh Adductor,machine,,Weight & reps,lib:Thigh_Adductor,Thigh_Adductor/0.jpg ; Thigh_Adductor/1.jpg
+Adductors,Lateral Jumps & Drills,Carioca Quick Step,,,Weight & reps,lib:Carioca_Quick_Step,Carioca_Quick_Step/0.jpg ; Carioca_Quick_Step/1.jpg
+Adductors,Lateral Jumps & Drills,Lateral Bound,body only,,Reps,lib:Lateral_Bound,Lateral_Bound/0.jpg ; Lateral_Bound/1.jpg
+Adductors,Lateral Jumps & Drills,Lateral Box Jump,other,,Weight & reps,lib:Lateral_Box_Jump,Lateral_Box_Jump/0.jpg ; Lateral_Box_Jump/1.jpg
+Adductors,Lateral Jumps & Drills,Lateral Cone Hops,other,,Weight & reps,lib:Lateral_Cone_Hops,Lateral_Cone_Hops/0.jpg ; Lateral_Cone_Hops/1.jpg
+Abductors,Hip Abduction,Hip Abduction (Cable),cable,,Weight & reps,lib:gym:hip-abduction-cable,Thigh_Abductor/0.jpg ; Thigh_Abductor/1.jpg
+Abductors,Hip Abduction,Thigh Abductor,machine,,Weight & reps,lib:Thigh_Abductor,Thigh_Abductor/0.jpg ; Thigh_Abductor/1.jpg
+Abductors,Band Walks,Monster Walk,bands,,Weight & reps,lib:Monster_Walk,Monster_Walk/0.jpg ; Monster_Walk/1.jpg
+Neck,Isometric Holds,Isometric Neck Exercise - Front And Back,body only,,Reps,lib:Isometric_Neck_Exercise_-_Front_And_Back,Isometric_Neck_Exercise_-_Front_And_Back/0.jpg ; Isometric_Neck_Exercise_-_Front_And_Back/1.jpg
+Neck,Isometric Holds,Isometric Neck Exercise - Sides,body only,,Reps,lib:Isometric_Neck_Exercise_-_Sides,Isometric_Neck_Exercise_-_Sides/0.jpg ; Isometric_Neck_Exercise_-_Sides/1.jpg
+Neck,Neck Resistance,Lying Face Down Plate Neck Resistance,other,,Weight & reps,lib:Lying_Face_Down_Plate_Neck_Resistance,Lying_Face_Down_Plate_Neck_Resistance/0.jpg ; Lying_Face_Down_Plate_Neck_Resistance/1.jpg
+Neck,Neck Resistance,Lying Face Up Plate Neck Resistance,other,,Weight & reps,lib:Lying_Face_Up_Plate_Neck_Resistance,Lying_Face_Up_Plate_Neck_Resistance/0.jpg ; Lying_Face_Up_Plate_Neck_Resistance/1.jpg
+Neck,Neck Resistance,Seated Head Harness Neck Resistance,other,,Weight & reps,lib:Seated_Head_Harness_Neck_Resistance,Seated_Head_Harness_Neck_Resistance/0.jpg ; Seated_Head_Harness_Neck_Resistance/1.jpg
