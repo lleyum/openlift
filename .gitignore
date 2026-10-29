@@ -10,6 +10,7 @@ venv/
 # Blender backup files
 *.blend1
 *.blend2
+assets/*.backup.blend
 
 # OS junk
 .DS_Store

@@ -1,0 +1,54 @@
+{
+  "_comment": "Translates OpenLift Standard Anatomical Names (left side) to the real bone names in assets/base_body.blend (right side). Preset: MPFB 'Game engine' rig. A value can be one bone name or a list of bone names (each listed bone receives the full rotation). Run pipeline/validate_rig.py after changing the base mesh.",
+  "rig_preset": "mpfb_game_engine",
+  "armature_object": "Armature",
+  "body_object": "Body",
+  "shorts_object": "shorts",
+  "bones": {
+    "Root": "Root",
+    "Hips": "pelvis",
+    "Spine01": "spine_01",
+    "Spine02": "spine_02",
+    "Spine03": "spine_03",
+    "Neck": "neck_01",
+    "Head": "head",
+    "LeftShoulder": "clavicle_l",
+    "LeftUpperArm": "upperarm_l",
+    "LeftForearm": "lowerarm_l",
+    "LeftHand": "hand_l",
+    "LeftFingers": [
+      "index_01_l", "index_02_l", "index_03_l",
+      "middle_01_l", "middle_02_l", "middle_03_l",
+      "ring_01_l", "ring_02_l", "ring_03_l",
+      "pinky_01_l", "pinky_02_l", "pinky_03_l"
+    ],
+    "LeftThumb": ["thumb_01_l", "thumb_02_l", "thumb_03_l"],
+    "RightShoulder": "clavicle_r",
+    "RightUpperArm": "upperarm_r",
+    "RightForearm": "lowerarm_r",
+    "RightHand": "hand_r",
+    "RightFingers": [
+      "index_01_r", "index_02_r", "index_03_r",
+      "middle_01_r", "middle_02_r", "middle_03_r",
+      "ring_01_r", "ring_02_r", "ring_03_r",
+      "pinky_01_r", "pinky_02_r", "pinky_03_r"
+    ],
+    "RightThumb": ["thumb_01_r", "thumb_02_r", "thumb_03_r"],
+    "LeftThigh": "thigh_l",
+    "LeftShin": "calf_l",
+    "LeftFoot": "foot_l",
+    "LeftToes": "ball_l",
+    "RightThigh": "thigh_r",
+    "RightShin": "calf_r",
+    "RightFoot": "foot_r",
+    "RightToes": "ball_r"
+  },
+  "palm_reference": {
+    "_comment": "Two knuckle bones per hand: the first-finger and little-finger base bones. Used to find the palm orientation and the grip point for props.",
+    "Left": { "index": "index_01_l", "pinky": "pinky_01_l" },
+    "Right": { "index": "index_01_r", "pinky": "pinky_01_r" }
+  },
+  "neutral_overrides": {
+    "_comment": "Optional. Per standard bone: {\"direction\": [x, y, z]} replaces the built-in neutral direction (Blender axes: +X = character's left, -Y = forward, +Z = up). Leave empty unless a pose looks consistently wrong."
+  }
+}

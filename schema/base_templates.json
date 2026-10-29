@@ -1,0 +1,964 @@
+{
+  "_comment": "OpenLift pose library. All joints use Standard Anatomical Names and anatomical degrees [flexion, twist, abduction] relative to neutral standing (see pipeline/pose.py). Root = whole-body rotation in world axes [pitch X, roll Y, yaw Z].",
+  "version": 1,
+  "templates": {
+    "STANDING_NEUTRAL": {
+      "description": "Standing upright, arms at the sides.",
+      "joints": {
+        "LeftForearm": { "rotation_deg": [10, 0, 0] },
+        "RightForearm": { "rotation_deg": [10, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "STANDING_OVERHEAD_PUSH": {
+      "description": "Standing upright, arms locked out overhead.",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [170, 0, 10] },
+        "RightUpperArm": { "rotation_deg": [170, 0, 10] },
+        "Neck": { "rotation_deg": [5, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "STANDING_FLY": {
+      "description": "Staggered stance between cable towers (right foot forward), slight forward lean.",
+      "joints": {
+        "Hips": { "rotation_deg": [10, 0, 0] },
+        "Spine01": { "rotation_deg": [5, 0, 0] },
+        "Neck": { "rotation_deg": [-12, 0, 0] },
+        "LeftThigh": { "rotation_deg": [-12, 0, 3] },
+        "LeftShin": { "rotation_deg": [5, 0, 0] },
+        "RightThigh": { "rotation_deg": [30, 0, 3] },
+        "RightShin": { "rotation_deg": [20, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "SQUAT": {
+      "description": "Squat at about parallel depth, chest up, knees out.",
+      "joints": {
+        "Hips": { "rotation_deg": [30, 0, 0] },
+        "Spine01": { "rotation_deg": [5, 0, 0] },
+        "Spine02": { "rotation_deg": [3, 0, 0] },
+        "Neck": { "rotation_deg": [-15, 0, 0] },
+        "Head": { "rotation_deg": [-10, 0, 0] },
+        "LeftThigh": { "rotation_deg": [105, 0, 14] },
+        "RightThigh": { "rotation_deg": [105, 0, 14] },
+        "LeftShin": { "rotation_deg": [105, 0, 0] },
+        "RightShin": { "rotation_deg": [105, 0, 0] },
+        "LeftFoot": { "rotation_deg": [0, 0, 12] },
+        "RightFoot": { "rotation_deg": [0, 0, 12] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "LUNGE": {
+      "description": "Split stance, right foot forward, both knees near 90 degrees, rear heel up.",
+      "joints": {
+        "Spine01": { "rotation_deg": [3, 0, 0] },
+        "RightThigh": { "rotation_deg": [88, 0, 4] },
+        "RightShin": { "rotation_deg": [88, 0, 0] },
+        "LeftThigh": { "rotation_deg": [-12, 0, 4] },
+        "LeftShin": { "rotation_deg": [95, 0, 0] },
+        "LeftFoot": { "rotation_deg": [25, 0, 0] },
+        "LeftToes": { "rotation_deg": [-55, 0, 0] }
+      },
+      "plant_feet": ["Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "HINGE": {
+      "description": "Hip hinge: hips back, soft knees, flat back about 45 degrees forward, arms hanging.",
+      "joints": {
+        "Hips": { "rotation_deg": [40, 0, 0] },
+        "Spine01": { "rotation_deg": [5, 0, 0] },
+        "Neck": { "rotation_deg": [-20, 0, 0] },
+        "Head": { "rotation_deg": [-10, 0, 0] },
+        "LeftThigh": { "rotation_deg": [55, 0, 3] },
+        "RightThigh": { "rotation_deg": [55, 0, 3] },
+        "LeftShin": { "rotation_deg": [15, 0, 0] },
+        "RightShin": { "rotation_deg": [15, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [45, 0, 0] },
+        "RightUpperArm": { "rotation_deg": [45, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "BENT_OVER_ROW": {
+      "description": "Bent over about 55 degrees, flat back, soft knees, arms hanging.",
+      "joints": {
+        "Hips": { "rotation_deg": [50, 0, 0] },
+        "Spine01": { "rotation_deg": [5, 0, 0] },
+        "Neck": { "rotation_deg": [-25, 0, 0] },
+        "Head": { "rotation_deg": [-10, 0, 0] },
+        "LeftThigh": { "rotation_deg": [68, 0, 4] },
+        "RightThigh": { "rotation_deg": [68, 0, 4] },
+        "LeftShin": { "rotation_deg": [22, 0, 0] },
+        "RightShin": { "rotation_deg": [22, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [55, 0, 0] },
+        "RightUpperArm": { "rotation_deg": [55, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "HORIZONTAL_PUSH": {
+      "description": "Lying face up on a flat bench, feet flat on the floor.",
+      "joints": {
+        "Root": { "rotation_deg": [-90, 0, 0] },
+        "Neck": { "rotation_deg": [5, 0, 0] },
+        "LeftThigh": { "rotation_deg": [-15, 0, 18] },
+        "RightThigh": { "rotation_deg": [-15, 0, 18] },
+        "LeftShin": { "rotation_deg": [95, 0, 0] },
+        "RightShin": { "rotation_deg": [95, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "INCLINE_PUSH": {
+      "description": "Lying on a 30-degree incline bench, feet flat on the floor.",
+      "joints": {
+        "Root": { "rotation_deg": [-60, 0, 0] },
+        "Neck": { "rotation_deg": [5, 0, 0] },
+        "LeftThigh": { "rotation_deg": [30, 0, 15] },
+        "RightThigh": { "rotation_deg": [30, 0, 15] },
+        "LeftShin": { "rotation_deg": [85, 0, 0] },
+        "RightShin": { "rotation_deg": [85, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "PRONE_PUSH": {
+      "description": "Plank / top of a push-up: straight body, hands under shoulders, on the toes.",
+      "joints": {
+        "Root": { "rotation_deg": [70, 0, 0] },
+        "Neck": { "rotation_deg": [-15, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [70, 0, 6] },
+        "RightUpperArm": { "rotation_deg": [70, 0, 6] },
+        "LeftForearm": { "rotation_deg": [0, 0, 0] },
+        "RightForearm": { "rotation_deg": [0, 0, 0] },
+        "LeftFoot": { "rotation_deg": [15, 0, 0] },
+        "RightFoot": { "rotation_deg": [15, 0, 0] },
+        "LeftToes": { "rotation_deg": [-60, 0, 0] },
+        "RightToes": { "rotation_deg": [-60, 0, 0] }
+      },
+      "plant_feet": [],
+      "plant_hands": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "SEATED_UPRIGHT": {
+      "description": "Seated upright on a bench or seat, knees at 90 degrees, feet flat.",
+      "joints": {
+        "LeftThigh": { "rotation_deg": [90, 0, 8] },
+        "RightThigh": { "rotation_deg": [90, 0, 8] },
+        "LeftShin": { "rotation_deg": [90, 0, 0] },
+        "RightShin": { "rotation_deg": [90, 0, 0] },
+        "LeftForearm": { "rotation_deg": [15, 0, 0] },
+        "RightForearm": { "rotation_deg": [15, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "SEATED_VERTICAL_PULL": {
+      "description": "Seated with thighs under pads, slight lean back, arms reaching overhead.",
+      "joints": {
+        "Hips": { "rotation_deg": [-10, 0, 0] },
+        "Neck": { "rotation_deg": [5, 0, 0] },
+        "LeftThigh": { "rotation_deg": [85, 0, 8] },
+        "RightThigh": { "rotation_deg": [85, 0, 8] },
+        "LeftShin": { "rotation_deg": [85, 0, 0] },
+        "RightShin": { "rotation_deg": [85, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [165, 0, 25] },
+        "RightUpperArm": { "rotation_deg": [165, 0, 25] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "SEATED_ROW": {
+      "description": "Seated on a low bench, feet braced on a platform, knees slightly bent, torso upright.",
+      "joints": {
+        "LeftThigh": { "rotation_deg": [85, 0, 8] },
+        "RightThigh": { "rotation_deg": [85, 0, 8] },
+        "LeftShin": { "rotation_deg": [25, 0, 0] },
+        "RightShin": { "rotation_deg": [25, 0, 0] },
+        "LeftFoot": { "rotation_deg": [15, 0, 0] },
+        "RightFoot": { "rotation_deg": [15, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [80, 0, 8] },
+        "RightUpperArm": { "rotation_deg": [80, 0, 8] }
+      },
+      "plant_feet": [],
+      "ground": {"mode": "lowest", "clearance_m": 0.25}
+    },
+    "LEG_PRESS": {
+      "description": "Reclined 45 degrees in a leg press, knees bent toward the chest, feet on the platform.",
+      "joints": {
+        "Root": { "rotation_deg": [-45, 0, 0] },
+        "LeftThigh": { "rotation_deg": [95, 0, 14] },
+        "RightThigh": { "rotation_deg": [95, 0, 14] },
+        "LeftShin": { "rotation_deg": [95, 0, 0] },
+        "RightShin": { "rotation_deg": [95, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [10, 0, 18] },
+        "RightUpperArm": { "rotation_deg": [10, 0, 18] },
+        "LeftForearm": { "rotation_deg": [30, 0, 0] },
+        "RightForearm": { "rotation_deg": [30, 0, 0] }
+      },
+      "plant_feet": [],
+      "ground": {"mode": "lowest", "clearance_m": 0.3}
+    },
+    "SEATED_LEG_MACHINE": {
+      "description": "Seated in a leg machine, back against the pad, hands on the side handles.",
+      "joints": {
+        "Hips": { "rotation_deg": [-8, 0, 0] },
+        "LeftThigh": { "rotation_deg": [90, 0, 6] },
+        "RightThigh": { "rotation_deg": [90, 0, 6] },
+        "LeftShin": { "rotation_deg": [90, 0, 0] },
+        "RightShin": { "rotation_deg": [90, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [10, 0, 22] },
+        "RightUpperArm": { "rotation_deg": [10, 0, 22] },
+        "LeftForearm": { "rotation_deg": [25, 0, 0] },
+        "RightForearm": { "rotation_deg": [25, 0, 0] }
+      },
+      "plant_feet": [],
+      "ground": {"mode": "lowest", "clearance_m": 0.08}
+    },
+    "HANGING": {
+      "description": "Hanging from an overhead bar, arms straight, feet off the floor.",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [172, 0, 20] },
+        "RightUpperArm": { "rotation_deg": [172, 0, 20] },
+        "LeftThigh": { "rotation_deg": [8, 0, 2] },
+        "RightThigh": { "rotation_deg": [8, 0, 2] },
+        "LeftShin": { "rotation_deg": [15, 0, 0] },
+        "RightShin": { "rotation_deg": [15, 0, 0] },
+        "LeftFoot": { "rotation_deg": [-20, 0, 0] },
+        "RightFoot": { "rotation_deg": [-20, 0, 0] }
+      },
+      "plant_feet": [],
+      "ground": {"mode": "lowest", "clearance_m": 0.2}
+    },
+    "SUPINE_FLOOR": {
+      "description": "Lying face up on the floor.",
+      "joints": {
+        "Root": { "rotation_deg": [-90, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [0, 0, 12] },
+        "RightUpperArm": { "rotation_deg": [0, 0, 12] },
+        "LeftForearm": { "rotation_deg": [10, 0, 0] },
+        "RightForearm": { "rotation_deg": [10, 0, 0] },
+        "LeftFoot": { "rotation_deg": [-30, 0, 0] },
+        "RightFoot": { "rotation_deg": [-30, 0, 0] }
+      },
+      "plant_feet": [],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "PRONE_FLOOR": {
+      "description": "Lying face down, arms reaching forward.",
+      "joints": {
+        "Root": { "rotation_deg": [90, 0, 0] },
+        "Neck": { "rotation_deg": [-10, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [160, 0, 20] },
+        "RightUpperArm": { "rotation_deg": [160, 0, 20] },
+        "LeftForearm": { "rotation_deg": [15, 0, 0] },
+        "RightForearm": { "rotation_deg": [15, 0, 0] },
+        "LeftFoot": { "rotation_deg": [-35, 0, 0] },
+        "RightFoot": { "rotation_deg": [-35, 0, 0] }
+      },
+      "plant_feet": [],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "KNEELING": {
+      "description": "Kneeling upright on both knees, shins on the floor.",
+      "joints": {
+        "LeftThigh": { "rotation_deg": [0, 0, 6] },
+        "RightThigh": { "rotation_deg": [0, 0, 6] },
+        "LeftShin": { "rotation_deg": [92, 0, 0] },
+        "RightShin": { "rotation_deg": [92, 0, 0] },
+        "LeftFoot": { "rotation_deg": [-40, 0, 0] },
+        "RightFoot": { "rotation_deg": [-40, 0, 0] }
+      },
+      "plant_feet": [],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    },
+    "SIDE_LYING": {
+      "description": "Side plank on the right forearm, body in a straight line.",
+      "joints": {
+        "Root": { "rotation_deg": [0, -72, 0] },
+        "Neck": { "rotation_deg": [0, 0, 15] },
+        "RightUpperArm": { "rotation_deg": [0, 0, 72] },
+        "RightForearm": { "rotation_deg": [90, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [0, 0, 5] },
+        "LeftForearm": { "rotation_deg": [30, 0, 0] },
+        "LeftThigh": { "rotation_deg": [0, 0, -2] },
+        "RightThigh": { "rotation_deg": [0, 0, -2] }
+      },
+      "plant_feet": [],
+      "ground": {"mode": "lowest", "clearance_m": 0.0}
+    }
+  },
+  "modifiers": {
+    "_comment": "mode 'set' replaces the listed joints, 'add' adds to them. 'variants' replace the joints for one base template. Modifiers may also override plant_feet, plant_hands, ground, and idle_sides (sides that get no grip curl).",
+    "ARMS_HANG": {
+      "description": "Arms hanging straight down holding the weight.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [0, 0, 2] },
+        "RightUpperArm": { "rotation_deg": [0, 0, 2] },
+        "LeftForearm": { "rotation_deg": [5, 0, 0] },
+        "RightForearm": { "rotation_deg": [5, 0, 0] }
+      },
+      "variants": {
+        "HINGE": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [48, 0, 0] },
+            "RightUpperArm": { "rotation_deg": [48, 0, 0] },
+            "LeftForearm": { "rotation_deg": [0, 0, 0] },
+            "RightForearm": { "rotation_deg": [0, 0, 0] }
+          }
+        },
+        "BENT_OVER_ROW": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [58, 0, 0] },
+            "RightUpperArm": { "rotation_deg": [58, 0, 0] },
+            "LeftForearm": { "rotation_deg": [0, 0, 0] },
+            "RightForearm": { "rotation_deg": [0, 0, 0] }
+          }
+        },
+        "SQUAT": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [20, 0, 8] },
+            "RightUpperArm": { "rotation_deg": [20, 0, 8] },
+            "LeftForearm": { "rotation_deg": [5, 0, 0] },
+            "RightForearm": { "rotation_deg": [5, 0, 0] }
+          }
+        },
+        "LUNGE": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [0, 0, 5] },
+            "RightUpperArm": { "rotation_deg": [0, 0, 5] },
+            "LeftForearm": { "rotation_deg": [5, 0, 0] },
+            "RightForearm": { "rotation_deg": [5, 0, 0] }
+          }
+        }
+      }
+    },
+    "ARMS_OVERHEAD": {
+      "description": "Arms locked out overhead.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [170, 0, 12] },
+        "RightUpperArm": { "rotation_deg": [170, 0, 12] },
+        "LeftForearm": { "rotation_deg": [0, 0, 0] },
+        "RightForearm": { "rotation_deg": [0, 0, 0] }
+      },
+      "variants": {
+        "HORIZONTAL_PUSH": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [150, 0, 8] },
+            "RightUpperArm": { "rotation_deg": [150, 0, 8] },
+            "LeftForearm": { "rotation_deg": [20, 0, 0] },
+            "RightForearm": { "rotation_deg": [20, 0, 0] }
+          }
+        }
+      }
+    },
+    "ARMS_PRESS_LOCKOUT": {
+      "description": "Arms extended straight out from the chest (vertical when lying).",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [88, 0, 16] },
+        "RightUpperArm": { "rotation_deg": [88, 0, 16] },
+        "LeftForearm": { "rotation_deg": [8, 0, 0] },
+        "RightForearm": { "rotation_deg": [8, 0, 0] }
+      }
+    },
+    "ARMS_PRESS_FORWARD": {
+      "description": "Arms pressed straight forward at chest height.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [85, 0, 10] },
+        "RightUpperArm": { "rotation_deg": [85, 0, 10] },
+        "LeftForearm": { "rotation_deg": [10, 0, 0] },
+        "RightForearm": { "rotation_deg": [10, 0, 0] }
+      }
+    },
+    "ARMS_FLY_MID": {
+      "description": "Arms wide in a hugging arc, elbows slightly bent.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [85, 40, 42] },
+        "RightUpperArm": { "rotation_deg": [85, 40, 42] },
+        "LeftForearm": { "rotation_deg": [25, 0, 0] },
+        "RightForearm": { "rotation_deg": [25, 0, 0] }
+      }
+    },
+    "ARMS_ROW_PULLED": {
+      "description": "Elbows pulled back past the torso, hands near the lower ribs.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [-18, 0, 22] },
+        "RightUpperArm": { "rotation_deg": [-18, 0, 22] },
+        "LeftForearm": { "rotation_deg": [85, 0, 0] },
+        "RightForearm": { "rotation_deg": [85, 0, 0] }
+      },
+      "variants": {
+        "SEATED_ROW": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [-30, 0, 12] },
+            "RightUpperArm": { "rotation_deg": [-30, 0, 12] },
+            "LeftForearm": { "rotation_deg": [110, 0, 0] },
+            "RightForearm": { "rotation_deg": [110, 0, 0] }
+          }
+        },
+        "SUPINE_FLOOR": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [-20, 0, 15] },
+            "RightUpperArm": { "rotation_deg": [-20, 0, 15] },
+            "LeftForearm": { "rotation_deg": [110, 0, 0] },
+            "RightForearm": { "rotation_deg": [110, 0, 0] }
+          }
+        }
+      }
+    },
+    "ARMS_PULLDOWN_BOTTOM": {
+      "description": "Bar pulled to the upper chest, elbows down and back.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [10, -40, 45] },
+        "RightUpperArm": { "rotation_deg": [10, -40, 45] },
+        "LeftForearm": { "rotation_deg": [125, 0, 0] },
+        "RightForearm": { "rotation_deg": [125, 0, 0] }
+      }
+    },
+    "ARMS_FRONT_RAISE": {
+      "description": "Arms raised straight forward to shoulder height.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [88, 0, 6] },
+        "RightUpperArm": { "rotation_deg": [88, 0, 6] },
+        "LeftForearm": { "rotation_deg": [5, 0, 0] },
+        "RightForearm": { "rotation_deg": [5, 0, 0] }
+      }
+    },
+    "ARMS_LATERAL_RAISE": {
+      "description": "Arms raised out to the sides to shoulder height, elbows soft.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [0, 0, 82] },
+        "RightUpperArm": { "rotation_deg": [0, 0, 82] },
+        "LeftForearm": { "rotation_deg": [12, 0, 0] },
+        "RightForearm": { "rotation_deg": [12, 0, 0] }
+      },
+      "variants": {
+        "BENT_OVER_ROW": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [58, 0, 80] },
+            "RightUpperArm": { "rotation_deg": [58, 0, 80] },
+            "LeftForearm": { "rotation_deg": [12, 0, 0] },
+            "RightForearm": { "rotation_deg": [12, 0, 0] }
+          }
+        }
+      }
+    },
+    "ARMS_UPRIGHT_ROW": {
+      "description": "Hands pulled up to chest height, elbows high and out.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [15, 45, 80] },
+        "RightUpperArm": { "rotation_deg": [15, 45, 80] },
+        "LeftForearm": { "rotation_deg": [115, 0, 0] },
+        "RightForearm": { "rotation_deg": [115, 0, 0] }
+      }
+    },
+    "ARMS_FACE_PULL": {
+      "description": "Hands pulled toward the face, elbows high and wide.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [10, -50, 80] },
+        "RightUpperArm": { "rotation_deg": [10, -50, 80] },
+        "LeftForearm": { "rotation_deg": [110, 0, 0] },
+        "RightForearm": { "rotation_deg": [110, 0, 0] }
+      }
+    },
+    "ARMS_CURL_MID": {
+      "description": "Elbows at the sides, forearms curled to about 90 degrees.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [8, 0, 4] },
+        "RightUpperArm": { "rotation_deg": [8, 0, 4] },
+        "LeftForearm": { "rotation_deg": [95, 0, 0] },
+        "RightForearm": { "rotation_deg": [95, 0, 0] }
+      },
+      "variants": {
+        "HORIZONTAL_PUSH": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [90, 0, 10] },
+            "RightUpperArm": { "rotation_deg": [90, 0, 10] },
+            "LeftForearm": { "rotation_deg": [90, 0, 0] },
+            "RightForearm": { "rotation_deg": [90, 0, 0] }
+          }
+        }
+      }
+    },
+    "ARMS_PUSHDOWN": {
+      "description": "Elbows at the sides, forearms pushed down to full extension.",
+      "mode": "set",
+      "joints": {
+        "Hips": { "rotation_deg": [8, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [10, 0, 4] },
+        "RightUpperArm": { "rotation_deg": [10, 0, 4] },
+        "LeftForearm": { "rotation_deg": [10, 0, 0] },
+        "RightForearm": { "rotation_deg": [10, 0, 0] }
+      }
+    },
+    "ARMS_SKULLCRUSHER": {
+      "description": "Upper arms angled slightly back from vertical, elbows bent, hands near the forehead.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [110, 0, 6] },
+        "RightUpperArm": { "rotation_deg": [110, 0, 6] },
+        "LeftForearm": { "rotation_deg": [105, 0, 0] },
+        "RightForearm": { "rotation_deg": [105, 0, 0] }
+      }
+    },
+    "ARMS_OVERHEAD_EXTENSION": {
+      "description": "Upper arms overhead, elbows bent, hands behind the head.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [165, 0, 8] },
+        "RightUpperArm": { "rotation_deg": [165, 0, 8] },
+        "LeftForearm": { "rotation_deg": [120, 0, 0] },
+        "RightForearm": { "rotation_deg": [120, 0, 0] }
+      }
+    },
+    "ARMS_KICKBACK": {
+      "description": "Upper arm along the torso, forearm extended back.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [-35, 0, 5] },
+        "RightUpperArm": { "rotation_deg": [-35, 0, 5] },
+        "LeftForearm": { "rotation_deg": [0, 0, 0] },
+        "RightForearm": { "rotation_deg": [0, 0, 0] }
+      }
+    },
+    "ARMS_DIP_SUPPORT": {
+      "description": "Supporting body weight on straight arms, hands at the hips.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [-5, 0, 6] },
+        "RightUpperArm": { "rotation_deg": [-5, 0, 6] },
+        "LeftForearm": { "rotation_deg": [0, 0, 0] },
+        "RightForearm": { "rotation_deg": [0, 0, 0] }
+      },
+      "variants": {
+        "SEATED_UPRIGHT": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [-45, 0, 10] },
+            "RightUpperArm": { "rotation_deg": [-45, 0, 10] },
+            "LeftForearm": { "rotation_deg": [5, 0, 0] },
+            "RightForearm": { "rotation_deg": [5, 0, 0] },
+            "LeftHand": { "rotation_deg": [0, 0, -60] },
+            "RightHand": { "rotation_deg": [0, 0, -60] }
+          }
+        }
+      }
+    },
+    "ARMS_FRONT_RACK": {
+      "description": "Bar racked on the front of the shoulders, elbows high.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [95, -20, 25] },
+        "RightUpperArm": { "rotation_deg": [95, -20, 25] },
+        "LeftForearm": { "rotation_deg": [150, 0, 0] },
+        "RightForearm": { "rotation_deg": [150, 0, 0] },
+        "LeftHand": { "rotation_deg": [0, 0, -50] },
+        "RightHand": { "rotation_deg": [0, 0, -50] }
+      }
+    },
+    "ARMS_BACK_RACK": {
+      "description": "Bar resting on the upper back, hands gripping outside the shoulders.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [5, -70, 75] },
+        "RightUpperArm": { "rotation_deg": [5, -70, 75] },
+        "LeftForearm": { "rotation_deg": [115, 0, 0] },
+        "RightForearm": { "rotation_deg": [115, 0, 0] }
+      }
+    },
+    "ARMS_GOBLET": {
+      "description": "Weight held at the chest with both hands, elbows down.",
+      "mode": "set",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [35, 0, 12] },
+        "RightUpperArm": { "rotation_deg": [35, 0, 12] },
+        "LeftForearm": { "rotation_deg": [130, 0, 0] },
+        "RightForearm": { "rotation_deg": [130, 0, 0] }
+      }
+    },
+    "ARMS_FOREARMS_ON_THIGHS": {
+      "description": "Leaning forward with forearms resting on the thighs, wrists past the knees.",
+      "mode": "set",
+      "joints": {
+        "Spine01": { "rotation_deg": [15, 0, 0] },
+        "Spine02": { "rotation_deg": [15, 0, 0] },
+        "Neck": { "rotation_deg": [10, 0, 0] },
+        "LeftUpperArm": { "rotation_deg": [40, 0, 0] },
+        "RightUpperArm": { "rotation_deg": [40, 0, 0] },
+        "LeftForearm": { "rotation_deg": [70, 0, 0] },
+        "RightForearm": { "rotation_deg": [70, 0, 0] }
+      }
+    },
+    "WRISTS_FLEXED": {
+      "description": "Wrists curled toward the palm.",
+      "mode": "add",
+      "joints": {
+        "LeftHand": { "rotation_deg": [40, 0, 0] },
+        "RightHand": { "rotation_deg": [40, 0, 0] }
+      }
+    },
+    "SHOULDERS_SHRUGGED": {
+      "description": "Shoulders shrugged up toward the ears.",
+      "mode": "add",
+      "joints": {
+        "LeftShoulder": { "rotation_deg": [0, 0, 12] },
+        "RightShoulder": { "rotation_deg": [0, 0, 12] },
+        "LeftUpperArm": { "rotation_deg": [0, 0, -10] },
+        "RightUpperArm": { "rotation_deg": [0, 0, -10] }
+      }
+    },
+    "GRIP_NARROW": {
+      "description": "Hands closer than shoulder width.",
+      "mode": "add",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [0, 0, -8] },
+        "RightUpperArm": { "rotation_deg": [0, 0, -8] }
+      }
+    },
+    "GRIP_WIDE": {
+      "description": "Hands wider than shoulder width.",
+      "mode": "add",
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [0, 0, 15] },
+        "RightUpperArm": { "rotation_deg": [0, 0, 15] }
+      }
+    },
+    "SINGLE_ARM_RIGHT": {
+      "description": "Right arm works; left arm relaxed or bracing.",
+      "mode": "set",
+      "idle_sides": ["Left"],
+      "joints": {
+        "LeftUpperArm": { "rotation_deg": [0, 0, 6] },
+        "LeftForearm": { "rotation_deg": [15, 0, 0] }
+      },
+      "variants": {
+        "BENT_OVER_ROW": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [80, 0, 5] },
+            "LeftForearm": { "rotation_deg": [5, 0, 0] }
+          }
+        },
+        "LUNGE": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [10, 0, 45] },
+            "LeftForearm": { "rotation_deg": [15, 0, 0] }
+          }
+        },
+        "SEATED_UPRIGHT": {
+          "joints": {
+            "LeftUpperArm": { "rotation_deg": [30, 0, 10] },
+            "LeftForearm": { "rotation_deg": [60, 0, 0] }
+          }
+        }
+      }
+    },
+    "TORSO_CRUNCH": {
+      "description": "Upper spine curled forward.",
+      "mode": "set",
+      "joints": {
+        "Spine01": { "rotation_deg": [10, 0, 0] },
+        "Spine02": { "rotation_deg": [12, 0, 0] },
+        "Spine03": { "rotation_deg": [10, 0, 0] },
+        "Neck": { "rotation_deg": [12, 0, 0] }
+      },
+      "variants": {
+        "KNEELING": {
+          "joints": {
+            "Hips": { "rotation_deg": [35, 0, 0] },
+            "Spine01": { "rotation_deg": [20, 0, 0] },
+            "Spine02": { "rotation_deg": [20, 0, 0] },
+            "Spine03": { "rotation_deg": [15, 0, 0] },
+            "Neck": { "rotation_deg": [10, 0, 0] },
+            "LeftThigh": { "rotation_deg": [35, 0, 6] },
+            "RightThigh": { "rotation_deg": [35, 0, 6] },
+            "LeftUpperArm": { "rotation_deg": [150, 0, 10] },
+            "RightUpperArm": { "rotation_deg": [150, 0, 10] },
+            "LeftForearm": { "rotation_deg": [120, 0, 0] },
+            "RightForearm": { "rotation_deg": [120, 0, 0] }
+          }
+        }
+      }
+    },
+    "TORSO_TWIST": {
+      "description": "Torso rotated to the left.",
+      "mode": "add",
+      "joints": {
+        "Spine01": { "rotation_deg": [0, 12, 0] },
+        "Spine02": { "rotation_deg": [0, 12, 0] },
+        "Spine03": { "rotation_deg": [0, 10, 0] }
+      }
+    },
+    "TORSO_EXTENDED": {
+      "description": "Spine extended, chest lifted.",
+      "mode": "set",
+      "joints": {
+        "Spine01": { "rotation_deg": [-12, 0, 0] },
+        "Spine02": { "rotation_deg": [-10, 0, 0] },
+        "Spine03": { "rotation_deg": [-8, 0, 0] },
+        "Neck": { "rotation_deg": [-10, 0, 0] }
+      }
+    },
+    "TORSO_LEAN_FORWARD": {
+      "description": "Torso leaning forward from the hips.",
+      "mode": "add",
+      "joints": {
+        "Hips": { "rotation_deg": [18, 0, 0] },
+        "LeftThigh": { "rotation_deg": [18, 0, 0] },
+        "RightThigh": { "rotation_deg": [18, 0, 0] }
+      },
+      "variants": {
+        "KNEELING": {
+          "mode": "add",
+          "joints": {
+            "Hips": { "rotation_deg": [45, 0, 0] },
+            "LeftThigh": { "rotation_deg": [20, 0, 0] },
+            "RightThigh": { "rotation_deg": [20, 0, 0] }
+          }
+        }
+      }
+    },
+    "HIPS_BRIDGED": {
+      "description": "Hips driven up so knees, hips and shoulders form a line.",
+      "mode": "set",
+      "joints": {
+        "Root": { "rotation_deg": [-112, 0, 0] },
+        "Spine03": { "rotation_deg": [12, 0, 0] },
+        "Neck": { "rotation_deg": [12, 0, 0] },
+        "LeftThigh": { "rotation_deg": [0, 0, 8] },
+        "RightThigh": { "rotation_deg": [0, 0, 8] },
+        "LeftShin": { "rotation_deg": [105, 0, 0] },
+        "RightShin": { "rotation_deg": [105, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"]
+    },
+    "HIPS_FLEXED_90": {
+      "description": "Hips flexed so the legs are at 90 degrees to the torso.",
+      "mode": "set",
+      "joints": {
+        "LeftThigh": { "rotation_deg": [90, 0, 3] },
+        "RightThigh": { "rotation_deg": [90, 0, 3] },
+        "LeftShin": { "rotation_deg": [5, 0, 0] },
+        "RightShin": { "rotation_deg": [5, 0, 0] }
+      }
+    },
+    "KNEES_BENT_FEET_FLAT": {
+      "description": "Knees bent, feet flat.",
+      "mode": "set",
+      "joints": {
+        "LeftThigh": { "rotation_deg": [50, 0, 6] },
+        "RightThigh": { "rotation_deg": [50, 0, 6] },
+        "LeftShin": { "rotation_deg": [100, 0, 0] },
+        "RightShin": { "rotation_deg": [100, 0, 0] }
+      },
+      "plant_feet": ["Left", "Right"],
+      "variants": {
+        "SEATED_UPRIGHT": {
+          "joints": {
+            "LeftThigh": { "rotation_deg": [80, 0, 8] },
+            "RightThigh": { "rotation_deg": [80, 0, 8] },
+            "LeftShin": { "rotation_deg": [80, 0, 0] },
+            "RightShin": { "rotation_deg": [80, 0, 0] }
+          }
+        }
+      }
+    },
+    "KNEES_FLEXED_90": {
+      "description": "Knees bent to 90 degrees.",
+      "mode": "set",
+      "joints": {
+        "LeftShin": { "rotation_deg": [90, 0, 0] },
+        "RightShin": { "rotation_deg": [90, 0, 0] }
+      },
+      "variants": {
+        "HANGING": {
+          "joints": {
+            "LeftThigh": { "rotation_deg": [5, 0, 2] },
+            "RightThigh": { "rotation_deg": [5, 0, 2] },
+            "LeftShin": { "rotation_deg": [90, 0, 0] },
+            "RightShin": { "rotation_deg": [90, 0, 0] }
+          }
+        }
+      }
+    },
+    "KNEES_FLEXED_DEEP": {
+      "description": "Knees deeply flexed, heels toward the glutes.",
+      "mode": "set",
+      "joints": {
+        "LeftShin": { "rotation_deg": [120, 0, 0] },
+        "RightShin": { "rotation_deg": [120, 0, 0] }
+      }
+    },
+    "KNEES_EXTENDED": {
+      "description": "Knees fully extended.",
+      "mode": "set",
+      "joints": {
+        "LeftShin": { "rotation_deg": [5, 0, 0] },
+        "RightShin": { "rotation_deg": [5, 0, 0] }
+      }
+    },
+    "SQUAT_PARTIAL": {
+      "description": "Partial squat (quarter to half depth).",
+      "mode": "set",
+      "joints": {
+        "Hips": { "rotation_deg": [18, 0, 0] },
+        "LeftThigh": { "rotation_deg": [62, 0, 10] },
+        "RightThigh": { "rotation_deg": [62, 0, 10] },
+        "LeftShin": { "rotation_deg": [65, 0, 0] },
+        "RightShin": { "rotation_deg": [65, 0, 0] }
+      }
+    },
+    "LEGS_EXTENDED": {
+      "description": "Legs nearly straight.",
+      "mode": "set",
+      "joints": {
+        "LeftShin": { "rotation_deg": [8, 0, 0] },
+        "RightShin": { "rotation_deg": [8, 0, 0] }
+      },
+      "variants": {
+        "SUPINE_FLOOR": {
+          "joints": {
+            "LeftThigh": { "rotation_deg": [0, 0, 3] },
+            "RightThigh": { "rotation_deg": [0, 0, 3] },
+            "LeftShin": { "rotation_deg": [0, 0, 0] },
+            "RightShin": { "rotation_deg": [0, 0, 0] }
+          }
+        },
+        "LEG_PRESS": {
+          "joints": {
+            "LeftThigh": { "rotation_deg": [70, 0, 10] },
+            "RightThigh": { "rotation_deg": [70, 0, 10] },
+            "LeftShin": { "rotation_deg": [10, 0, 0] },
+            "RightShin": { "rotation_deg": [10, 0, 0] }
+          }
+        }
+      }
+    },
+    "ANKLES_PLANTARFLEXED": {
+      "description": "Up on the balls of the feet, heels raised.",
+      "mode": "add",
+      "joints": {
+        "LeftFoot": { "rotation_deg": [-35, 0, 0] },
+        "RightFoot": { "rotation_deg": [-35, 0, 0] },
+        "LeftToes": { "rotation_deg": [-35, 0, 0] },
+        "RightToes": { "rotation_deg": [-35, 0, 0] }
+      },
+      "plant_feet": []
+    },
+    "STANCE_WIDE": {
+      "description": "Feet wider than shoulder width, toes turned out.",
+      "mode": "add",
+      "joints": {
+        "LeftThigh": { "rotation_deg": [0, 0, 14] },
+        "RightThigh": { "rotation_deg": [0, 0, 14] },
+        "LeftFoot": { "rotation_deg": [0, 0, 18] },
+        "RightFoot": { "rotation_deg": [0, 0, 18] }
+      }
+    },
+    "STANCE_NARROW": {
+      "description": "Feet close together.",
+      "mode": "add",
+      "joints": {
+        "LeftThigh": { "rotation_deg": [0, 0, -4] },
+        "RightThigh": { "rotation_deg": [0, 0, -4] }
+      }
+    },
+    "SINGLE_LEG_RIGHT": {
+      "description": "Standing on the right leg; left leg lifted.",
+      "mode": "set",
+      "joints": {
+        "LeftThigh": { "rotation_deg": [45, 0, 4] },
+        "LeftShin": { "rotation_deg": [80, 0, 0] }
+      },
+      "plant_feet": ["Right"],
+      "variants": {
+        "HINGE": {
+          "joints": {
+            "LeftThigh": { "rotation_deg": [0, 0, 4] },
+            "LeftShin": { "rotation_deg": [5, 0, 0] }
+          }
+        },
+        "SQUAT": {
+          "joints": {
+            "LeftThigh": { "rotation_deg": [115, 0, 4] },
+            "LeftShin": { "rotation_deg": [10, 0, 0] }
+          }
+        },
+        "STANDING_NEUTRAL": {
+          "joints": {
+            "LeftThigh": { "rotation_deg": [5, 0, 3] },
+            "LeftShin": { "rotation_deg": [90, 0, 0] }
+          }
+        }
+      }
+    }
+  },
+  "grips": {
+    "_comment": "Added after modifiers. Forearm twist turns the palm; finger/thumb flexion closes the hand. Skipped for sides listed in a modifier's idle_sides.",
+    "pronated": {
+      "joints": {
+        "LeftForearm": { "rotation_deg": [0, 80, 0] },
+        "RightForearm": { "rotation_deg": [0, 80, 0] },
+        "LeftFingers": { "rotation_deg": [60, 0, 0] },
+        "RightFingers": { "rotation_deg": [60, 0, 0] },
+        "LeftThumb": { "rotation_deg": [25, 0, 0] },
+        "RightThumb": { "rotation_deg": [25, 0, 0] }
+      }
+    },
+    "supinated": {
+      "joints": {
+        "LeftForearm": { "rotation_deg": [0, -80, 0] },
+        "RightForearm": { "rotation_deg": [0, -80, 0] },
+        "LeftFingers": { "rotation_deg": [60, 0, 0] },
+        "RightFingers": { "rotation_deg": [60, 0, 0] },
+        "LeftThumb": { "rotation_deg": [25, 0, 0] },
+        "RightThumb": { "rotation_deg": [25, 0, 0] }
+      }
+    },
+    "neutral": {
+      "joints": {
+        "LeftFingers": { "rotation_deg": [60, 0, 0] },
+        "RightFingers": { "rotation_deg": [60, 0, 0] },
+        "LeftThumb": { "rotation_deg": [25, 0, 0] },
+        "RightThumb": { "rotation_deg": [25, 0, 0] }
+      }
+    },
+    "mixed": {
+      "joints": {
+        "LeftForearm": { "rotation_deg": [0, -80, 0] },
+        "RightForearm": { "rotation_deg": [0, 80, 0] },
+        "LeftFingers": { "rotation_deg": [60, 0, 0] },
+        "RightFingers": { "rotation_deg": [60, 0, 0] },
+        "LeftThumb": { "rotation_deg": [25, 0, 0] },
+        "RightThumb": { "rotation_deg": [25, 0, 0] }
+      }
+    },
+    "open_palm": {
+      "joints": {
+        "LeftForearm": { "rotation_deg": [0, 80, 0] },
+        "RightForearm": { "rotation_deg": [0, 80, 0] }
+      }
+    },
+    "none": {
+      "joints": {
+        "LeftFingers": { "rotation_deg": [15, 0, 0] },
+        "RightFingers": { "rotation_deg": [15, 0, 0] }
+      }
+    }
+  }
+}
