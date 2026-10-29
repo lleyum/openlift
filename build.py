@@ -23,7 +23,8 @@ Options:
     --thumbnails             also render the 3 PNGs
     --engine EEVEE|CYCLES|WORKBENCH   thumbnail renderer (default EEVEE; use CYCLES if you have no GPU)
     --resolution N           thumbnail size in pixels (default 1024)
-    --skip-existing          skip exercises whose GLB already exists
+    --skip-existing          skip exercises whose outputs already exist (GLB + camera JSON, plus the
+                             3 PNGs when --thumbnails is given), so an interrupted batch resumes
     --limit N                stop after N exercises (useful for test batches)
     --no-ao                  skip the AO bake (fast preview; flat gray body)
     --draco                  Draco-compress the GLB meshes (smaller files; app must support Draco)
@@ -124,6 +125,7 @@ def build_one(exercise: Dict, args: argparse.Namespace, data: Dict) -> Dict:
 
     warnings = engine.pose_exercise(exercise)
     prop_objs = props.build_props(engine, exercise)
+    warnings += getattr(engine, "prop_warnings", [])
     groups = muscles.collect_muscle_vertices(engine.body, data["muscle_mapping"])
 
     frozen = shading.freeze_posed_scene(engine, prop_objs)
@@ -221,8 +223,10 @@ def main() -> int:
     for n, ex in enumerate(exercises, 1):
         if args.limit and built >= args.limit:
             break
-        glb = root / "glb" / f"{ex['id']}.glb"
-        if args.skip_existing and glb.exists():
+        needed = [root / "glb" / f"{ex['id']}.glb", root / "camera" / f"{ex['id']}.json"]
+        if args.thumbnails:
+            needed += [root / "thumbnails" / f"{ex['id']}_{v}.png" for v in thumbnails.VIEWS]
+        if args.skip_existing and all(p.exists() for p in needed):
             results.append({"id": ex["id"], "status": "skipped"})
             continue
         try:

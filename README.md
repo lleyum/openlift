@@ -1,154 +1,99 @@
-\# OpenLift
-
-
+# OpenLift
 
 An open-source library of static 3D exercise models (GLB) for workout apps.
 
+Every exercise is generated from data: one shared base body, one JSON record per exercise, and a
+headless Blender pipeline that poses the body, adds equipment, highlights the worked muscles, and
+exports a GLB, camera metadata and three thumbnails.
 
-
-Every exercise is generated from data: one shared base body, one JSON record per exercise, and a headless Blender pipeline that poses the body, adds equipment, highlights the worked muscles, and exports a GLB plus three thumbnails.
-
-
-
-\## Output per exercise
-
-
+## Output per exercise
 
 | File | Description |
-
 |---|---|
+| `dist/glb/<id>.glb` | Posed body + black shorts + equipment + muscle highlight shells. glTF 2.0, Y-up, 1 unit = 1 m, transforms applied, no camera/lights/rig. About 1 MB. |
+| `dist/camera/<id>.json` | Camera views for the app in glTF coordinates: `front` and `side` (orthographic, `ortho_height_m`), `hero` (85 mm perspective aimed at the primary muscles, the default view), plus bounds. |
+| `dist/thumbnails/<id>_front.png` | Orthographic front view, transparent background |
+| `dist/thumbnails/<id>_side.png` | Orthographic side view (turned automatically if equipment hides the muscles) |
+| `dist/thumbnails/<id>_hero.png` | Perspective view aimed at the highlighted muscles |
 
-| `dist/glb/<Exercise\_ID>.glb` | Posed body + shorts + equipment + muscle highlight shells. Y-up, 1 unit = 1 m, transforms applied. No camera. |
+### Objects inside each GLB
 
-| `dist/thumbnails/<Exercise\_ID>\_front.png` | Transparent-background render |
+| Node | Content |
+|---|---|
+| `Body` | Grayscale mannequin; baked ambient occlusion in the vertex colors (`#A3A3A3` → `#404040`). Extras: `openlift_exercise_id`, `openlift_name`. |
+| `Shorts` | Generic black shorts |
+| `Muscles_Primary` | Solid `#EF4444` shell 2 mm above the skin. Extras: `openlift_tier: "primary"`, `openlift_muscles: "pectoralis_lower,pectoralis_upper"` |
+| `Muscles_Secondary` | Same red at 30% opacity (alphaMode `BLEND`). Same extras with `secondary`. |
+| `Prop_*` | Equipment proxies: barbell, dumbbell, kettlebell, bench, seat, cable frame and handles, machine frame, ... |
 
-| `dist/thumbnails/<Exercise\_ID>\_side.png` | Transparent-background render |
-
-| `dist/thumbnails/<Exercise\_ID>\_three\_quarter.png` | Transparent-background render |
-
-| `dist/camera/<Exercise\_ID>.json` | Recommended camera position/target/FOV for the app |
-
-
-
-\## Visual style
-
-
+## Visual style
 
 | Element | Spec |
-
 |---|---|
-
-| Body | Smooth grayscale mannequin, base `#A3A3A3`, baked AO vertex colors down to `#404040` in crevices |
-
+| Body | Smooth grayscale mannequin, base `#A3A3A3`, baked AO down to `#404040` in crevices |
 | Clothing | Generic black shorts |
-
-| Primary muscle | `#EF4444`, separate shell offset 2 mm along normals, Solidify modifier, baked AO |
-
+| Primary muscles | `#EF4444`, seamless shell offset ~2 mm along the normals, subdivided, solidified, AO-shaded |
 | Secondary muscles | Same red, 30% opacity |
+| Equipment | Simple procedural proxies, fitted to the posed body |
 
-| Equipment | Simple procedural proxies (barbell, dumbbell, kettlebell, padded bench/seat, dark-gray machine handles + frame) |
-
-
-
-\## Architecture
-
-
+## Architecture
 
 ```
-
 data/exercise-database.csv
-
-&#x20;       │  pipeline/enrich\_csv.py      (assigns base\_template, grip, pose\_cues)
-
-&#x20;       ▼
-
-data/enriched-database.json
-
-&#x20;       │  pipeline/generate\_jsons.py
-
-&#x20;       ▼
-
-exercises/<Exercise\_ID>.json  ──►  build.py (Blender, headless)
-
-&#x20;                                   ├─ pose.py       base template → exercise deltas → manual overrides
-
-&#x20;                                   ├─ props.py      procedural equipment, parented to hands/feet
-
-&#x20;                                   ├─ muscles.py    red highlight shells from vertex groups
-
-&#x20;                                   └─ thumbnails.py 3 transparent PNGs + camera metadata
-
-&#x20;                                           ▼
-
-&#x20;                                        dist/
-
+        │  pipeline/enrich_csv.py       (template, pose modifiers, grip, stance, props, muscles, confidence)
+        ▼
+data/enriched-database.json  ──  data/enrichment-report.csv (review triage)
+        │  pipeline/generate_jsons.py   (keeps manual overrides)
+        ▼
+exercises/<id>.json  ──►  build.py  (Blender, headless, one fresh body per exercise)
+                           ├─ pose.py        template → modifiers → grip → deltas → overrides,
+                           │                 foot/hand planting, hand-reach solver, grounding
+                           ├─ props.py       procedural equipment, fitted to the body; clipping checks
+                           ├─ shading.py     freeze to static meshes, AO bake to vertex colors
+                           ├─ muscles.py     red highlight shells from 40 muscle vertex groups
+                           └─ thumbnails.py  camera metadata + 3 transparent PNGs
+                                   ▼
+                                 dist/
 ```
 
+Key design rules:
 
+1. **Data-driven.** Nothing exercise-specific is hard-coded in Python. Poses live in
+   `schema/base_templates.json` (20 templates, 45 modifiers, 6 grips); per-exercise fixes live in
+   `exercises/<id>.json` (`custom_joint_overrides`, `joint_deltas`).
+2. **Rig agnostic.** Poses use Standard Anatomical Names (`LeftUpperArm`, `Spine02` ...) and anatomical
+   angles (`[flexion, twist, abduction]`). `assets/bone_mapping.json` maps them to the real rig.
+3. **One body.** All exercises use the same MPFB base mesh (`assets/base_body.blend`), prepared once by
+   `pipeline/prep_mesh.py`. `--gender female` is supported once `assets/base_body_female.blend` exists.
 
-\### Key design rules
+## Requirements
 
+- Blender 4.2 LTS or newer (tested on 5.2 LTS), on the PATH as `blender`
+- Python 3.9+ for the data scripts
+- Git
 
+## Quick start
 
-1\. \*\*Data-driven.\*\* Nothing exercise-specific is hardcoded in Python. Exercises live in `exercises/\*.json`.
-
-2\. \*\*Pose templates.\*\* Each exercise inherits one of 15–20 `base\_templates` (`schema/base\_templates.json`), then applies deltas and `custom\_joint\_overrides` for niche cases.
-
-3\. \*\*Rig agnostic.\*\* The pipeline uses Standard Anatomical Names (`LeftUpperArm`, `Spine02`, `LeftThigh`, ...). `assets/bone\_mapping.json` translates them to whatever bone names the base mesh uses. Swapping the base mesh means editing one JSON file.
-
-4\. \*\*One body.\*\* All exercises use the same base mesh with identical proportions. A `--gender` flag is reserved for a future female body.
-
-
-
-\## Requirements
-
-
-
-\- Blender 4.2 LTS or newer (run headless via `blender --background`)
-
-\- Python 3.10+ (for the data scripts in `pipeline/` that do not need Blender)
-
-\- Git
-
-
-
-\## Quick start
-
-
-
-Setup instructions for a fresh machine are in \[`HANDOFF.md`](HANDOFF.md).
-
-Testing a single exercise end-to-end is in \[`docs/TESTING.md`](docs/TESTING.md).
-
-
+- New machine: [`HANDOFF.md`](HANDOFF.md)
+- Test one exercise end to end: [`docs/TESTING.md`](docs/TESTING.md)
+- Working on the pipeline with Claude Code: [`CLAUDE.md`](CLAUDE.md) and [`CLAUDE_CODE_PROMPT.md`](CLAUDE_CODE_PROMPT.md)
+- Known issues and their fixes: [`docs/QA_BACKLOG.md`](docs/QA_BACKLOG.md)
 
 ```bash
+# Data
+python pipeline/enrich_csv.py
+python pipeline/generate_jsons.py
 
-\# Generate exercise JSONs from the CSV
+# One-time body preparation
+blender --background assets/base_body.blend --python pipeline/validate_rig.py
+blender --background assets/base_body.blend --python pipeline/prep_mesh.py
 
-python pipeline/enrich\_csv.py
-
-python pipeline/generate\_jsons.py
-
-
-
-\# Build one exercise
-
-blender --background assets/base\_body.blend --python build.py -- --exercise Barbell\_Bench\_Press\_-\_Medium\_Grip --thumbnails
-
-
-
-\# Build everything
-
-blender --background assets/base\_body.blend --python build.py -- --all --thumbnails
-
+# Build one exercise / everything (resumable)
+blender --background --python build.py -- --exercise Barbell_Bench_Press_-_Medium_Grip --thumbnails
+blender --background --python build.py -- --all --thumbnails --skip-existing
 ```
 
+## License
 
-
-\## License
-
-
-
-Code: MIT (see `LICENSE`). The base mesh must be CC0 or similarly permissive so generated GLBs can be redistributed freely.
-
+Code: MIT (see `LICENSE`). The base body is made with MPFB / MakeHuman CC0 assets, so the generated
+GLBs and thumbnails can be redistributed freely.
